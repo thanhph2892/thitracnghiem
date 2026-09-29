@@ -1,0 +1,2649 @@
+[
+  {
+  "id": "01",
+  "category": "An toàn trên cao",
+  "question_vn": "Theo quy định của BSR, độ cao tối thiểu tính từ đáy bàn chân để được xác định là làm việc trên cao là bao nhiêu?",
+  "question_en": "According to BSR regulations, what is the minimum height from the soles of the feet to be defined as working at height?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "1.5 m",
+      "text_en": "1.5 m",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "1.8 m",
+      "text_en": "1.8 m",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "2.0 m",
+      "text_en": "2.0 m",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "2.5 m",
+      "text_en": "2.5 m",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "02",
+  "category": "An toàn trên cao",
+  "question_vn": "Các mối nguy khi làm việc trên cao là gì?",
+  "question_en": "What are the major hazards of working at height?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Người rơi ngã",
+      "text_en": "Person falling",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Vật rơi",
+      "text_en": "Falling objects",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thời tiết xấu",
+      "text_en": "Bad weather",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "03",
+  "category": "An toàn trên cao",
+  "question_vn": "Hành động nào là sai khi vận chuyển vật tư, thiết bị, dụng cụ từ dưới lên hoặc từ trên xuống?",
+  "question_en": "Which action is incorrect when transporting materials, equipment, or tools up or down?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Ném từ dưới lên hoặc ném từ trên xuống",
+      "text_en": "Throw from the bottom up or throw from the top down",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Bỏ vật tư vào bao nhựa và dùng dây kéo lên",
+      "text_en": "Put the supplies in a plastic bag and use a rope to pull it up/down",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Vác vật tư trên vai và trèo lên thang",
+      "text_en": "Carry supplies on your shoulders and climb up the ladder",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "04",
+  "category": "An toàn trên cao",
+  "question_vn": "Bao nhiêu người có thể trèo trên thang tại cùng một thời điểm?",
+  "question_en": "How many people can be on a ladder at a time?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "1",
+      "text_en": "1",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "2",
+      "text_en": "2",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "3",
+      "text_en": "3",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "4",
+      "text_en": "4",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "05",
+  "category": "An toàn trên cao",
+  "question_vn": "Yêu cầu an toàn đối với tất cả các dụng cụ, thiết bị, vật tư đặt trên sàn công tác là gì?",
+  "question_en": "What are the safety requirements for all tools, equipment, and materials placed on the working platform?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nằm trong tải trọng cho phép của sàn thao tác",
+      "text_en": "Within the permissible load of the working platform",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Sắp xếp gọn gàng, không làm cản trở lối di chuyển",
+      "text_en": "Arrange neatly, not obstructing the way",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Đảm bảo có phương án ngăn ngừa mối nguy vật rơi",
+      "text_en": "Prevention of falling objects hazard",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "06",
+  "category": "An toàn trên cao",
+  "question_vn": "Yêu cầu đối với người làm việc trên cao tại BSR là gì?",
+  "question_en": "What are the requirements for people working at height at BSR?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Được đào tạo và có chứng chỉ an toàn làm việc trên cao",
+      "text_en": "Trained and having certified (safety visa) for working at height",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Có giấy chứng nhận đảm bảo sức khỏe làm việc trên cao do cơ quan y tế có thẩm quyền cấp. Định kỳ 6 tháng phải được kiểm tra sức khỏe",
+      "text_en": "Have a health certificate for working at height issued by a health agency. Must have a health check every 6 months",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Có các chứng chỉ đào tạo đặc thù tùy thuộc vào phương án làm việc trên cao (Ví dụ: Leo dây tiếp cận, ...)",
+      "text_en": "There are specific training certificates depending on the method of working at height such as Rope access, ...",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "07",
+  "category": "An toàn trên cao",
+  "question_vn": "Phải tạm dừng làm công việc trên cao khi nào?",
+  "question_en": "Working at height activities must be temporarily stopped when:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Gió từ cấp 4 trở lên",
+      "text_en": "Wind speed level 4 or more",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Gió từ cấp 5 trở lên",
+      "text_en": "Wind speed level 5 or more",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Gió từ cấp 6 trở lên",
+      "text_en": "Wind speed level 6 or more",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Gió từ cấp 7 trở lên",
+      "text_en": "Wind speed level 7 or more",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "08",
+  "category": "An toàn trên cao",
+  "question_vn": "Các quy định an toàn khi sử dụng thang là gì?",
+  "question_en": "What are the safety regulations when using ladders?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Khi leo thang, mặt phải xoay vào thang kết hợp với hai tay hoặc một chân, hoặc hai chân và một tay tiếp xúc với thang (nguyên tắc 3 điểm tiếp xúc với thang)",
+      "text_en": "When climbing the ladder, the face must turn into the ladder in combination with two hands or one leg, or two feet and one hand in contact with the ladder (the principle of 3 points of contact with the ladder)",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không đặt và sử dụng thang gần cửa, trong trường hợp cần sử dụng thì phải đảm bảo cửa phải được khóa trong khi sử dụng",
+      "text_en": "Do not place and use ladders near doorways. If you need to use a ladder near a doorway, make sure that the door is locked",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không cầm bất cứ vật thể nào trên tay trong khi di chuyển trên thang",
+      "text_en": "Do not carry any objects in hand while moving up or down",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "09",
+  "category": "An toàn trên cao",
+  "question_vn": "Vị trí móc dây an toàn tại độ cao nào không được gắn bộ giảm sốc?",
+  "question_en": "At what height is the hook position of harness not equipped with a shock absorber for the harness?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Vị trí móc dây an toàn cao dưới 5.33 m",
+      "text_en": "The harness hook position is under 5.33 m high",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Vị trí móc dây an toàn cao dưới 6 m",
+      "text_en": "The harness hook position is under 6 m high",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Vị trí móc dây an toàn cao dưới 7 m",
+      "text_en": "The harness hook position is under 7 m high",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Vị trí móc dây an toàn cao dưới 8 m",
+      "text_en": "The harness hook position is under 8 m high",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "10",
+  "category": "An toàn trên cao",
+  "question_vn": "Khi sử dụng thang để leo lên mái/sàn làm việc thì đỉnh thang phải cao hơn mái/sàn tối thiểu là bao nhiêu?",
+  "question_en": "When using a ladder to climb to the roof/working platform, the top of the ladder must be higher than the roof/working platform at least:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "0,8 m",
+      "text_en": "0.8 m",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "0,9 m",
+      "text_en": "0.9 m",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "1,0 m",
+      "text_en": "1.0 m",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "1,1 m",
+      "text_en": "1.1 m",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "11",
+  "category": "An toàn trên cao",
+  "question_vn": "Nguyên tắc 3 điểm tiếp xúc khi trèo thang là gì?",
+  "question_en": "What is the 3-point contact rule when climbing a ladder?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Mặt phải hướng vào thang, kết hợp với hai tay và một chân tiếp xúc với thang",
+      "text_en": "Face always facing the ladder, combined with two hands and one foot in contact with the ladder",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Mặt phải hướng vào thang kết hợp với hai chân và một tay tiếp xúc với thang",
+      "text_en": "Face always facing the ladder, combined with two feet and one hand in contact with the ladder",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "12",
+  "category": "An toàn trên cao",
+  "question_vn": "Những quy định an toàn khi sử dụng thang chữ A là gì?",
+  "question_en": "What are the safety regulations when using A-shaped ladders?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đảm bảo tất cả 4 chân thang phải tiếp xúc với mặt đất và thang phải cân bằng",
+      "text_en": "Make sure all 4 ladder feet are in contact with the ground and the ladder is balanced",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không sử dụng nắp và 2 bậc trên cùng",
+      "text_en": "Do not use the top cap or 2 top steps as a step",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Chân thang phải có bảo vệ chống trượt",
+      "text_en": "Ladder feet must have anti-slip protection",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "13",
+  "category": "An toàn trên cao",
+  "question_vn": "Công việc nào sau đây được quy định là đặc biệt trên cao?",
+  "question_en": "Which jobs are considered special working at height?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Công việc leo dây tiếp cận",
+      "text_en": "Rope access",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Công việc lắp dựng giàn giáo cao trên 10 m hoặc giàn giáo treo",
+      "text_en": "The erection work of scaffold over 10 m or hanging scaffold",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Công việc sử dụng giỏ nâng người hoặc thiết bị tời nâng gondola",
+      "text_en": "Using a lifting basket or Gondola",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "14",
+  "category": "An toàn trên cao",
+  "question_vn": "Loại thang nào không được phép sử dụng tại BSR?",
+  "question_en": "What type of ladder are not allowed to use in BSR?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thang tre/gỗ",
+      "text_en": "Wood/Bamboo ladder",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Thang chữ A",
+      "text_en": "Stepladder",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thang dây",
+      "text_en": "Rope ladder",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Thang rút gọn",
+      "text_en": "Extension ladder",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "15",
+  "category": "An toàn trên cao",
+  "question_vn": "Góc nghiêng của thang so với phương ngang tốt nhất là bao nhiêu độ?",
+  "question_en": "The best angle for a ladder is:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "45 độ",
+      "text_en": "45 degree",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "55 độ",
+      "text_en": "55 degree",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "75 độ",
+      "text_en": "75 degree",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "85 độ",
+      "text_en": "85 degree",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "16",
+  "category": "An toàn trên cao",
+  "question_vn": "Nhóm làm việc đang tiến hành công việc nâng cẩu thiết bị, hành vi không an toàn trong hình bên dưới là gì?",
+  "question_en": "The work team is carrying out the work of lifting the equipment, what is the unsafe behavior in the picture below?",
+  "image": "nganhangcauhoi/antoanchuyensau/attc-cau16.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Công nhân móc dây an toàn không đúng quy định",
+      "text_en": "The hooking location of full body harness is incorrect",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Công nhân ngồi trên thanh giàn giáo",
+      "text_en": "Worker sit on scaffolding tube",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Công nhân không mang mũ bảo hộ",
+      "text_en": "Workers do not wear protective helmets",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Không có hành vi mất an toàn",
+      "text_en": "There is no unsafe behavior",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "17",
+  "category": "An toàn trên cao",
+  "question_vn": "Điều kiện và hành vi không an toàn trong bức hình bên dưới là gì?",
+  "question_en": "What are unsafe conditions/actions in the picture below?",
+  "image": "nganhangcauhoi/antoanchuyensau/attc-cau17.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Không móc dây an toàn khi làm việc trên cao",
+      "text_en": "Do not hook the full body harness during working at height",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không cài quai mũ",
+      "text_en": "Do not wear the chin strap",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không có lan can giữa",
+      "text_en": "No mid rail",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "18",
+  "category": "An toàn trên cao",
+  "question_vn": "Dây đeo an toàn trong hình bên dưới có được phép sử dụng tại Công ty BSR không?",
+  "question_en": "Is the safety harness in the picture below allowed to be used at BSR Company?",
+  "image": "nganhangcauhoi/antoanchuyensau/attc-cau18.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Được phép sử dụng",
+      "text_en": "Yes",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không được phép sử dụng",
+      "text_en": "No",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Được phép sử dụng nếu giám sát công việc cho phép",
+      "text_en": "Use is allowed if work supervision requires it",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Được phép sử dụng nếu dây an toàn còn mới",
+      "text_en": "Use is allowed safety harness is brand new",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "19",
+  "category": "An toàn trên cao",
+  "question_vn": "Quy định nào sau đây là SAI khi sử dụng dây an toàn?",
+  "question_en": "Which of the following is FALSE when using safety harness?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Móc dây an toàn vào đường ống hoặc máng cáp",
+      "text_en": "Hook the safety harness to the pipe or cable tray",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Tháo bộ giảm sốc của dây an toàn nếu làm việc ở độ cao dưới 5,33 mét",
+      "text_en": "Remove the shock absorber of safety harness if working at a height below 5.33 meters",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Dây an toàn phải được móc vào vị trí chắc chắn và cao hơn đầu",
+      "text_en": "The safety harness must be hooked to a secure position and higher than the head",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Dây an toàn phải được kiểm tra trước khi sử dụng và được kiểm tra dán tem định kỳ",
+      "text_en": "Safety harness must be inspected before use and periodically checked for stamping",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "20",
+  "category": "An toàn trên cao",
+  "question_vn": "Các điều kiện và hành vi không an toàn trong bức hình bên dưới là gì?",
+  "question_en": "What are unsafe conditions and actions in below picture?",
+  "image": "nganhangcauhoi/antoanchuyensau/attc-cau20.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Không có giải pháp kỹ thuật để ngăn ngừa dụng cụ cầm tay rơi xuống phía dưới",
+      "text_en": "There is no engineering control to prevent the hand tool from falling",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không trải bạt che sàn",
+      "text_en": "No covering by canvas",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tập kết dụng cụ quá gần tấm chắn chân",
+      "text_en": "Storing hand tools too close to toe plate",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "21",
+  "category": "An toàn trên cao",
+  "question_vn": "Theo quy định tại BSR, có mấy loại thẻ giàn giáo?",
+  "question_en": "According to BSR regulations, how many types of scaffolding tags are there?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "1",
+      "text_en": "1",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "2",
+      "text_en": "2",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "3",
+      "text_en": "3",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "4",
+      "text_en": "4",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "22",
+  "category": "An toàn trên cao",
+  "question_vn": "Thẻ giàn giáo màu đỏ có ý nghĩa gì?",
+  "question_en": "What does the red scaffolding tag mean?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Giàn giáo đang lắp dựng, không an toàn, không được sử dụng",
+      "text_en": "Scaffolding is being erected, is not safe, and cannot be used",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Giàn giáo đang kiểm tra, không an toàn, không được sử dụng",
+      "text_en": "Scaffolding is being inspected, is unsafe, should not be used",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Giàn giáo an toàn được sử dụng",
+      "text_en": "Safety scaffolding is used",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Giàn giáo sử dụng để đào tạo",
+      "text_en": "Scaffold used for training purposes",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "23",
+  "category": "An toàn trên cao",
+  "question_vn": "Thẻ giàn giáo màu vàng có ý nghĩa gì?",
+  "question_en": "What does the yellow scaffolding tag mean?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Giàn giáo đang lắp dựng, không an toàn, không được sử dụng",
+      "text_en": "Scaffolding is being erected, is not safe, and cannot be used",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Giàn giáo đang kiểm tra, không an toàn, không được sử dụng",
+      "text_en": "Scaffolding is being inspected, is unsafe, should not be used",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Giàn giáo an toàn được sử dụng",
+      "text_en": "Safety scaffolding is used",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Giàn giáo sử dụng để đào tạo",
+      "text_en": "Scaffold used for training purposes",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "24",
+  "category": "An toàn trên cao",
+  "question_vn": "Thẻ giàn giáo màu xanh có ý nghĩa gì?",
+  "question_en": "What does the green scaffolding tag mean?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Giàn giáo đang lắp dựng, không an toàn, không được sử dụng",
+      "text_en": "Scaffolding is being erected, is not safe, and cannot be used",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Giàn giáo đang kiểm tra, không an toàn, không được sử dụng",
+      "text_en": "Scaffolding is being inspected, is unsafe, should not be used",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Giàn giáo an toàn được sử dụng",
+      "text_en": "Safety scaffolding is used",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Giàn giáo sử dụng để đào tạo",
+      "text_en": "Scaffold used for training purposes",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "25",
+  "category": "An toàn trên cao",
+  "question_vn": "Giàn giáo phải được kiểm tra định kỳ khi nào?",
+  "question_en": "How long does scaffold required to periodically inspected?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Hằng ngày",
+      "text_en": "Daily",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Hằng tuần",
+      "text_en": "Weekly",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Mỗi hai tuần",
+      "text_en": "Each two weeks",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Hằng tháng",
+      "text_en": "Monthly",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "26",
+  "category": "An toàn trên cao",
+  "question_vn": "Giàn giáo nào sau đây được phép sử dụng tại BSR?",
+  "question_en": "Which of the following scaffolds is allowed to use in BSR?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Giàn giáo ống thép rời và khóa",
+      "text_en": "Steel tube scaffold",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Giàn giáo khung chế tạo sẵn",
+      "text_en": "Pre-fabricated scaffold",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Giàn giáo neo tựa vào kết cấu",
+      "text_en": "Structure anchor scaffold",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các loại trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "27",
+  "category": "An toàn trên cao",
+  "question_vn": "Trước khi sử dụng giàn giáo, bước quan trọng nhất cần thực hiện là gì?",
+  "question_en": "Before using a scaffold, the most important step regarding the tag is:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Kiểm tra xem thẻ màu xanh và còn hiệu lực",
+      "text_en": "Check if the tag is green and valid",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Tự viết tên mình lên thẻ",
+      "text_en": "Write your own name on the tag",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tháo thẻ ra",
+      "text_en": "Remove the tag",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Chụp ảnh thẻ",
+      "text_en": "Take a photo of the tag",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "28",
+  "category": "An toàn trên cao",
+  "question_vn": "Giàn giáo nào sau đây phải được kiểm tra và treo thẻ sau khi lắp dựng?",
+  "question_en": "Which of the following types of scaffold must be inspected and attached tag after erection?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Giàn giáo ống thép rời và khóa",
+      "text_en": "Steel tube scaffold",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Giàn giáo khung chế tạo sẵn",
+      "text_en": "Pre-fabricated scaffold",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Giàn giáo neo tựa vào kết cấu",
+      "text_en": "Structure anchor scaffold",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "29",
+  "category": "An toàn trên cao",
+  "question_vn": "Theo quy định BSR, thanh lan can bảo vệ trên cùng có chiều cao tối thiểu là bao nhiêu?",
+  "question_en": "According to BSR regulations, the minimum height of the top guardrail is:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "1,0 m",
+      "text_en": "1.0 m",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "1,1 m",
+      "text_en": "1.1 m",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "1,2 m",
+      "text_en": "1.2 m",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "1,3 m",
+      "text_en": "1.3 m",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "30",
+  "category": "An toàn trên cao",
+  "question_vn": "Bắt đầu từ cấp gió nào không được phép làm các công việc liên quan đến giàn giáo như lắp dựng, tháo dỡ, sử dụng?",
+  "question_en": "From which wind level/speed are scaffolding activities (erection, dismantling, or use) prohibited?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Cấp 4",
+      "text_en": "Level 4",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Cấp 5",
+      "text_en": "Level 5",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Cấp 6",
+      "text_en": "Level 6",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Cấp 7",
+      "text_en": "Level 7",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "31",
+  "category": "An toàn trên cao",
+  "question_vn": "Khe hở cho phép lớn nhất giữa hai tấm lót sàn giàn giáo là bao nhiêu?",
+  "question_en": "What is the maximum gap allowed between the planks of scaffolding?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "2 cm",
+      "text_en": "2 cm",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "2,54 cm",
+      "text_en": "2.54 cm",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "3 cm",
+      "text_en": "3 cm",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "3,5 cm",
+      "text_en": "3.5 cm",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "32",
+  "category": "An toàn trên cao",
+  "question_vn": "Nhân sự lắp dựng và tháo dỡ giàn giáo phải có chứng chỉ gì?",
+  "question_en": "What is the certificate required for a scaffolder?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Sơ cấp nghề",
+      "text_en": "Primary vocational level",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Chứng chỉ được cấp cho các nhân sự đã hoàn thành khóa đào tạo về lắp dựng và tháo dỡ giàn giáo",
+      "text_en": "Scaffolding erection/dismantlement certificate",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không cần chứng chỉ",
+      "text_en": "No certificate required",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Cả A & B đúng",
+      "text_en": "A & B are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "33",
+  "category": "An toàn trên cao",
+  "question_vn": "Theo quy định BSR, các thanh giằng, thanh ngang trong hệ giàn giáo có độ dài vượt điểm cố định ở cả hai đầu một đoạn là bao nhiêu?",
+  "question_en": "According to BSR regulations, the length of ledgers and transoms extending beyond the fixed points at both ends is:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "15 cm đến 25 cm",
+      "text_en": "15 cm to 25 cm",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "10 cm đến 20 cm",
+      "text_en": "10 cm to 20 cm",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "20 cm đến 30 cm",
+      "text_en": "20 cm to 30 cm",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "10 cm đến 25 cm",
+      "text_en": "10 cm to 25 cm",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "34",
+  "category": "An toàn trên cao",
+  "question_vn": "Các lỗi vi phạm thường gặp trong lắp dựng/sử dụng/tháo dỡ giàn giáo là gì?",
+  "question_en": "What are the common violations in the erection, use, and dismantling of scaffolding?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Giàn giáo cản trở lối thoát hiểm, lối tiếp cận thiết bị PCCC",
+      "text_en": "Scaffolding obstructs emergency exits and access to fire protection equipment",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Thợ giàn giáo móc dây an toàn không đúng cách",
+      "text_en": "Scaffolding worker do not hook full body harness properly",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Sử dụng vật tư giàn giáo không đảm bảo an toàn",
+      "text_en": "Using the not safe scaffolding materials",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "35",
+  "category": "An toàn trên cao",
+  "question_vn": "Giàn giáo bên dưới vi phạm quy gì?",
+  "question_en": "Which safety regulation is the following scaffold violating?",
+  "image": "nganhangcauhoi/antoanchuyensau/attc-cau35.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Che chắn đầu phun nước chữa cháy",
+      "text_en": "Obstruct the nozzle of fire water pipeline",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Không vi phạm quy định",
+      "text_en": "Non-violation",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Giàn giáo quá cao",
+      "text_en": "Scaffold is too high",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "36",
+  "category": "An toàn trên cao",
+  "question_vn": "Có các điều kiện không an toàn nào trong hình sau?",
+  "question_en": "Which unsafe conditions in picture below?",
+  "image": "nganhangcauhoi/antoanchuyensau/attc-cau36.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Ống giàn giáo cản trở lối đi lại trên thang",
+      "text_en": "Scaffolding tube cause obstruct the access way on the ladder",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Tấm chắn vật rơi cản trở lối đi lại trên thang",
+      "text_en": "Toe board cause obstruct the access way on the ladder",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Vật rơi",
+      "text_en": "Falling object",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "A & B đúng",
+      "text_en": "A & B are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "37",
+  "category": "An toàn trên cao",
+  "question_vn": "Có điều kiện không an toàn nào trong hình sau?",
+  "question_en": "Which unsafe condition in picture below?",
+  "image": "nganhangcauhoi/antoanchuyensau/attc-cau37.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Giàn giáo cản trở lối đi lại trên thang cố định của Nhà máy",
+      "text_en": "Scaffold cause obstruct the access way on the fixed ladder",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Giàn giáo che chắn thiết bị khẩn cấp",
+      "text_en": "Scaffold cause obstruct emergency equipment",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không có sàn công tác",
+      "text_en": "Lack of platform",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "38",
+  "category": "An toàn trên cao",
+  "question_vn": "Tại sao phải tháo bộ giảm sốc khi móc dây an toàn ở độ cao thấp (<5.33m)?",
+  "question_en": "Why must remove the shock absorber when hooking safety harness at low heights (<5.33m)?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Để dây nhẹ hơn",
+      "text_en": "To make the lanyard lighter",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Vì khi rơi, bộ giảm sốc bung ra sẽ làm người chạm đất trước khi nó kịp hãm",
+      "text_en": "The deployed absorber length might cause the worker to hit the ground before stopping",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Để tiết kiệm",
+      "text_en": "To save money",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Theo sở thích",
+      "text_en": "Personal preference",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "39",
+  "category": "An toàn trên cao",
+  "question_vn": "Giàn giáo trong hình bên dưới có điều kiện không an toàn nào?",
+  "question_en": "Which violations do scaffold have in picture below?",
+  "image": "nganhangcauhoi/antoanchuyensau/attc-cau39.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Không có thẻ thể hiện tình trạng giàn giáo",
+      "text_en": "No scaffold's tag",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Không có sàn tạm để cho nhân sự lắp dựng",
+      "text_en": "No temporary platform for scaffolder",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không có thang truy cập",
+      "text_en": "No ladder",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các câu trên đều đúng",
+      "text_en": "All of these above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "40",
+  "category": "An toàn trên cao",
+  "question_vn": "Giàn giáo trong hình bên dưới có điều kiện không an toàn nào?",
+  "question_en": "Which violations on scaffold in picture below?",
+  "image": "nganhangcauhoi/antoanchuyensau/attc-cau40.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Không lắp đặt tấm chắn vật rơi",
+      "text_en": "No toe board",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không lắp đặt lan can bảo vệ",
+      "text_en": "No handrail",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không cố định chắc chắn tấm lót sàn",
+      "text_en": "Not fix tightly plank with the structure of scaffold",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "41",
+  "category": "An toàn trên cao",
+  "question_vn": "Giàn giáo trong hình bên dưới có điều kiện không an toàn nào?",
+  "question_en": "Which unsafe condition of the scaffold in picture below?",
+  "image": "nganhangcauhoi/antoanchuyensau/attc-cau41.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Màu thẻ không đúng quy định",
+      "text_en": "The color of tag is not correct",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Giàn giáo không có thẻ",
+      "text_en": "No tag on scaffold",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Giàn giáo không có thang tiếp cận",
+      "text_en": "Scaffolding do not have ladder",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "42",
+  "category": "An toàn trên cao",
+  "question_vn": "Giàn giáo trong hình bên dưới có điều kiện không an toàn nào?",
+  "question_en": "Which violation of scaffold in picture below?",
+  "image": "nganhangcauhoi/antoanchuyensau/attc-cau42.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Không có tấm lót chân đế",
+      "text_en": "No sole plate",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Vị trí treo thẻ trên giàn giáo không phù hợp",
+      "text_en": "The location of tag is not correct",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Nền móng không chắc chắn",
+      "text_en": "Unsolid foundation",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "43",
+  "category": "An toàn trên cao",
+  "question_vn": "Có điều kiện/hành vi không an toàn nào trong hình bên dưới?",
+  "question_en": "Which unsafe condition/action in picture below?",
+  "image": "nganhangcauhoi/antoanchuyensau/attc-cau43.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Không có tấm lót chân đế",
+      "text_en": "No sole plate",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Vị trí treo thẻ trên giàn giáo không phù hợp",
+      "text_en": "The location of tag is not correct",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Nền móng không chắc chắn",
+      "text_en": "Unsolid foundation",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "44",
+  "category": "An toàn trên cao",
+  "question_vn": "Điều kiện/hành vi không an toàn nào trong hình bên dưới?",
+  "question_en": "Which unsafe condition/action in picture below?",
+  "image": "nganhangcauhoi/antoanchuyensau/attc-cau44.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Không mang dây an toàn toàn thân khi làm việc trên cao",
+      "text_en": "Do not wear safety harness during working at height",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không có tấm chắn vật rơi",
+      "text_en": "Lack of falling object protection (toe boards)",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tập kết quá nhiều cùm giàn giáo trên sàn/dầm bê tông",
+      "text_en": "Store many scaffolding clamps on plank/beam",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "A & C đúng",
+      "text_en": "A & C are correct",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "45",
+  "category": "An toàn trên cao",
+  "question_vn": "Nhân sự giám sát, gắn thẻ và kiểm tra định kỳ của đơn vị cung cấp giàn giáo phải có chứng chỉ gì?",
+  "question_en": "Which certificate is required for scaffolding inspector or scaffolding supervisor of scaffold supplier?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Sơ cấp nghề",
+      "text_en": "Pre-intermediate level",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Chứng chỉ được cấp cho các nhân sự đã hoàn thành khóa đào tạo về giám sát hoặc tính toán thiết kế",
+      "text_en": "Certificate for personnel who has finished the training course about supervision/design of scaffolding works",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Không cần chứng chỉ",
+      "text_en": "No certificate required",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "A & C đúng",
+      "text_en": "A & C are correct",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "46",
+  "category": "An toàn trên cao",
+  "question_vn": "Theo quy định BSR, yêu cầu về chiều cao và chiều rộng của bậc thang như thế nào?",
+  "question_en": "According to BSR regulations, what are the requirements for stair height and width?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Bậc thang được bố trí đều nhau và nằm trong khoảng từ 25 cm đến 36 cm và chiều rộng bậc thang tối thiểu 29 cm",
+      "text_en": "Rungs must be evenly spaced between 25 cm and 36 cm. The minimum clear width of rungs is 29 cm",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Bậc thang được bố trí đều nhau và nằm trong khoảng từ 21 cm đến 31 cm và chiều rộng bậc thang tối thiểu 20 cm",
+      "text_en": "Rungs must be evenly spaced between 21 cm and 31 cm. The minimum clear width of rungs is 20 cm",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Bậc thang được bố trí đều nhau và nằm trong khoảng từ 15 cm đến 26 cm và chiều rộng bậc thang tối thiểu 25 cm",
+      "text_en": "Rungs must be evenly spaced between 15 cm and 26 cm. The minimum clear width of rungs is 25 cm",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Bậc thang được bố trí đều nhau và nằm trong khoảng từ 19 cm đến 32 cm và chiều rộng bậc thang tối thiểu 25 cm",
+      "text_en": "Rungs must be evenly spaced between 19 cm and 32 cm. The minimum clear width of rungs is 25 cm",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "47",
+  "category": "An toàn trên cao",
+  "question_vn": "Chức năng chính của thanh giữa (midrail) trong hệ thống lan can bảo vệ tiêu chuẩn của giàn giáo là gì?",
+  "question_en": "What is the primary function of a midrail in a standard scaffold guardrail system?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Để làm nơi treo dụng cụ và móc dây an toàn",
+      "text_en": "To provide a place for hanging tools and safety lanyards",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Để ngăn người lao động lọt ngã ra ngoài giữa thanh tay vịn trên cùng và tấm chắn chân",
+      "text_en": "To prevent workers from falling between the top rail and the toe-board",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Để tăng cường độ chịu lực cho các cột đứng của giàn giáo",
+      "text_en": "To strengthen the vertical posts of the scaffold",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Để đỡ trọng lượng của các tấm sàn thao tác",
+      "text_en": "To support the weight of the scaffold planks",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "48",
+  "category": "An toàn trên cao",
+  "question_vn": "Đối với giàn giáo tải trọng nặng, tải trọng cho phép tối đa trên một khung chân đế là bao nhiêu?",
+  "question_en": "For the heavy duty scaffold, what is the maximum load on base of scaffold?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "200 kg/m2",
+      "text_en": "200 kg/m2",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "250 kg/m2",
+      "text_en": "250 kg/m2",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "375 kg/m2",
+      "text_en": "375 kg/m2",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Khác",
+      "text_en": "Others",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "49",
+  "category": "An toàn trên cao",
+  "question_vn": "Theo yêu cầu của BSR, nhân sự làm việc trên cao phải hoàn thành khóa huấn luyện và được cấp chứng chỉ nào?",
+  "question_en": "According to BSR regulations, personnel working at height must complete training and be issued which certificate?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Bằng lái xe",
+      "text_en": "Driving License",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Chứng nhận hoàn thành khóa học an toàn làm việc trên cao",
+      "text_en": "Safety Visa for Working at Height",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Chứng chỉ phòng cháy",
+      "text_en": "Fire Fighting Certificate",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Chứng chỉ sơ cấp cứu",
+      "text_en": "First Aid Certificate",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "50",
+  "category": "An toàn trên cao",
+  "question_vn": "Các đầu ống giáo nên được xử lý như thế nào để đảm bảo an toàn?",
+  "question_en": "How should scaffold tube ends be treated to ensure safety?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Để lộ tự nhiên",
+      "text_en": "Leave them exposed",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Mài nhẵn",
+      "text_en": "Grind them smooth",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Bịt đầu ống giáo",
+      "text_en": "Plug/cap the tube ends",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Sơn màu đỏ",
+      "text_en": "Paint them red",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "51",
+  "category": "An toàn trên cao",
+  "question_vn": "Mục đích của việc lắp đặt tấm chặn chân (toe-board) trên sàn giàn giáo là gì?",
+  "question_en": "What is the purpose of installing toe-boards on a scaffold platform?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Để người lao động có nơi gác chân nghỉ ngơi",
+      "text_en": "To give workers a place to rest their feet",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Để ngăn ngừa dụng cụ và vật tư rơi khỏi sàn thao tác",
+      "text_en": "To prevent tools and materials from falling off the platform",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Để làm cho giàn giáo nhìn chuyên nghiệp hơn",
+      "text_en": "To make the scaffold look more professional",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Để móc dây đai an toàn vào đó",
+      "text_en": "To tie the safety harness lanyard to it",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "52",
+  "category": "An toàn trên cao",
+  "question_vn": "Mối nguy chính khi làm việc trên cao?",
+  "question_en": "What is the main hazard of working at heights?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Điện",
+      "text_en": "Electrical",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Rơi ngã",
+      "text_en": "Fall from height",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Nhiệt",
+      "text_en": "Heat",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tiếng ồn",
+      "text_en": "Noise",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "53",
+  "category": "An toàn trên cao",
+  "question_vn": "Tỷ lệ tai nạn liên quan làm việc trên cao khoảng bao nhiêu?",
+  "question_en": "What percentage of accidents involve working at height?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "10–15%",
+      "text_en": "10–15%",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "25–35%",
+      "text_en": "25–35%",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "40–50%",
+      "text_en": "40–50%",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "60%",
+      "text_en": "60%",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "54",
+  "category": "An toàn trên cao",
+  "question_vn": "Vị trí móc dây an toàn đúng?",
+  "question_en": "What is the correct anchorage point for a safety harness?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Ngang thắt lưng",
+      "text_en": "At waist level",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Cao hơn đầu",
+      "text_en": "Above head level",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Móc vào ống giáo dọc",
+      "text_en": "Anchor to a vertical scaffold pole",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Có thể móc bất cứ nơi đâu",
+      "text_en": "Can be hooked anywhere",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "55",
+  "category": "An toàn trên cao",
+  "question_vn": "Vật liệu nào bị nghiêm cấm dùng để lót chân đế giàn giáo?",
+  "question_en": "Which materials are strictly prohibited for use as scaffold base plate padding?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Tấm thép",
+      "text_en": "Steel plates",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Ván ép hoặc gạch",
+      "text_en": "Plywood or bricks",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Gỗ dày đảm bảo an toàn theo quy định",
+      "text_en": "Thick timber ensuring safety in accordance with regulations",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Bê tông",
+      "text_en": "Concrete",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "56",
+  "category": "An toàn trên cao",
+  "question_vn": "Nguyên nhân tử vong phổ biến nhất khi làm việc trên cao là gì?",
+  "question_en": "What is the most common cause of fatality in working at height?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Điện giật",
+      "text_en": "Electric shock",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Ngã từ trên cao",
+      "text_en": "Falling from height",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Cháy nổ",
+      "text_en": "Fire",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Hóa chất",
+      "text_en": "Chemicals",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "57",
+  "category": "An toàn trên cao",
+  "question_vn": "Thẻ giàn giáo thường được treo ở vị trí nào?",
+  "question_en": "Where are scaffold tags usually hung?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Trên đỉnh giàn giáo",
+      "text_en": "On top of the scaffold",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Vị trí dễ quan sát như thang lên xuống",
+      "text_en": "Easy-to-see locations like access ladders",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Cất trong văn phòng",
+      "text_en": "Kept in the office",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Dưới chân đế",
+      "text_en": "Under the base plate",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "58",
+  "category": "An toàn trên cao",
+  "question_vn": "Hành vi nào sau đây bị nghiêm cấm khi đang làm việc trên sàn thao tác của giàn giáo?",
+  "question_en": "Which of the following actions is strictly prohibited while working on a scaffold platform?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đeo túi đựng dụng cụ chuyên dụng bên người",
+      "text_en": "Wearing a specialized tool pouch on your body",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đứng lên các kết cấu tạm thời như thùng, hộp hoặc thang để tăng độ cao",
+      "text_en": "Standing on temporary structures like boxes, crates, or ladders to gain extra height",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Di chuyển chậm và quan sát các chướng ngại vật xung quanh",
+      "text_en": "Moving slowly and observing surrounding obstacles",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Sử dụng dây buộc để cố định các dụng cụ cầm tay nhỏ",
+      "text_en": "Using lanyards to secure small hand tools",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "59",
+  "category": "An toàn trên cao",
+  "question_vn": "Yêu cầu bắt buộc đối với việc sử dụng dây đai an toàn toàn thân (full-body harness) khi làm việc trên cao từ 2 mét trở lên là gì?",
+  "question_en": "What is the mandatory requirement for using a full-body safety harness when working at heights of 2 meters or above?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Chỉ cần thắt dây quanh bụng là đủ an toàn",
+      "text_en": "Just fastening the belt around the waist is safe enough",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Phải luôn móc cố định 100% vào điểm neo an toàn hoặc dây cứu sinh bằng hai nhánh móc",
+      "text_en": "Must always keep 100% tied off to a safe anchorage point or lifeline using twin lanyards",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Chỉ móc dây khi di chuyển, khi đứng yên một chỗ thì không cần",
+      "text_en": "Only hook the lanyard when moving, no need when standing still",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Có thể móc vào bất kỳ đường ống công nghệ nhỏ nào có sẵn",
+      "text_en": "Can be hooked to any available small process piping",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "60",
+  "category": "An toàn trên cao",
+  "question_vn": "Bạn không được đứng thao tác ở mấy bậc trên cùng của thang đơn?",
+  "question_en": "You must not work from how many top rungs of a single ladder?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "2",
+      "text_en": "2",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "3",
+      "text_en": "3",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "4",
+      "text_en": "4",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "5",
+      "text_en": "5",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "61",
+  "category": "An toàn trên cao",
+  "question_vn": "Khi làm việc trên sàn nâng người (gondola), dây an toàn phải móc vào đâu?",
+  "question_en": "When working on a man lift/platform, where should the safety harness be hooked?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Móc vào lan can sàn nâng",
+      "text_en": "Hook to the guardrail",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Móc vào điểm neo độc lập/điểm thiết kế",
+      "text_en": "Hook to an independent anchor/designed point",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Móc vào thang leo",
+      "text_en": "Hook to the ladder",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Không cần móc dây",
+      "text_en": "No need to hook",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "62",
+  "category": "An toàn trên cao",
+  "question_vn": "Khi di chuyển trên sàn thao tác, người lao động phải thực hiện việc móc dây an toàn như thế nào?",
+  "question_en": "How should workers hook their safety harness when moving on the platform?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Chỉ móc khi đứng yên",
+      "text_en": "Only hook when stationary",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Phải luôn móc dây khi di chuyển",
+      "text_en": "Must always hook when moving",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Không cần móc nếu có lan can",
+      "text_en": "No need to hook if there are guardrails",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Chỉ móc khi thấy cần thiết",
+      "text_en": "Only hook when felt necessary",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "63",
+  "category": "An toàn trên cao",
+  "question_vn": "Theo quy định BSR, dây an toàn phải được kiểm tra định kỳ và dán tem bởi ai?",
+  "question_en": "According to BSR regulations, who must inspect and tag the safety harness?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Người lao động tự kiểm tra",
+      "text_en": "Worker inspects themselves",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Nhà sản xuất",
+      "text_en": "Manufacturer",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Người có trách nhiệm của BSR",
+      "text_en": "Authorized person from BSR",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Bảo vệ nhà máy",
+      "text_en": "Plant security",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "64",
+  "category": "An toàn trên cao",
+  "question_vn": "Đối với thang chữ A, vị trí nào người lao động KHÔNG được phép sử dụng để đứng?",
+  "question_en": "On an A-frame ladder, which position is a worker NOT allowed to stand on?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Bậc thứ nhất từ dưới lên",
+      "text_en": "First rung from the bottom",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Bậc ở giữa",
+      "text_en": "Middle rung",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Nắp và 2 bậc trên cùng",
+      "text_en": "Top cap and 2 top steps",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Hai bậc dưới cùng",
+      "text_en": "Bottom two rungs",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "65",
+  "category": "An toàn trên cao",
+  "question_vn": "Giàn giáo KHÔNG được cản trở việc tiếp cận các thiết bị nào sau đây?",
+  "question_en": "Scaffolding must NOT obstruct access to which of the following equipment?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Các van/nút dừng khẩn cấp",
+      "text_en": "Emergency stop valves/buttons",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Thiết bị PCCC và nút nhấn báo cháy",
+      "text_en": "Firefighting equipment and fire alarms",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Lối đi và lối thoát hiểm",
+      "text_en": "Walkways and emergency exits",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các phương án trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "66",
+  "category": "An toàn trên cao",
+  "question_vn": "\"Dây cứu sinh\" (Life-line) được lắp đặt trong trường hợp nào?",
+  "question_en": "When is a \"Life-line\" installed?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Khi làm việc dưới mặt đất",
+      "text_en": "When working on the ground",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Khi vị trí làm việc không có điểm móc dây an toàn",
+      "text_en": "When there is no anchor point at the work location",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Khi làm việc trên xe nâng",
+      "text_en": "When working on a man lift",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Luôn luôn phải lắp",
+      "text_en": "Always installed",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "67",
+  "category": "An toàn trên cao",
+  "question_vn": "Đâu là lỗi vi phạm an toàn liên quan đến mâm giàn giáo?",
+  "question_en": "What is a safety violation related to scaffold planks?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Mâm được cố định chặt",
+      "text_en": "Planks are firmly secured",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Mâm giàn giáo cản trở đầu phun nước chữa cháy",
+      "text_en": "Planks obstruct fire sprinklers",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Mâm không bị nứt",
+      "text_en": "Planks are not cracked",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Mâm làm bằng thép",
+      "text_en": "Planks are made of steel",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "68",
+  "category": "An toàn trên cao",
+  "question_vn": "Khi leo thang, người lao động có được mang theo vật dụng bằng tay không?",
+  "question_en": "Is a worker allowed to carry heavy items by hand when climbing a ladder?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Có, nếu cầm bằng 1 tay",
+      "text_en": "Yes, if holding with 1 hand",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Có, nếu vật dụng nhẹ",
+      "text_en": "Yes, if items are light",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không mang bất cứ vật dụng nào bằng tay",
+      "text_en": "Do not carry any items",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Chỉ được mang túi đồ nghề",
+      "text_en": "Only allowed to carry a tool bag",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "69",
+  "category": "An toàn trên cao",
+  "question_vn": "Đối với thang đơn/thang rút gọn cao trên 5m, yêu cầu bắt buộc là gì?",
+  "question_en": "For single/telescopic ladders over 5m high, what is the mandatory requirement?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Phải sơn màu đỏ",
+      "text_en": "Must be painted red",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Phải cố định đầu thang vào kết cấu",
+      "text_en": "Must secure the top of the ladder to the structure",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Phải có 2 người cùng leo",
+      "text_en": "Two people must climb together",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Không được sử dụng",
+      "text_en": "Must not be used",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "70",
+  "category": "An toàn trên cao",
+  "question_vn": "Giàn giáo được phép lắp trên nền móng như thế nào?",
+  "question_en": "On what kind of foundation is scaffolding allowed to be erected?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nền cát lún",
+      "text_en": "Sinking sand",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Nền đất mềm",
+      "text_en": "Soft soil",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Nền móng chắc chắn",
+      "text_en": "Solid/stable foundation",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Trên các thùng phuy",
+      "text_en": "On top of drums",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "71",
+  "category": "An toàn trên cao",
+  "question_vn": "Việc \"Ném/thả vật tư từ trên xuống hoặc từ dưới lên\" được quy định như thế nào?",
+  "question_en": "How is \"throwing/dropping materials from top-down or bottom-up\" regulated?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Được phép nếu vật tư nhẹ",
+      "text_en": "Allowed if materials are light",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Được phép nếu có người cảnh giới ở dưới",
+      "text_en": "Allowed if there's a watchman below",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tuyệt đối không được phép mà phải sử dụng túi chuyên dụng để vận chuyển lên xuống",
+      "text_en": "Absolutely prohibited; specialized bags must be used for transportation",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Chỉ được phép trong trường hợp khẩn cấp",
+      "text_en": "Only allowed in emergencies",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "72",
+  "category": "An toàn trên cao",
+  "question_vn": "Lỗi vi phạm nào sau đây liên quan đến thẻ giàn giáo?",
+  "question_en": "Which of the following is a violation related to scaffold tags?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thẻ được ghi đầy đủ thông tin",
+      "text_en": "Tags with full information",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Thẻ treo ở lối lên xuống",
+      "text_en": "Tags hung at the access point",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thẻ giàn giáo quá hạn hoặc bị phai màu",
+      "text_en": "Scaffold tags expired or faded",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Thẻ màu xanh còn hiệu lực",
+      "text_en": "Valid green tags",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "73",
+  "category": "An toàn trên cao",
+  "question_vn": "Đối với công việc leo dây tiếp cận, KHÔNG được thực hiện loại công việc nào?",
+  "question_en": "For rope access, which type of work is NOT allowed?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Kiểm tra bằng mắt",
+      "text_en": "Visual inspection",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Sơn sửa nhẹ",
+      "text_en": "Light painting/repair",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Công việc có phát sinh ngọn lửa trần",
+      "text_en": "Hot work/Open flame work",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Tháo, lắp bảo ôn",
+      "text_en": "Remove/Install insulation",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "74",
+  "category": "An toàn trên cao",
+  "question_vn": "Lỗi vi phạm \"Lắp đầu ống giáo nhô ra quá quy định\" thường gây ra nguy cơ gì?",
+  "question_en": "What risk does the violation \"Scaffold tube protruding beyond regulations\" usually cause?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nguy cơ cháy nổ",
+      "text_en": "Risk of explosion",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Nguy cơ va chạm gây chấn thương cho người di chuyển",
+      "text_en": "Risk of collision causing injury to passersby",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Nguy cơ sập giàn giáo",
+      "text_en": "Risk of scaffold collapse",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Không gây nguy cơ gì",
+      "text_en": "No risk",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "75",
+  "category": "An toàn trên cao",
+  "question_vn": "Khi làm việc trên giàn giáo di động (có bánh xe), điều gì là CẤM?",
+  "question_en": "What is PROHIBITED when working on a mobile scaffold?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Khóa bánh xe khi đứng",
+      "text_en": "Locking the wheels when standing",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Di chuyển giàn giáo khi có người ở trên",
+      "text_en": "Moving the scaffold while someone is on top",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Có lan can bảo vệ",
+      "text_en": "Having guardrails",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Sử dụng mâm thép",
+      "text_en": "Using steel planks",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "76",
+  "category": "An toàn trên cao",
+  "question_vn": "Việc đeo dây đai an toàn quá lỏng sẽ gây ra hậu quả gì khi bị rơi?",
+  "question_en": "What happens if a safety harness is worn too loosely during a fall?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Giúp người lao động dễ thở hơn",
+      "text_en": "Helps the worker breathe easier",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Gây chấn thương nghiêm trọng cho cơ thể do lực giật",
+      "text_en": "Causes severe bodily injury due to the jerk force",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Không ảnh hưởng gì",
+      "text_en": "No impact",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Dây sẽ tự động chặt lại",
+      "text_en": "The harness will automatically tighten",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "77",
+  "category": "An toàn trên cao",
+  "question_vn": "Khi làm việc trên mái nhà có độ dốc lớn, biện pháp nào là bắt buộc?",
+  "question_en": "When working on a steep roof, which measure is mandatory?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đi chân trần để tăng độ bám",
+      "text_en": "Walking barefoot for better grip",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Chỉ cần đứng ở đỉnh mái",
+      "text_en": "Only standing at the ridge",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Sử dụng hệ thống chống rơi ngã cá nhân",
+      "text_en": "Using Personal Fall Arrest System",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Làm việc vào ban đêm",
+      "text_en": "Working at night",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "78",
+  "category": "An toàn trên cao",
+  "question_vn": "Khi phát hiện thẻ giàn giáo màu xanh đã quá hạn theo quy định, người lao động phải làm gì?",
+  "question_en": "What should workers do when they discover that the green scaffold tag has expired according to regulations?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Tiếp tục làm việc nếu thấy giàn giáo vẫn chắc chắn",
+      "text_en": "Continue working if it feels sturdy",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Tự ký gia hạn vào thẻ",
+      "text_en": "Sign the tag extension yourself",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không sử dụng giàn giáo và báo cho người có thẩm quyền kiểm tra lại",
+      "text_en": "Stop work and report to the authorized person for re-inspection",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Đổi sang thẻ màu vàng",
+      "text_en": "Change it to a yellow tag",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "79",
+  "category": "An toàn trên cao",
+  "question_vn": "Khi sử dụng xe nâng người (Boom lift), người lao động phải tuân thủ điều gì?",
+  "question_en": "When using a boom lift, what must workers comply with?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đứng lên lan can để tăng độ cao",
+      "text_en": "Stand on guardrails to increase height",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Tuân thủ đúng tải trọng cho phép của nhà sản xuất",
+      "text_en": "Comply with the manufacturer's load capacity",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Không cần đeo dây an toàn",
+      "text_en": "No need to wear a harness",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Di chuyển xe khi cần nâng đang ở độ cao tối đa",
+      "text_en": "Move the vehicle while the boom is at maximum height",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "80",
+  "category": "An toàn trên cao",
+  "question_vn": "Hành vi nào sau đây bị nghiêm cấm khi vận chuyển vật tư lên cao?",
+  "question_en": "Which of the following actions is strictly prohibited when transporting materials to a height?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Sử dụng túi chuyên dụng",
+      "text_en": "Using specialized bags",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Sử dụng dây thừng để vận chuyển",
+      "text_en": "Using ropes for lifting",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Ném hoặc thả vật tư từ trên xuống/dưới lên",
+      "text_en": "Throwing materials up or down",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Sắp xếp vật tư gọn gàng",
+      "text_en": "Arranging materials tidily",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+}
+]

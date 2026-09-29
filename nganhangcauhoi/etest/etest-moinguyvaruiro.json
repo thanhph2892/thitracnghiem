@@ -1,0 +1,997 @@
+[
+  {
+  "id": "01",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Mục đích của việc xác định mối nguy và đánh giá rủi ro/cơ hội an toàn sức khỏe nghề nghiệp (XD MN & ĐGRR/CH ATSKNN) tại BSR là gì?",
+  "question_en": "What are purposes of OH&S risks and opportunities evaluation at BSR?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Hợp thức hóa các thủ tục về hành chính",
+      "text_en": "To regularize with administration procedures",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đối phó với việc thanh tra, kiểm tra về ATSKNN",
+      "text_en": "To cope with inspection and audit of authority management",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Để tạo cơ sở, căn cứ cho việc thiết lập, thực hiện các chương trình hành động, biện pháp phòng ngừa, giảm thiểu tổn thất (sự cố, tai nạn) cho con người nói riêng và về hiệu quả sản xuất kinh doanh của BSR nói chung.",
+      "text_en": "To establish foundation on OH&S action plan, preventive measures, minimizing losses (incident, accident) on human and production efficiency of BSR",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các câu trên",
+      "text_en": "All of above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "02",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Hệ thống quản lý An toàn sức khỏe nghề nghiệp của BSR tuân thủ theo tiêu chuẩn nào sau đây?",
+  "question_en": "Which is standard of Occupational health and safety management system that BSR compliance with?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "ISO 45001:2018",
+      "text_en": "ISO 45001:2018",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "ISO 14001:2005",
+      "text_en": "ISO 14001:2005",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "ISO 9001:2008",
+      "text_en": "ISO 9001:2008",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "OHSAS 18001:2007 (ISO 45001:2018), ISO 14001:2005, ISO 9001:2008",
+      "text_en": "OHSAS 18001:2007 (ISO 45001:2018), ISO 14001:2005, ISO 9001:2008",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "03",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Theo ISO 45001:2018, mối nguy là gì?",
+  "question_en": "What is hazard as ISO 45001:2018 definition?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Là những sự kiện gây tổn thương đến con người",
+      "text_en": "An event causes human injury",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Là những yếu tố gây ô nhiễm cho môi trường",
+      "text_en": "Environmental aspects that causes environment pollution",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Là nguyên nhân gây hư hỏng cho thiết bị, tài sản",
+      "text_en": "Causes of asset damage",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Là sự không phù hợp xảy ra trong hoạt động của Nhà máy",
+      "text_en": "Non-conformity defined on Refinery operation activities",
+      "is_correct": false
+    },
+    {
+      "label": "E",
+      "text_vn": "Nguồn có khả năng gây ra chấn thương và bệnh tật",
+      "text_en": "Is source with a potential to cause injury and ill health",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "04",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Theo ISO 45001:2018, rủi ro về an toàn sức khỏe nghề nghiệp là gì?",
+  "question_en": "What is occupational health and safety risk as ISO 45001:2018 definition?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Là mức độ nghiêm trọng của chấn thương và bệnh tật do (các) sự kiện hoặc việc tiếp xúc đó gây ra",
+      "text_en": "Is the severity of injury and ill health that can be caused by the event(s) or exposure(s)",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Là sự kết hợp của khả năng xảy ra của một sự kiện nguy hại liên quan đến công việc hay sự phơi nhiễm và mức độ nghiêm trọng của các chấn thương hay bệnh tật có thể có do các sự kiện hay sự phơi nhiễm",
+      "text_en": "Is combination of the likelihood of occurrence of a work-related hazardous event(s) or exposure(s) and the severity of injury and ill health that can be caused by the event(s) or exposure(s)",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Sự kết hợp của khả năng xảy ra (các) sự kiện hoặc tiếp xúc với mối nguy liên quan đến công việc hoặc mức độ nghiêm trọng của chấn thương và bệnh tật do (các) sự kiện hoặc việc tiếp xúc đó gây ra",
+      "text_en": "Combination of the likelihood of occurrence of a work-related hazardous event(s) or exposure(s) or the severity of injury and ill health that can be caused by the event(s) or exposure(s)",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các câu trên",
+      "text_en": "All of above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "05",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Thực hiện xác định mối nguy và đánh giá rủi ro/cơ hội an toàn sức khỏe nghề nghiệp (XD MN & ĐGRR/CH ATSKNN) là trách nhiệm của tất cả nhân sự làm việc tại Công ty BSR",
+  "question_en": "Conducting OH&S risks and opportunities evaluation is the responsibility of all personnel working at BSR",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đúng",
+      "text_en": "Right",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Sai",
+      "text_en": "Wrong",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "06",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Trách nhiệm của lãnh đạo đơn vị (Ban/Phòng/Khu vực sản xuất) trong việc thực hiện xác định mối nguy và đánh giá rủi ro/cơ hội an toàn sức khỏe nghề nghiệp (XĐMN & ĐGRR/CH ATSKNN) là gì?",
+  "question_en": "What are responsibilities of manager of division/Department/Process area on OH&S risks and opportunities evaluation process?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Quản lý, điều phối và giám sát nhân sự của mình trong việc thực hiện XĐMN & ĐGRR/CH ATSKNN",
+      "text_en": "Managing, coordinating and supervising staff personnel on OH&S risks and opportunities evaluation process",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Cung cấp nguồn lực và thông tin cần thiết cho việc XĐMN & ĐGRR/CH ATSKNN của Đơn vị",
+      "text_en": "Provide resources and information necessary for the OH&S risks and opportunities evaluation process",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thiết lập mục tiêu, chương trình hành động để đạt mục tiêu ATSKNN, thực hiện và theo dõi đánh giá kết quả thực hiện",
+      "text_en": "Setting goals and action plans to achieve OH&S goals, implementing, monitoring and evaluating implementation results",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các câu trên",
+      "text_en": "All of above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "07",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Tất cả các mối nguy đã nhận diện tại mỗi khu vực/ bộ phận phải được làm gì?",
+  "question_en": "What must be done after identifying all hazards in area?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Được lưu vào hồ sơ, không cần phổ biến",
+      "text_en": "Be recorded and be hidden from employee knowledge",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Được phổ biến đến tất cả các nhân sự liên quan",
+      "text_en": "Communicate to all involved persons those who are likely to expose the hazard",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Báo cáo lãnh đạo, không cần phổ biến cho nhân viên",
+      "text_en": "Report to Manager and do not communication to employee",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Nhanh chóng che giấu mối nguy để không ai biết",
+      "text_en": "Immediately hide the hazards",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "08",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Khi thực hiện đánh giá rủi ro cho các mối nguy, ta xem xét các yếu tố nào?",
+  "question_en": "What are the considered elements of hazards evaluation process?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Khu vực mối nguy đó tồn tại",
+      "text_en": "Location of hazards",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Thời điểm mối nguy đó tạo ra sự cố",
+      "text_en": "Numbers of time of incident caused by hazard",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Điều kiện môi trường tại nơi mối nguy tồn tại",
+      "text_en": "Condition where hazard presents",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tần suất xảy ra và hậu quả của sự cố xảy ra do mối nguy tương ứng",
+      "text_en": "Frequency & consequence of incident happened due to particular hazard",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "09",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Mức độ rủi ro (Risk level) được đánh giá dựa trên cơ sở phân tích Tần suất xảy ra (Frequency) và Mức độ nghiêm trọng (Severity) của hậu quả theo công thức",
+  "question_en": "What is formula to calculate Risk level (R) based on Frequency (F) and Severity (S)?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "[Rủi ro] = [Tần suất] + [Mức độ nghiêm trọng] (R = F + S)",
+      "text_en": "[Risk] = [Frequency] + [Severity] (R = F + S)",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "[Rủi ro] = 2x[Tần suất] x [Mức độ nghiêm trọng] (R = (F x S) x 2)",
+      "text_en": "[Risk] = 2 x [Frequency] x [Severity] (R = (F x S) x 2)",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "[Rủi ro] = [Tần suất] x [Mức độ nghiêm trọng] (R = F x S)",
+      "text_en": "[Risk] = [Frequency] x [Severity] (R = F x S)",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "[Rủi ro] = [Tần suất] ÷ [Mức độ nghiêm trọng] (R = F ÷ S)",
+      "text_en": "[Risk] = [Frequency] ÷ [Severity] (R = F ÷ S)",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "10",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Công cụ đánh giá rủi ro được sử dụng tại BSR là gì?",
+  "question_en": "What types of risk assessment tools are applied in BSR?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đánh giá rủi ro định lượng",
+      "text_en": "QRA (Qualitative Risk Assessment)",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "HAZOP",
+      "text_en": "HAZOP",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Job Safety Analysis",
+      "text_en": "Job Safety Analysis",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "HAZID",
+      "text_en": "HAZID",
+      "is_correct": false
+    },
+    {
+      "label": "E",
+      "text_vn": "Tất cả các câu trên",
+      "text_en": "All of above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "11",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Mức độ rủi ro quy định tại BSR là có bao nhiêu mức?",
+  "question_en": "How many risk levels in BSR?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "4 mức: Rất cao, cao, trung bình, thấp",
+      "text_en": "4 levels: Very high, high, medium, low",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "4 mức: cao đến rất cao, trung bình, thấp, không có rủi ro",
+      "text_en": "4 levels: High to extreme high, medium, low level and no risk",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "3 mức: cao đến rất cao, trung bình, thấp",
+      "text_en": "3 levels: High to extreme high, medium, low level",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "3 mức: rất cao, trung bình, thấp",
+      "text_en": "3 levels: Extreme high, medium, low level",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "12",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Khi xác định các biện pháp kiểm soát rủi ro thì thứ tự ưu tiên các biện pháp kiểm soát nào sau đây đúng?",
+  "question_en": "When determining the risk control measures, which of the following priority order of control measures is correct?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Loại bỏ; Thay thế; Biện pháp kỹ thuật; Biện pháp hành chính; Bảo hộ lao động",
+      "text_en": "Elimination; Substitution; Engineering controls; Administrative controls; Personal protective equipment",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Bảo hộ lao động; Loại bỏ; Thay thế; Biện pháp kỹ thuật; Biện pháp hành chính",
+      "text_en": "Personal protective equipment; Elimination; Substitution; Engineering controls; Administrative controls",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thay thế; Bảo hộ lao động; Loại bỏ; Biện pháp kỹ thuật; Biện pháp hành chính",
+      "text_en": "Substitution; Personal protective equipment; Elimination; Engineering controls; Administrative controls",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Biện pháp hành chính; Thay thế; Bảo hộ lao động; Loại bỏ; Biện pháp kỹ thuật",
+      "text_en": "Administrative controls; Substitution; Personal protective equipment; Elimination; Engineering controls",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "13",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Con người có thể là một trong các nguyên nhân gây ra mối nguy khi nào?",
+  "question_en": "When can people be a factor that cause hazards?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thiếu kiến thức; đưa ra các quyết định kém",
+      "text_en": "Lack of knowledge; making poor decisions",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Ý thức, hành xử kém",
+      "text_en": "Poor behaviour",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Căng thẳng trong công việc",
+      "text_en": "Stress in work",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Thiếu chú ý",
+      "text_en": "Lack of attention",
+      "is_correct": false
+    },
+    {
+      "label": "E",
+      "text_vn": "Tất cả các câu trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "14",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Các mối nguy nào có thể có khi làm việc trong nhà máy lọc dầu Dung Quất?",
+  "question_en": "What are the possible hazards when working in Dung Quat refinery?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Khí độc (H2S, CO …) tại các khu vực công nghệ; Làm việc tại khu vực có nguồn phóng xạ; Không gian hạn chế",
+      "text_en": "Toxic gas (H2S, CO …) in process areas; Working in an area with a radioactive source; working in confined space",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Hóa chất; Tiếng ồn; Làm việc với thiết bị áp lực; Vật rơi; Làm việc trên cao/cạnh các hố sâu",
+      "text_en": "Chemical, noise hazard, working with high pressure equipment, working at height/deep pit",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Làm việc ngoài trời; Động vật gây hại (rắn, côn trùng…); Điều kiện thời tiết xấu như gió to, sấm sét, mưa bão; Khu vực/bề mặt có nhiệt độ quá cao/thấp",
+      "text_en": "Work at outside; Pests (snakes, insects ...); Bad weather conditions such as strong winds, thunderstorms, and storms; Area/surface has too high/low temperature",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các câu trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "15",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Các hành vi mất an toàn phụ thuộc vào:",
+  "question_en": "Unsafe behaviors/unsafe actions depend on:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Môi trường làm việc",
+      "text_en": "Working environment",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Ý thức người làm việc",
+      "text_en": "Worker awareness",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Bản chất, thể trạng của người làm việc",
+      "text_en": "Physical and mental of worker",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các câu trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "16",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Như thế nào là hành vi mất an toàn?",
+  "question_en": "What is unsafe action?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Phớt lờ: phớt lờ, bỏ qua các cảnh báo, báo hiệu hay các thông tin khác về công việc",
+      "text_en": "Ignorance, ignoring warnings, signals or other information about the job",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đối phó: dùng những hành động mang tính đối phó, tạo dựng các hiện trường một cách đối phó, tạm bợ mang tính che dấu",
+      "text_en": "Coping: using coping actions, creating scenes in a coping and temporary manner with concealment",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Làm tắt: làm tất các công đoạn, quy trình công việc với mục đích giảm thời gian hay chu trình thực hiện",
+      "text_en": "Shortcut: shortcut processes, work processes with the purpose of reducing time or execution cycle",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Liều lĩnh: có những người coi việc đưa họ vào các tình huống rủi ro là một sở thích để thể hiện cái “tôi” về một vấn đề nào đó. Họ tự cho mình là đúng và gia trưởng với cái ý nghĩ đó",
+      "text_en": "Risky: there are those who consider putting them in risk situations as a hobby to express the \"I\" about a problem. They consider themselves right and grow up with that thought",
+      "is_correct": false
+    },
+    {
+      "label": "E",
+      "text_vn": "Tất cả các câu trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "17",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Các biện pháp kiểm soát mối nguy nào được ưu tiên thấp nhất trong số các biện pháp sau?",
+  "question_en": "When determining the risk control measures, which of the following risk control measures are the lowest priority?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Loại bỏ nguồn gây mối nguy",
+      "text_en": "Elimination",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Báo hiệu cảnh báo và/hoặc Kiểm soát hành chính",
+      "text_en": "Warning and/or administrative controls",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Thay thế",
+      "text_en": "Substitution",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Biện pháp kỹ thuật",
+      "text_en": "Engineering controls",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "18",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Biện pháp kiểm soát mối nguy nào được ưu tiên cao nhất trong số các biện pháp sau?",
+  "question_en": "When determining risk control measures, which of the following risk control measures is the highest priority?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Loại bỏ nguồn gây mối nguy",
+      "text_en": "Elimination",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Báo hiệu cảnh báo và/hoặc Kiểm soát hành chính",
+      "text_en": "Warning or administrative controls",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thay thế",
+      "text_en": "Substitution",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Biện pháp kỹ thuật",
+      "text_en": "Engineering controls",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "19",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Biểu hiện của hành vi mất an toàn làm tắt là gì?",
+  "question_en": "What are the indicators of the unsafe behaviour shortcut?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Làm các công đoạn, các bước công việc không theo quy trình, hướng dẫn với mục đích giảm thời gian hay chu trình thực hiện",
+      "text_en": "Execution of job without following procedures, instructions with the aim of reducing the time or the execution cycle",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Dùng những hành động mang tính đối phó, tạo dựng các hiện trường một cách đối phó, tạm bợ mang tính che dấu",
+      "text_en": "Using coping actions, creating scenes in a coping and temporary manner with concealment",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Bỏ qua các cảnh báo, báo hiệu hay các thông tin khác về công việc",
+      "text_en": "Ignore warnings, signals or other information about the job",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các câu trên",
+      "text_en": "All of these above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "20",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Các biện pháp hiện hành tại BSR để giảm thiểu rủi ro mối nguy Khí độc (H2S, CO…) tại các khu vực công nghệ là gì?",
+  "question_en": "What are the control methods to minimize the risk of toxic gases (H2S, CO ...) in BSR’s process areas?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thực hiện chương trình kiểm tra, bảo dưỡng phòng ngừa rò rỉ khí độc ra ngoài thiết bị chứa",
+      "text_en": "Carry out inspection and maintenance programs to prevent toxic air leakage from the container",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đảm bảo các thiết bị dò khí cố định, cầm tay được hiệu chuẩn, kiểm định đầy đủ",
+      "text_en": "Ensure fixed, portable gas detectors are calibrated and fully tested",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Sử dụng thiết bị dò khí, phương tiện bảo vệ cá nhân khi làm việc tại các khu vực có mối nguy khí độc",
+      "text_en": "Use gas detectors and personal protective equipment (SCBA/ Face Mask) when working in areas with toxic hazards",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Đào tạo an toàn làm việc với khí độc",
+      "text_en": "Conduct Safety training for working with toxic gases",
+      "is_correct": false
+    },
+    {
+      "label": "E",
+      "text_vn": "Tất cả các câu trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "21",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Hóa năng tồn tại trong các chất nào sau đây?",
+  "question_en": "What are sources of chemical energy?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Axit",
+      "text_en": "Acid",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Kiềm",
+      "text_en": "Alkali",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Xăng, dầu",
+      "text_en": "Petroleum, oil",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Dung môi",
+      "text_en": "Solvent",
+      "is_correct": false
+    },
+    {
+      "label": "E",
+      "text_vn": "Tất cả các câu trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "22",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Các mối nguy nào do thế năng trọng trường?",
+  "question_en": "What are the activities/situation may cause object falling from height (Gravity hazard)?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Làm việc trên cao; Nâng/hạ bằng cẩu; Đóng vật tư/ống chất cao; Đối tượng chất ở trên cao",
+      "text_en": "Work at height; Lifting/lowering by crane; Pipes, materials storaged at height; ...",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Làm việc trên cao; Di chuyển hàng hóa bằng xe đẩy; Đóng vật tư/đường ống chất cao; Đối tượng chất ở trên cao",
+      "text_en": "Work at height; Lifting/mowering by crane; acid, Pipes, materials storage at height; ...",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Làm việc trên cao; đo mức bằng nguồn phóng xạ; Nâng/hạ bằng cẩu; Đóng vật tư/đường ống di chuyển; Đối tượng chất ở trên cao",
+      "text_en": "Work at height; Lifting/mowering by crane; Radiated level measurement; Pipes, materials storaged at height; ...",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Làm việc trên cao; Nâng/hạ bằng cẩu; Đóng vật tư/đường ống chất cao; dây điện bị hỏng",
+      "text_en": "Work at height; Lifting/mowering by crane; acid, Pipes, materials storage at height; electric cable damaged",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "23",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Mối nguy tồn tại trong các thiết bị cơ khí, hoạt động gia công cơ khí là gì?",
+  "question_en": "What are the mechanical hazards that exist in mechanical equipment, mechanical processing activities?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Bề mặt sắc, nhọn",
+      "text_en": "Sharp edge, pointed surface",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Trọng lượng thiết bị lớn hoặc chênh lệch trọng lượng giữa các bộ phận",
+      "text_en": "Heavy weight or uneven weight distribution between parts",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Kích thước cồng kềnh",
+      "text_en": "Bulky size",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các câu trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "24",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Rủi ro của mối nguy làm việc trên cao có thể là gì?",
+  "question_en": "What are the risks involved in working at height?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Rơi ngã từ trên cao gây thương tích, tử vong",
+      "text_en": "Fall from height may cause injuries or death",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đồ vật rơi vào người từ trên cao gây thương vong",
+      "text_en": "Objects fall from height cause injuries or death",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Sập giàn giáo do chưa được phê duyệt để làm việc",
+      "text_en": "Scaffolding collapse due to overloading & poor design",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các câu trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "25",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Nguyên nhân có thể gây nên rủi ro ngộ độc, tử vong do khí độc (CO, H2S…) tại NMLD Dung Quất là gì?",
+  "question_en": "What are possible causes could lead to risk of poisoning and death due to toxic gases (CO, H2S…) at Dung Quat refinery?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Rò rỉ khí độc (H2S, CO…)",
+      "text_en": "Leaking & exposure to toxic gases (H2S, CO…)",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không sử dụng hoặc sử dụng PPE không phù hợp",
+      "text_en": "Wearing or using improper PPE",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không tuân thủ quy trình làm việc",
+      "text_en": "Not compliance with working procedures",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các câu trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "26",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Các dụng cụ trên sàn thao tác trên cao, mối nguy là gì?",
+  "question_en": "These tools are on working platform at height, what are hazards?",
+  "image": "nganhangcauhoi/etest/mnvrr-cau26.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Vật rơi từ trên cao",
+      "text_en": "Falling objects",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Hóa chất",
+      "text_en": "Chemical",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Áp suất",
+      "text_en": "Pressure",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Nhiệt độ cao",
+      "text_en": "High temperature",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "27",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Những hình ảnh bên dưới có thể dẫn đến rủi ro gì?",
+  "question_en": "What is risk in pictures below?",
+  "image": "nganhangcauhoi/etest/mnvrr-cau27.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Vấp ngã",
+      "text_en": "Trip and slip",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Ngạt khí",
+      "text_en": "Asphyxiated",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Ngã cao",
+      "text_en": "Fall from height",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "28",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Hình nào là an toàn khi sử dụng Deadman switch (khóa an toàn)?",
+  "question_en": "Which is best practice on using Deadman switch?",
+  "image": "nganhangcauhoi/etest/mnvrr-cau28.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Hình A",
+      "text_en": "Picture A",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Hình B",
+      "text_en": "Picture B",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "29",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Điều kiện không an toàn ở hình bên dưới là gì?",
+  "question_en": "Which is unsafe condition in the below picture?",
+  "image": "nganhangcauhoi/etest/mnvrr-cau29.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Sử dụng dụng cụ/thiết bị không đúng",
+      "text_en": "Using the wrong tool/equipment",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Cản trở thiết bị PCCC",
+      "text_en": "Block fire equipment",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All right",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "30",
+  "category": "mối nguy và rủi ro",
+  "question_vn": "Điều kiện không an toàn trong hình là gì?",
+  "question_en": "What is the unsafe condition in the picture below?",
+  "image": "nganhangcauhoi/etest/mnvrr-cau30.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thiết bị nâng hạ vật tư được lắp đặt không đúng tiêu chuẩn",
+      "text_en": "Lifting device are not installed as standard",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Hoạt động di chuyển của phương tiện",
+      "text_en": "Movement of transport",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thiết bị không được sắp xếp ngăn nắp",
+      "text_en": "Unarranged equipment",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Không gian làm việc không đảm bảo an toàn",
+      "text_en": "Unsafe working place",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+}
+]

@@ -1,0 +1,670 @@
+[
+  {
+  "id": "01",
+  "category": "an toàn trên cao",
+  "question_vn": "Thế nào là làm việc trên cao?",
+  "question_en": "What is working at height?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thực hiện công việc tại những nơi mà người làm việc có thể té ngã từ độ cao 2 mét trở lên",
+      "text_en": "Perform work in places where workers can fall from a height of 2 meters or more",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Thực hiện công việc tại những nơi có độ cao thấp hơn 2m nhưng bên dưới có các chướng ngại vật nguy hiểm hoặc có thể gây rủi ro chấn thương",
+      "text_en": "Performing work in places with a height lower than 2m but below are dangerous obstacles or at risk of injury",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "A và B đúng",
+      "text_en": "A and B are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "02",
+  "category": "an toàn trên cao",
+  "question_vn": "Các mối nguy khi làm việc trên cao là gì?",
+  "question_en": "What are the major hazards of working at height?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Người rơi ngã",
+      "text_en": "Person falling",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Vật rơi",
+      "text_en": "Falling objects",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thời tiết xấu",
+      "text_en": "Bad weather",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "03",
+  "category": "an toàn trên cao",
+  "question_vn": "Để vận chuyển vật tư thiết bị dụng cụ lên cao, bạn phải làm gì?",
+  "question_en": "To transport materials, equipment and tools to high altitudes, what must you do?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Ném lên",
+      "text_en": "Throw up",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Sử dụng túi nâng hạ",
+      "text_en": "Using lifting bag",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Nâng chuyển bằng ròng rọc hoặc xe chuyên dụng",
+      "text_en": "Lifting by pulley or specialized vehicles",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Câu B và C đúng",
+      "text_en": "B and C correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "04",
+  "category": "an toàn trên cao",
+  "question_vn": "Bao nhiêu người có thể trèo trên thang tại một thời điểm?",
+  "question_en": "How many people can be on a ladder at a time?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "1",
+      "text_en": "1",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "2",
+      "text_en": "2",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "3",
+      "text_en": "3",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "4",
+      "text_en": "4",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "05",
+  "category": "an toàn trên cao",
+  "question_vn": "Tất cả các dụng cụ thiết bị, vật tư đặt trên sàn công tác phải:",
+  "question_en": "Tools, materials and equipment placed on the working platform must be:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nằm trong tải trọng cho phép của sàn thao tác",
+      "text_en": "Within the permissible load of the working platform",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Sắp xếp gọn gàng, không làm cản trở lối di chuyển",
+      "text_en": "Arrange neatly, not obstructing the way",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Đảm bảo có phương án ngăn ngừa mối nguy vật rơi",
+      "text_en": "Prevention of falling objects hazard",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "06",
+  "category": "an toàn trên cao",
+  "question_vn": "Yêu cầu đối với người làm việc trên cao tại BSR là gì?",
+  "question_en": "What are the requirements for people working at height at BSR?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Được đào tạo và có chứng chỉ an toàn làm việc trên cao",
+      "text_en": "Trained and having certified (safety visa) for working at height",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Có giấy chứng nhận đảm bảo sức khỏe làm việc trên cao do cơ quan y tế cấp. Định kỳ 6 tháng phải được kiểm tra sức khỏe một lần.",
+      "text_en": "Have a health certificate for working at height issued by a health agency. Must have a health check every 6 months",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Có các chứng chỉ đào tạo đặc thù tùy thuộc vào phương án làm việc trên cao (Ví dụ: Leo dây tiếp cận,...)",
+      "text_en": "There are specific training certificates depending on the method of working at height such as Rope access,...",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "07",
+  "category": "an toàn trên cao",
+  "question_vn": "Phải tạm dừng làm công việc trên cao khi:",
+  "question_en": "Working at height activities must be temporarily stopped when:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Gió từ cấp 4 trở lên",
+      "text_en": "Wind speed level 5 or more",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Gió từ cấp 5 trở lên",
+      "text_en": "Wind speed level 6 or more",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Gió từ cấp 6 trở lên",
+      "text_en": "Wind speed level 7 or more",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Gió từ cấp 7 trở lên",
+      "text_en": "Wind speed level 8 or more",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "08",
+  "category": "an toàn trên cao",
+  "question_vn": "Các quy định an toàn khi sử dụng thang là gì?",
+  "question_en": "What are the safety regulations when using ladders?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Khi leo thang, mặt phải xoay vào thang kết hợp với hai tay hoặc một chân, hoặc hai chân và một tay tiếp xúc với thang (nguyên tắc 3 điểm tiếp xúc với thang)",
+      "text_en": "When climbing the ladder, the face must be turned in to the ladder in combination with two hands or one leg, or two feet and one hand in contact with the ladder (the principle of 3 points of contact with the ladder).",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không đặt và sử dụng thang gần cửa, trong trường hợp cần sử dụng thì phải đảm bảo cửa phải được khóa trong khi sử dụng",
+      "text_en": "Do not place and use ladders near doorways. If you need to use a ladder near a doorway, make sure that the door is locked",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không mang bất cứ vật thể nào trong khi di chuyển trên thang",
+      "text_en": "Do not carry any objects while moving up or down",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "09",
+  "category": "an toàn trên cao",
+  "question_vn": "Làm việc tại độ cao nào không được gắn bộ giảm sốc cho dây đeo an toàn?",
+  "question_en": "At what height should you work without shock absorbers attached to the hardness?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Làm việc trên cao dưới 5.33 m",
+      "text_en": "Working at a height lower than 5.33 m",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Làm việc trên cao từ 5.33 m trở lên",
+      "text_en": "Working at a height of 5.33 m or more",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "10",
+  "category": "an toàn trên cao",
+  "question_vn": "Khi sử dụng thang để leo lên mái/sàn làm việc thì đỉnh thang phải cao hơn mái/sàn tối thiểu là:",
+  "question_en": "When using a ladder to climb to the roof/working platform, the top of the ladder must be higher than the roof/working platform at least:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "0.8 m",
+      "text_en": "0.8 m",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "0.9 m",
+      "text_en": "0.9 m",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "1.0 m",
+      "text_en": "1.0 m",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "1.1 m",
+      "text_en": "1.1 m",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "11",
+  "category": "an toàn trên cao",
+  "question_vn": "Nguyên tắc 3 điểm tiếp xúc khi trèo thang là gì?",
+  "question_en": "What is the 3-point contact rule when climbing a ladder?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Mặt phải xoay vào thang kết hợp với hai tay và một chân tiếp xúc với nấc thang",
+      "text_en": "The face rotates into the ladder in combination with both hands and one foot in contact with rungs/steps of the ladder",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Mặt phải xoay vào thang kết hợp với hai chân và một tay tiếp xúc với thang",
+      "text_en": "The face rotates into the ladder in combination with both foot and one hands in contact with rungs/steps of the ladder",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "12",
+  "category": "an toàn trên cao",
+  "question_vn": "Những quy định an toàn khi sử dụng thang chữ A là gì?",
+  "question_en": "What are the safety regulations when using A-shaped ladders?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Kiểm tra và đảm bảo tất cả 4 chân thang phải tiếp xúc với mặt đất và các bậc thang phải bằng phẳng",
+      "text_en": "Check and ensure all four stepladder feet are in contact with the ground and the steps are level",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không sử dụng nắp và bậc trên cùng",
+      "text_en": "Do not use the top cap or top step as a step",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không sử dụng thanh giằng hoặc thiết bị khóa của thang để di chuyển",
+      "text_en": "Do not use spreader or locking device of stepladders for climbing up or down",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "13",
+  "category": "an toàn trên cao",
+  "question_vn": "Khả năng chịu tải trọng theo mọi hướng được quy định đối với vị trí neo cố định của hệ thống bảo vệ rơi ngã cho mỗi người làm việc là bao nhiêu kilogram?",
+  "question_en": "Anchorage of a Personal Fall Arrest system for each employee attached must have an ultimate load capacity in any direction required to resist a fall of at least:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "1500 kg",
+      "text_en": "1500 kg",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "2000 kg",
+      "text_en": "2000 kg",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "2500 kg",
+      "text_en": "2500 kg",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "3000 kg",
+      "text_en": "3000 kg",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "14",
+  "category": "an toàn trên cao",
+  "question_vn": "Loại thang nào không được phép sử dụng tại BSR",
+  "question_en": "What type of ladder are not allowed to use in BSR:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thang tre/gỗ",
+      "text_en": "Wood/Bamboo ladder",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Thang chữ A",
+      "text_en": "Stepladder",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thang dây",
+      "text_en": "Rope ladder",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Thang rút gọn",
+      "text_en": "Extension ladder",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "15",
+  "category": "an toàn trên cao",
+  "question_vn": "Góc nghiêng của thang so với phương ngang tốt nhất là bao nhiêu độ?",
+  "question_en": "The best angle for a ladder is:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "45 độ",
+      "text_en": "45 degree",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "55 độ",
+      "text_en": "55 degree",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "75 độ",
+      "text_en": "75 degree",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "85 độ",
+      "text_en": "85 degree",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "16",
+  "category": "an toàn trên cao",
+  "question_vn": "Hành vi không an toàn trong bức hình bên dưới là gì?",
+  "question_en": "What unsafe action in below picture?",
+  "image": "nganhangcauhoi/etest/attc-cau16.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Vị trí móc dây an toàn không đúng",
+      "text_en": "The hooking location of full body harness is incorrect",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Công nhân ngồi trên thanh giàn giáo",
+      "text_en": "Worker sit on scaffolding tube",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Thực hiện công việc bên dưới thiết bị cẩu",
+      "text_en": "Perform the work under lifting equipment.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Không có câu nào đúng",
+      "text_en": "There is no correct sentence",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "17",
+  "category": "an toàn trên cao",
+  "question_vn": "Điều kiện và hành vi không an toàn trong bức hình bên dưới là gì?",
+  "question_en": "What are unsafe condition/action in below picture?",
+  "image": "nganhangcauhoi/etest/attc-cau17.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Không móc dây an toàn khi làm việc trên cao",
+      "text_en": "Do not hook the full body harness during working at height",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không cài quai mũ",
+      "text_en": "Do not wear the chin strap",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không có lan can giữa",
+      "text_en": "No mid rail",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "18",
+  "category": "an toàn trên cao",
+  "question_vn": "Hành vi không an toàn trong bức hình bên dưới là gì?",
+  "question_en": "What is unsafe action in below picture?",
+  "image": "nganhangcauhoi/etest/attc-cau18.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Vị trí móc dây an toàn chưa phù hợp",
+      "text_en": "The hooking location of the full body harness is not suitable",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không móc dây an toàn",
+      "text_en": "Not hook the safety harness",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "19",
+  "category": "an toàn trên cao",
+  "question_vn": "Các điều kiện không an toàn nào trong bức hình bên dưới là gì?",
+  "question_en": "What is unsafe conditions/actions in below picture?",
+  "image": "nganhangcauhoi/etest/attc-cau19.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Tập kết bu-lông quá gần tấm chắn chân",
+      "text_en": "Store Bolts/Nuts near toe plate",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không có phương án chống vật rơi phù hợp khi tập kết Bu-lông gần và cao hơn tấm chắn chân",
+      "text_en": "Lack of suitable falling object protection when storing Bolts/Nuts near and higher than toe plate",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Lan can bảo vệ cố định thiếu tấm chắn vật rơi",
+      "text_en": "Fixed guardrail without toe board",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "A và B đúng",
+      "text_en": "A and B are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "20",
+  "category": "an toàn trên cao",
+  "question_vn": "Các điều kiện/hành vi không an toàn nào trong bức hình bên dưới là gì?",
+  "question_en": "What are unsafe conditions/actions in below picture?",
+  "image": "nganhangcauhoi/etest/attc-cau20.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Không có giải pháp kỹ thuật để ngăn ngừa dụng cụ cầm tay rơi xuống phía dưới",
+      "text_en": "There is no engineering control to prevent the hand tool from falling",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không trải bạt che sàn",
+      "text_en": "No covering by canvas",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tập kết dụng cụ quá gần tấm chắn chân",
+      "text_en": "Storing hand tools too close to toe plate",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "21",
+  "category": "an toàn trên cao",
+  "question_vn": "Công việc nào sau đây được quy định là đặc biệt trên cao?",
+  "question_en": "Which jobs is considered special working at height?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Công việc leo dây tiếp cận",
+      "text_en": "Rope access",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Công việc lắp dựng giàn giáo cao trên 6m hoặc giàn giáo treo",
+      "text_en": "The erection work of scaffold over 6m or hanging scaffold",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Công việc sử dụng giỏ nâng người hoặc Gondola",
+      "text_en": "Using a lifting basket or Gondola",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+}
+]

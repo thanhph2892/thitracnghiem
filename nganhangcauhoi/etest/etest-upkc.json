@@ -1,0 +1,1619 @@
+[
+  {
+  "id": "01",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Mục tiêu ưu tiên trong quá trình ứng phó tình huống khẩn cấp BSR:",
+  "question_en": "Priority objectives during emergency response:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "An toàn và cứu người.",
+      "text_en": "Safety and rescue of Humans",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Bảo vệ môi trường, tài sản của công ty.",
+      "text_en": "Protection of environment and properties",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Bảo vệ danh tiếng và thương hiệu của công ty",
+      "text_en": "Protection of the company's reputation and brand.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Ưu tiên theo thứ tự: An toàn và cứu người/ Bảo vệ môi trường, tài sản của công ty/ Bảo vệ danh tiếng và thương hiệu của công ty.",
+      "text_en": "Priority in order: Safety and rescue of Humans/ Protection of environment and properties/ Protection of the company's reputation and brand.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "02",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Những nguyên nhân xảy ra cháy trong công nghiệp dầu khí là gì?",
+  "question_en": "What are the basic causes of a fire incident generally seen in Oil & Gas industries ?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Do thiếu kiến thức, thiếu hiểu biết về an toàn PCCC",
+      "text_en": "Lack of knowledge understanding of fire and safety",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Do thiếu ý thức, chủ quan, vi phạm quy định an toàn PCCC",
+      "text_en": "Lack of awareness, subjectivity, violation of fire safety regulations",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Các nguyên nhân khách quan như thiên tai, sấm sét, ...",
+      "text_en": "Other causes such as natural disaster, thunder & lightning",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "03",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Các loại đám cháy được phân loại theo Tiêu chuẩn Việt Nam TCVN 4878: 2009.",
+  "question_en": "Which Fire classification is correct according to TCVN 4878:2009.",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "A-chất rắn; B-chất lỏng; C-chất khí",
+      "text_en": "A-solid; B-liquid; C-gas",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "A-chất rắn; B-chất lỏng; C-chất khí; D-điện",
+      "text_en": "A-solid; B-liquid; C-gas; D-electric",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "A-chất rắn; B-chất lỏng; C-chất khí; D-điện; F-kim loại",
+      "text_en": "A-solid; B-liquid; C-gas; D-electric; F-metal",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "A-chất rắn; B-chất lỏng; C-chất khí; D-kim loại; F-Đám cháy dầu và mỡ của động/thực vật trong các thiết bị nấu nướng",
+      "text_en": "A-solid; B-liquid; C-gas; D-metal; F-cooking oil and fat",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "04",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Tam giác cháy là sự kết hợp giữa các yếu tố nào?",
+  "question_en": "Which are the three important elements of the fire triangle?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Vật liệu cháy, lửa, xăng dầu",
+      "text_en": "Combustible material, flame, gasoline",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Ô xy, nguồn nhiệt, vật liệu cháy",
+      "text_en": "Heat source, combustible material, oxygen",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Ô xy, xăng dầu, chất xúc tác",
+      "text_en": "Oxygen, gasoline, catalyst",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Đáp án khác",
+      "text_en": "Other",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "05",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Các phương pháp dập tắt đám cháy là gì?",
+  "question_en": "What are the methods of extinguishing the fire?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Làm lạnh, làm ngạt, cách ly",
+      "text_en": "Cooling, smothering, starving",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Làm lạnh, cách ly, ức chế phản ứng cháy",
+      "text_en": "Cooling, starving, interrupting the chemical reaction",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Làm ngạt, cách ly, ức chế phản ứng cháy",
+      "text_en": "Smothering, starving, interrupting the chemical reaction",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Làm lạnh, làm ngạt, cách ly, ức chế phản ứng cháy",
+      "text_en": "Cooling, smothering, starving, interrupting the chemical reaction",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "06",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Cách sử dụng bình chữa cháy xách tay như thế nào?",
+  "question_en": "How to use a portable fire extinguisher?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Rút chốt – hướng vào đám cháy – bóp cần – lia vòi qua lại",
+      "text_en": "Pull – Aim – Squeeze – Sweep",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Hướng vào đám cháy – rút chốt – bóp cần – lia vòi qua lại",
+      "text_en": "Aim – Pull – Squeeze – Sweep",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Rút chốt – bóp cần – hướng vào đám cháy – lia vòi qua lại",
+      "text_en": "Pull – Squeeze – Aim – Sweep",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Rút chốt – bóp cần – lia vòi qua lại – hướng vào đám cháy",
+      "text_en": "Pull – Squeeze – Sweep – Aim",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "07",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Trách nhiệm chính của Đội trưởng/Trưởng ca PCCC khi triển khai ứng phó THKC là gì?",
+  "question_en": "What are the main responsibilities of the Fire and Rescue team leader when responding the emergency case??",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Tham mưu chiến thuật và chiến lược CNCH và chữa cháy",
+      "text_en": "Advise on rescue and firefighting strategies and tactics",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Giám sát và chỉ huy trực tiếp tất cả các hoạt động chữa cháy, CNCH theo quy trình và hướng dẫn hiện hành",
+      "text_en": "Directly supervise and command all fire fighting and rescue activities according to operating procedures and guideline.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Xác định các nguồn lực cần thiết và yêu cầu bổ sung",
+      "text_en": "Determine need and request additional resources",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các câu trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "08",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Nội quy Phòng cháy chữa cháy và cứu nạn cứu hộ quy định?",
+  "question_en": "Regulations on fire prevention and fighting & rescue?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Cấm dừng đỗ các phương tiện cản trở thiết bị PCCC và lối thoát nạn.",
+      "text_en": "To prohibit vehicle which stop or park if obstructing firefighting equipment access and exit.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Cấm để vật tư thiết bị trên lối đi, sàn thao tác, cầu thang bộ, lối tiếp cận thiết bị PCCC",
+      "text_en": "To prohibit of putting materials and equipment on walkways, working floors, stairs, access to fire protection equipment",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Cả A và B đều đúng",
+      "text_en": "A & B are true",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Cả A và B đều sai",
+      "text_en": "A & B are false",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "09",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Các phương pháp ứng phó sự cố tràn dầu trên biển cơ bản bao gồm:",
+  "question_en": "Basic oil spill response methods on sea may include:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Vây chặn bằng phao quây dầu (Booms)",
+      "text_en": "Use Oil Spill Boom for holding back oil",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Sử dụng phao quây để hướng dầu tràn ra khỏi các vùng nhạy cảm",
+      "text_en": "Use Oil Boom to direct oil away from sensitive areas",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thu gom dầu bằng các thiết bị chuyên dụng như: thiết bị gom dầu (skimmer), vật liệu thấm dầu hoặc các phương pháp khác",
+      "text_en": "Collecting oil with specialized equipment such as skimmer, oil absorbing materials or other methods",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Phân tán dầu bằng chất phân tán",
+      "text_en": "Dispersing oil with dispersant",
+      "is_correct": false
+    },
+    {
+      "label": "E",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "10",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "ERP10 Rev1- Các phương pháp thông báo cơ bản tình huống khẩn cấp cho các lực lượng ứng cứu sự cố tại BSR?",
+  "question_en": "What are the methods to be used to notify emergency situations to emergency response team in BSR?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Hộp báo cháy bằng tay",
+      "text_en": "Pressing & activating Manual call point",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Điện thoại nội bộ",
+      "text_en": "Use of extension phone",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Bộ đàm kênh 1",
+      "text_en": "Use of walkie talkie channel No.1",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "11",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Nguyên tắc sơ tán khi xảy ra THKC",
+  "question_en": "What is the Safety evacuation principles in the emergency situations?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Di chuyển theo hướng cắt ngang hoặc ngược chiều hướng gió",
+      "text_en": "Move to cross or upwind side",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Di chuyển xuôi theo chiều gió",
+      "text_en": "Move to downwind side",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Sử dụng thang máy khi sơ tán",
+      "text_en": "To use elevator when evacuate",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều sai",
+      "text_en": "All of the above are incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "12",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Các loại môi chất chữa cháy nào được sử dụng tại BSR:",
+  "question_en": "Which types of Fire extinguishing agent are being used in BSR",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nước, FM-200, Bọt, CO2",
+      "text_en": "Water, FM-200, foam, CO2 gas",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Khí CO2, FM-200, Bột, bọt",
+      "text_en": "CO2 gas, FM-200, powder, foam",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Bột, bọt chữa cháy, nước, N2",
+      "text_en": "Powder, foam,, water, N2",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Nước, FM-200, CO2, Bột, bọt chữa cháy",
+      "text_en": "Water, FM-200, CO2 gas, Dry powder, foam.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "13",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Bước đầu tiên khi thực hiện xử lý sự cố rò rỉ, tràn đổ hóa chất là gì?",
+  "question_en": "What is the first step to be followed in emergency response of chemical leakage & spill",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Lau dọn khu vực bị tràn đổ hóa chất;",
+      "text_en": "To clean chemical spill area;",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đổ vật liệu hấp thụ lên bề mặt khu vực bị tràn đổ hóa chất;",
+      "text_en": "To add absorbent material to spill area;",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Đóng nguồn gây ra rò rỉ, tràn đổ",
+      "text_en": "To close & isolate the source of the chemical",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Dùng xẻng thu gom hóa chất cho vào thùng chứa chất thải.",
+      "text_en": "To collect chemical to bin.",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "14",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Khi có tình huống khẩn cấp xảy ra tại khu vực công nghệ, người thực hiện ứng phó ban đầu?",
+  "question_en": "Who can be the first responder in case of emergency in process areas",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đội PCCC chuyên ngành của Công ty",
+      "text_en": "BSR Fire brigade",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Lực lượng Cảnh sát PCCC",
+      "text_en": "Quang Ngai Fire Department",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Lực lượng vận hành tại khu vực; nhân viên bảo dưỡng, nhà thầu đã được đào tạo về sử dụng trang thiết bị chữa cháy",
+      "text_en": "Operator; Maintenance staff, Contractor staff those who are trained to use firefighting equipment’s",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Nhân viên bảo vệ",
+      "text_en": "Security staff",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "15",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Khi thông báo, báo cáo các THKC người báo cáo phải cung cấp các thông tin",
+  "question_en": "Which are the details information need to be given clearly while reporting emergency event",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Tên của người báo cáo, loại sự cố.",
+      "text_en": "Full Name of The Reporter &, type of incident Observed",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Vị trí xảy ra sự cố, loại chất đặc trưng",
+      "text_en": "Exact Location of the incident and material involved",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Các hành động thực hiện nếu có",
+      "text_en": "Action already taken, if applicable.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên.",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "16",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Theo quy định vị trí nào là Trưởng ban/Phó Trưởng ban chỉ huy THKC trên biển?",
+  "question_en": "According to regulations, who is the Commander/Deputy Commander of the Emergency Situation at sea??",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Trưởng ban An toàn môi trường",
+      "text_en": "HSE manager",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Trưởng ban Vận hành sản xuất",
+      "text_en": "Production manager.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Trưởng ban Quản lý cảng biển",
+      "text_en": "Marine manager",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Chánh Văn phòng",
+      "text_en": "Admin manager",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "17",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Các âm thanh báo động tại Nhà máy",
+  "question_en": "Which are the Alarms in process areas of BSR",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Âm thanh thông báo sơ tán",
+      "text_en": "Evacuation alarm (Continue sound --------------------)",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Âm thanh thông báo tình huống khẩn cấp",
+      "text_en": "Emergency alarm (Intermediate sound -- -- -- -- -- -- --)",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Âm thanh báo hết sự cố",
+      "text_en": "All clear alarm",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các câu trên đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "18",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Có thể quay trở lại vị trí làm việc sau khi đám cháy được dập tắt mà không cần sự cho phép bởi người có thẩm quyền.",
+  "question_en": "It is possible to return to the working position after the fire is extinguished without authorized persons.",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đúng/True",
+      "text_en": "True",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Sai/False",
+      "text_en": "False",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "19",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Ai sẽ thông báo tình huống khẩn cấp mức 2,3 đến Tập đoàn dầu khí?",
+  "question_en": "Who shall notify the emergency which category 2.3 to Petrovietnam Management?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Chỉ huy hiện trường",
+      "text_en": "On Scene Commander",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Chánh văn phòng",
+      "text_en": "Admin Manager.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Trưởng Ban pháp chế",
+      "text_en": "Legal and risk Manager.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Trưởng Ban chỉ đạo tình huống khẩn cấp BSR.",
+      "text_en": "Incident Commander",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "20",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Trong điều kiện bình thường áp lực nước chữa cháy được duy trì trong hệ thống tại BSR:",
+  "question_en": "What the normal pressure maintain in BSR main ring of Firefighting water system?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "3 bar",
+      "text_en": "3 bar",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "5 bar",
+      "text_en": "5 bar",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "7 bar",
+      "text_en": "7 bar",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "10 bar",
+      "text_en": "10 bar",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "21",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Loại nước chữa cháy được sử dụng tại khu vực P3&Jetty.",
+  "question_en": "What type of water is being used for firefighting at P3&Jetty areas?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nước ngọt",
+      "text_en": "Fresh water",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Nước ngọt và nước biển",
+      "text_en": "Fresh water and sea water",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Nước biển",
+      "text_en": "Sea water",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các đáp án trên",
+      "text_en": "All of above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "22",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Hệ thống FM-200 được lắp đặt tại vị trí nào ở BSR.",
+  "question_en": "Which are the areas having installation of FM-200 systems in BSR?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Các trạm điện, phòng điều khiển, các trạm: PIBs, MRRs",
+      "text_en": "Sub-stations, Control rooms, PIBs & MRRs",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Chỉ tại phòng điều khiển",
+      "text_en": "Only in Control rooms",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Chỉ tại các trạm điện",
+      "text_en": "Only in Sub-stations",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các tòa nhà",
+      "text_en": "All the buildings",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "23",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Vị trí đặt nút kích hoạt hệ thống FM-200 bằng tay từ xa tại các tòa nhà.",
+  "question_en": "What is the location of the FM-200 manual activation button in buildings?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Phía bên trong khu vực được bảo vệ",
+      "text_en": "Inside of the building.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Phía bên ngoài ngay cạnh cửa ra vào khu vực được bảo vệ.",
+      "text_en": "Inside the red Color box located outside of the door",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Từ phòng điều khiển trung tâm.",
+      "text_en": "From CCC",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All of these above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "24",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Hệ thống FM-200 được kích hoạt theo cách:",
+  "question_en": "FM200 system can be activated by:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Tự động kích hoạt.",
+      "text_en": "Automatic activation",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Vận hành bằng tay tại nút kích hoạt từ xa.",
+      "text_en": "By pressing to \"button activate by hand\"",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Vận hành bằng tay tại vị trí chai khí.",
+      "text_en": "To activate by hand at FM200 cylinders",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng.",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "25",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Đèn cảnh báo rò rỉ khí độc hiển thị tại công trường tại các khu vực trong Nhà máy có màu gì?",
+  "question_en": "What is the colour emergency light when toxic gas is released in Process area?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Xanh",
+      "text_en": "Green",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Đỏ",
+      "text_en": "Red",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Cam",
+      "text_en": "Orange",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Vàng",
+      "text_en": "Yellow",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "26",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Khi xảy ra hỏa hoạn trong các tòa nhà thang máy được sử dụng để:",
+  "question_en": "When there is a fire in the buildings, the elevator is used to?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thoát hiểm nhanh nhất",
+      "text_en": "Fastes escape",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Cứu người, cứu tài sản",
+      "text_en": "Save human and property",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tuyệt đối không dùng thang máy để thoát hiểm",
+      "text_en": "Never use the elevator to escape",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Thoát hiểm trong giai đoạn mới phát hiện ra cháy",
+      "text_en": "Escape in the new stage when fire is discovered.",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "27",
+  "question_vn": "Đèn cảnh báo cháy hiển thị tại công trường tại Nhà máy có màu gì?",
+  "question_en": "What is the colour of light in the event of Fire alarm in process area?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Xanh",
+      "text_en": "Green",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đỏ",
+      "text_en": "Red",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Cam",
+      "text_en": "Orange",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Vàng",
+      "text_en": "Yellow",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "28",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "ERP28 Rev1- Hệ thống bọt cố định được lắp đặt ở khu vực nào của BSR?",
+  "question_en": "Which are the process areas has installed Foam systems?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Khu vực Phụ trợ",
+      "text_en": "Utility areas.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Khu vực Công nghệ",
+      "text_en": "All Process areas.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Khu vực Bể chứa và cảng xuất sản phẩm",
+      "text_en": "Tankage and Jetty areas (Offsite)",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Khu vực nhà máy nhựa",
+      "text_en": "PP plant",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "29",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Người sử dụng điện tại các tòa nhà phải cắt điện trong các trường hợp nào sau đây?",
+  "question_en": "When do you switch off power supply at office building/room ?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Ngắt các thiết bị điện tại văn phòng khi ngừng việc ra về",
+      "text_en": "Turn off electrical tools/ equipments before leaving",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Khi có sự cố về điện.",
+      "text_en": "Observed smoke from the electrical fittings & panel",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Khi vệ sinh hoặc bảo dưỡng các thiết bị điện",
+      "text_en": "To clean or conduct maintenance of electrical equipment",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "30",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Khi hóa chất văng, bắn vào mắt cần phải làm gì?",
+  "question_en": "What is the immediate action needs to be ensured when chemical splash into eyes.",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nhanh chóng dùng nước sạch để rửa mắt ít nhất 15 phút;",
+      "text_en": "To use fresh water to wash your face & eye at least 15 minutes continuously;",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Giữ mí mắt mở trong quá trình rửa;",
+      "text_en": "To keep eyelid fully open during washing.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Yêu cầu sự trợ giúp của nhân viên y tế;",
+      "text_en": "Immediately notify toto medical centre.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng.",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "31",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Phương pháp chữa cháy phù hợp nhất cho đám cháy LPG.",
+  "question_en": "Fire extinguishing method for LPG fire.",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Làm ngạt",
+      "text_en": "Smothering",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Làm lạnh",
+      "text_en": "Cooling",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Cách ly",
+      "text_en": "Isolating",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Ức chế phản ứng cháy",
+      "text_en": "Interrupting the chemical reaction",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "32",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Nước không được phép sử dụng khi có cháy tại khu vực nào BSR.",
+  "question_en": "In which area is not allowed to use water when there is a fire?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đám cháy xúc tác AT-Cat tại phân xưởng PP và kho chứa AT-Cat.",
+      "text_en": "AT-Cat fire at PP, AT-Cat storage room.",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Đám cháy xảy ra tại các bể cầu.",
+      "text_en": "Fire occur at sphere tanks.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Đám cháy xảy ra tại khu vực cảng xuất sản phẩm.",
+      "text_en": "Fire occur at Jetty.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Đám cháy xảy ra tại khu vực tòa nhà hành chính.",
+      "text_en": "Fire occur at admin buildings.",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "33",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Ai phải nắm rõ vị trí các điểm tập trung tại nơi làm việc của BSR:",
+  "question_en": "Who must know Muster point at BSR’s working areas?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Mọi nhân viên BSR",
+      "text_en": "All BSR staffs",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Nhân viên nhà thầu",
+      "text_en": "All contractor staffs",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Khách tham quan",
+      "text_en": "Visitor",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các đáp án trên đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "34",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Sử dụng bọt AFFF 3% để chữa cháy, tỉ lệ phối trộn của các thành phần nước/bọt trong hỗn hợp?",
+  "question_en": "What is the mixing ration of Foam AFFF 3%?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nước 50%, Bọt nguyên chất 50%",
+      "text_en": "Water 50%, foam concentrate 50%",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Nước 30%, Bọt nguyên chất 70%",
+      "text_en": "Water 30%, foam concentrate 70%",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Nước 3%, Bọt nguyên chất 97%",
+      "text_en": "Water 3%, foam concentrate 97%",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Nước 97%, Bọt nguyên chất 3%",
+      "text_en": "Water 97%, foam concentrate 3%",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "35",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Hệ thống lăng giá trên cao được điều khiển từ xa từ bảng điều khiển tại khu vực được lắp đặt tại đâu ở BSR?",
+  "question_en": "Where is tower- elevated Foam monitor installed at BSR?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Khu vực công nghệ",
+      "text_en": "Process areas",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Khu vực phụ trợ",
+      "text_en": "Utility areas.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Khu vực bể chứa",
+      "text_en": "Offsite area.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Khu vực cảng xuất sản phẩm",
+      "text_en": "Jetty area.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "36",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Các mối nguy/rủi ro chính gây ra sự cố cháy liên quan đến thiết bị công nghệ là gì?",
+  "question_en": "What are the main hazard/risk caused fire related process equipments?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thiết bị công nghệ hư hỏng, vật liệu bị lão hóa, ăn mòn gây rò rỉ khí, chất cháy nổ",
+      "text_en": "Damage process equipment due to corrosion cause leaked and fire.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không tuân thủ đầy đủ quy trình hướng dẫn vận hành/dừng/khởi động thiết bị (như kiểm tra hệ van đóng các điểm xả,...)",
+      "text_en": "Do not fully comply operation/SU/SD procedure and instruction such as closed equipment vent/drain, ....",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Sét đánh gây cháy nổ",
+      "text_en": "Fire and explosion by lightning.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "A và B đúng",
+      "text_en": "A and B are correct.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "37",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Khi áp suất chai khí bộ cung cấp khí thở (SCBA) trang bị tại BSR giảm đến bao nhiêu thì còi báo động?",
+  "question_en": "What is SCBA pressure limit which Whistle alarm of SCBA is activated.",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "40 bar",
+      "text_en": "40 bar",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "50 bar",
+      "text_en": "50 bar",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "70 bar",
+      "text_en": "70 bar",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "80 bar",
+      "text_en": "80 bar",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "38",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Thời gian thoát hiểm cho bộ thoát hiểm khẩn cấp (ELSA) (chai 2 lít, 200bar) tối đa bao nhiêu phút?",
+  "question_en": "What is the maximum escape time when using ELSA (Emergency Life Support Apparatus, cylinder 2 liters, 200bar)?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "5 phút/ minutes",
+      "text_en": "5 phút/ minutes",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "10 phút/ minutes",
+      "text_en": "10 phút/ minutes",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "15 phút/ minutes",
+      "text_en": "15 phút/ minutes",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "20 phút/ minutes",
+      "text_en": "20 phút/ minutes",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "39",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Trách nhiệm quản lý hệ thống thiết bị PCCC cố định (FM200, hệ thống DV, foam, ...) tại các phân xưởng BSR.",
+  "question_en": "RACI fixed firefighting equipment/system (FM200, DV, Foam, ...) at area process BSR.",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Ban ATMT phụ trách Quản lý danh mục tài sản",
+      "text_en": "Responsibilities control the assets category by HSE",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Ban VHSX phụ trách quản lý vận hành",
+      "text_en": "Responsibilities control the operation by PRD",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Ban KTTB, BĐSC phụ trách vấn đề kiểm tra, bảo dưỡng, sửa chữa",
+      "text_en": "Responsibilities control the inspection, maintenance by INS, MNT",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các đáp án trên đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "40",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Khi có cháy xảy ra, bạn có thể gặp những mối nguy nào?",
+  "question_en": "When the fire occur, what hazards can you face?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nhiệt độ cao",
+      "text_en": "High heat",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Sập đổ công trình",
+      "text_en": "Collapsing of structure",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Khói khí độc",
+      "text_en": "Toxic gas & burning smoke",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Cả 3 yếu tố trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "41",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Hình ảnh bên dưới thể hiện thiết bị gì?",
+  "question_en": "What device does the image below show?",
+  "image": "nganhangcauhoi/etest/upkc-cau41.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Điểm tập trung",
+      "text_en": "Muster point",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Nút ấn báo cháy",
+      "text_en": "Manual call point",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Công tắc mở/ tắt đèn chiếu sáng",
+      "text_en": "Light switch",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Điểm chấm công vân tay",
+      "text_en": "Fingerprint time attendance",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "42",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Bình chữa cháy xách tay bột khô (A, B, C) trang bị tại BSR (như hình) phù hợp chữa cháy cho đám cháy:",
+  "question_en": "Powder fire extinguisher (A, B, C) installed at BSR (as shown in this picture) can be used to extinguish for fire involved in",
+  "image": "nganhangcauhoi/etest/upkc-cau42.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đám cháy rắn, lỏng, khí",
+      "text_en": "Solid/liquid/gas fire.",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Chỉ đám cháy Rắn",
+      "text_en": "Solid fire only",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Cháy kim loại",
+      "text_en": "Metal fire",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các loại",
+      "text_en": "All type of fire",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "43",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Bình chữa cháy xách tay CO2 trang bị tại BSR (như hình) phù hợp chữa cháy cho đám cháy:",
+  "question_en": "CO2 fire extinguisher installed at BSR (as shown in this picture), can be used to extinguish for fire involved in",
+  "image": "nganhangcauhoi/etest/upkc-cau43.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đám cháy rắn, lỏng, khí.",
+      "text_en": "Solid/Liquid/Gas fire.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đám cháy rắn (bao gồm các đám cháy liên quan đến điện), lỏng, khí",
+      "text_en": "Solid (including electrical fires)/Liquid/Gas fire.",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Đám cháy lỏng, khí",
+      "text_en": "Liquid, Gas was fire",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Đám cháy kim loại",
+      "text_en": "Metal fire",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "44",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Hãy chỉ ra điều kiện không an toàn trong hình ảnh bên dưới",
+  "question_en": "Please indicate unsafe condition in image below:",
+  "image": "nganhangcauhoi/etest/upkc-cau44.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Máy phát điện bị rò nhiên liệu",
+      "text_en": "Generator was leaking fuel.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Rủi ro vấp ngã do nhiều ống dẫn không được sắp xếp gọn gàng",
+      "text_en": "Risk of tripping due to many hoses not being neatly arranged.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Hệ thống PCCC bị che chắn, cản trở bởi các máy phát điện/vật tư và khó tiếp cận trong THKC",
+      "text_en": "Firefighting equipment obstructed by generator & difficult to access in the event of emergency",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "B và C đúng",
+      "text_en": "B and C are correct.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "45",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Hình đồ bên dưới có ý nghĩa gì trong quá trình sơ tán, thoát hiểm?",
+  "question_en": "What does the icon below mean in the evacuation process?",
+  "image": "nganhangcauhoi/etest/upkc-cau45.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thoát hiểm có trật tự theo sơ đồ, chỉ dẫn",
+      "text_en": "Escape in an orderly manner according to the diagrams and instructions",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Di chuyển cắt ngang, ngược hướng gió",
+      "text_en": "Move crosswise, against the wind direction",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Hỗ trợ người bị thương trong quá trình sơ tán, thoát hiểm",
+      "text_en": "Assist injured people during evacuation and escape",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều sai",
+      "text_en": "All incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "46",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Bình chữa cháy xách tay phục vụ công tác hàn cắt tại các khu vực nhà máy do đội làm việc (BSR) thực hiện lấy từ đâu",
+  "question_en": "Where do BSR working team collect Fire extinguisher standby for Hot work?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Bình chữa cháy bố trí tại các vị trí của phân xưởng theo thiết kế.",
+      "text_en": "At designed location of unit.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Bình dự phòng từ Ban ATMT hoặc bình được quy định sử dụng cho mục đích BDSC từ VHSX.",
+      "text_en": "Spare from HSE or regulated to be used for maintenance from PRD.",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Mượn từ Ban Quản lý vật tư.",
+      "text_en": "Borrowed from Material division.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Yêu cầu RSM cấp.",
+      "text_en": "Request RSM to supply.",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "47",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Hình đồ bên dưới có ý nghĩa gì trong hướng dẫn sơ tán, thoát hiểm?",
+  "question_en": "What the icon below means in evacuation guideline?",
+  "image": "nganhangcauhoi/etest/upkc-cau47.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Vị trí điểm tập trung sau khi sơ tán",
+      "text_en": "Muster point location after evacuation.",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Hướng di chuyển đến phòng họp, hội nghị",
+      "text_en": "Direction to move to the meeting room, conference.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Hướng di chuyển đến vị trí cổng chính của Nhà máy",
+      "text_en": "Direction to move to the main gate of Refinery.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều sai",
+      "text_en": "All incorrect.",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "48",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Bình chữa cháy xách tay bọt trang bị tại BSR (như hình) phù hợp chữa cháy cho đám cháy:",
+  "question_en": "Foam fire extinguisher installed at BSR (As shown in this picture), can be used to extinguish for fire involved in",
+  "image": "nganhangcauhoi/etest/upkc-cau48.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đám cháy rắn, lỏng, khí",
+      "text_en": "Solid/Liquid/Gas fire.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đám cháy lỏng",
+      "text_en": "Liquid fire",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Đám cháy khí",
+      "text_en": "Gas fire",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Đám cháy kim loại",
+      "text_en": "Metal fire",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "49",
+  "category": "ứng phó khẩn cấp",
+  "question_vn": "Các rủi ro/ điều kiện không an toàn chính thường xảy ra do gió lớn tại BSR là gì?",
+  "question_en": "What are the main risks/unsafe conditions commonly caused by high wind speed at BSR?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Vật thể bay như tôn, máng cáp, ...",
+      "text_en": "Fly object as roof cover, cable tray cover, ....",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Bảo ôn bị bung.",
+      "text_en": "Insulation was blown.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Cây xanh ngã đổ.",
+      "text_en": "Tree was fallen.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng.",
+      "text_en": "All of these above.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+}
+]

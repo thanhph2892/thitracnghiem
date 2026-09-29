@@ -1,0 +1,1044 @@
+[
+  {
+  "id": "01",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Mục đích của việc kiểm tra và sử dụng an toàn thiết bị, dụng cụ cầm tay di động?",
+  "question_en": "The purpose of safety inspection and using portable/hand tools/equipments?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đảm bảo đáp ứng các tiêu chuẩn kỹ thuật an toàn trước khi sử dụng",
+      "text_en": "Ensure to meet safety specifications before using",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Để đạt được mục tiêu \"Không có tai nạn hoặc sự cố\" và tuân thủ yêu cầu pháp luật",
+      "text_en": "Guide to the safety using of hand tools/equipments at BSR to achieve the goal of \"No accidents or incidents\" and comply with legal requirements",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "02",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Mục đích của an toàn chai khí nén di động?",
+  "question_en": "The purpose of mobile compressed gas cylinder safety?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Quy định các bước và yêu cầu cần thực hiện để đảm bảo an toàn chai khí nén tại BSR",
+      "text_en": "Establish steps requirements to ensure safety for compressed gas cylinder at BSR.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Quy định các bước và yêu cầu cần thực hiện để đảm bảo tuân thủ yêu cầu pháp luật liên quan trong quản lý và sử dụng các chai khí nén di động tại BSR",
+      "text_en": "Establish steps requirements to ensure comply related legal requirements in the management and use of mobile compressed gas cylinders at BSR",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "03",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Đối tượng áp dụng của Hướng dẫn kiểm tra và sử dụng an toàn thiết bị, dụng cụ cầm tay di động?",
+  "question_en": "What are apply objects of Guidelines for inspection and safe use of equipment and hand tools?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Áp dụng cho công tác kiểm tra thiết bị dụng cụ cầm tay di động được quy định tại tài liệu tiêu chuẩn kỹ thuật an toàn TBDC BSR-HSE-SPE-005 và CCDC khác",
+      "text_en": "Applies to the safety inspection of handtools/equipments specified in the safety technical standard document BSR-HSE-SPE-005",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Áp dụng cho công tác sử dụng an toàn thiết bị dụng cụ cầm tay di động được quy định tại tài liệu tiêu chuẩn kỹ thuật an toàn TBDC BSR-HSE-SPE-005",
+      "text_en": "Applies to the safety using of hand tools/equipments specified in the safety technical standard document BSR-HSE-SPE-005.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "04",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Đối tượng áp dụng của Hướng dẫn an toàn chai khí nén di động?",
+  "question_en": "What are apply objects of mobile compressed gas cylinder safety guideline?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Áp dụng đối với các chai chứa khí nén di động tại BSR thuộc danh mục tại Thông tư 36/2019/TT-BLĐTBXH ban hành ngày 30/12/2019",
+      "text_en": "This guideline is applied to mobile compressed gas cylinders at BSR, specified in the Circular 36/2019/TT-BLĐTBXH issued on December 30th 2019",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Các nhóm chai khí nén di động chính tại BSR gồm: Chai khí Oxy, Argon, Nito, Chai khí hóa lỏng LPG, Chai khí FM-200, Các chai khí khác (khí chuẩn,…)",
+      "text_en": "The main group of mobile compressed gas cylinders at BSR include: Oxygen, Argon, Nitrogen, cylinders, LPG cylinders, FM-200 cylinders, Other type of cylinders (calibration gas,...)",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "05",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Yêu cầu đối với người vận hành thiết bị theo Hướng dẫn kiểm tra và sử dụng an toàn TBDC cầm tay, di động?",
+  "question_en": "What are requirements for equipment operator as Guidelines for inspection and safe use of equipment and hand tools?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Được huấn luyện an toàn lao động theo Nghị định 44/2016/NĐ-CP và chương trình huấn luyện ATSKMT của BSR",
+      "text_en": "Trained according to Decree No. 44/2016/ND-CP and BSR's Safety Training Program.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Người vận hành các thiết bị có yêu cầu nghiêm ngặt về an toàn lao động phải được đào tạo vận hành máy/thiết bị và được người sử dụng lao động chỉ định/ phân công vận hành máy (VD: máy phát điện, máy nén khí, thiết bị nâng hạ, xe nâng, máy phun nước làm sạch cao áp,...)",
+      "text_en": "Operators of equipment with strict requirements on occupational safety must be trained in operating the machine/equipment and assigned by the employer to operate the machine (e.g. generator, air compressors, lifting equipment, forklift, high pressure cleaning water sprayers, ...)",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "06",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Thiết bị, máy móc, dụng cụ cầm tay theo định nghĩa trong Hướng dẫn kiểm tra và sử dụng an toàn thiết bị và dụng cụ cầm tay, di động là gì?",
+  "question_en": "What are equipments, machines and hand tools as define in guideline for safety inspection and using portable/hand tools/equipments?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thiết bị, máy móc: Là tổ hợp của nhiều chi tiết tạo thành, có nguyên lý hoạt động dựa trên các nguồn năng lượng như điện/pin/khí nén/thủy lực/nhiên liệu",
+      "text_en": "Equipments, machine: It is a combination of many components, with operating principles based on energy sources such as electricity/battery/pneumatic/hydraulic/fuel.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Dụng cụ cầm tay: Là những vật dụng được sử dụng bằng tay để hỗ trợ con người nhằm tăng năng suất, hiệu quả công việc. Dụng cụ cầm tay có thể hoạt động dựa trên các nguồn năng lượng như điện/pin/khí nén/thủy lực.",
+      "text_en": "Hand tools: Are items used by hand to assist people in order to increase productivity and work efficiency. Hand tools can operate on power sources such as electric/battery/pneumatic/hydraulic.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "07",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Theo Hướng dẫn kiểm tra và sử dụng an toàn thiết bị và dụng cụ cầm tay, di động trách nhiệm của Đơn vị chủ quản TBDC (BSR/Nhà thầu) là gì?",
+  "question_en": "What are the responsibilities of Equipment Owner (BSR/Contractor) in guideline for safety inspection and using portable/hand tools/equipments?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Phổ biến/ đào tạo Hướng dẫn này đến người lao động và kiểm tra giám sát đảm bảo tuân thủ.",
+      "text_en": "Dissemination/training of this Guide to employees and monitoring to ensure compliance",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Phối hợp kiểm tra TBDC định kỳ và tổ chức kiểm tra nội bộ, kiểm tra trước khi sử dụng.",
+      "text_en": "Assign qualified personnel to carry out periodically inspection and organize internal inspection and before using tools/equipments",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "08",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Quy định sử dụng an toàn đối Máy phát điện, máy nén khí di động?",
+  "question_en": "Safety regulation for using of mobile generator, compressor?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thiết bị phải được nối đất khi sử dụng, bao gồm phương tiện phục vụ công tác nạp nhiên liệu.",
+      "text_en": "Equipment must be grounded when in use, including vehicles serving fill fuel.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Phải trang bị thiết bị ngăn ngừa tia lửa theo tiêu chuẩn quy định/",
+      "text_en": "Standard spark arrestors must be equipped",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Phải xây dựng Quy trình/Hướng dẫn vận hành an toàn máy/",
+      "text_en": "Have the Procedure/Instruction on safe operation of equipment",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "09",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Nguyên tắc an toàn cơ bản đối với TBDC cầm tay di, động tại BSR?",
+  "question_en": "What are the responsibilities of Equipments and safety inspection team in guideline for safety inspection and using portable/hand tools/equipments?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đảm bảo các yêu cầu pháp luật Việt Nam về kiểm định an toàn đối với các TBDC thuộc danh mục TBDC có yêu cầu nghiêm ngặt về an toàn và các quy chuẩn kỹ thuật quốc gia (QCVN) hiện hành.",
+      "text_en": "Ensure the Vietnamese legal requirements on safety inspection for tools/equipment subject to strict occupational safety and health requirements and current national technical regulations (QCVN) for tools/equipment",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Có hướng dẫn sử dụng/biện pháp thi công được phê duyệt trước khi sử dụng và tuân thủ hướng dẫn sử dụng của nhà xuất/",
+      "text_en": "Have approved Instruction/Work method before using and compliance with manufacturer's instructions",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "TBDC được bảo quản, lưu trữ tại công trường theo vị trí quy định tại BSR-HSE-WI-041 hoặc được phê duyệt tạm theo GPLV",
+      "text_en": "Tools/Equipments are stored at the site according to the BSR-HSE-WI-041 or temporarily approved by PTW.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên/",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "10",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Trong Hướng dẫn an toàn chai khí nén di động, khi vận chuyển để nhận chai khí nén vào kho phải đảm bảo các yêu cầu an toàn gì?",
+  "question_en": "In mobile compressed gas cylinder safety guideline, what is safety requirement must be ensured when receive compressed gas cylinder in warehouse?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Ban QLVT kiểm tra tình trạng chai khí trước khi nhập kho",
+      "text_en": "Materials Management Division check the condition of compressed gas cylinder before receiving in warehouse",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Chai khí nén được sắp xếp và buộc cố định bên trong phạm vi thùng xe, nắp thùng được đóng kín để đảm bảo chai khí không bị rơi trong quá trình di chuyển",
+      "text_en": "Compressed gas cylinders are secured and arranged inside the trunk of vehicle, the lid is closed to ensure the cylinder do not fall during transportation",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Đặt chai khí ở vị trí thẳng đứng và buộc cố định trong giỏ nâng, Sử dụng xe nâng để nâng giỏ chai khí từ xe vào kho Vật tư để lưu chứa",
+      "text_en": "Keep the cylinders in an upright position and secure it in a lift basket, Use forklift to lift the basket from vehicle to warehouse",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "11",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Trong Hướng dẫn an toàn chai khí nén di động, khi bảo quản, lưu chứa chai khí nén tại kho phải đảm bảo các yêu cầu an toàn gì?",
+  "question_en": "In mobile compressed gas cylinder safety guideline, what is safety requirement must be ensured when store compressed gas cylinder in warehouse?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Tất cả các chai khí phải được buộc chắc chắn để ngăn ngừa ngã đổ và đảm bảo ở vị trí thẳng đứng bằng giá đỡ, kẹp, xích hoặc cáp tại điểm xấp xỉ 2/3 chiều cao của chai khí",
+      "text_en": "All compressed gas cylinders must be secured to prevent falling and secured at upright position by mean of support, clamps, chain or cable at approximately two third of the height of the gas cylinder",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Chai khí oxy hóa cách khí nhiên liệu và vật liệu dễ cháy ít nhất 6 mét hoặc được ngăn cách bởi tường chịu lửa cao ít nhất 1,5m",
+      "text_en": "Arranging oxidizing gases cylinders at least 6 meters away from fuel gas and combustible materials or separated by fire-proof wall with the height at least 1.5 meters",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thực hiện kiểm tra định kỳ hàng tháng",
+      "text_en": "Monthly check by checklist",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "12",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Trong Hướng dẫn an toàn chai khí nén di động, khi bảo quản, sử dụng chai khí nén tại công trường phải đảm bảo các yêu cầu an toàn gì?",
+  "question_en": "In mobile compressed gas cylinder safety guideline, what is safety requirement must be ensured when storing and using compressed gas cylinder at site?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Các chai khí nén lắp đặt tại công trường nên có mái che mưa, nắng để hạn chế nguy cơ ăn mòn vỏ chai do thời tiết, không khí",
+      "text_en": "Compressed gas cylinders installed at process area should be covered with the roof to prevent the rain water and direct sunlight to ensure minimize the corrosion hazard at the bottom of cylinders",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Các chai khí nén không có vòng chân đế tại công trường phải được đặt trên tấm đế để tránh tiếp xúc trực tiếp với nước và nền bê tông gây ăn mòn đáy bình",
+      "text_en": "The compressed gas cylinders without ring base at site must be placed on the base frame to avoid directly contact with concrete floor & accumulation of water which may cause corrosion at the bottom of the cylinders",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Giữ chai khí nén tránh xa các khu vực có phát sinh nguồn nhiệt, tia lửa, ngọn lửa trần và các nguồn điện",
+      "text_en": "Keep compressed gas cylinders away from areas where heat, spark, nakeds flames and electrical sources are generated",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "13",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Trong Hướng dẫn kiểm tra và sử dụng an toàn thiết bị và dụng cụ cầm tay, di động, dây dẫn của thiết bị điện cầm tay phải:",
+  "question_en": "In guideline for safety inspection and using portable/hand tools/equipments, electric cable of electrical hand tools must be:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Dây dẫn phải được bảo vệ để tránh các hư hỏng gây nguy hiểm khi sử dụng",
+      "text_en": "Electric cable must be protected to avoid dangerous damage when used",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Giữ dây dẫn của TBDC tránh xa các nguồn nhiệt, nước, dầu, không để vật nặng đè lên và có biện pháp bảo vệ khỏi các vật sắc nhọn khác. Tại các vị trí góc cạnh khi dây dẫn đi qua cần có các biện pháp giảm ma sát phù hợp để bảo vệ dây dẫn",
+      "text_en": "Keep the power cable away from sources of heat, water, oil, do not place heavy objects on it, and take measures to protect it from other sharp objects. At angled positions when the conductor is passing through, suitable friction reduction measures should be taken to protect the conductor",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không được giật mạnh để ngắt kết nối dây dẫn với thiết bị, hoặc sử dụng dây dẫn để nâng hạ hay di chuyển thiết bị điện cầm tay",
+      "text_en": "Do not jerk to disconnect the lead from the device, or use electric cable to lift or move electrical hand tools",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "14",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Phương tiện bảo vệ cá nhân (PPE) nào sau đây dành cho người sử dụng máy mài/cắt?",
+  "question_en": "Which of Personnel protective Equipment (PPE) for Grinder/ Cutting machine?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Sử dụng mặt nạ che kín mặt để bảo vệ mặt khỏi các mảnh vỡ văng bắn",
+      "text_en": "Use full face mask to protect the face from splinters.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Mang khẩu trang chống bụi, nút bịt tai khi làm việc, sử dụng găng tay vải hoặc găng tay chống cắt (nếu có)",
+      "text_en": "Use dust mask, ear plug, cloth gloves or cut-resistant gloves (if have)",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Quần áo chống hóa chất",
+      "text_en": "Chemical resistant clothes",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Câu A và B đúng",
+      "text_en": "A and B are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "15",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Mối nguy và rủi ro khi sử dụng thiết bị điện cầm tay là gì?",
+  "question_en": "What are the risk and hazards involved while using the electrical hand tools?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Giật điện, chập điện gây cháy nổ",
+      "text_en": "Electric shock, short circuit can cause fire & burn injury",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Các tai nạn xảy ra với người sử dụng do thiếu hay hư hỏng các cơ cấu bảo vệ các bộ phận quay của thiết bị",
+      "text_en": "Accidents occur due to the lack of or damage to the rotating device protection devices (Wheel guard)",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Các tổn thương xảy ra do các vật thể bay văng bắn vào người như: vỡ đá mài/cắt, các vật thể bay ra từ vị trí mài/cắt",
+      "text_en": "Injury occurs by flying objects flying such as: grinding wheel broken, objects flying out from the grinding / cutting position",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "16",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Khi người sử dụng thiết bị điện cầm tay bị điện giật, việc làm trước tiên là",
+  "question_en": "If the user gets electric shocked, what is the first action?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Cách ly nguồn điện khỏi người bị nạn",
+      "text_en": "isolate the power source from the victim immediately",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Sơ cứu người bị nạn",
+      "text_en": "Provide First aid for victims is Safe to do so",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Rời khỏi vị trí",
+      "text_en": "Leave from victim position",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Báo cáo với cán bộ an toàn phụ trách",
+      "text_en": "Inform to safety supervisor",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "17",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Không được phép sử dụng máy mài cầm tay khi",
+  "question_en": "The use of grinding machines is not permitted when?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Máy mài không có tay cầm, không có bao che",
+      "text_en": "Grinding machine has no handle, no Safety guard",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đã được kiểm tra và dán tem",
+      "text_en": "Grinding machine is not checked and not stamped",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Đá mài nứt, mẻ",
+      "text_en": "Grinding wheel is damage & having cracks",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Câu A và C đúng",
+      "text_en": "A and C are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "18",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Trường hợp nào sau đây phải sử dụng phương tiện bảo vệ mắt",
+  "question_en": "Which of the following activity require worker must use eye protection?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thợ tiện",
+      "text_en": "Cutting",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Thợ hàn",
+      "text_en": "Welder",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thợ mài, cắt",
+      "text_en": "Grinder",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Cả ba trường hợp trên đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "19",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Khi người sử dụng máy mài/cắt xảy ra tai nạn lao động bạn phải làm gì?",
+  "question_en": "What should you do when worker involved in grinding / cutting works get accident?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Tổ chức cấp cứu người bị nạn",
+      "text_en": "Provide Firt aids if Safe to do or call for medical assistance",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Báo cho người có trách nhiệm",
+      "text_en": "Inform immediately to responsible person",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không phải việc của mình, bỏ đi",
+      "text_en": "None of your business, walk away from the injury location",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "A & B đúng",
+      "text_en": "A and B are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "20",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Người vận hành máy mài/cắt phải cắt điện trong các trường hợp nào sau đây?",
+  "question_en": "The worker using grinding/cutting machine must turn off the electricity in any of the following situations?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Khi tạm ngừng việc hoặc khi bị mất điện",
+      "text_en": "When work is temporary stop or power failure",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Tạm dừng công việc giữa ca",
+      "text_en": "Temporary stop work in shift (Shift change)",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Khi vệ sinh và kiểm tra máy",
+      "text_en": "Cleaning and inspecting the machine / replacing wheel / drill bits",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  
+  "points": 1
+},
+{
+  "id": "21",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Mối nguy tiếng ồn cao tại nơi thực hiện công việc mài/cắt có thể được giảm thiểu bằng cách",
+  "question_en": "The risk of noise hazard exposure at the work place cutting can be minimized by",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Sử dụng bảo hộ lao động bảo vệ tai",
+      "text_en": "Use ear protection (PPE)",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Bao che thiết bị phát ra tiếng ồn",
+      "text_en": "Cover the device making noise (Engineering control)",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Giảm thời gian tiếp xúc",
+      "text_en": "Reduce the working time (Administrative control)",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "22",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Các thiết bị nào cần phải có chức năng (có đóng ngắt tự động) deadman swtich để đảm bảo an toàn khi sử dụng tại BSR?",
+  "question_en": "Which equipment must have deadman switch function when used at BSR?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Máy mài cầm tay",
+      "text_en": "Angle grinder",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Súng bắn cát",
+      "text_en": "Sandblasting gun",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Súng phun nước áp lực cao",
+      "text_en": "High pressure jet machine",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "23",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Tất cả các thiết bị điện cầm tay phục vụ công tác BDSC tại BSR đều phải được kiểm tra và dán tem trước khi sử dụng",
+  "question_en": "All portable power tools & hand tools used in BSR must be checked and stamped before using?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đúng",
+      "text_en": "Right",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Sai",
+      "text_en": "Wrong",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "24",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Yêu cầu về dây cáp điện và đầu kết nối cáp điện đối với thiết bị điện cầm tay",
+  "question_en": "What is the Safety requirement for electric cable and cable connector?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Tất cả cáp điện, đầu kết nối phải ở trong tình trạng tốt và chịu được công suất tương ứng và được kiểm tra an toàn trước khi sử dụng",
+      "text_en": "Electric cable and cable connector must be in good condition, withstand the corresponding load and be checked for safety before using",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Cho phép sử dụng cáp điện chỉ bị hư hỏng lớp vỏ bên ngoài",
+      "text_en": "Allowing to use electric cables with damaged outer cover only",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Cho phép sử dụng đầu kết nối cáp điện bị nứt, bể",
+      "text_en": "Allowing to use the cable connectors that are cracked or broken",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các yêu cầu trên",
+      "text_en": "All of these above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "25",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Trang bị BHLĐ (PPE) cho thợ Hàn là",
+  "question_en": "What are PPEs for welder?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Kính hàn mặt nạ hàn, mặt nạ cắt, găng tay da, quần áo cho thợ hàn tối thiểu loại 100% cotton, giày bảo hộ, tạp dề bằng da",
+      "text_en": "Welding goggles, welding masks, cutting masks, leather gloves, welder clothes for at least 100% cotton, protective shoes, leather aprons",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Nếu hồ quang, tia lửa hàn ở phía trên đầu hoặc vai người thợ hàn thì cần phải trang bị quần áo chịu nhiệt để bảo vệ cho thợ hàn",
+      "text_en": "If the arc, welding sparks are above the welder's head or shoulders, heat-resistant clothing is required",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Trong khi thực hiện công việc hàn trong điều kiện nguy hiểm, ẩm ướt, thợ hàn phải trang bị thêm: Găng tay cách điện, Ủng cách điện, Thảm cách điện",
+      "text_en": "While performing welding work in dangerous, wet conditions, the welder must equip Insulated gloves, Insulated boots, Insulated mats",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các yêu cầu trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "26",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Khi thực hiện công việc hàn/cắt thì khu vực làm việc cần phải",
+  "question_en": "When performing welding / cutting jobs, the working area needs to be:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Phải di dời các vật liệu dễ cháy ra xa nơi làm việc trong phạm vi ít nhất 11m, hoặc che bằng bạt chống cháy hoặc vật liệu phù hợp không có rủi ro cháy như tấm kim loại",
+      "text_en": "Move flammable materials away from workplaces at least 11m or cover with fire blanket or other non-flammable material as metal sheet",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Các hệ thống xả có chứa khí hoặc chất dễ cháy gần khu vực làm việc phải được bịt kín, làm sạch, che kín bằng bạt chống cháy hoặc vật liệu phù hợp không có rủi ro cháy như tấm kim loại",
+      "text_en": "Exhaust systems containing flammable gas or flammable substances near the work area must be sealed, cleaned and covered with fire blanket or other non-flammable material as metal sheet",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Sử dụng bạt chống cháy hoặc vật liệu phù hợp không có rủi ro cháy như tấm kim loại để che chắn khu vực hàn cắt và tránh bắn tia lửa sang khu vực lân cận",
+      "text_en": "Using fire blanket or other non-flammable material as metal sheet for covering",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các yêu cầu trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "27",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "POW27 Rev0 - Yêu cầu an toàn khi thực hiện công việc sử dụng thiết bị điện cầm tay",
+  "question_en": "What is the Safety requirements when performing the work using electrical hand tools:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Ban đấu mối và Nhà thầu có trách nhiệm bố trí nhân sự có chuyên môn phù hợp kiểm tra và đảm bảo thiết bị an toàn trước mỗi lần sử dụng",
+      "text_en": "The focal point and the Contractor are responsible for assigning competent personnel to check and ensure electrical hand tools before using",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Người sử dụng phải được đào tạo/hướng dẫn sử dụng thành thạo thiết bị trước khi sử dụng",
+      "text_en": "Users must be trained / instructed to use the device well before using",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Kết nối nguồn năng lượng và vận hành thiết bị phải theo đúng hướng dẫn/chỉ dẫn của nhà sản xuất. Khi thay thế các bộ phận của thiết bị như: đá mài, đá cắt, mũi khoan… phải dùng chủng loại và các thông số kỹ thuật phù hợp theo khuyến cáo của nhà sản xuất",
+      "text_en": "Connect the power source and operate the device according to the manufacturer’s instructions. When replacing parts of equipment such as grinding wheel, cutting wheel, drill bits… must be in the right category and specifications according to the manufacturer’s recommendations",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các yêu cầu trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "28",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Yêu cầu an toàn đối với thiết bị điện cầm tay khi làm việc trên cao",
+  "question_en": "What is the safety requirement for electrical hand tools while working at height?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thiết bị sử dụng khi làm việc trên cao phải được đảm bảo chống rơi",
+      "text_en": "Electrical hand tools must be secured to avoid falling from height",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Thiết bị sử dụng làm việc trên cao phải có dây chống rơi (lanyard), lưu ý điểm gắn dây chống rơi trên thiết bị không làm ảnh hưởng đến tính năng của thiết bị; dây chống rơi sẽ kết nối với túi đựng dụng cụ hoặc dây đeo an toàn",
+      "text_en": "Electrical hand tools must has lanyard that its contact point doesn’t affect on device’s features; Lanyard should be tied with materials bag or safety harness",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Khi di chuyển thiết bị lên cao không được sử dụng dây điện để kéo thiết bị, phải sử dụng dây thừng hoặc túi chuyên dụng để chuyển thiết bị lên cao",
+      "text_en": "While lifting materials up, Do not allow to use electric cable, must use a rope or dedicated bag for lifting tools & materials",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các yêu cầu trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "29",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Máy mài, máy cắt phải trang bị công tắc an toàn (deadman switch) để đảm bảo an toàn trong quá trình sử dụng",
+  "question_en": "Grinding/Cutting machine must be equipped the auto on-off switch (deadman switch):",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đúng",
+      "text_en": "Correct",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Sai",
+      "text_en": "Incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "30",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Khi sử dụng máy mài/cắt cần lưu ý điểm nào sau đây",
+  "question_en": "What should you ensure when using grinding/cutting machine?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Máy mài, máy cắt phải trang bị bộ phận đóng ngắt tự động (deadman switch) để đảm bảo an toàn trong quá trình sử dụng",
+      "text_en": "Grinding/Cutting machine must equipped the auto on-off switch (Deadman switch)",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Người vận hành thiết bị KHÔNG được mang các đồ trang sức khi làm việc, ngắt kết nối nguồn năng lượng với thiết bị khi không sử dụng",
+      "text_en": "The operator is not allowed to wear jewelry & loose clothing while working, disconnect the power source when not in use",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Nhanh chóng ngắt dòng năng lượng khi thiết bị hoạt động không bình thường: phát sinh tia lửa, âm thanh khác lạ, mùi khét, quá nhiệt, chập điện",
+      "text_en": "Immediately disconnect the power source if the device is not working properly such as generating spark, strange sound, burning smell, over heat, short circuit",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "31",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Yêu cầu của đá mài/cắt khi sử dụng là",
+  "question_en": "What is the Safety requirement for grinding/cutting wheel:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đá mài/cắt không có dấu hiệu nứt bể",
+      "text_en": "Grinding/cutting wheel show no sign of cracking",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Tốc độ vòng quay của đá mài hoặc đá cắt phải lớn hơn hoặc bằng số vòng quay trên TBDC tương ứng",
+      "text_en": "The rotation speed of Grinding/cutting wheel must be greater than the rated speed on the grinding machine",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Loại đá mài/cắt phải phù hợp và vừa khớp với trục quay của thiết bị khi lắp đặt",
+      "text_en": "The type of grinding/cutting wheel must suitable and fit with rotating shaft of the grinding machine & suitable to the grinding surface",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "32",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Biểu tượng sau trên thiết bị điện cầm tay có ý nghĩa gì?",
+  "question_en": "What is meaning of below symbol on electrical hand tools?",
+  "image": "nganhangcauhoi/etest/attbct-cau32.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thiết bị đạt tiêu chuẩn",
+      "text_en": "Standard equipment",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Thiết bị 2 lớp vỏ cách điện",
+      "text_en": "Double insulated tool",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Thiết bị chống cháy nổ",
+      "text_en": "Explosion-proof equipment",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "33",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Trang bị bảo hộ lao động của Công nhân thực hiện công việc hàn trong hình ảnh bên dưới có đảm bảo an toàn không?",
+  "question_en": "Is the PPE of the worker who weld job is this below image safe?",
+  "image": "nganhangcauhoi/etest/attbct-cau33.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đầy đủ quần áo, găng tay, kính bảo hộ che kín mặt, đảm bảo an toàn để làm việc",
+      "text_en": "Wear full PPE including safety clothes, glove, face shield, It is safe to work",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Không đảm bảo an toàn",
+      "text_en": "Unsafe",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "34",
+  "category": "an toàn thiết bị cầm tay",
+  "question_vn": "Hãy chỉ ra điểm an toàn trong hình bên dưới?",
+  "question_en": "Please list the safe condition in below picture:",
+  "image": "nganhangcauhoi/etest/attbct-cau34.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Chai khí nén được bảo quản ở tư thế thẳng đứng, cố định bằng dây xích để chống ngã đổ",
+      "text_en": "The compressed air cylinder is stored in an upright position, fixed by a chain to prevent falling",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Chai khí được dán nhãn thông tin để dễ theo dõi và quản lý tình trạng",
+      "text_en": "Compressed gas cylinder was labeled with information for easy tracking and management",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả các ý trên đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+}
+]

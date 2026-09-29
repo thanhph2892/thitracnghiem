@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin | Safety Portal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="admin.css">
+    <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+
+<div id="login-screen">
+    <div class="login-box">
+        <div class="login-logo">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+        </div>
+        <h2>Quản trị hệ thống</h2>
+        <p>Nhập mật khẩu để tiếp tục</p>
+        <input type="password" id="pw-input" placeholder="Mật khẩu..." />
+        <button onclick="window.doLogin()">Đăng nhập</button>
+        <div id="pw-error">Mật khẩu không đúng</div>
+    </div>
+</div>
+
+<div id="admin-app" style="display:none">
+    
+    <aside class="sidebar">
+        <div class="sidebar-brand">
+            <div class="nav-brand-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            </div>
+            <div>
+                <div class="nav-brand-name">SAFETY PORTAL</div>
+                <div class="nav-brand-sub">ADMIN DASHBOARD</div>
+            </div>
+        </div>
+
+        <ul class="nav-menu">
+            <li class="nav-item active" onclick="window.switchTab('tab-dashboard', this)">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+                Tổng quan hệ thống
+            </li>
+            <li class="nav-item" onclick="window.switchTab('tab-live', this)">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="3"></circle></svg>
+                Giám sát phòng thi
+            </li>
+            <li class="nav-item" onclick="window.switchTab('tab-history', this)">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                Lịch sử thi
+            </li>
+            <li class="nav-item" onclick="window.switchTab('tab-qbank', this)">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                Ngân hàng câu hỏi
+            </li>
+            <li class="nav-item" onclick="window.switchTab('tab-menu', this)">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
+                Quản lý Menu Bài thi
+            </li>
+            <li class="nav-item" onclick="window.switchTab('tab-settings', this)">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                Cài đặt hệ thống
+            </li>
+            <li class="nav-item" onclick="window.switchTab('tab-audit', this)">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                Nhật ký hoạt động
+            </li>
+        </ul>
+
+        <div class="sidebar-footer">
+            <a href="../index.html" class="btn-back">← Về Trang chủ</a>
+            <button onclick="window.doLogout()" class="btn-logout">Đăng xuất</button>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <header class="top-header">
+            <div style="display:flex; align-items:center; gap:16px;">
+                <button class="btn-toggle-sidebar" onclick="window.toggleSidebar()" title="Ẩn/Hiện Menu">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                </button>
+                <h2 class="page-title" id="current-page-title">Tổng quan hệ thống</h2>
+            </div>
+            <span class="admin-online" id="admin-online-badge">● <span id="admin-online-count">0</span> người đang thi trực tiếp</span>
+        </header>
+
+        <div class="content-wrapper">
+            
+            <div id="tab-dashboard" class="tab-pane active">
+                <div class="stats-grid">
+                    <div class="stat-card stat-card-1">
+                        <div class="stat-icon blue"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg></div>
+                        <div><div class="stat-val" id="stat-total">—</div><div class="stat-lbl">Tổng lượt thi</div></div>
+                    </div>
+                    <div class="stat-card stat-card-2">
+                        <div class="stat-icon green"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+                        <div><div class="stat-val" id="stat-pass">—</div><div class="stat-lbl">Tỷ lệ đạt</div></div>
+                    </div>
+                    <div class="stat-card stat-card-3">
+                        <div class="stat-icon red"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg></div>
+                        <div><div class="stat-val" id="stat-users">—</div><div class="stat-lbl">Tỷ lệ không đạt</div></div>
+                    </div>
+                    <div class="stat-card stat-card-4">
+                        <div class="stat-icon orange">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                        </div>
+                        <div><div class="stat-val" id="stat-unique-users">—</div><div class="stat-lbl">Tổng số Thí sinh</div></div>
+                    </div>
+                </div>
+
+                <div class="dashboard-main-grid">
+                    <div class="section-block" style="margin-bottom: 0;">
+                        <div class="section-title">📊 Thống kê Bài thi</div>
+                        <div id="exam-stats-grid" class="scrollable-list">
+                            <span style="color:#64748b; font-size:0.95rem; font-weight:600;">Đang xử lý dữ liệu...</span>
+                        </div>
+                    </div>
+                    <div class="section-block" style="margin-bottom: 0;">
+                        <div class="section-title">🏢 Xếp hạng Nhà Thầu / Công Ty</div>
+                        <div id="contractor-stats-list" class="scrollable-list contractor-list">
+                            <span style="color:#64748b; font-size:0.95rem; font-weight:600;">Đang xử lý dữ liệu...</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-block">
+                    <div class="section-title" style="color: #e11d48;">🔥 Báo Cáo Câu Hỏi Thường Sai Nhất</div>
+                    <div id="hard-questions-list" class="hard-q-grid">
+                        <span style="color:#64748b; font-size:0.95rem; font-weight:600;">Đang bóc tách dữ liệu câu hỏi...</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB GIÁM SÁT TRỰC TIẾP -->
+            <div id="tab-live" class="tab-pane">
+                <div class="section-block">
+                    <div class="section-title" style="color: #e11d48; margin-bottom: 10px;">🔴 TRUNG TÂM GIÁM SÁT PHÒNG THI</div>
+                    <p style="color: #64748b; font-size: 0.95rem; margin-bottom: 30px; font-weight: 600;">Thông tin được làm mới mỗi 3 giây. Cung cấp IP và Loại thiết bị. Bạn có quyền đình chỉ và ép thu bài của thí sinh nếu phát hiện vi phạm.</p>
+                    <div id="live-list" class="live-list" style="display: grid; grid-template-columns: 1fr; gap: 20px;">
+                        <!-- Đổ danh sách vào đây -->
+                    </div>
+                </div>
+            </div>
+
+            <div id="tab-history" class="tab-pane">
+                <div class="filter-section">
+                    <div class="section-title">LỌC &amp; TÌM KIẾM LỊCH SỬ THI</div>
+                    <div class="filter-bar">
+                        <div class="filter-group filter-group-wide" style="position:relative">
+                            <input type="text" id="f-cccd" class="filter-input" placeholder="🔍 CCCD / Hộ chiếu..." oninput="window.applyFilters()" />
+                        </div>
+                        <div class="filter-group filter-group-wide">
+                            <input type="text" id="f-name" class="filter-input" placeholder="🔍 Họ và tên..." oninput="window.applyFilters()" />
+                        </div>
+                        <div class="filter-group filter-group-wide">
+                            <input type="text" id="f-company" class="filter-input" placeholder="🔍 Công ty..." oninput="window.applyFilters()" />
+                        </div>
+                        <div class="filter-group">
+                            <select id="f-exam" class="filter-select" onchange="window.applyFilters()">
+                                <option value="">Tất cả bài thi</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <select id="f-status" class="filter-select" onchange="window.applyFilters()">
+                                <option value="">Tất cả KQ</option>
+                                <option value="pass">Đạt</option>
+                                <option value="fail">Không đạt</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <input type="date" id="f-date" class="filter-input" onchange="window.applyFilters()" />
+                        </div>
+                        <button class="btn-modern btn-modern-outline" onclick="window.resetFilters()">Xóa bộ lọc</button>
+                    </div>
+                </div>
+
+                <div id="table-section">
+                    <div class="table-meta" id="table-meta"></div>
+                    <div class="table-wrapper">
+                        <table class="admin-table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>CCCD / Hộ chiếu</th>
+                                    <th>Họ và Tên</th>
+                                    <th>Công ty</th>
+                                    <th class="col-time">Thời gian thi</th>
+                                    <th>Bài thi</th>
+                                    <th>Điểm</th>
+                                    <th>Kết quả</th>
+                                    <th>Thao tác</th>
+                                </tr>
+                            </thead>
+                            <tbody id="admin-tbody"></tbody>
+                        </table>
+                        <div id="no-data" style="display:none" class="no-data">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                            <span>Không có dữ liệu phù hợp</span>
+                        </div>
+                    </div>
+                    <div id="pagination" class="pagination"></div>
+                </div>
+            </div>
+
+            <div id="tab-qbank" class="tab-pane">
+                <div class="config-grid" style="grid-template-columns: 1fr;">
+                    
+                    <div class="config-card">
+                        <div class="config-card-title">⬆ Tải lên thư mục câu hỏi mới</div>
+                        <div class="config-form">
+                            <p style="font-size:0.95rem; color:#64748b; margin-bottom:12px; line-height:1.6;">Vui lòng chọn Folder chứa các file <strong>.json</strong> và hình ảnh đi kèm để cập nhật lên hệ thống.</p>
+                            
+                            <label class="upload-dropzone" for="qbank-folder-input" style="display: block; cursor: pointer; position: relative;">
+                                <div class="dropzone-icon">☁️</div>
+                                <div class="dropzone-text">Nhấn vào đây để chọn thư mục</div>
+                                <div class="dropzone-subtext">Hỗ trợ tải lên toàn bộ thư mục (bao gồm các thư mục con)</div>
+                                <input type="file" id="qbank-folder-input" webkitdirectory directory multiple style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0;" onchange="window.updateFolderSelectUI(this)" />
+                            </label>
+
+                            <div id="folder-selected-info" style="display:none; align-items:center; gap:10px; margin-top:15px; padding: 14px 20px; background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 14px; font-size: 0.95rem; font-weight: 600; color: #166534;">
+                                📁 Đang chọn: <span id="folder-selected-name" style="color: #059669; font-weight: 800;"></span> (<span id="folder-selected-count"></span> tệp hợp lệ)
+                            </div>
+
+                            <button onclick="window.uploadQBankFolder()" class="btn-modern btn-modern-primary" style="margin-top:15px; width: max-content;">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="margin-right:8px;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+                                Bắt đầu tải lên Máy chủ
+                            </button>
+                            <div id="qbank-upload-msg" class="cfg-msg" style="margin-top: 10px; width: 100%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="config-card">
+                        <div class="config-card-title" style="display:flex;align-items:center;justify-content:space-between;">
+                            <span>📁 Thư mục ngân hàng hiện có</span>
+                            <button onclick="window.loadQBanks()" class="btn-modern btn-modern-outline" style="padding:10px 18px;font-size:0.85rem; display: flex; align-items:center; gap:6px;">🔄 Làm mới</button>
+                        </div>
+                        <div id="qbank-list" class="qbank-list">
+                            <div class="qbank-empty">Đang tải...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tab-menu" class="tab-pane">
+                <div class="config-grid">
+                    <div class="config-card">
+                        <div class="config-card-title">➕ Tạo Menu Bài Thi Mới</div>
+                        <div class="config-form" id="add-exam-form">
+                            <div>
+                                <label class="cfg-form-label">Loại bài thi</label>
+                                <select id="new-exam-type" class="config-input" style="width: 100%; margin-top: 6px;">
+                                    <option value="basic">Mô-đun Cơ bản (chỉ chọn 1 bài thi)</option>
+                                    <option value="advanced">Mô-đun Chuyên sâu (có thể chọn nhiều bài thi)</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="cfg-form-label">Tên bài thi (tiếng Việt)</label>
+                                <input type="text" id="new-exam-name-vi" class="config-input" placeholder="VD: An toàn điện..." style="width: 100%; margin-top: 6px; text-transform: capitalize;" oninput="window.autoFillExamDetails('add')" />
+                            </div>
+                            <div>
+                                <label class="cfg-form-label">Tên bài thi (tiếng Anh)</label>
+                                <input type="text" id="new-exam-name-en" class="config-input" placeholder="VD: Electrical Safety..." style="width: 100%; margin-top: 6px; text-transform: capitalize;" />
+                            </div>
+                            <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+                                <div>
+                                    <label class="cfg-form-label">Thời gian (phút)</label>
+                                    <input type="number" id="new-exam-time" class="config-input" value="30" min="5" max="180" style="width: 100%; margin-top: 6px;" />
+                                </div>
+                                <div>
+                                    <label class="cfg-form-label">Số câu hỏi</label>
+                                    <input type="number" id="new-exam-qs" class="config-input" value="30" min="1" max="200" style="width: 100%; margin-top: 6px;" />
+                                </div>
+                            </div>
+                            <div>
+                                <label class="cfg-form-label">Nguồn dữ liệu (Chọn Thư mục chứa nhiều JSON hoặc chọn 1 File JSON)</label>
+                                <select id="new-exam-folder" class="config-input" style="width: 100%; margin-top: 6px;">
+                                <option value="">— Đang tải dữ liệu —</option>
+                                </select>
+                            </div>
+                            
+                            <button onclick="window.addNewExam()" class="btn-modern btn-modern-primary" style="margin-top:12px; width: 100%;">Thêm bài thi vào Menu</button>
+                            <div id="add-exam-msg" class="cfg-msg"></div>
+                        </div>
+                    </div>
+
+                    <div class="config-card config-card-wide">
+                        <div class="config-card-title" style="display:flex;align-items:center;justify-content:space-between;">
+                            <span>📋 Quản lý hiển thị Menu</span>
+                            <button onclick="window.saveExamsConfig()" class="btn-modern btn-modern-success" style="padding:12px 24px;font-size:0.9rem; letter-spacing: 0.5px;">
+                                💾 LƯU TẤT CẢ THAY ĐỔI
+                            </button>
+                        </div>
+                        <div id="exam-list-editor" class="exam-list-editor">
+                            <div class="qbank-empty">Đang tải...</div>
+                        </div>
+                        <div id="exam-config-msg" class="cfg-msg" style="margin-top:12px;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tab-settings" class="tab-pane"></div>
+
+            <div id="tab-audit" class="tab-pane">
+                <div class="section-block">
+                    <div class="section-title" style="color: #4f46e5;">🛡️ Nhật ký hoạt động Admin (Audit Log)</div>
+                    <p style="color: #64748b; font-size: 0.95rem; margin-bottom: 25px; font-weight: 600;">Hệ thống tự động ghi nhận mọi thao tác quan trọng để đảm bảo tính minh bạch. Chỉ lưu 500 thao tác gần nhất.</p>
+                    <div class="table-wrapper">
+                        <table class="admin-table">
+                            <thead>
+                                <tr>
+                                    <th>Thời gian</th>
+                                    <th>Hành động</th>
+                                    <th style="text-align: left;">Chi tiết thao tác</th>
+                                    <th>Địa chỉ IP</th>
+                                </tr>
+                            </thead>
+                            <tbody id="audit-tbody">
+                                <tr><td colspan="4" style="text-align:center; padding: 40px; color:#64748b; font-weight:700;">Đang tải dữ liệu...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</div>
+
+<div id="toast" class="toast"></div>
+
+<div id="folder-view-modal" class="confirm-overlay" style="z-index:9999">
+    <div class="confirm-box" style="max-width:800px; width:95%; padding: 40px; background: #ffffff;">
+        <div class="confirm-title" style="margin-bottom: 30px; display:flex; justify-content:space-between; align-items:center; border-bottom: 2px solid #f1f5f9; padding-bottom: 20px;">
+            <div style="display: flex; align-items: center; gap: 12px; font-family: 'Plus Jakarta Sans', sans-serif;">
+                <div style="background: #fffbeb; padding: 12px; border-radius: 14px;"><span style="font-size: 1.5rem;">📁</span></div>
+                <div style="display: flex; flex-direction: column;">
+                    <span style="font-size: 0.8rem; color: #64748b; font-weight: 700; text-transform: uppercase; letter-spacing: 1px;">Thư mục hiện tại</span>
+                    <span id="folder-view-title" style="font-size: 1.25rem; font-weight: 800; color: #0f172a;">Tên Thư Mục</span>
+                </div>
+            </div>
+            <button style="font-size:0.9rem; font-weight:700; color:#475569; cursor:pointer; padding: 10px 18px; border-radius: 12px; background: #f8fafc; border: 1px solid #e2e8f0; transition: 0.2s;" onclick="window.closeFolderViewModal()" onmouseover="this.style.background='#e2e8f0'" onmouseout="this.style.background='#f8fafc'">✕ Đóng cửa sổ</button>
+        </div>
+        
+        <div id="folder-file-list" style="max-height:500px; overflow-y:auto; padding-right: 10px; font-family: 'Inter', sans-serif;"></div>
+        <input type="file" id="hidden-image-upload" style="display: none;" accept="image/png, image/jpeg, image/jpg, image/webp" onchange="window.handleImageReplacement(this)">
+    </div>
+</div>
+
+<div id="exam-edit-modal" class="confirm-overlay" style="z-index:9999">
+    <div class="confirm-box" style="max-width:560px;width:95%;">
+        <div>
+            <div class="confirm-title">✏️ Chỉnh sửa bài thi</div>
+        </div>
+        <div class="config-form" style="width:100%;margin-top:24px;">
+            <input type="hidden" id="edit-exam-id" />
+            <input type="hidden" id="edit-exam-group" />
+            <div>
+                <label class="cfg-form-label">Tên (tiếng Việt)</label>
+                <input type="text" id="edit-exam-name-vi" class="config-input" style="width: 100%; margin-top: 6px; text-transform: capitalize;" oninput="window.autoFillExamDetails('edit')"/>
+            </div>
+            <div>
+                <label class="cfg-form-label">Tên (tiếng Anh) — Tự động dịch</label>
+                <input type="text" id="edit-exam-name-en" class="config-input" style="width: 100%; margin-top: 6px; text-transform: capitalize;"/>
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+                <div>
+                    <label class="cfg-form-label">Thời gian (phút)</label>
+                    <input type="number" id="edit-exam-time" class="config-input" min="5" max="180" style="width: 100%; margin-top: 6px;"/>
+                </div>
+                <div>
+                    <label class="cfg-form-label">Số câu hỏi</label>
+                    <input type="number" id="edit-exam-qs" class="config-input" min="1" max="200" style="width: 100%; margin-top: 6px;"/>
+                </div>
+            </div>
+            <div>
+            <label class="cfg-form-label">Đổi Nguồn dữ liệu khác (Thư mục / File)</label>
+            <select id="edit-exam-folder" class="config-input" style="width: 100%; margin-top: 6px;">
+            <option value="">— Đang tải dữ liệu —</option>
+            </select>
+        
+        </div>
+        <div class="confirm-actions" style="margin-top:30px;">
+            <button class="confirm-cancel" onclick="window.closeExamEditModal()">Hủy</button>
+            <button class="confirm-ok" onclick="window.saveExamEdit()" style="background:linear-gradient(135deg,#4f46e5,#4338ca); border:none; color:white; box-shadow: 0 10px 25px rgba(79,70,229,0.3); font-family: 'Plus Jakarta Sans', sans-serif !important;">Cập nhật</button>
+        </div>
+    </div>
+</div>
+
+<script src="js/admin_core.js"></script>
+<script src="js/admin_dashboard.js"></script>
+<script src="js/admin_history.js"></script>
+<script src="js/admin_qbank.js"></script>
+<script src="js/admin_menu.js"></script>
+<script src="js/admin_settings.js"></script>
+<script src="js/admin_exam.js"></script>
+<script>if (sessionStorage.getItem('admin_auth') === '1') { window.startAdminApp(); }</script>
+</body>
+</html>

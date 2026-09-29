@@ -1,0 +1,571 @@
+[
+  {
+  "id": "01",
+  "category": "cô lập năng lượng",
+  "question_vn": "Mục đích của Hướng dẫn thực hiện cô lập năng lượng?",
+  "question_en": "The purpose of Energy Isolation guideline?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Quy định nguyên tắc, yêu cầu an toàn cho công tác cô lập các nguồn năng lượng nhằm mục tiêu ngăn ngừa các sự cố xảy ra trong quá trình vận hành, bảo dưỡng máy móc, thiết bị, đảm bảo Nhà máy luôn vận hành ổn định, an toàn và hiệu quả",
+      "text_en": "This guideline establishes principles, safety requirements of isolating energy sources in order to prevent incidents occurring during the operation and maintenance of machinery and equipment, ensuring that the Plant is always stable, safe and efficient operation.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Hướng dẫn các phương pháp cô lập nguồn năng lượng nhằm mục tiêu ngăn ngừa các sự cố xảy ra trong quá trình vận hành, bảo dưỡng máy móc, thiết bị, đảm bảo Nhà máy luôn vận hành ổn định, an toàn và hiệu quả",
+      "text_en": "The guideline provides the methods of isolating energy sources in order to prevent incidents occurring during the operation and maintenance of machinery and equipment, ensuring that the Plant is always stable, safe and efficient operation.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "02",
+  "category": "cô lập năng lượng",
+  "question_vn": "Đối tượng áp dụng của Hướng dẫn thực hiện cô lập năng lượng?",
+  "question_en": "What are Objects applied of Energy Isolation guideline?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Áp dụng công tác cô lập năng lượng khi thực hiện các công việc lắp đặt, bảo dưỡng sửa chữa trên các hệ thống/thiết bị có mang năng lượng trong phạm vi quản lý của Công ty BSR",
+      "text_en": "Apply energy isolation when perform installing, maintenance on energy-carrying systems/equipment under the management of BSR Company.",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Áp dụng công tác cô lập năng lượng để kiểm soát tình trạng các van thường đóng/thường mở trong hoạt động bình thường phục vụ công tác vận hành mà đã được quản lý bởi sổ tay/quy trình vận hành, Công việc cô lập khí điều khiển cho thiết bị, Công việc hot tapping trên hệ thống thiết bị, đường ống đang có áp",
+      "text_en": "Apply energy isolation for lock open/close valve position management in normal operation which is controlled by Operation manuals/guidelines/procedures, isolation of instrument air is not applied this guideline, Hot tapping on pressurized system/equipment/pipeline",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "03",
+  "category": "cô lập năng lượng",
+  "question_vn": "Trong Hướng dẫn thực hiện cô lập năng lượng, nguồn năng lượng được định nghĩa như thế nào?",
+  "question_en": "In Energy Isolation guideline, What is define of energy sources?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nguồn năng lượng là bất kỳ nguồn điện, thủy lực có khả năng gây ra tai nạn, sự cố",
+      "text_en": "Energy source is any source of electrical, hydraulic that has the potential of causing injury",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Nguồn năng lượng là bất kỳ nguồn cơ khí, hóa chất có khả năng gây ra tai nạn, sự cố",
+      "text_en": "Energy source is any source of mechanical, chemical that has the potential of causing injury",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Nguồn năng lượng là bất kỳ nguồn nhiệt hoặc các nguồn năng lượng khác có khả năng gây ra tai nạn, sự cố",
+      "text_en": "Energy source is any source of thermal, or other energy sources that has the potential of causing injury.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "04",
+  "category": "cô lập năng lượng",
+  "question_vn": "Trách nhiệm áp dụng được quy định như thế nào trong Hướng dẫn thực hiện cô lập năng lượng?",
+  "question_en": "How is applied responsibility as regulation in Energy isolation guideline?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Tất cả Ban/phòng, nhân sự BSR thực hiện công việc liên quan đến công tác cô lập năng lượng tại BSR",
+      "text_en": "All Divisions/departments, BSR employees who performing the job required energy isolation at BSR premise.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Nhà thầu và khách hàng thực hiện công việc liên quan đến công tác cô lập năng lượng tại BSR",
+      "text_en": "Contractor and Customer who performing the job required energy isolation at BSR premise.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "05",
+  "category": "cô lập năng lượng",
+  "question_vn": "Trong Hướng dẫn thực hiện cô lập năng lượng, trách nhiệm thực hiện cô lập được quy định cụ thể như sau",
+  "question_en": "In energy isolation guideline, the responsible of energy isolation is specified as follow:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Người thực hiện cô lập điện tại trạm điện là nhân viên vận hành trạm điện",
+      "text_en": "Electrical isolator at a Sub-station is Sub-station operator",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Người cô lập thiết bị công nghệ là nhân viên vận hành khu vực",
+      "text_en": "The process equipment isolator is field operator",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Người cô lập nguồn phóng xạ cố định tại phân xưởng Công nghệ là nhân viên BDSC",
+      "text_en": "The person is isolating fixed radioactive source is Maintenance staffs.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "06",
+  "category": "cô lập năng lượng",
+  "question_vn": "Trong Hướng dẫn thực hiện cô lập năng lượng, màu của ổ khóa cô lập được quy định cụ thể như sau",
+  "question_en": "In energy isolation guideline, the colors of the locks are regulation as follow:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Bộ phận vận hành điện/ Electrical Substation Operator: Ổ khóa màu đỏ/",
+      "text_en": "Red color lock",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Bộ phận chủ quản/Vận hành khu vực/ Responsible Person/Field operator: Ổ khóa màu cam/",
+      "text_en": "Orange color lock",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Bộ phận bảo dưỡng cơ khí (bao gồm cả nhóm thiết bị tĩnh và quay)/ Mechanical maintenance Person (including rotary and static): Ổ khóa màu xanh/",
+      "text_en": "Blue color lock",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Các bộ phận có thể sử dụng chung ổ khóa, không phân biệt màu/",
+      "text_en": "All groups can use the same padlock, regardless of color",
+      "is_correct": false
+    },
+    {
+      "label": "E",
+      "text_vn": "A, B và C đúng",
+      "text_en": "A, B and C are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "07",
+  "category": "cô lập năng lượng",
+  "question_vn": "Một số quy định riêng trong giai đoạn BDTT được quy định trong Hướng dẫn thực hiện cô lập năng lượng",
+  "question_en": "Some regulations in Turn Around are specified in the Energy Isolation Guideline:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thẻ cô lập có thể được áp dụng thay thế bằng “Maintenance blind tag\" cho các công việc lắp bích mù theo Quy trình bảo dưỡng cho việc tháo lắp bích mù hiện hành",
+      "text_en": "Isolation tags will be replaced by \"Maintenance blind tag\"",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Kế hoạch cô lập công nghệ được quản lý và chuẩn bị thông qua tài liệu Master Blind List hiện hành",
+      "text_en": "Process fluid isolation plan is managed and prepared by Master Blind List",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Đối với những cụm phân xưởng công nghệ shutdown hoàn toàn cho hoạt động bảo dưỡng, không áp dụng khóa cô lập tại van phía trước điểm chèn bích mù",
+      "text_en": "If the unit is total shut down for maintenance, locks will not be required for blinding",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "08",
+  "category": "cô lập năng lượng",
+  "question_vn": "Trước khi thực hiện cô lập năng lượng, nhóm thực hiện công việc cần phải",
+  "question_en": "Before perform energy isolation, working team must perform:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thông tin kế hoạch công việc cần thực hiện cho đơn vị chủ quản thiết bị bao gồm đối tượng (thiết bị, điểm lắp đặt bích mù, tháo van…) cần cô lập, số lượng chứng chỉ cô lập và thứ tự về mặt thời gian của các chứng chỉ cô lập",
+      "text_en": "Inform working schedule to facility owner include isolation object (equipment, blind, valve removal…), number of isolation certificate and time sequence of isolation certificate.",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Không cần thông tin kế hoạch công việc cần thực hiện cho đơn vị chủ quản thiết bị",
+      "text_en": "No need inform working schedule to facility owner",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "09",
+  "category": "cô lập năng lượng",
+  "question_vn": "Thứ tự ưu tiên theo mức độ giảm dần về độ tin cậy và hiệu quả của các phương pháp cô lập công nghệ là?",
+  "question_en": "What is the descending order of precedence in terms of reliability and effectiveness of process/mechanical isolation methods?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Cô lập hoàn toàn – Cô lập có kiểm chứng hiệu quả cô lập – Cô lập không có kiểm chứng hiệu quả cô lập.",
+      "text_en": "Positive isolation – Proved isolation – Non-proved isolation.",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Cô lập có kiểm chứng hiệu quả cô lập – Cô lập không có kiểm chứng hiệu quả cô lập – Cô lập hoàn toàn.",
+      "text_en": "Proved isolation – Non-proved isolation – Positive isolation.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Cô lập không có kiểm chứng hiệu quả cô lập – Cô lập có kiểm chứng hiệu quả cô lập – Cô lập hoàn toàn.",
+      "text_en": "Non-proved isolation – Proved isolation – Positive isolation.",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "10",
+  "category": "cô lập năng lượng",
+  "question_vn": "Cần phải làm gì trước khi thực hiện cô lập đối với đường ống chứa lưu chất độc hại?",
+  "question_en": "What needs to be done before isolation of pipelines containing hazardous fluids?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Phải làm sạch khí bên trong đến nồng độ khí cho phép theo quy định trước khi thực hiện công việc lắp đặt bích mù, tháo đoạn ống spool",
+      "text_en": "Must clean the gas inside to the allowed gas concentration according to regulations before performing the work of installing blind flanges, removing the spool.",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Xả hết môi chất độc hại bên trong, sau đó thực hiện lắp đặt bích mù, tháo đoạn ống spool",
+      "text_en": "Drain all hazardous fluids inside, then install the blind flange, remove the spool",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "11",
+  "category": "cô lập năng lượng",
+  "question_vn": "Các nội dung cần xem xét khi phê duyệt chứng chỉ cô lập năng lượng bao gồm nhưng không giới hạn",
+  "question_en": "Contents review when approved energy isolation certificate includes but not limit:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thời gian thực hiện công việc cô lập",
+      "text_en": "Time of carrying out isolation",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Ảnh hưởng của cô lập thiết bị đến công tác vận hành",
+      "text_en": "The influence of device isolation on operation activities;",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Phương pháp thực hiện cô lập",
+      "text_en": "Isolation method;",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Danh mục các vị trí cô lập",
+      "text_en": "List of isolated locations",
+      "is_correct": false
+    },
+    {
+      "label": "E",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "12",
+  "category": "cô lập năng lượng",
+  "question_vn": "Trong Hướng dẫn thực hiện cô lập năng lượng, chia khóa cô lập năng lượng được quản lý như thế nào?",
+  "question_en": "In Energy isolation guideline, how are isolation locks managed?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Vận hành trạm điện chịu trách nhiệm lưu giữ các chìa khóa cô lập tại “Tủ khóa” của Trạm điện. Nhân sự này chịu trách nhiệm gắn thẻ cô lập tại vị trí cô lập",
+      "text_en": "Electrical Substation Operator is responsible for key management in the sub-station. This person is responsible to attach tags at isolation points",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Người chịu trách nhiệm trực tiếp tại khu vực lưu giữ chìa khóa cô lập tại “Tủ khóa” của Nhà vận hành khu vực",
+      "text_en": "Responsible Person is responsible for key management in the Operation field office.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Giám sát công việc chịu trách nhiệm lưu giữ khóa của nhóm làm việc đó",
+      "text_en": "Work supervisor is responsible for key management for his work team.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Cả ba trường hợp trên đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "13",
+  "category": "cô lập năng lượng",
+  "question_vn": "Trong Hướng dẫn thực hiện cô lập năng lượng, sau khi chứng chỉ cô lập được xác nhận hiệu lực, các liên của chứng chỉ sẽ được phân phối như sau",
+  "question_en": "In Energy isolation guideline, after the certificate of isolation is valid, the certificate will be distributed as follows:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Bản gốc được giữ bởi Giám sát công việc và đặt tại vị trí làm việc",
+      "text_en": "The original is kept by the work supervisor and located at the work location",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Bản sao thứ nhất được giữ bởi người cô lập và đặt tại vị trí quy định của bộ phận thực hiện cô lập năng lượng",
+      "text_en": "The first copy is kept by the isolator and placed at the specified position of the energy isolation division",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Bản sao thứ hai được giữ bởi vận hành khu vực và đặt tại nhà cố định",
+      "text_en": "The second copy is kept by permit approval department and placed at fixed house",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Cả ba trường hợp trên đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "14",
+  "category": "cô lập năng lượng",
+  "question_vn": "Trong Hướng dẫn thực hiện cô lập năng lượng, người cô lập và giám sát công việc phải làm gì sau khi nguồn năng lượng đã được cô lập?",
+  "question_en": "In Energy isolation guideline, What do the isolator and work supervisor do after the energy source has been isolated?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thực hiện khóa an toàn, gắn thẻ cô lập tại điểm cô lập năng lượng",
+      "text_en": "Implement safety locks and tags at the energy isolation points",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Kiểm tra hiệu quả cô lập sau khi thực hiện công tác cô lập năng lượng",
+      "text_en": "Check the isolation efficiency after performing energy isolation work",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Ký xác nhận vào chứng chỉ cô lập nếu kết quả kiểm tra đạt hiệu quả",
+      "text_en": "Sign the isolation certificate if the test results are effective",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "15",
+  "category": "cô lập năng lượng",
+  "question_vn": "Chứng chỉ cô lập năng lượng cần hoàn tất và đảm bảo có hiệu lực trước khi người chịu trách nhiệm ký PTW cho tiến hành công việc",
+  "question_en": "Isolation certificate should be approved and valid before PTW approved",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đúng",
+      "text_en": "Correct",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Sai",
+      "text_en": "Incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "16",
+  "category": "cô lập năng lượng",
+  "question_vn": "Trong trường hợp thời gian thực hiện công việc kéo dài hơn thời gian yêu cầu cô lập năng lượng, chứng chỉ cô lập sẽ được xem xét gia hạn bởi Người cấp phép làm việc tại Phần 2 của chứng chỉ",
+  "question_en": "In case of the duration of the work is longer than the time required for energy isolation, the isolation certificate will be considered for extension by the approving authority",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đúng",
+      "text_en": "Correct",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Sai",
+      "text_en": "Incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "17",
+  "category": "cô lập năng lượng",
+  "question_vn": "Trong Hướng dẫn thực hiện cô lập năng lượng, việc lưu giữ nhật ký cô lập được thực hiện như sau",
+  "question_en": "In Energy isolation guideline, the isolator records logbook logbook will be kept as follows:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nhật ký cô lập điện: được quản lý bởi nhân viên vận hành trạm điện và để tại mỗi trạm điện",
+      "text_en": "Electrical logbook is managed by electrical operator and kept in Substation Đúng/ Right",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Nhật ký cô lập công nghệ/cơ khí: được quản lý bởi Trưởng ca vận hành và để tại Nhà vận hành khu vực",
+      "text_en": "Process/mechanical logbook: managed by Shift foreman and kept in the Operation field office Sai/Wrong",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Nhật ký cô lập nguồn phóng xạ: được quản lý bởi Trưởng nhóm chuyên môn bảo dưỡng phụ trách cô lập nguồn phóng xạ",
+      "text_en": "Radioactive logbook: managed by C&I leader and stored at C&I department",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "18",
+  "category": "cô lập năng lượng",
+  "question_vn": "Lỗi vi phạm nào được phát hiện trong hình bên dưới",
+  "question_en": "What mistakes were it detected in below photo?",
+  "image": "nganhangcauhoi/etest/clnl-cau18.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Cô lập không hiệu quả",
+      "text_en": "The isolation is not effective",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Không có thẻ LOTO",
+      "text_en": "There is not LOTO tag.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không có ổ khóa cô lập",
+      "text_en": "There is not Lock.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều sai",
+      "text_en": "All incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "20",
+  "category": "cô lập năng lượng",
+  "question_vn": "Lỗi vi phạm nào được phát hiện trong hình bên dưới",
+  "question_en": "What mistakes were it detected in below photo?",
+  "image": "nganhangcauhoi/etest/clnl-cau20.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Không có thông tin theo quy định trên thẻ LOTO",
+      "text_en": "There are not regulation informations on the LOTO tag.",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Thẻ LOTO gắn sai vị trí",
+      "text_en": "The LOTO tag was put in wrong location.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không có khóa LOTO",
+      "text_en": "There is not LOTO lock.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Thẻ LOTO quá cũ",
+      "text_en": "The LOTO tag is too old.",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+]

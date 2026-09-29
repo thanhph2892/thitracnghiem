@@ -1,0 +1,260 @@
+[
+  {
+    "timestamp": 1788427155114,
+    "action": "XÓA BÀI THI",
+    "details": "Đã xóa bản ghi thi có Timestamp: 1784276366912",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788427136524,
+    "action": "XÓA BÀI THI",
+    "details": "Đã xóa bản ghi thi có Timestamp: 1783524448901",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788427136384,
+    "action": "XÓA BÀI THI",
+    "details": "Đã xóa bản ghi thi có Timestamp: 1782797160524",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788427136251,
+    "action": "XÓA BÀI THI",
+    "details": "Đã xóa bản ghi thi có Timestamp: 1782796953843",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788427136093,
+    "action": "XÓA BÀI THI",
+    "details": "Đã xóa bản ghi thi có Timestamp: 1782796755092",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788427135952,
+    "action": "XÓA BÀI THI",
+    "details": "Đã xóa bản ghi thi có Timestamp: 1782724407847",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788427135801,
+    "action": "XÓA BÀI THI",
+    "details": "Đã xóa bản ghi thi có Timestamp: 1782375458819",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788427135639,
+    "action": "XÓA BÀI THI",
+    "details": "Đã xóa bản ghi thi có Timestamp: 1782292919557",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788427110718,
+    "action": "XÓA BÀI THI",
+    "details": "Đã xóa bản ghi thi có Timestamp: 1783306622483",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788427110556,
+    "action": "XÓA BÀI THI",
+    "details": "Đã xóa bản ghi thi có Timestamp: 1782477844108",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788427071419,
+    "action": "XÓA BÀI THI",
+    "details": "Đã xóa bản ghi thi có Timestamp: 1783913206989",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788427071244,
+    "action": "XÓA BÀI THI",
+    "details": "Đã xóa bản ghi thi có Timestamp: 1783306217811",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788427071058,
+    "action": "XÓA BÀI THI",
+    "details": "Đã xóa bản ghi thi có Timestamp: 1783306030419",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788427070907,
+    "action": "XÓA BÀI THI",
+    "details": "Đã xóa bản ghi thi có Timestamp: 1782794205666",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788427070754,
+    "action": "XÓA BÀI THI",
+    "details": "Đã xóa bản ghi thi có Timestamp: 1782735994908",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788427070572,
+    "action": "XÓA BÀI THI",
+    "details": "Đã xóa bản ghi thi có Timestamp: 1782475311976",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788427070390,
+    "action": "XÓA BÀI THI",
+    "details": "Đã xóa bản ghi thi có Timestamp: 1782473361041",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788427070200,
+    "action": "XÓA BÀI THI",
+    "details": "Đã xóa bản ghi thi có Timestamp: 1782449107365",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788427009262,
+    "action": "PHỤC HỒI DB",
+    "details": "Tải lên file database (235 bản ghi)",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788426486752,
+    "action": "PHỤC HỒI DB",
+    "details": "Tải lên file database (235 bản ghi)",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788426466945,
+    "action": "XÓA DỮ LIỆU",
+    "details": "Đã xóa toàn bộ Lịch sử thi",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788426064502,
+    "action": "ĐĂNG NHẬP",
+    "details": "Đăng nhập vào bảng điều khiển Admin thành công",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788424643416,
+    "action": "TẢI NGÂN HÀNG",
+    "details": "Tải lên thư mục câu hỏi: antoanbandau",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788424642926,
+    "action": "TẢI NGÂN HÀNG",
+    "details": "Tải lên thư mục câu hỏi: antoanchuyensau",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788424642550,
+    "action": "TẢI NGÂN HÀNG",
+    "details": "Tải lên thư mục câu hỏi: antoangiaothong",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788424642242,
+    "action": "TẢI NGÂN HÀNG",
+    "details": "Tải lên thư mục câu hỏi: etest",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788424571038,
+    "action": "ĐĂNG NHẬP",
+    "details": "Đăng nhập vào bảng điều khiển Admin thành công",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788424435255,
+    "action": "ĐĂNG NHẬP",
+    "details": "Đăng nhập vào bảng điều khiển Admin thành công",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788424130505,
+    "action": "ĐĂNG NHẬP",
+    "details": "Đăng nhập vào bảng điều khiển Admin thành công",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788406687766,
+    "action": "PHỤC HỒI DB",
+    "details": "Tải lên file database (235 bản ghi)",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788406673707,
+    "action": "ĐĂNG NHẬP",
+    "details": "Đăng nhập vào bảng điều khiển Admin thành công",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1788405509492,
+    "action": "ĐĂNG NHẬP",
+    "details": "Đăng nhập vào bảng điều khiển Admin thành công",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1787818632757,
+    "action": "XÓA BÀI THI",
+    "details": "Đã xóa bản ghi thi có Timestamp: 1787816859396",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1787818631009,
+    "action": "XÓA BÀI THI",
+    "details": "Đã xóa bản ghi thi có Timestamp: 1787818500632",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1787818611206,
+    "action": "ĐÌNH CHỈ THI",
+    "details": "Đã ép thu bài thí sinh: Phạm Anh Thắng (051090013303). Lý do: Quản trị viên đã đình chỉ bài thi của bạn do vi phạm quy chế.",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1787818498846,
+    "action": "ĐÌNH CHỈ THI",
+    "details": "Đã ép thu bài thí sinh: Phạm Anh Thắng (051090013303). Lý do: Quản trị viên đã đình chỉ bài thi của bạn do vi phạm quy chế.",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1787818342141,
+    "action": "ĐĂNG NHẬP",
+    "details": "Đăng nhập vào bảng điều khiển Admin thành công",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1787816854496,
+    "action": "ĐÌNH CHỈ THI",
+    "details": "Đã ép thu bài thí sinh: Nguyễn Văn Đào (045223654115). Lý do: test",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1787816806100,
+    "action": "XÓA BÀI THI",
+    "details": "Đã xóa bản ghi thi có Timestamp: 1787815581321",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1787816599574,
+    "action": "ĐĂNG NHẬP",
+    "details": "Đăng nhập vào bảng điều khiển Admin thành công",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1787815572986,
+    "action": "ĐÌNH CHỈ THI",
+    "details": "Đã ép thu bài thí sinh: Nguyễn Văn Đào (045223654115). Lý do: sử dụng điện thoại",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1787815513263,
+    "action": "ĐĂNG NHẬP",
+    "details": "Đăng nhập vào bảng điều khiển Admin thành công",
+    "ip": "127.0.0.1"
+  },
+  {
+    "timestamp": 1787804678633,
+    "action": "ĐĂNG NHẬP",
+    "details": "Đăng nhập vào bảng điều khiển Admin thành công",
+    "ip": "127.0.0.1"
+  }
+]

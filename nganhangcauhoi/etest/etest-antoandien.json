@@ -1,0 +1,859 @@
+[
+  {
+  "id": "01",
+  "category": "An toàn điện",
+  "question_vn": "Công việc nào sau đây được xem là công việc điện?",
+  "question_en": "Which of the following jobs are electrical work?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Lắp đặt thiết bị và đấu nối nguồn điện tạm",
+      "text_en": "Installation of electrical equipment and connecting of temporary electric power",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Lắp đặt và vận hành máy phát điện",
+      "text_en": "Installing and operating of power generator",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Cô lập điện, bảo dưỡng, sửa chữa các thiết bị điện",
+      "text_en": "Isolation of power source, maintenance/repairing of electrical equipment",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "02",
+  "category": "An toàn điện",
+  "question_vn": "Theo hướng dẫn an toàn điện, trách nhiệm của Ban chức năng khi thực hiện các công việc liên quan đến điện là:",
+  "question_en": "For electrical safety guideline, the responsibilities of related Divisions when performing electrical work are:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Tuân thủ tất cả quy định pháp luật, quy định, quy trình/hướng dẫn của BSR khi tiến hành công việc điện trong phạm vi quản lý của BSR",
+      "text_en": "Comply with all related laws, regulations and BSR procedures/guidelines when conducting electrical work within BSR",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đảm bảo các nhân sự thực hiện công việc về điện phải có chuyên môn, chứng chỉ phù hợp",
+      "text_en": "Ensure that personnel who performing electrical work get appropriate certificates",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Đảm bảo các thiết bị điện đã được kiểm tra, dán tem và sử dụng theo đúng thiết kế và hướng dẫn của nhà sản xuất",
+      "text_en": "Ensure that equipment has been inspected, stamped and used in accordance with the manufacturer's instructions",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "03",
+  "category": "An toàn điện",
+  "question_vn": "Theo hướng dẫn an toàn điện, Người giám sát an toàn điện phải có thẻ/chứng chỉ an toàn điện tối thiểu bậc mấy?",
+  "question_en": "For electrical safety guideline, What is the minimum electrical safety level for an electrical safety supervisor?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Bậc 1/5",
+      "text_en": "Level 1/5",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Bậc 2/5",
+      "text_en": "Level 2/5",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Bậc 3/5",
+      "text_en": "Level 3/5",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Bậc 4/5",
+      "text_en": "Level 4/5",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "04",
+  "category": "An toàn điện",
+  "question_vn": "Khi lập JSA cho công việc điện, các yếu tố nào sau đây cần quan tâm?",
+  "question_en": "In the development of JSA for electrical work, which factors must be considered?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Các bước thực hiện công việc",
+      "text_en": "Worksteps",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Người làm công việc điện có thẻ/chứng chỉ an toàn điện phù hợp không?",
+      "text_en": "The worker, who performing electrical work have suitable electrical safety card/certificate?",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Phương tiện bảo vệ cá nhân phải trang bị",
+      "text_en": "PPEs required",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "05",
+  "category": "An toàn điện",
+  "question_vn": "Theo hướng dẫn an toàn điện, khi trời bắt đầu mưa, các thiết bị điện tạm đang vận hành sẽ được:",
+  "question_en": "For electrical safety guideline, when it starts to rain, electrical equipment in use shall be:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Ngắt điện hết các thiết bị/ dụng cụ sử dụng điện tạm đang vận hành",
+      "text_en": "Turn-off all temporary electrical equipment in use",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Kiểm tra lại hệ thống điện tạm theo biểu mẫu số BSR-GR-004-001/F-007 trước khi cho phép vận hành lại",
+      "text_en": "Inspection of temporary electrical system as per BSR-GR-004-001/F-007 before getting permission to use again",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "A và B đều đúng",
+      "text_en": "A & B are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "06",
+  "category": "An toàn điện",
+  "question_vn": "Các mối nguy khi làm các công việc điện là:",
+  "question_en": "The hazards of electrical work are:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Rò điện",
+      "text_en": "Electric leakage",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đóng điện nhầm",
+      "text_en": "Wrong power on",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Nhân sự thiếu chuyên môn về điện",
+      "text_en": "Incompetent personnel",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "07",
+  "category": "An toàn điện",
+  "question_vn": "Điểm đấu nối an toàn của dây tiếp địa tạm với hệ thống tiếp địa cố định phải là:",
+  "question_en": "The safe connecting points between temporary earthing cable and fixed earthing system are:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Bất kỳ kết cấu kim loại có nối tiếp địa",
+      "text_en": "Connect to any grounding metal structure",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đường ống kim loại",
+      "text_en": "Steel pipe line",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Điểm tiếp địa thiết kế tại chân trụ đèn hoặc điểm tiếp địa được thiết kế",
+      "text_en": "The fixed earthing point at the bottom of the lamp post or fixed earthing points",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều sai",
+      "text_en": "All answers are incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "08",
+  "category": "An toàn điện",
+  "question_vn": "Màu sắc của dây tiếp địa theo Quy định kỹ thuật cung cấp điện tạm (BSR-GR-004-001) là màu gì?",
+  "question_en": "For Technical regulations – Temporary electric supply (BSR-GR-004-001), What is the color of earthing cable?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Vàng-xanh",
+      "text_en": "Yellow-Green",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Trắng-đen",
+      "text_en": "White-black",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Đỏ-đen",
+      "text_en": "Red-black",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Nâu",
+      "text_en": "Brown",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "09",
+  "category": "An toàn điện",
+  "question_vn": "Chức năng chính của thiết bị chống dòng rò (ELCB) là gì?",
+  "question_en": "What is the main function of ELCB device (Earth Leakage Circuit breaker)?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Bảo vệ chống rò điện",
+      "text_en": "Protection against electric leakage",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Chống quá tải",
+      "text_en": "Anti-overload",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Dùng để đóng cắt",
+      "text_en": "Used for turn on/off the power",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Chống quá nhiệt",
+      "text_en": "Resist overheating",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "10",
+  "category": "An toàn điện",
+  "question_vn": "Cơ chế hình thành tĩnh điện đối với bồn/bể chứa là gì?",
+  "question_en": "What is the formation mechanism of static electricity of tanks?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Tĩnh điện sinh ra khi chất lỏng chuyển động trong quá trình bơm vào bồn/bể",
+      "text_en": "Static electricity generated when pumping liquid into the tanks",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Tĩnh điện sinh ra khi phối trộn các dòng lưu chất với nhau",
+      "text_en": "Static electricity generated when liquids are mixed together",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Câu A và B đều đúng!",
+      "text_en": "A & B are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "11",
+  "category": "An toàn điện",
+  "question_vn": "Tại sao phải nối đất cho tủ phân phối điện tạm trong quá trình sử dụng?",
+  "question_en": "Why is it necessary to ground the temporary power distribution box during use?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Bảo vệ chống rò điện để đảm bảo an toàn khi vận hành tủ điện",
+      "text_en": "Protection against electric leakage for ensuring safety during operation of the temporary power distribution box",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Để vận chuyển và bảo quản tủ điện an toàn",
+      "text_en": "For transport and storage of temporary power distribution box",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Chống sét",
+      "text_en": "Anti-lightning",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "12",
+  "category": "An toàn điện",
+  "question_vn": "Cơ chế hình thành tĩnh điện đối với xe bồn là gì?",
+  "question_en": "What is the mechanism for forming static electricity for tanker trucks?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Dòng chảy lưu chất trong hệ thống đường ống",
+      "text_en": "Moving of fluid flow inside of piping line",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Dòng chảy qua các thiết bị lọc và tấm chắn có thể sinh ra tĩnh điện",
+      "text_en": "Moving of fluid flow through filters and screen",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tĩnh điện sinh ra trong chất lỏng bởi sự xáo trộn hoặc hình thành các đám mây điện tích",
+      "text_en": "The electrostatic charge is generated in the liquid flow by disturbance or formation of charge clouds",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "13",
+  "category": "An toàn điện",
+  "question_vn": "Các nguyên tắc nào sau đây là nguyên tắc an toàn điện?",
+  "question_en": "Which of the following sentences are electrical safety principles?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Ngắt nguồn điện, treo thẻ cô lập, chứng chỉ cô lập được phê duyệt và còn hiệu lực",
+      "text_en": "Turn off the power, tag LOTO, approved LOTO certificate with valid",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Kiểm tra hiệu quả sau khi cô lập điện",
+      "text_en": "Check voltage after electrical isolation",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Nối đất cho thiết bị điện theo quy định",
+      "text_en": "Connecting earthing cable when required",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "14",
+  "category": "An toàn điện",
+  "question_vn": "Những yếu tố nào ảnh hưởng đến mức độ hậu quả điện giật?",
+  "question_en": "What factors affect the degree of electric shock consequences?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thời gian tiếp xúc",
+      "text_en": "Exposure time",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Tần số của dòng điện qua cơ thể",
+      "text_en": "Frequency of current pass thru the body",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Cường độ dòng điện",
+      "text_en": "Amperage Capacity",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "15",
+  "category": "An toàn điện",
+  "question_vn": "Những nguyên nhân chính gây ra tai nạn điện?",
+  "question_en": "What are the main causes of electrical incident?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Do không tuân thủ quy trình/hướng dẫn làm việc liên quan đến công việc điện",
+      "text_en": "Do not follow the relevant electrical safety procedures/guidelines",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Nhân sự làm công việc điện chưa được đào tạo",
+      "text_en": "Incompetent person",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Sử dụng thiết bị điện không an toàn",
+      "text_en": "Use of the unsafe electrical equipment/tools",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "16",
+  "category": "An toàn điện",
+  "question_vn": "Các loại thiết bị, dụng cụ thường được sử dụng cho người làm công việc điện?",
+  "question_en": "What types of tool/equipment generally being used by electrical worker?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Giày bảo hộ chuyên dụng cho người làm công việc điện",
+      "text_en": "Specialized safety shoes",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Găng tay cách điện",
+      "text_en": "Insulated gloves",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Vôn kế",
+      "text_en": "Voltage meter",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "17",
+  "category": "An toàn điện",
+  "question_vn": "Các bước cơ bản khi xử lý, cấp cứu người bị điện giật?",
+  "question_en": "What are the basic steps to be followed when rescuing the person from the electric shock?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Tách nạn nhân ra khỏi nguồn điện",
+      "text_en": "Separate the victim out of the electric source",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Tiến hành sơ cấp cứu ban đầu",
+      "text_en": "Do first aid",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Gọi hỗ trợ của Y tế",
+      "text_en": "Call Clinic center for help",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "18",
+  "category": "An toàn điện",
+  "question_vn": "Phương pháp tách nạn nhân bị điện giật ra khỏi nguồn điện là:",
+  "question_en": "The way to separate the victim from the power source is:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Ngắt nguồn điện (cầu dao, CB.) hoặc rút phích cắm, cầu chì",
+      "text_en": "Disconnect the power source (Breaker, CB) or Unplug socket/fuses",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Nếu không cắt được nguồn điện, có thể sử dụng vật cách điện (cây khô, sào nhựa, kềm cách điện…) để tách dây điện ra khỏi nạn nhân (chú ý người cấp cứu phải đứng trên vật cách điện)",
+      "text_en": "If cannot cut off the power source, use insulated material (dry trees, insulated poles/plier) to separate the victim out of power source (note that responder must stand on insulated material)",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Câu A và B đều đúng",
+      "text_en": "A & B are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "19",
+  "category": "An toàn điện",
+  "question_vn": "Ai có thể cứu người bị điện giật?",
+  "question_en": "Who can rescue the victim from electric shock?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Người giám sát công việc Điện",
+      "text_en": "Electrical work supervisor",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Người thực hiện công việc điện",
+      "text_en": "Electrical worker",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Người có đủ khả năng và được đào tạo phù hợp",
+      "text_en": "The person who is qualified and appropriately trained",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "20",
+  "category": "An toàn điện",
+  "question_vn": "Thiết bị nào không cần nối tiếp địa?",
+  "question_en": "What equipment does not need to be grounded?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đèn pin cầm tay",
+      "text_en": "Portable flashlight",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Tủ điện phân phối",
+      "text_en": "Electrical distribution box",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Máy phát điện",
+      "text_en": "Power generator",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "21",
+  "category": "An toàn điện",
+  "question_vn": "Các loại phương tiện bảo vệ cá nhân thường được sử dụng cho người làm công việc điện là:",
+  "question_en": "What types of PPEs to be used for electrical worker?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Găng tay cách điện",
+      "text_en": "Insulated gloves",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Ủng cách điện",
+      "text_en": "Insulated boots",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Giày cách điện",
+      "text_en": "Insulated safety shoes",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "22",
+  "category": "An toàn điện",
+  "question_vn": "Ai là người được thực hiện công việc điện?",
+  "question_en": "Who is the authorized person to performing the electrical work?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Người giám sát công việc",
+      "text_en": "Work supervisor",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Thợ giàn giáo",
+      "text_en": "Scaffolder",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Người có năng lực chuyên môn về điện và được chỉ định phân công",
+      "text_en": "Electrical competent person and assigned for carry-out electrical work",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "23",
+  "category": "An toàn điện",
+  "question_vn": "Đối với Tủ phân phối điện áp định mức 240 V và thấp hơn, thao tác nào sau đây cần phải sử dụng găng tay cách điện?",
+  "question_en": "For distribution panels with a rating voltage of 240 V and lower, which of the following operations requires the use of insulated gloves?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thao tác trên các bộ phận đang mang điện, bao gồm việc kiểm tra điện áp",
+      "text_en": "Working on live parts, including electrical testing",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Gỡ bỏ/lắp đặt cơ cấu chuyển mạch của CB hoặc cầu chì",
+      "text_en": "Remove/install the switchgear of the CB or the fuse",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tháo dỡ tấm bảo vệ bên ngoài của các tủ",
+      "text_en": "Dismantling the outer protective plate of the cabinets",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Câu A và B đều đúng",
+      "text_en": "A & B are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "24",
+  "category": "An toàn điện",
+  "question_vn": "Đối với những công việc cần cô lập điện mà vị trí điểm cô lập chỉ có thể thực hiện tại hiện trường như công việc sửa chữa/thay thế đèn chiếu sáng, thang máy,… các quy định nào sau đây phải tuân thủ:",
+  "question_en": "For maintenance activities with electrical isolation, the location of isolation points can only be carried out in the field as repair/replace lights, elevators, etc., the following regulations must be complied with:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Bố trí tối thiểu 2 người trong nhóm làm việc, trong đó có 1 người là người cô lập",
+      "text_en": "There must be at least 2 people in the work team and one of them is responsible for carrying out isolation (isolator)",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Người cô lập và người giám sát công việc là 2 người khác nhau",
+      "text_en": "Isolator and work supervisor are different",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Khi đóng điện (bỏ cô lập tạm thời) để kiểm tra tình trạng hoạt động của đèn chiếu sáng, thang máy…, người cô lập và người giám sát công việc phải cùng kiểm tra, điền thông tin và cùng ký xác nhận tại Phần 5 của chứng chỉ cô lập năng lượng trước khi đóng điện",
+      "text_en": "De-isolation requirement to temporary test for checking of lights, elevators, etc. Isolator and work supervisor must jointly check, fill in the specific information and sign in section 5 of the energy isolation certificate before de-isolation",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "25",
+  "category": "An toàn điện",
+  "question_vn": "Các điều kiện không an toàn trong hình bên dưới là:",
+  "question_en": "The unsafe conditions in below picture are:",
+  "image": "nganhangcauhoi/etest/atd-cau25.png",
+  "options": [
+    { "label": "A", "text_vn": "Sử dụng ổ cắm không đúng quy định", "text_en": "Using poor socket", "is_correct": false },
+    { "label": "B", "text_vn": "Bố trí dây cáp điện, ổ cắm không gọn gàng", "text_en": "The layout of cable/Plug/socket are not neat", "is_correct": false },
+    { "label": "C", "text_vn": "Che chắn lối đi của thang", "text_en": "Block access of ladder", "is_correct": false },
+    { "label": "D", "text_vn": "Tất cả các ý trên", "text_en": "All of these above", "is_correct": true }
+  ],
+  "points": 1
+},
+{
+  "id": "26",
+  "category": "An toàn điện",
+  "question_vn": "Các điều kiện không an toàn trong hình bên dưới là:",
+  "question_en": "The unsafe conditions in below picture are:",
+  "image": "nganhangcauhoi/etest/atd-cau26.png",
+  "options": [
+    { "label": "A", "text_vn": "Tủ phân phối điện không được khóa cửa tủ", "text_en": "Not close the door for power distribution box", "is_correct": false },
+    { "label": "B", "text_vn": "Thiếu bảng cảnh báo điện áp", "text_en": "Lack of voltage warning sign", "is_correct": false },
+    { "label": "C", "text_vn": "Câu A và B đều đúng", "text_en": "A & B are correct", "is_correct": true }
+  ],
+  "points": 1
+},
+{
+  "id": "27",
+  "category": "An toàn điện",
+  "question_vn": "Điều kiện không an toàn nào của tủ phân phối điện đã được khắc phục trong hình bên dưới là:",
+  "question_en": "Which unsafe condition of power distribution box has been corrected in below picture?",
+  "image": "nganhangcauhoi/etest/atd-cau27.png",
+  "options": [
+    { "label": "A", "text_vn": "Dây tiếp địa của tủ điện kết nối với kết cấu/trụ của lán trại nghỉ ngơi. Sau khi can dự HSE, dây tiếp địa đã được đấu nối với điểm tiếp địa có định tại chân trụ đèn.", "text_en": "Earthing cable of the power distribution box found connected to the rest shelter structure. Earthing cable connected to permanent earthing system (at bottom of electric post) after HSE intervention", "is_correct": true },
+    { "label": "B", "text_vn": "Tủ điện không được đấu dây tiếp địa", "text_en": "No earthing cable for on power distribution box", "is_correct": false },
+    { "label": "C", "text_vn": "Câu A và B đều sai", "text_en": "A & B are incorrect", "is_correct": false }
+  ],
+  "points": 1
+},
+{
+  "id": "28",
+  "category": "An toàn điện",
+  "question_vn": "Các điều kiện không an toàn trong hình bên dưới là:",
+  "question_en": "The unsafe conditions in below picture are:",
+  "image": "nganhangcauhoi/etest/atd-cau28.png",
+  "options": [
+    { "label": "A", "text_vn": "Phuy nhiên liệu đặt gần máy phát điện đang vận hành", "text_en": "Located Fuel drum near power generator", "is_correct": false },
+    { "label": "B", "text_vn": "Không bố trí khay thu gom dầu/nhiên liệu bên dưới máy phát điện và phuy nhiên liệu", "text_en": "Lack of trays for power generator & fuel drum", "is_correct": false },
+    { "label": "C", "text_vn": "A và B đều đúng", "text_en": "A&B are correct", "is_correct": true },
+    { "label": "D", "text_vn": "A và B đều sai", "text_en": "A&B are incorrect", "is_correct": false }
+  ],
+  "points": 1
+},
+{
+  "id": "29",
+  "category": "An toàn điện",
+  "question_vn": "Điều kiện không an toàn trong hình bên dưới là:",
+  "question_en": "The unsafe condition in below picture is:",
+  "image": "nganhangcauhoi/etest/atd-cau29.png",
+  "options": [
+    { "label": "A", "text_vn": "Không có dây tiếp địa", "text_en": "Lack of earthing cable", "is_correct": false },
+    { "label": "B", "text_vn": "Không có đầu kết nối chuẩn giữa các dây cáp và thiết bị", "text_en": "Lack of cable lugs", "is_correct": true },
+    { "label": "C", "text_vn": "A và B đều đúng", "text_en": "A&B are correct", "is_correct": false },
+    { "label": "D", "text_vn": "A và B đều sai", "text_en": "A&B are incorrect", "is_correct": false }
+  ],
+  "points": 1
+},
+{
+  "id": "30",
+  "category": "An toàn điện",
+  "question_vn": "Điều kiện không an toàn của máy phát điện trong hình bên dưới là:",
+  "question_en": "The unsafe condition of power generator in below picture is:",
+  "image": "nganhangcauhoi/etest/atd-cau30.png",
+  "options": [
+    { "label": "A", "text_vn": "Hộp đầu nối điện đầu ra của máy phát không được che chắn/bảo vệ chống mưa/va chạm, rủi ro chập điện/điện giật", "text_en": "Not cover for generator tap box, risk of short circuit/electric shock", "is_correct": true },
+    { "label": "B", "text_vn": "Cáp điện tiếp xúc với bề mặt sắc nhọn, rủi ro điện giật", "text_en": "Electric cable of the power generator in contact with sharp objects, risk of electric shock", "is_correct": false },
+    { "label": "C", "text_vn": "A và B đều đúng", "text_en": "A&B are correct", "is_correct": false },
+    { "label": "D", "text_vn": "A và B đều sai", "text_en": "A&B are incorrect", "is_correct": false }
+  ],
+  "points": 1
+},
+
+]

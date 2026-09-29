@@ -1,0 +1,644 @@
+[
+  {
+  "id": "01",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Mục đích của Hướng dẫn an toàn các công việc giàn giáo",
+  "question_en": "The purpose of safety guideline for scaffolding work are:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Quy định an toàn liên quan đến quá trình lắp đặt/sử dụng/tháo dỡ giàn giáo tại BSR",
+      "text_en": "Provide safety regulations for the erecting, using and dismantling of scaffold at BSR",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đảm bảo đạt được mục tiêu “Không có tai nạn hoặc sự cố” liên quan lắp dựng/sử dụng/tháo dỡ giàn giáo tại BSR.",
+      "text_en": "Ensure achieved the goal of “No Accidents or Incidents” related to scaffolding erection/using/dismantling at BSR",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả các câu trên đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "02",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Phạm vi áp dụng của Hướng dẫn an toàn các công việc giàn giáo?",
+  "question_en": "The scopes of safety guideline for scaffolding work are:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Áp dụng cho các công việc giàn giáo trong phạm vi quản lý của BSR",
+      "text_en": "Apply for scaffolding works within BSR’premises or scaffolding works managed/controlled by BSR",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Các phòng/Ban chức năng có công việc liên quan đến giàn giáo",
+      "text_en": "BSR Departments/Divisions have works related to scaffolding works",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Nhà thầu làm việc liên quan đến giàn giáo tại BSR",
+      "text_en": "Contractors working in BSR related to scaffolding works",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các loại trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "03",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Giàn giáo nào sau đây được phép sử dụng tại BSR?",
+  "question_en": "Which of the following scaffolds is allowed to use in BSR?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Giàn giáo ống thép rời và khóa",
+      "text_en": "Steel tube scaffold",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Giàn giáo khung chế tạo sẵn",
+      "text_en": "Pre-fabricated scaffold",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Giàn giáo neo tựa vào kết cấu",
+      "text_en": "Structure anchor scaffold",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các loại trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "04",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Trách nhiệm của quản lý khu vực có giàn giáo",
+  "question_en": "What are responsibilities of owner of scaffolding erecting area",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Phổ biến nội dung Hướng dẫn cho các nhân sự thuộc khu vực quản lý và phối hợp giám sát sự tuân thủ",
+      "text_en": "Disseminate the contents of guideline for personnel working under his management and supervise the compliance",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Phân công nhân sự thực hiện kiểm tra, ký xác nhận trên phiếu kiểm tra an toàn giàn giáo",
+      "text_en": "Assign competent person to inspect and sign on scaffolding safety checklist",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả các câu trên đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "05",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Trách nhiệm của Ban/Đơn vị cung cấp giàn giáo",
+  "question_en": "What are responsibilities of scaffolding suppliers",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Phổ biến và tổ chức giám sát đảm bảo tuân thủ nội dung Hướng dẫn cho các nhân sự trực thuộc",
+      "text_en": "Disseminate the contents of guideline for personnel under his management",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Kiểm tra, tổng hợp tình trạng giàn giáo tại công trường và hàng tuần báo cáo cho các bên liên quan (Lãnh đạo Ban yêu cầu giàn giáo, khu vực có giàn giáo và Ban ATMT BSR)",
+      "text_en": "Check and submit weekly list of the scaffolds to relevant parties (the manager of Scaffold requesting Division, manager of scaffold erecting area and BSR HSE Division)",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Có trách nhiệm tháo dỡ/thu dọn vật tư giàn giáo theo quy định của hợp đồng sau khi kết thúc công việc hoặc theo yêu cầu đảm bảo an toàn (vận hành, PCTT)",
+      "text_en": "Responsible to dismantle and remove scaffold material as regulated in contract after completion of work or if required (in case of typhoon season or others)",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các câu trên đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "06",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Có mấy loại thẻ giàn giáo được áp dụng tại BSR?",
+  "question_en": "How many scaffolding tags are applied at BSR?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "1",
+      "text_en": "1",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "2",
+      "text_en": "2",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "3",
+      "text_en": "3",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "4",
+      "text_en": "4",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "07",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Thẻ giàn giáo màu Vàng chỉ tình trạng nào của giàn giáo?",
+  "question_en": "What is the meaning of yellow scaffolding tag?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Trong quá trình kiểm tra an toàn trước khi sử dụng",
+      "text_en": "During safety inspection before use",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Giàn giáo không đảm bảo an toàn",
+      "text_en": "Unsafe scaffolding condition",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Giàn giáo đã được kiểm tra và an toàn để sử dụng",
+      "text_en": "Safety scaffold",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Giàn giáo sắp được tháo dỡ",
+      "text_en": "Prepare to dismantle scaffold",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "08",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Tất cả các loại giàn giáo lắp đặt tại BSR phải có bản vẽ thiết kế được phê duyệt?",
+  "question_en": "All types of scaffold erected in BSR must have approved design drawings?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đúng",
+      "text_en": "Correct",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Sai",
+      "text_en": "Incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "09",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Giàn giáo phải được kiểm tra định kỳ khi nào?",
+  "question_en": "How long does scaffold required to periodically inspected?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Hàng ngày",
+      "text_en": "Daily",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Hàng tuần",
+      "text_en": "Weekly",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Mỗi hai tuần",
+      "text_en": "Each two weeks",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Hàng tháng",
+      "text_en": "Monthly",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "10",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Giàn giáo nào sau đây phải được kiểm tra và treo thẻ sau khi lắp dựng?",
+  "question_en": "Which of the following types of scaffold must be inspected and attached tag after erection?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Giàn giáo ống thép rời và khóa",
+      "text_en": "Steel tube scaffold",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Giàn giáo khung chế tạo sẵn",
+      "text_en": "Pre-fabricated scaffold",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Giàn giáo neo tựa vào kết cấu",
+      "text_en": "Structure anchor scaffold",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "11",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Theo Hướng dẫn an toàn các công việc giàn giáo, thanh lan can bảo vệ trên cùng có chiều cao tối thiểu là:",
+  "question_en": "The minimum height of top handrail is",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "1,0 m",
+      "text_en": "1.0 m",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "1,1 m",
+      "text_en": "1.1 m",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "1,2 m",
+      "text_en": "1.2 m",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "1,3 m",
+      "text_en": "1.3 m",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "12",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Bắt đầu từ cấp gió nào không được phép làm các công việc liên quan (lắp dựng, tháo dỡ, sử dụng) đến giàn giáo?",
+  "question_en": "What is the minimum wind level that is not allowed to do related works (erection, dismantling, use) to the scaffolding?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Cấp 4",
+      "text_en": "Level 4",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Cấp 5",
+      "text_en": "Level 5",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Cấp 6",
+      "text_en": "Level 6",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Cấp 7",
+      "text_en": "Level 7",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "13",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Khe hở cho phép lớn nhất giữa các tấm lót sàn của sàn làm việc trên giàn giáo là bao nhiêu?",
+  "question_en": "What is the maximum gap allowed between the planks of scaffolding?",
+  "options": [
+    { "label": "A", "text_vn": "2 cm", "text_en": "2 cm", "is_correct": false },
+    { "label": "B", "text_vn": "2,54 cm", "text_en": "2.54 cm", "is_correct": true },
+    { "label": "C", "text_vn": "3 cm", "text_en": "3 cm", "is_correct": false },
+    { "label": "D", "text_vn": "3,5 cm", "text_en": "3.5 cm", "is_correct": false }
+  ],
+  "points": 1
+},
+{
+  "id": "14",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Nhân sự lắp dựng và tháo dỡ giàn giáo phải có chứng chỉ gì?",
+  "question_en": "What is the certificate required for a scaffolder?",
+  "options": [
+    { "label": "A", "text_vn": "Sơ cấp nghề", "text_en": "Primary vocational level", "is_correct": false },
+    { "label": "B", "text_vn": "Chứng chỉ được cấp cho các nhân sự đã hoàn thành khóa đào tạo về lắp dựng và tháo dỡ giàn giáo", "text_en": "Scaffolding erection/dismantlement certificate", "is_correct": false },
+    { "label": "C", "text_vn": "Không cần chứng chỉ", "text_en": "No certificate required", "is_correct": false },
+    { "label": "D", "text_vn": "A & B đúng", "text_en": "A & B are correct", "is_correct": true }
+  ],
+  "points": 1
+},
+{
+  "id": "15",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Nhân sự giám sát, gắn thẻ và kiểm tra định kỳ của đơn vị cung cấp giàn giáo phải có chứng chỉ gì?",
+  "question_en": "Which certificate is required for scaffolding inspector or scaffolding supervisor of scaffold supplier?",
+  "options": [
+    { "label": "A", "text_vn": "Sơ cấp nghề", "text_en": "Pre-intermediate level", "is_correct": false },
+    { "label": "B", "text_vn": "Chứng chỉ được cấp cho các nhân sự đã hoàn thành khóa đào tạo về giám sát hoặc tính toán thiết kế", "text_en": "Certificate for personnel who has finished the training course about supervision/design of scaffolding works", "is_correct": true },
+    { "label": "C", "text_vn": "Không cần chứng chỉ", "text_en": "No certificate required", "is_correct": false },
+    { "label": "D", "text_vn": "A & C đúng", "text_en": "A & C are correct", "is_correct": false }
+  ],
+  "points": 1
+},
+{
+  "id": "16",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Theo Hướng dẫn an toàn các công việc giàn giáo, các thanh giằng, thanh ngang trong hệ giàn giáo có độ dài vượt điểm cố định ở cả hai đầu một đoạn là:",
+  "question_en": "According to the safety guideline for scaffolding work, The extension of braces, ledgers/putlogs from clamps are between",
+  "options": [
+    { "label": "A", "text_vn": "15 cm đến 25 cm", "text_en": "15 cm to 25 cm", "is_correct": true },
+    { "label": "B", "text_vn": "10 cm đến 20 cm", "text_en": "10 cm to 20 cm", "is_correct": false },
+    { "label": "C", "text_vn": "20 cm đến 30 cm", "text_en": "20 cm to 30 cm", "is_correct": false },
+    { "label": "D", "text_vn": "10 cm đến 25 cm", "text_en": "10 cm to 25 cm", "is_correct": false }
+  ],
+  "points": 1
+},
+{
+  "id": "17",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Theo Hướng dẫn an toàn các công việc giàn giáo, chiều cao và chiều rộng của bậc thang được quy định như thế nào?",
+  "question_en": "According to the safety guideline for scaffolding work, How are the height and width of ladder rung regulated?",
+  "options": [
+    { "label": "A", "text_vn": "Bậc thang được bố trí đều nhau và nằm trong khoảng từ 25 cm đến 36 cm và chiều rộng bậc thang tối thiểu 29 cm", "text_en": "Rungs must be evenly spaced between 25 cm and 36 cm. The minimum clear width of rungs is 29 cm", "is_correct": true },
+    { "label": "B", "text_vn": "Bậc thang được bố trí đều nhau và nằm trong khoảng từ 21 cm đến 31 cm và chiều rộng bậc thang tối thiểu 20 cm", "text_en": "Rungs must be evenly spaced between 21 cm and 31 cm. The minimum clear width of rungs is 20 cm", "is_correct": false },
+    { "label": "C", "text_vn": "Bậc thang được bố trí đều nhau và nằm trong khoảng từ 15 cm đến 26 cm và chiều rộng bậc thang tối thiểu 25 cm", "text_en": "Rungs must be evenly spaced between 15 cm and 26 cm. The minimum clear width of rungs is 25 cm", "is_correct": false },
+    { "label": "D", "text_vn": "Bậc thang được bố trí đều nhau và nằm trong khoảng từ 19 cm đến 32 cm và chiều rộng bậc thang tối thiểu 25 cm", "text_en": "Rungs must be evenly spaced between 19 cm and 32 cm. The minimum clear width of rungs is 25 cm", "is_correct": false }
+  ],
+  "points": 1
+},
+{
+  "id": "18",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Các lỗi vi phạm thường gặp trong lắp dựng/sử dụng/tháo dỡ giàn giáo bao gồm:",
+  "question_en": "Common violations in the erection/use/dismantling of scaffolding include:",
+  "options": [
+    { "label": "A", "text_vn": "Giàn giáo cản trở lối thoát hiểm, lối tiếp cận thiết PCCC", "text_en": "Scaffolding obstructs emergency exits and access to fire protection equipment", "is_correct": false },
+    { "label": "B", "text_vn": "Thợ giàn giáo móc dây an toàn không đúng cách", "text_en": "Scaffolding worker do not hook full body harness properly", "is_correct": false },
+    { "label": "C", "text_vn": "Sử dụng vật tư giàn giáo không đảm bảo an toàn", "text_en": "Using the not safe scaffolding materials", "is_correct": false },
+    { "label": "D", "text_vn": "Tất cả các ý trên", "text_en": "All of these above", "is_correct": true }
+  ],
+  "points": 1
+},
+{
+  "id": "19",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Đối với giàn giáo tải trọng nặng, tải trọng tối đa trên một khung chân đế là bao nhiêu?",
+  "question_en": "For the heavy duty scaffold, what is the maximum load on base of scaffold?",
+  "options": [
+    { "label": "A", "text_vn": "200 kg/m2", "text_en": "200 kg/m2", "is_correct": false },
+    { "label": "B", "text_vn": "250 kg/m2", "text_en": "250 kg/m2", "is_correct": false },
+    { "label": "C", "text_vn": "375 kg/m2", "text_en": "375 kg/m2", "is_correct": true },
+    { "label": "D", "text_vn": "Khác", "text_en": "Others", "is_correct": false }
+  ],
+  "points": 1
+},
+{
+  "id": "20",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Theo cấp gió bão dự báo từ cấp 8 (tốc độ gió 17,2–20,7 m/s) đến cấp 10 (tốc độ gió 24,5–28,4 m/s), giàn giáo có chiều cao hơn 2 mét mà không thể giằng vào kết cấu cố định thì phải?",
+  "question_en": "Typhoon level forecasted is from Level 8 (wind speed from 17.2–20.7 m/s) to Level 10 (wind speed from 24.5 to 28.4 m/s), The height of scaffold above 2 m and cannot be braced to the fixed structures:",
+  "options": [
+    { "label": "A", "text_vn": "Tháo dỡ hoàn toàn tấm chắn vật rơi và sàn công tác", "text_en": "Fully dismantle toe boards and the working platforms", "is_correct": false },
+    { "label": "B", "text_vn": "Gia cố khung giàn giáo bằng các thanh chống", "text_en": "Reinforced the structure of scaffolding by Braces", "is_correct": false },
+    { "label": "C", "text_vn": "Tháo toàn bộ giàn giáo", "text_en": "Fully dismantle scaffold", "is_correct": false },
+    { "label": "D", "text_vn": "A & B đúng", "text_en": "A & B are correct", "is_correct": true }
+  ],
+  "points": 1
+},
+{
+  "id": "21",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Theo cấp gió bão dự báo từ cấp 13 (tốc độ gió 37,0 – 41,4 m/s) trở lên, các yêu cầu an toàn đối với mỗi loại giàn giáo là:",
+  "question_en": "Typhoon level forecasted is from Level 13 (wind speed: 37.0 – 41.4 m/s) or more: Safety requirements for every scaffold are:",
+  "options": [
+    { "label": "A", "text_vn": "Giàn giáo di động: Tháo toàn bộ giàn giáo và tập kết vật tư đến vị trí an toàn", "text_en": "Mobile scaffold: Fully dismantle scaffold and moving scaffolding material to safe location", "is_correct": false },
+    { "label": "B", "text_vn": "Giàn giáo không thể giằng vào kết cấu vững chắc: Tháo toàn bộ giàn giáo và tập kết vật tư đến vị trí an toàn", "text_en": "Scaffold cannot be braced to the fixed structures: Fully dismantle scaffold and moving scaffolding material to safe location", "is_correct": false },
+    { "label": "C", "text_vn": "Giàn giáo có thể giằng vào kết cấu vững chắc: Tháo toàn bộ sàn công tác và tấm chắn vật rơi, đồng thời gia cố khung giàn giáo vào kết cấu cố định vững chắc tại mỗi 2 m theo chiều cao của giàn giáo bởi ít nhất 2 điểm giằng", "text_en": "Scaffold can be braced to the fixed structures: Fully dismantle the working platforms and toe boards, simultaneously braced the scaffold structure to the fixed structures by at least 2 bracing points in every 2 m height of scaffold", "is_correct": false },
+    { "label": "D", "text_vn": "Tất cả các ý trên", "text_en": "All of these above", "is_correct": true }
+  ],
+  "points": 1
+},
+{
+  "id": "22",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Giàn giáo sau có điều kiện không an toàn nào?",
+  "question_en": "Which unsafe condition of the scaffold in picture below?",
+  "image": "nganhangcauhoi/etest/atgg-cau22.png",
+  "options": [
+    { "label": "A", "text_vn": "Che chắn đầu phun nước chữa cháy", "text_en": "Obstruct the nozzle of fire water pipeline", "is_correct": true },
+    { "label": "B", "text_vn": "Không có thang truy cập", "text_en": "No access ladder", "is_correct": false },
+    { "label": "C", "text_vn": "Không cố định sàn công tác", "text_en": "Not secure planks of working platform", "is_correct": false },
+    { "label": "D", "text_vn": "Tất cả các ý trên", "text_en": "All of these above", "is_correct": false }
+  ],
+  "points": 1
+},
+{
+  "id": "23",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Có các điều kiện không an toàn nào trong hình sau?",
+  "question_en": "Which unsafe conditions in picture below?",
+  "image": "nganhangcauhoi/etest/atgg-cau23.png",
+  "options": [
+    { "label": "A", "text_vn": "Ống giàn giáo cản trở lối đi lại trên thang", "text_en": "Scaffolding tube cause obstruct the access way on the ladder", "is_correct": false },
+    { "label": "B", "text_vn": "Tấm chắn vật rơi cản trở lối đi lại trên thang", "text_en": "Toe board cause obstruct the access way on the ladder", "is_correct": false },
+    { "label": "C", "text_vn": "Vật rơi", "text_en": "Falling object", "is_correct": false },
+    { "label": "D", "text_vn": "A & B đúng", "text_en": "A & B are correct", "is_correct": true }
+  ],
+  "points": 1
+},
+{
+  "id": "24",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Có điều kiện không an toàn nào trong hình sau?",
+  "question_en": "Which unsafe condition in picture below?",
+  "image": "nganhangcauhoi/etest/atgg-cau24.png",
+  "options": [
+    { "label": "A", "text_vn": "Giàn giáo cản trở lối đi lại trên thang cố định của Nhà máy", "text_en": "Scaffold cause obstruct the access way on the fixed ladder", "is_correct": true },
+    { "label": "B", "text_vn": "Giàn giáo che chắn thiết bị khẩn cấp", "text_en": "Scaffold cause obstruct emergency equipment", "is_correct": false },
+    { "label": "C", "text_vn": "Không có sàn công tác", "text_en": "Lack of platform", "is_correct": false },
+    { "label": "D", "text_vn": "Tất cả các ý trên", "text_en": "All of these above", "is_correct": false }
+  ],
+  "points": 1
+},
+{
+  "id": "25",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Khi làm việc trên giàn giáo này (có đường ống công nghệ nhưng chưa được bọc bảo ôn) có thể tiếp xúc với mối nguy sau",
+  "question_en": "What hazards may workers expose while working on this scaffolding (near process pipeline without insulation cover)?",
+  "image": "nganhangcauhoi/etest/atgg-cau25.png",
+  "options": [
+    { "label": "A", "text_vn": "Nhiệt năng", "text_en": "Thermal energy", "is_correct": true },
+    { "label": "B", "text_vn": "Điện năng", "text_en": "Electrical energy", "is_correct": false },
+    { "label": "C", "text_vn": "Tiếng ồn", "text_en": "Noise", "is_correct": false },
+    { "label": "D", "text_vn": "Hóa năng", "text_en": "Chemical energy", "is_correct": false }
+  ],
+  "points": 1
+},
+{
+  "id": "26",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Giàn giáo sau có điều kiện không an toàn nào?",
+  "question_en": "Which violations do scaffold have in picture below?",
+  "image": "nganhangcauhoi/etest/atgg-cau26.png",
+  "options": [
+    { "label": "A", "text_vn": "Không có thẻ thể hiện tình trạng giàn giáo", "text_en": "No scaffold’s tag", "is_correct": true },
+    { "label": "B", "text_vn": "Không có sàn tạm để cho nhân sự lắp dựng", "text_en": "No temporary platform for scaffolder", "is_correct": false },
+    { "label": "C", "text_vn": "Không có thang truy cập", "text_en": "No ladder", "is_correct": false },
+    { "label": "D", "text_vn": "Tất cả các câu trên đều đúng", "text_en": "All of these above", "is_correct": false }
+  ],
+  "points": 1
+},
+{
+  "id": "27",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Giàn giáo sau có điều kiện không an toàn nào?",
+  "question_en": "Which violations on scaffold in picture below",
+  "image": "nganhangcauhoi/etest/atgg-cau27.png",
+  "options": [
+    { "label": "A", "text_vn": "Không lắp đặt tấm chắn vật rơi", "text_en": "No Toe board", "is_correct": false },
+    { "label": "B", "text_vn": "Không lắp đặt lan can bảo vệ", "text_en": "No handrail", "is_correct": false },
+    { "label": "C", "text_vn": "Không cố định chắc chắn tấm lót sàn", "text_en": "Not fix tightly plank with the structure of scaffold", "is_correct": false },
+    { "label": "D", "text_vn": "Tất cả các ý trên", "text_en": "All of these above", "is_correct": true }
+  ],
+  "points": 1
+},
+{
+  "id": "28",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Giàn giáo sau có điều kiện không an toàn nào?",
+  "question_en": "Which unsafe condition of the scaffold in picture below?",
+  "image": "nganhangcauhoi/etest/atgg-cau28.png",
+  "options": [
+    { "label": "A", "text_vn": "Màu thẻ không đúng quy định", "text_en": "The color of tag is not correct", "is_correct": true },
+    { "label": "B", "text_vn": "Giàn giáo không có thẻ", "text_en": "No tag on scaffold", "is_correct": false },
+    { "label": "C", "text_vn": "Giàn giáo không có thang tiếp cận", "text_en": "Scaffolding do not have ladder", "is_correct": false },
+    { "label": "D", "text_vn": "Tất cả các ý trên", "text_en": "All of these above", "is_correct": false }
+  ],
+  "points": 1
+},
+{
+  "id": "29",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Giàn giáo sau có điều kiện không an toàn nào?",
+  "question_en": "Which violation of scaffold in picture below",
+  "image": "nganhangcauhoi/etest/atgg-cau29.png",
+  "options": [
+    { "label": "A", "text_vn": "Không có tấm lót chân đế", "text_en": "No sole plate", "is_correct": false },
+    { "label": "B", "text_vn": "Vị trí treo thẻ trên giàn giáo không phù hợp", "text_en": "The location of tag is not correct", "is_correct": true },
+    { "label": "C", "text_vn": "Nền móng không chắc chắn", "text_en": "Unsolid foundation", "is_correct": false },
+    { "label": "D", "text_vn": "Tất cả các ý trên", "text_en": "All of these above", "is_correct": false }
+  ],
+  "points": 1
+},
+{
+  "id": "30",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Có điều kiện/hành vi không an toàn nào trong hình sau?",
+  "question_en": "Which unsafe condition/action in picture below",
+  "image": "nganhangcauhoi/etest/atgg-cau30.png",
+  "options": [
+    { "label": "A", "text_vn": "Không có tấm lót chân đế", "text_en": "No sole plate", "is_correct": false },
+    { "label": "B", "text_vn": "Vị trí treo thẻ trên giàn giáo không phù hợp", "text_en": "The location of tag is not correct", "is_correct": false },
+    { "label": "C", "text_vn": "Nền móng không chắc chắn", "text_en": "Unsolid foundation", "is_correct": true },
+    { "label": "D", "text_vn": "Tất cả các ý trên", "text_en": "All of these above", "is_correct": false }
+  ],
+  "points": 1
+},
+{
+  "id": "31",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Có điều kiện/hành vi không an toàn nào trong hình sau?",
+  "question_en": "Which unsafe condition/action in picture below?",
+  "image": "nganhangcauhoi/etest/atgg-cau31.png",
+  "options": [
+    { "label": "A", "text_vn": "Không mang dây an toàn toàn thân khi làm việc trên cao", "text_en": "Do not wear safety harness during working at height", "is_correct": false },
+    { "label": "B", "text_vn": "Tấm chắn vật rơi cản trở lối đi lại trên thang", "text_en": "Toe board cause obstruct the access way on the ladder", "is_correct": false },
+    { "label": "C", "text_vn": "Vật rơi: Tập kết quá nhiều cùm giàn giáo trên sàn/dầm bê tông", "text_en": "Falling object: Store many scaffolding clamps on plank/beam", "is_correct": true },
+    { "label": "D", "text_vn": "A & C đúng", "text_en": "A & C are correct", "is_correct": false }
+  ],
+  "points": 1
+},
+{
+  "id": "34",
+  "category": "An toàn giàn giáo",
+  "question_vn": "Theo Hướng dẫn an toàn các công việc giàn giáo, giàn giáo có chiều cao hơn bao nhiêu lần kích thước nhỏ nhất của khung chân đế thì phải bố trí giằng chống chắc chắn?",
+  "question_en": "According to the safety guideline for scaffolding work, how many times is the height of scaffold higher than the smallest dimension of the base frame, it must be securely braced?",
+  "options": [
+    { "label": "A", "text_vn": "2", "text_en": "2", "is_correct": false },
+    { "label": "B", "text_vn": "3", "text_en": "3", "is_correct": false },
+    { "label": "C", "text_vn": "4", "text_en": "4", "is_correct": true },
+    { "label": "D", "text_vn": "5", "text_en": "5", "is_correct": false }
+  ],
+  "points": 1
+}
+]

@@ -1,0 +1,1913 @@
+[
+  {
+  "id": "01",
+  "category": "Không gian hạn chế",
+  "question_vn": "Nguyên nhân phổ biến nhất dẫn đến tử vong trong Không gian hạn chế là gì?",
+  "question_en": "What is the most common cause of multiple fatalities in confined spaces?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thiết bị bảo hộ bị hỏng",
+      "text_en": "Equipment failure",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không có người canh chừng",
+      "text_en": "Lack of a hole watcher",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Những người vào cứu hộ người bị nạn trong KGHC không đúng cách",
+      "text_en": "People entering a confined space to rescue victims improperly",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Do nổ khí methane",
+      "text_en": "Methane gas explosion",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "02",
+  "category": "Không gian hạn chế",
+  "question_vn": "Theo số liệu thống kê, yếu tố nào chiếm tỉ lệ cao nhất trong các vụ tai nạn KGHC?",
+  "question_en": "According to statistics, which factor accounts for the highest percentage of confined space accidents?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Chấn thương vật lý",
+      "text_en": "Physical injuries",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Ngạt khí hoặc nhiễm độc khí",
+      "text_en": "Asphyxiation or gas poisoning",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Bị vùi lấp",
+      "text_en": "Engulfment",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Điện giật",
+      "text_en": "Electrocution",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "03",
+  "category": "Không gian hạn chế",
+  "question_vn": "Không gian hạn chế (KGHC) là gì?",
+  "question_en": "What is a confined space?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Là một không gian có đặc tính đủ lớn và có kết cấu để một người có thể chui vào thực hiện một công việc",
+      "text_en": "A space that is large enough and so configured that an employee can bodily enter and perform assigned work",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Khó khăn cho di chuyển ra/vào, không được thiết kế để làm việc liên tục bên trong",
+      "text_en": "Difficult for entry and exit, not designed for continuous occupancy inside",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Điều kiện nguy hiểm có thể tồn tại bên trong hoặc xung quanh không gian đó",
+      "text_en": "Hazardous atmosphere or substances or conditions within the space or nearby may be present",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "04",
+  "category": "Không gian hạn chế",
+  "question_vn": "Thế nào là Không gian hạn chế có rủi ro cao?",
+  "question_en": "What is critical confined space?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Là không gian bên trong bồn bể, tháp, thiết bị phản ứng, đường ống nước biển hoặc những vị trí được xác định có tồn tại nguồn khí/hóa chất nguy hiểm độc hại",
+      "text_en": "Space inside tankage, tower, reactors, sea water intake pipeline or where presented source of hazardous chemical/toxic gas",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Là không gian bên trong bồn bể, tháp, thiết bị phản ứng, đường ống nước biển hoặc những vị trí tiếp cận cứu hộ gặp nhiều khó khăn",
+      "text_en": "Space inside tankage, tower, reactors, sea water intake pipeline or confined space which is difficult for deploying rescue activities",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "05",
+  "category": "Không gian hạn chế",
+  "question_vn": "Công việc nào sau đây được xác định là công việc trong không gian hạn chế?",
+  "question_en": "Which of these works may be considered as high-risk confined space work?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đào đất sâu hơn 1.2m",
+      "text_en": "Excavation work > 1.2 m",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Làm việc bên trong bồn bể",
+      "text_en": "Working inside Tank/Vessel",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Làm việc bên trong các thiết bị phản ứng",
+      "text_en": "Working inside Reactor",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "06",
+  "category": "Không gian hạn chế",
+  "question_vn": "Mối nguy trong không gian hạn chế có thể bao gồm?",
+  "question_en": "Which hazards may exist in confined spaces?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thiếu ôxy",
+      "text_en": "Lack of oxygen",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Khí độc",
+      "text_en": "Toxic gases",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Nhiệt độ cao",
+      "text_en": "High temperature",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "07",
+  "category": "Không gian hạn chế",
+  "question_vn": "Đối với công việc không gian hạn chế (KGHC) có rủi ro cao, thời gian gia hạn tối đa của giấy phép làm việc là?",
+  "question_en": "For high-risk confined space works, what is the maximum extension time for PTW?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Không được phép gia hạn",
+      "text_en": "Not allowed for extension",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Có thể gia hạn tùy theo tính chất công việc nhưng không vượt quá 3 ngày",
+      "text_en": "Can be extended according to the nature of the job but must not exceed 3 days",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Đến 7:00 giờ sáng của ngày sau ngày tiến hành công việc",
+      "text_en": "To 7:00 am of the next day",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Gia hạn tối đa 07 ngày lịch",
+      "text_en": "Maximum 07 days",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "08",
+  "category": "Không gian hạn chế",
+  "question_vn": "Các biện pháp kiểm soát an toàn đối với không gian hạn chế là gì?",
+  "question_en": "What are the control measures for confined space?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đảm bảo việc thực hiện cô lập hiệu quả và xác nhận tất cả các nguồn năng lượng ra/vào KGHC",
+      "text_en": "Implement effective isolation and validation of all energy sources entering/exiting confined spaces",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Môi trường làm việc trong KGHC được đo kiểm thực tế và xác nhận định kỳ/liên tục trước và trong suốt quá trình làm việc",
+      "text_en": "The working environment in confined spaces is tested and verified periodically/continuously before and during the working period",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Kiểm soát con người, vật tư, dụng cụ ra/vào KGHC",
+      "text_en": "Control people, materials, tools in/out of confined space",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "09",
+  "category": "Không gian hạn chế",
+  "question_vn": "Biện pháp để bảo vệ dây và đường ống dẫn khí qua lối vào (manhole) không gian hạn chế như thế nào?",
+  "question_en": "What are the control measures to protect electrical wires and gas hoses through confined space manhole?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Kiểm tra đảm bảo các dây dẫn điện/khí phải đáp ứng các tiêu chuẩn kỹ thuật của Nhà máy",
+      "text_en": "Ensure electrical wires/gas hoses meet the technical standards of BSR",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Phải dùng vật liệu mềm để bọc lót bảo vệ cáp tại các vị trí có khả năng tiếp xúc với bề mặt sắc nhọn để giảm thiểu hư hỏng dây",
+      "text_en": "Soft materials shall be used to shield the cables at locations with sharp surface contact to prevent wire damage",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Treo lên bên thành/trên manhole để hạn chế việc dẫm đạp lên dây dẫn, ống dẫn",
+      "text_en": "Hang on the side or above the manhole to prevent stepping on wires/hoses",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "10",
+  "category": "Không gian hạn chế",
+  "question_vn": "Khi không gian hạn chế chưa được làm sạch hoàn toàn khí cháy nổ, trong trường hợp phải sử dụng thiết bị chiếu sáng thì sử dụng loại nào sau đây?",
+  "question_en": "When the confined space has not been completely cleared of flammable or explosive gases, which type of lighting equipment should be used if lighting is required?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đèn pin 12V",
+      "text_en": "12V Lighting equipment",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đèn pin chống cháy nổ",
+      "text_en": "Explosion-proof torch",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Đèn pin 24V",
+      "text_en": "24V Lighting equipment",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "11",
+  "category": "Không gian hạn chế",
+  "question_vn": "Dụng cụ, thiết bị nào sau đây không được phép mang vào không gian hạn chế?",
+  "question_en": "Which of the following tools and equipment are not allowed to bring inside confined space?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đèn chiếu sáng 24V",
+      "text_en": "24V Torch",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Máy ảnh chống cháy nổ",
+      "text_en": "Explosion-proof camera",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Các thiết bị như máy mài, máy khoan vận hành bằng khí nén",
+      "text_en": "Pneumatic grinding machines and drills",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Các bình khí nén phục vụ công việc bảo dưỡng như: LPG, axetylen, argon...",
+      "text_en": "Compressed gas cylinders for maintenance activities: LPG, acetylene, argon...",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "12",
+  "category": "Không gian hạn chế",
+  "question_vn": "Các phương án liên lạc khi làm việc không gian hạn chế bao gồm:",
+  "question_en": "What is the communication method for confined space?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Liên lạc bằng bộ đàm",
+      "text_en": "Walkie-talkie",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Liên lạc bằng còi",
+      "text_en": "Using whistle",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Liên lạc bằng dây thừng",
+      "text_en": "Using rope signal",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Liên lạc bằng giọng nói",
+      "text_en": "Voice contact",
+      "is_correct": false
+    },
+    {
+      "label": "E",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "13",
+  "category": "Không gian hạn chế",
+  "question_vn": "Hình dưới đây là lối vào KGHC, hãy cho biết điểm nào chưa phù hợp?",
+  "question_en": "What is not appropriate in the picture below?",
+  "image": "nganhangcauhoi/antoanchuyensau/kghc-cau13.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Vật tư (bao cát) che chắn lối vào không gian hạn chế",
+      "text_en": "Material (sand bags) obstruct the access to confined space manhole",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Bình chữa cháy không có vòi phun",
+      "text_en": "Portable fire extinguishers do not have nozzles",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Dây điện đi qua manhole không được lót vật liệu mềm",
+      "text_en": "Electrical wires that pass through a manhole are not protected with soft materials",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "14",
+  "category": "Không gian hạn chế",
+  "question_vn": "Hình dưới đây là lối vào KGHC, hãy cho biết điểm nào chưa phù hợp?",
+  "question_en": "What is not appropriate in the picture below?",
+  "image": "nganhangcauhoi/antoanchuyensau/kghc-cau14.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Ống dẫn/dây cáp điện không được treo gọn gàng",
+      "text_en": "Electric cables/hoses not be hung neatly",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không dùng vật liệu mềm để lót bảo vệ cáp điện",
+      "text_en": "Not use cotton/soft material to cover electric cable",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Dây điện cản trở lối ra vào",
+      "text_en": "Electrical wires obstruct access",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "15",
+  "category": "Không gian hạn chế",
+  "question_vn": "Máy đo khí cá nhân có những hình thức báo động nào cho người sử dụng khi phát hiện hàm lượng khí vượt ngưỡng cài đặt hoặc máy bị lỗi?",
+  "question_en": "What kind of alarm does the personal gas detector have for the user when it detects that the gas concentration exceeds the setpoint or the machine is faulty?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Báo động bằng đèn",
+      "text_en": "Light alarm",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Báo động bằng âm thanh",
+      "text_en": "Sound alarm",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Báo động bằng rung động",
+      "text_en": "Vibration alarm",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "16",
+  "category": "Không gian hạn chế",
+  "question_vn": "Vị trí đeo máy đo khí cá nhân tốt nhất theo khuyến cáo của nhà sản xuất là",
+  "question_en": "The best position to wear personal gas detector follow Manufacturer's recommendations is:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Cách vùng thở (mũi/miệng) khoảng 30cm",
+      "text_en": "30cm away from breathing zone",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Để trong túi quần",
+      "text_en": "Put in your pocket",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Có thể đeo ở bất kỳ vị trí nào trên người",
+      "text_en": "Can be worn any position of body",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều sai",
+      "text_en": "All are incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "17",
+  "category": "Không gian hạn chế",
+  "question_vn": "Theo Tiêu chuẩn kỹ thuật máy đo khí di động (BSR-HSE-SPE-006), vị trí đeo máy đo khí cá nhân như hình ảnh bên dưới có đúng hay không?",
+  "question_en": "According to the Technical Standard for Portable Gas Detectors (BSR-HSE-SPE-006), is the position of wearing the personal gas detector as shown in the image below correct or not?",
+  "image": "nganhangcauhoi/antoanchuyensau/kghc-cau17.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đúng",
+      "text_en": "Correct",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Sai",
+      "text_en": "Incorrect",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "18",
+  "category": "Không gian hạn chế",
+  "question_vn": "Nhân sự được phân công kiểm tra hàm lượng khí trong không gian hạn chế cần đáp ứng các yêu cầu nào sau đây?",
+  "question_en": "What are the requirements for Authorized Gas Tester (AGT) for confined space?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Hoàn thành khóa huấn luyện về an toàn khí độc và đo khí",
+      "text_en": "Completed a training course on toxic gas and gas monitoring",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Được BSR cấp chứng chỉ safety visa tương ứng",
+      "text_en": "Have issued safety visa by BSR",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Sử dụng thành thạo thiết bị đo khí được trang bị",
+      "text_en": "Competent to use gas measuring devices",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "19",
+  "category": "Không gian hạn chế",
+  "question_vn": "Khi kiểm tra điều kiện khí trong không gian hạn chế (KGHC), nồng độ khí H2S (nếu có) cao nhất ở vị trí nào sau đây?",
+  "question_en": "When testing gas conditions in a confined space, at which of the following locations is the H2S gas concentration (if any) the highest?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Ở vị trí đáy KGHC",
+      "text_en": "The bottom position of confined space",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Ở vị trí gần manhole trên đỉnh KGHC",
+      "text_en": "Near the manhole on top of confined space",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "20",
+  "category": "Không gian hạn chế",
+  "question_vn": "Khi đo khí trong KGHC cần đo tại các vị trí nào?",
+  "question_en": "When testing gas in a confined space, at which locations should the measurements be taken?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Chỉ đo tại lỗ ra vào (manhole)",
+      "text_en": "Only at the manhole opening",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Chỉ đo tại đáy bồn",
+      "text_en": "Only at the bottom of the tank",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Đo tại 3 tầng: Trên, Giữa và Dưới",
+      "text_en": "At 3 levels: Top, Middle, and Bottom",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Chỉ đo tại đỉnh bồn",
+      "text_en": "Only at the top of the tank",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "21",
+  "category": "Không gian hạn chế",
+  "question_vn": "Tại sao phải đo khí ở các vị trí khác nhau (trên, giữa, dưới) trong KGHC?",
+  "question_en": "Why is it necessary to test gas at different levels (top, middle, and bottom) in a confined space?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Để kiểm tra độ sáng bên trong",
+      "text_en": "To check internal lighting",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Để tiết kiệm pin máy đo",
+      "text_en": "To save detector battery",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Vì các loại khí có trọng lượng khác nhau sẽ tích tụ ở các tầng khác nhau",
+      "text_en": "Because gases with different weights will accumulate at different levels",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Vì không có quy định bắt buộc",
+      "text_en": "Because it is not mandatory",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "22",
+  "category": "Không gian hạn chế",
+  "question_vn": "Khi làm việc trong môi trường có nguy cơ rò rỉ về khí CO cần phải trang bị loại máy đo khí cá nhân nào sau đây?",
+  "question_en": "When working in an environment with risk of CO gas leaking, what are personnel gas detector equipped?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Máy đo khí CO",
+      "text_en": "CO gas detector",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Máy đo khí H2S",
+      "text_en": "H2S gas detector",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Máy đo khí có thể đo được CO, H2S, Oxy và LEL",
+      "text_en": "Multi Gas detector can detect all of CO, H2S, O2, LEL.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Câu A và C đúng",
+      "text_en": "A and C are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "23",
+  "category": "Không gian hạn chế",
+  "question_vn": "Khi làm việc trong không gian hạn chế thiếu ôxy, loại phương tiện bảo vệ cá nhân nào sau đây được sử dụng?",
+  "question_en": "When working in confined spaces that are lack of oxygen, which PPE have to be used?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thiết bị cấp dưỡng khí",
+      "text_en": "Supplied-air respirator (SCBA, airline,...)",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Áo quần chống hóa chất",
+      "text_en": "Chemical suit",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Mặt nạ phòng độc",
+      "text_en": "Gas mask",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Mũ trùm đầu chống khói",
+      "text_en": "Smoke-proof hood",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "24",
+  "category": "Không gian hạn chế",
+  "question_vn": "Khi nồng độ một chất ở mức STEL, thời gian tiếp xúc không được vượt quá bao lâu?",
+  "question_en": "Exposed limit of STEL should not exceed?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Không quá 15 phút mỗi lần và không nhiều hơn 4 lần trong ca làm việc",
+      "text_en": "Not exceed 15 mins each time and should not be exposed more than four times per day",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Không quá 30 phút mỗi lần và không nhiều hơn 4 lần trong ca làm việc",
+      "text_en": "Not exceed 30 mins each time and should not be exposed more than four times per day",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không quá 15 phút mỗi lần và không nhiều hơn 2 lần trong ca làm việc",
+      "text_en": "Not exceed 15 mins each time and should not be exposed more than 2 times per day",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Không quá 30 phút mỗi lần và không nhiều hơn 2 lần trong ca làm việc",
+      "text_en": "Not exceed 30 mins each time and should not be exposed more than 2 times per day",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "25",
+  "category": "Không gian hạn chế",
+  "question_vn": "Nồng độ khí độc khi cho phép vào không gian hạn chế mà không cần thiết bị hỗ trợ thở là?",
+  "question_en": "What is the exposure limit for toxic gas to enter confined space without breathing apparatus?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nhỏ hơn giới hạn tiếp xúc trung bình trong 8 giờ (TWA)",
+      "text_en": "Less than TWA",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Lớn hơn giới hạn tiếp xúc trung bình trong 8 giờ (TWA)",
+      "text_en": "More than TWA",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Nhỏ hơn giới hạn tiếp xúc trong 15 phút (STEL)",
+      "text_en": "Less than STEL",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Lớn hơn giới hạn tiếp xúc trong 15 phút (STEL)",
+      "text_en": "More than STEL",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "26",
+  "category": "Không gian hạn chế",
+  "question_vn": "Mức độ tiếp xúc với khí H2S được quy định trong QCVN 03:2019/BYT tối đa từng lần tiếp xúc (STEL) là: 15mg/m3 = 10ppm và trung bình 8 giờ làm việc (TWA) là: 10mg/m3 = 7ppm",
+  "question_en": "In the QCVN 03:2019/BYT, the maximum level of exposure to H2S (STEL) is 15mg/m3 = 10ppm and average of 8 working hours (TWA) is 10mg/m3 = 7ppm",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đúng",
+      "text_en": "Correct",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Sai",
+      "text_en": "Incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "27",
+  "category": "Không gian hạn chế",
+  "question_vn": "Theo QCVN 03:2019/BYT, hàm lượng khí H2S nguy hiểm tức thời đến tính mạng, sức khỏe (IDLH) là:",
+  "question_en": "In the QCVN 03:2019/BYT, the H2S content is immediately dangerous to life and health (IDLH) is:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "7,17 ppm",
+      "text_en": "7.17 ppm",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "10,76 ppm",
+      "text_en": "10.76 ppm",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "100 ppm",
+      "text_en": "100 ppm",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "500 ppm",
+      "text_en": "500 ppm",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "28",
+  "category": "Không gian hạn chế",
+  "question_vn": "Tính chất hóa học của CO là",
+  "question_en": "What is chemical properties of Carbon Monoxide (CO)",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Là khí cháy và có độc tính cao",
+      "text_en": "It is flammable gas and highly toxic",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Cháy trong không khí tạo thành CO2",
+      "text_en": "It is combustion in the air and form to CO2",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không màu, không mùi",
+      "text_en": "Colorless, odorless",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "29",
+  "category": "Không gian hạn chế",
+  "question_vn": "Khí độc CO gây nguy hiểm cho người lao động vì lý do nào sau đây?",
+  "question_en": "CO toxic gas is dangerous for employee’s health by following reasons:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "CO gây nguy hiểm do CO có tính liên kết với hemoglobin (Hb) trong hồng cầu mạnh gấp 230-270 lần so với Ôxy nên khi được hít vào phổi CO sẽ gắn chặt với Hb thành HbCO do đó máu không thể chuyển chở ôxy đến tế bào, làm giảm lượng oxy cung cấp cho toàn bộ cơ thể",
+      "text_en": "CO gas is dangerous because CO is associated with hemoglobin (Hb) in red blood cells 230-270 times stronger than Oxygen so when inhaled, CO will attach tightly with Hb and become to HbCO, so blood can not transfer oxygen to cells, which reduce the amount of Oxygen supplied to the entire body.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Mức độ tác động phụ thuộc vào lượng CO trong không khí, thời gian hít CO vào cơ thể, tình trạng sức khỏe và mức độ nhạy cảm với CO của người tiếp xúc",
+      "text_en": "The degree of impact depends on the amount of CO in the air, the time it takes to CO inhale, the state of health and the sensitivity of CO to the exposed person.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Những người lớn tuổi, phụ nữ có thai, và những người có bệnh về tim, hệ tuần hoàn, hoặc phổi sẽ bị tác động nặng hơn khi tiếp xúc với CO",
+      "text_en": "Older people, pregnant women and people with heart, circulatory or lung conditions will be more severely affected by exposure to CO",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "30",
+  "category": "Không gian hạn chế",
+  "question_vn": "Mức độ tiếp xúc với khí CO được quy định trong QCVN 03:2019/BYT trung bình 8 giờ làm việc (TWA) là bao nhiêu?",
+  "question_en": "What is the level of exposure to CO gas which is specified in the QCVN 03:2019/BYT (average 8 working hours - TWA)?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "18 ppm",
+      "text_en": "18 ppm",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "35 ppm",
+      "text_en": "35 ppm",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "400 ppm",
+      "text_en": "400 ppm",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "1200 ppm",
+      "text_en": "1200 ppm",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "31",
+  "category": "Không gian hạn chế",
+  "question_vn": "Theo QCVN 03:2019/BYT, hàm lượng khí CO nguy hiểm tức thời đến tính mạng, sức khỏe (IDLH) là bao nhiêu?",
+  "question_en": "In the QCVN 03:2019/BYT, the CO content is immediately dangerous to life and health - IDLH) is:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "18 ppm",
+      "text_en": "18 ppm",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "35 ppm",
+      "text_en": "35 ppm",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "400 ppm",
+      "text_en": "400 ppm",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "1200 ppm",
+      "text_en": "1200 ppm",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "32",
+  "category": "Không gian hạn chế",
+  "question_vn": "Khi cứu hộ người bị nhiễm độc khí CO, H2S, các hành động cần phải làm là gì?",
+  "question_en": "When rescuing a person affected by CO or H2S gas poisoning, what actions must be taken?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nhân sự tham gia cứu hộ phải sử dụng SCBA",
+      "text_en": "The personnel involved in rescue activity must wear SCBA",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đưa nạn nhân đến nơi thông thoáng",
+      "text_en": "Bring the victim to well ventilated area",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Gọi y tế trợ giúp",
+      "text_en": "Call the medical for help",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "33",
+  "category": "Không gian hạn chế",
+  "question_vn": "Tác hại của thủy ngân đối với con người là gì?",
+  "question_en": "What are the harmful effects of mercury on humans?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thủy ngân ảnh hưởng trực tiếp đến hệ thống thần kinh và thận, gây ra các vấn đề chậm phát triển, vận động và thần kinh",
+      "text_en": "Mercury directly affects the central nervous and renal systems, causing development delay, motor and brain problems.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Thủy ngân ít độc khi ở dạng lỏng, nhưng rất độc khi ở dạng hơi và các hợp chất của nó và là nguyên nhân gây ra các tổn thương não, gan và thận khi tiếp xúc, hít thở hay ăn phải",
+      "text_en": "Mercury is less toxic in liquid state, but it’s very toxic in vapor, or organic compound, and the cause of the brain damage, liver and kidney when exposure, inhalation or ingestion.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thủy ngân có thể gây ngộ độc cấp tính và ngộ độc mãn tính",
+      "text_en": "Mercury can cause both chronic and acute poisoning.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "34",
+  "category": "Không gian hạn chế",
+  "question_vn": "Hàm lượng Oxy nào sau đây cho phép thực hiện công việc trong không gian hạn chế (KGHC) mà không cần thiết bị hỗ trợ hô hấp?",
+  "question_en": "Which of the following oxygen concentrations allows for work in confined spaces without breathing apparatus?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "20,5 - 22,5%",
+      "text_en": "20.5 - 22.5%",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "19,5 - 20,5%",
+      "text_en": "19.5 - 20.5%",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "< 19,5%",
+      "text_en": "< 19.5%",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "> 22,5%",
+      "text_en": "> 22.5%",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "35",
+  "category": "Không gian hạn chế",
+  "question_vn": "Nồng độ Oxy (O2) tối thiểu để người lao động vào làm việc mà không cần bình khí thở là bao nhiêu?",
+  "question_en": "What is the minimum Oxygen (O2) concentration required for workers to enter and work without a breathing apparatus?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "16%",
+      "text_en": "16%",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "18%",
+      "text_en": "18%",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "19,5%",
+      "text_en": "19.5%",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "17%",
+      "text_en": "17%",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "36",
+  "category": "Không gian hạn chế",
+  "question_vn": "Theo quy định BSR, nồng độ Oxy (O2) tối đa cho phép người lao động vào làm việc trong KGHC?",
+  "question_en": "According to BSR regulations, what is the maximum permissible oxygen (O2) concentration for workers to enter and work in a confined space?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "16%",
+      "text_en": "16%",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "18%",
+      "text_en": "18%",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "19,5%",
+      "text_en": "19.5%",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "22,5%",
+      "text_en": "22.5%",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "37",
+  "category": "Không gian hạn chế",
+  "question_vn": "Theo theo Hướng dẫn vào làm việc trong không gian hạn chế BSR-HSE-PRO-007/WI-002, lưu lượng thông gió tối thiểu trong không gian hạn chế là?",
+  "question_en": "According to BSR-HSE-PRO-007/WI-002, what is the minimum ventilation flow in a confined space?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "5 lần thể tích không gian hạn chế",
+      "text_en": "5 times of the volume of confined space",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "10 lần thể tích không gian hạn chế",
+      "text_en": "10 times of the volume of confined space",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "15 lần thể tích không gian hạn chế",
+      "text_en": "15 times of the volume of confined space",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "20 lần thể tích không gian hạn chế",
+      "text_en": "20 times of the volume of confined space",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "38",
+  "category": "Không gian hạn chế",
+  "question_vn": "Mục đích chính của việc thông gió liên tục trong KGHC là gì?",
+  "question_en": "What is the main purpose of continuous ventilation in a confined space?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Để làm khô sơn nhanh hơn",
+      "text_en": "To dry paint faster.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Để công nhân không bị đổ mồ hôi",
+      "text_en": "To prevent workers from sweating",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Duy trì nồng độ Oxy và loại bỏ các khí độc phát sinh trong quá trình làm việc",
+      "text_en": "To maintain Oxygen levels and remove toxic gases generated during work",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Để tăng áp suất bên trong bồn",
+      "text_en": "To increase the pressure inside the tank.",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "39",
+  "category": "Không gian hạn chế",
+  "question_vn": "Khi sử dụng quạt thổi thông gió (Blower), vị trí đặt đầu hút khí tươi tốt nhất là ở đâu?",
+  "question_en": "When using a blower, where is the best location to place the fresh air intake?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Gần ống xả của máy phát điện",
+      "text_en": "Near a generator's exhaust pipe",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Ngay sát miệng Manhole của bồn đang làm việc",
+      "text_en": "Right next to the manhole of the tank being worked on.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tại nơi thoáng khí, cách xa nguồn ô nhiễm và khí độc",
+      "text_en": "In an open area, far from pollution and toxic gas sources.",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Trong một phòng kín",
+      "text_en": "Inside closed room",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "40",
+  "category": "Không gian hạn chế",
+  "question_vn": "Nếu hệ thống thông gió bị hỏng trong khi đang làm việc, hành động nào là bắt buộc?",
+  "question_en": "If the ventilation system fails during work, which action is mandatory?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Tiếp tục làm nhanh cho xong",
+      "text_en": "Continue working quickly to finish.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Toàn bộ nhân viên phải di tản ra ngoài ngay lập tức",
+      "text_en": "All personnel must evacuate immediately.",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Đợi 10 phút xem quạt có chạy lại không",
+      "text_en": "Wait 10 minutes to see if the fan restarts.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Chỉ những người thấy khó thở mới cần ra",
+      "text_en": "Only those who feel short of breath need to exit.",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "41",
+  "category": "Không gian hạn chế",
+  "question_vn": "BSR cho phép sử dụng khí nén Nhà máy (Plant air) như là một nguồn khí nén để thở?",
+  "question_en": "Does BSR allow the use of plant air as a breathing air source?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đúng",
+      "text_en": "Correct",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Sai",
+      "text_en": "Incorrect",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "42",
+  "category": "Không gian hạn chế",
+  "question_vn": "Khi sử dụng khí thở trực tiếp từ máy nén khí công nghiệp sử dụng dầu bôi trơn có động cơ đốt trong, yêu cầu khí nén để thở sau khi ra khỏi máy nén phải qua hệ thống đo khí carbon monoxide (CO), Đúng hay Sai?",
+  "question_en": "When using breathing air directly from an industrial air compressor lubricated with oil and powered by an internal combustion engine, the breathing air after leaving the compressor must pass through a carbon monoxide (CO) monitoring system. True or False?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đúng",
+      "text_en": "True",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Sai",
+      "text_en": "False",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "43",
+  "category": "Không gian hạn chế",
+  "question_vn": "Nồng độ hydrocarbon cho phép đối với công việc phát sinh nhiệt trong không gian hạn chế là bao nhiêu?",
+  "question_en": "What is the permissible hydrocarbon concentration for hot work in confined space?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "< 25%LEL",
+      "text_en": "< 25%LEL",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "< 15%LEL",
+      "text_en": "< 15%LEL",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "< 5%LEL",
+      "text_en": "< 5%LEL",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "0 %LEL",
+      "text_en": "0 %LEL",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "44",
+  "category": "Không gian hạn chế",
+  "question_vn": "Tại sao bình khí nén để thực hiện công việc hàn cắt phải đặt ở bên ngoài KGHC?",
+  "question_en": "Why must compressed gas cylinders used for welding and cutting be placed outside of confined spaces?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Để dễ dàng thay bình mới",
+      "text_en": "For easy cylinder replacement",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Để tránh làm vướng lối đi của công nhân",
+      "text_en": "To avoid obstructing the workers' path.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Ngăn ngừa tích tụ khí rò rỉ gây cháy nổ hoặc ngạt khí bên trong không gian hẹp",
+      "text_en": "To prevent gas leak accumulation causing fire, explosion, or asphyxiation inside the narrow space.",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Vì dây hàn và ống dẫn rất dài",
+      "text_en": "Because welding cables and hoses are very long",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "45",
+  "category": "Không gian hạn chế",
+  "question_vn": "Theo Hướng dẫn vào làm việc trong không gian hạn chế BSR-HSE-PRO-007/WI-002, nhiệt độ tối đa cho phép thực hiện công việc trong không gian hạn chế là bao nhiêu?",
+  "question_en": "According to the BSR Confined Space Entry Guideline (BSR-HSE-PRO-007/WI-002), what is the maximum allowable temperature for performing work in a confined space?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "30⁰C",
+      "text_en": "30⁰C",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "35⁰C",
+      "text_en": "35⁰C",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "40⁰C",
+      "text_en": "40⁰C",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "45⁰C",
+      "text_en": "45⁰C",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "46",
+  "category": "Không gian hạn chế",
+  "question_vn": "Yêu cầu đối với hệ thống điện tạm trong không gian hạn chế (KGHC)?",
+  "question_en": "What is the requirement for temporary electricity system in confined space?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Phải có bản vẽ kỹ thuật điện tạm và được phê duyệt trước khi lắp đặt",
+      "text_en": "Have an approved temporary electrical engineering drawings before installation",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Phải treo dây lên cao để chống va chạm",
+      "text_en": "The wire must be hung up to avoid collision",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Có biện pháp bảo vệ dây tránh bị cắt khi đi qua manhole",
+      "text_en": "Take measures to protect wires from sharp edge when passing through manhole",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "47",
+  "category": "Không gian hạn chế",
+  "question_vn": "Quy định bắt buộc đối với nhân sự làm việc trong không gian hạn chế là gì?",
+  "question_en": "What are the mandatory regulations for personnel working in confined spaces?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Có đủ năng lực, chứng chỉ chuyên môn/an toàn theo quy định pháp luật hiện hành và Công ty BSR",
+      "text_en": "Have professional, safety certificates in accordance with current legal regulations and BSR requirements",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Được trang bị và sử dụng đúng/đủ bảo hộ lao động theo yêu cầu",
+      "text_en": "Be equipped and use correct/sufficient PPE as required",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Đảm bảo sức khỏe đáp ứng các điều kiện tại Quyết định số 4900/QĐ-BSR ngày 06/12/2017",
+      "text_en": "Ensure health meets the conditions in Decision No. 4900/QĐ-BSR dated December 6, 2017",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "48",
+  "category": "Không gian hạn chế",
+  "question_vn": "Trước khi vào không gian hạn chế, người làm việc cần đáp ứng những yêu cầu nào?",
+  "question_en": "Before entering a confined space, what requirements do workers need to meet?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Phải được kiểm tra sức khỏe bởi bộ phận Y tế của Công ty BSR",
+      "text_en": "Must be health checked by the Medical department of BSR Company",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Phải được đào tạo an toàn làm việc trong không gian hạn chế và được cấp thẻ Safety visa còn hiệu lực",
+      "text_en": "Must be trained to work safely in confined spaces and be issued a valid Safety visa card",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Phải có tên trong danh sách nhân sự được phê duyệt trong giấy phép làm việc và mang đầy đủ bảo hộ lao động theo yêu cầu trong giấy phép làm việc",
+      "text_en": "Must be on the list of approved personnel in the work permit and wear full PPE as required in the work permit",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "49",
+  "category": "Không gian hạn chế",
+  "question_vn": "Nhiệm vụ của người trực không gian hạn chế là?",
+  "question_en": "What are the responsibilities of a confined space attendant?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Kiểm soát, người, vật tư, thiết bị ra/vào và xác nhận",
+      "text_en": "Control people, material, equipment in/out",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Định kỳ (30 phút/1 lần) kiểm tra tình trạng nhân sự, môi trường bên trong KGHC và xác nhận trong biểu mẫu",
+      "text_en": "Periodically (every 30 minutes), check the personnel status and the environment inside the confined space and confirm in the form.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Đảm bảo thông tin liên lạc hiệu quả giữa người làm việc và đội CHCN (khi cần).",
+      "text_en": "Effective communication with work team and rescue team (if needed).",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "50",
+  "category": "Không gian hạn chế",
+  "question_vn": "Người trực không gian hạn chế cần phải đáp ứng các yêu cầu nào sau đây?",
+  "question_en": "What is the requirement for confined space hole watcher?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Hoàn thành khóa huấn luyện an toàn làm việc bên trong Không gian hạn chế và được cấp chứng nhận safety visa",
+      "text_en": "Complete the Confined Spaces safety training course and receive a safety visa certificate",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Tên người trực phải được ghi trong Giấy phép làm việc",
+      "text_en": "The name of the person on duty must be recorded in the Work Permit",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Phải được giao việc bởi giám sát Nhà thầu",
+      "text_en": "Must be assigned work by the Contractor's work supervisor",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "51",
+  "category": "Không gian hạn chế",
+  "question_vn": "Người trực không gian hạn chế (KGHC) KHÔNG được thực hiện hành động nào sau đây?",
+  "question_en": "Confined space hole watcher are not allowed to?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thường xuyên liên lạc với đội thực hiện công việc bên trong KGHC",
+      "text_en": "Regularly contact with the team performing work inside the confined space",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Tạm dừng công việc và yêu cầu đội làm việc ra ngoài khi phát hiện các tình huống không an toàn",
+      "text_en": "Stop the work and ask the team to leave the confined space in case of unsafe situations",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Liên lạc với đội cứu hộ cứu nạn khi có sự cố xảy ra",
+      "text_en": "Contact the rescue team when an incident occurs",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Rời khỏi vị trí trực khi nhận thấy công việc bên trong KGHC đang diễn ra an toàn",
+      "text_en": "Leave the confined space when the work inside confined space are safe",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "52",
+  "category": "Không gian hạn chế",
+  "question_vn": "Khi tất cả người làm việc đã ra ngoài không gian hạn chế, người trực phải làm gì?",
+  "question_en": "When all workers are out of the confined space, what should the hole watcher do?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thông báo cho giám sát công việc của Nhà thầu để thực hiện cô lập và cảnh báo tại lối ra vào Không gian hạn chế",
+      "text_en": "Notify the Contractor's work supervisor to provide isolation and warning at the exit to the Confined Space",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Vào bên trong kiểm tra lại xem có còn người hay không",
+      "text_en": "Go inside and check to see if anyone is still there",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Rời khỏi vị trí làm việc như các nhân sự khác vì không còn ai làm việc",
+      "text_en": "Leave your work position like other employees because there is no one else working",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "53",
+  "category": "Không gian hạn chế",
+  "question_vn": "Khi có sự cố bên trong không gian hạn chế, người trực thông báo cho ai đầu tiên?",
+  "question_en": "When there is an incident inside a Confined Space, who must hole watcher notify first?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đội cứu hộ khẩn cấp",
+      "text_en": "Emergency rescue team",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Giám sát công việc",
+      "text_en": "Work Supervisor",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Giám sát an toàn",
+      "text_en": "Safety Supervisor",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "54",
+  "category": "Không gian hạn chế",
+  "question_vn": "Người trực không gian hạn chế phải làm gì khi cần phải rời vị trí làm việc?",
+  "question_en": "What should hole watcher do when he need to leave his work position?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nhờ một nhân sự khác thay thế",
+      "text_en": "Ask another employee to replace him",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không cần thực hiện bất cứ yêu cầu nào",
+      "text_en": "No need to make any requests",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thông báo cho giám sát công việc của Nhà thầu để bố trí nhân sự thay thế và khi nhân sự thay thế có mặt tại vị trí mới được phép rời",
+      "text_en": "Notify the Contractor's work supervisor to assign back-up hole watcher and only leave when back-up hole watcher present at manhole",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "55",
+  "category": "Không gian hạn chế",
+  "question_vn": "Người trực KGHC được phép vào bên trong cứu hộ khi nào?",
+  "question_en": "When is the hole watcher allowed to enter for rescue?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Ngay khi thấy nạn nhân ngất",
+      "text_en": "As soon as the victim faints.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Khi nạn nhân yêu cầu",
+      "text_en": "When the victim asks.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tuyệt đối không được vào",
+      "text_en": "Absolutely not",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Khi cảm thấy mình đủ khỏe",
+      "text_en": "When they feel strong enough",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "56",
+  "category": "Không gian hạn chế",
+  "question_vn": "Phương án ứng cứu và thiết bị cứu hộ là yêu cầu bắt buộc theo quy định của BSR khi vào làm việc bên trong KGHC có rủi ro cao, Đúng hay Sai?",
+  "question_en": "According to BSR regulations, are emergency rescue plans and rescue equipment mandatory requirements for entering and working inside high-risk confined spaces? True or False?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đúng",
+      "text_en": "Yes",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Sai",
+      "text_en": "No",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "57",
+  "category": "Không gian hạn chế",
+  "question_vn": "Nếu nghe thấy tiếng còi báo động di tản, người làm việc bên trong phải làm gì?",
+  "question_en": "If an evacuation alarm is heard, what must the entrants do?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đợi giám sát vào gọi",
+      "text_en": "Wait for the supervisor to call them.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Cố gắng làm nốt phần việc đang dang dở",
+      "text_en": "Try to finish the current task.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Ngay lập tức rời khỏi không gian hạn chế theo hướng an toàn.",
+      "text_en": "Immediately exit the confined space to a safe direction",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Ngồi yên tại chỗ chờ đội cứu hộ",
+      "text_en": "Stay put and wait for the rescue team",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "58",
+  "category": "Không gian hạn chế",
+  "question_vn": "Khi phát hiện điều kiện làm việc trong KGHC có bất thường (ví dụ: có mùi lạ), nhân sự ở trong KGHC phải làm gì?",
+  "question_en": "When abnormal conditions are detected in a confined space (e.g., unusual odors), what must personnel inside the confined space do?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Cố gắng tìm xem mùi đó từ đâu ra",
+      "text_en": "Try to find where the smell is coming from",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đeo thêm khẩu trang vải",
+      "text_en": "Wear an additional cloth mask",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Lập tức thoát ra ngoài và báo cho người trực (Hole watcher).",
+      "text_en": "Immediately exit and notify the Hole watcher.",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Tiếp tục làm việc và đợi máy đo khí báo động",
+      "text_en": "Continue working and wait for the gas detector alarm",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "59",
+  "category": "Không gian hạn chế",
+  "question_vn": "Nếu bảng đăng ký ra/vào (Log sheet) ghi có 3 người vào nhưng khi kết thúc chỉ có 2 người ra, người trực KGHC phải làm gì?",
+  "question_en": "If the entry/exit log sheet records 3 people entering but only 2 people exiting at the end, what must the confined space attendant do?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Coi như người đó đã tự về",
+      "text_en": "Assume that person went home",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Báo động khẩn cấp hoặc giám sát công việc để kiểm tra ngay lập tức tình trạng người còn thiếu",
+      "text_en": "Raise an emergency alarm and immediately check the status of the missing person",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Xóa tên người đó khỏi danh sách",
+      "text_en": "Erase that person's name from the list",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Đợi đến ngày mai xem họ có đi làm không",
+      "text_en": "Wait until tomorrow to see if they show up",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "60",
+  "category": "Không gian hạn chế",
+  "question_vn": "Khi có lệnh di tản từ Người trực (Hole watcher), nhân sự ở trong KGHC phải phản ứng thế nào?",
+  "question_en": "When receiving an evacuation order from the Hole Watcher, how must personnel inside the confined space respond?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Ngừng mọi việc, thoát ra ngoài ngay lập tức",
+      "text_en": "Stop all work and exit immediately",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Hỏi lý do tại sao phải ra",
+      "text_en": "Ask for the reason why they must exit",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thu dọn hết dụng cụ rồi mới ra",
+      "text_en": "Gather all tools before exiting",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Đợi làm xong nốt công đoạn đang dang dở",
+      "text_en": "Wait to finish the current task",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+}
+]

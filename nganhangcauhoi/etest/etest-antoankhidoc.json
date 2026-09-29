@@ -1,0 +1,971 @@
+[
+  {
+  "id": "1",
+  "category": "an toàn khí độc",
+  "question_vn": "Mục đích của hướng dẫn an toàn khi làm việc trong môi trường có mối nguy khí độc là?",
+  "question_en": "The purpose of safety instructions when working in environments with toxic gas hazards is?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nhận diện mối nguy khí độc trong hoạt động vận hành, bảo dưỡng, kiểm tra,…",
+      "text_en": "Identify toxic gas hazards during operation, maintenance, inspection, …",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Mô tả đặc tính và mối nguy của khí độc tại Nhà máy",
+      "text_en": "Description of properties and hazards of toxic gases at the BSR Refinery",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Các yêu cầu để đảm bảo an toàn khi làm việc trong môi trường có mối nguy khí độc",
+      "text_en": "Requirements to ensure safety when working in environments with toxic gas hazards",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "2",
+  "category": "an toàn khí độc",
+  "question_vn": "Trách nhiệm của các Ban liên quan và Nhà thầu khi làm việc trong môi trường có mối nguy khí độc là?",
+  "question_en": "Responsibilities of relevant Divisions and Contractors when working in environments with toxic gas hazards are?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Lãnh đạo Ban/Nhà thầu chịu trách nhiệm hướng dẫn, kiểm tra và đảm bảo nhân viên tuân thủ hướng dẫn an toàn khí độc",
+      "text_en": "The Division/Contractor manager is responsible for guiding, checking and ensuring compliance with toxic gas safety instruction",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đảm bảo các nhân sự làm việc trong khu vực có mối nguy khí độc được giám sát và cảnh báo về các mối nguy đối với khí độc đồng thời đưa ra các biện pháp kiểm soát phù hợp",
+      "text_en": "Ensure personnel working in areas with toxic gas hazards are supervised and alerted to toxic gas hazards and give appropriate control measures",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "GSVAT và GSVVH chịu trách nhiệm đảm bảo toàn bộ nhân sự Ban chủ trì thực hiện công việc và Nhà thầu/đối tác thực hiện đúng và đủ các biện pháp kiểm soát rủi ro khí độc trong toàn thời gian thực hiện công việc",
+      "text_en": "Safety/Operation supervisor is responsible for ensuring that all personnel of the division perform the work and the Contractor/Partner correctly and fully implement control measures during the working time",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "3",
+  "category": "an toàn khí độc",
+  "question_vn": "Máy đo khí cá nhân có những hình thức báo động nào cho người sử dụng khi có phát hiện hàm lượng khí vượt ngưỡng cài đặt hoặc máy bị lỗi?",
+  "question_en": "What kind of alarm does the personal gas detector have for the user when it detects that the gas concentration exceeds or the machine is faulty?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Báo động bằng đèn",
+      "text_en": "Light alarm",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Báo động bằng âm thanh",
+      "text_en": "Sound alarm",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Báo động bằng rung động",
+      "text_en": "Vibration alarm",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "4",
+  "category": "an toàn khí độc",
+  "question_vn": "Theo Tiêu chuẩn kỹ thuật máy đo khí di động (BSR-HSE-SPE-006), yêu cầu tần suất kiểm tra, hiệu chuẩn máy đo khí như thế nào nhằm đảm bảo độ tin cậy và an toàn cho người sử dụng?",
+  "question_en": "According to Technical Standard of Portable Gas Meter (BSR-HSE-SPE-006), how often to check and calibrate gas detector to ensure reliability and safety for users?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Tần suất hiệu chuẩn theo khuyến cáo Nhà sản xuất",
+      "text_en": "Calibration frequency as recommended by the Manufacturer",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không lớn hơn 12 tháng theo Thông tư 07/2019/TT-BKHCN",
+      "text_en": "Not older than 12 months according to Circular 07/2019/TT-BKHCN",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không cần kiểm tra và hiệu chuẩn",
+      "text_en": "No need for testing and calibration",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Câu A và B đúng",
+      "text_en": "A and B are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "5",
+  "category": "an toàn khí độc",
+  "question_vn": "Theo Tiêu chuẩn kỹ thuật máy đo khí di động (BSR-HSE-SPE-006), để đo/ kiểm soát nồng độ các khí nguy hại nhằm đảm bảo an toàn trong hoạt động sản xuất, các máy đo khí di động cần được trang bị theo mục đích sử dụng gồm những chủng loại nào?",
+  "question_en": "According to the Mobile Gas Meter Technical Standard (BSR-HSE-SPE-006), to measure/control the concentration of toxic/explosive gases, portable gas meters need to be equipped according to the purpose of use divided into categories:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Máy đo khí cá nhân dùng để đeo trên người để kiểm soát mối nguy khí cháy/độc phổ biến trong môi trường làm việc bao gồm HC, H2S, CO và O2",
+      "text_en": "Personal monitoring gas detector, body-mounted device to keep personnel safe from working location gas hazards, measure HC, H2S, CO and O2 gas content",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Máy đo khí chuyên dùng loại di động/kiểm tra nồng độ khí trước khi vào làm việc như KGHC, đòi hỏi khả năng trang bị kiện đặc biệt như bơm hút khí và yêu cầu độ chính xác/tin cậy cao",
+      "text_en": "Specialized gas detector, mobile testers to allow remote testing of difficult locations as limited space before entry; gas detectors need to equip with pumps and accessories and require higher accuracy and reliability",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Ngoài ra để đo kiểm soát liên tục nồng độ khí cho các khu vực rò rỉ, các máy đo khí đặt cố định tại vị trí xác định",
+      "text_en": "Other, area monitoring gas detector located in working area or near prone position leakage to continuously measure gas contents",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "6",
+  "category": "an toàn khí độc",
+  "question_vn": "Tính chất hóa học của CO là?",
+  "question_en": "What is chemical properties of Carbon Monoxide (CO)?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Là khí cháy và có độc tính cao",
+      "text_en": "It is flammable gas and highly toxic",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Cháy trong không khí tạo thành CO2",
+      "text_en": "It is combustion in the air and form to CO2",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Là một chất khử mạnh và được sử dụng cho mục đích khử oxit kim loại trong ngành công nghiệp",
+      "text_en": "It is a strong reducing agent and is used for the purpose of reducing metal oxides in industry",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "7",
+  "category": "an toàn khí độc",
+  "question_vn": "Khi có rò rỉ khí độc cần sơ tán khẩn cấp bạn cần lưu ý những gì?",
+  "question_en": "When there is a toxic gas leak that requires emergency evacuation, what should you pay attention to?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Không hoảng loạn",
+      "text_en": "No panic",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Kiểm tra hoa gió, di chuyển ngang theo hướng gió đến điểm tập trung gần nhất",
+      "text_en": "Check that the wind flower moves horizontally with the wind direction to the nearest gathering point",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Cảnh báo bất kỳ ai gặp trên đường sơ tán đến điểm tập trung, phòng khi họ không biết hoặc không nghe thấy thông báo rò rỉ khí",
+      "text_en": "Warn anyone you meet on the way to the meeting point, in case they don't know or hear the gas leak announcement",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Báo cáo với người phụ trách điểm tập trung, chờ đợi hướng dẫn tiếp theo",
+      "text_en": "Report to the person in charge of the meet up point, waiting for the next instructions",
+      "is_correct": false
+    },
+    {
+      "label": "E",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "8",
+  "category": "an toàn khí độc",
+  "question_vn": "Mức độ tiếp xúc với khí H2S được quy định trong QCVN 03:2019/BYT tối đa từng lần tiếp xúc (STEL) là: 15mg/m3 = 10ppm và trung bình 8 giờ làm việc (TWA) là: 10mg/m3 = 7ppm.",
+  "question_en": "In the QCVN 03:2019/BYT, the maximum level of exposure to H2S (STEL) is 15mg/m3 = 10ppm and average of 8 working hours (TWA) is 10mg/m3 = 7ppm.",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đúng",
+      "text_en": "Correct",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Sai",
+      "text_en": "Incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "9",
+  "category": "an toàn khí độc",
+  "question_vn": "Khi nồng độ một chất ở mức STEL, thời gian tiếp xúc không được vượt quá bao lâu?",
+  "question_en": "Exposed limit of STEL should not exceed?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Không quá 15 phút mỗi lần và không nhiều hơn 4 lần trong ca làm việc",
+      "text_en": "Not exceed 15 mins each time and should not be exposed more than four times per day",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không quá 30 phút mỗi lần và không nhiều hơn 4 lần trong ca làm việc",
+      "text_en": "Not exceed 30 mins each time and should not be exposed more than four times per day",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không quá 15 phút mỗi lần và không nhiều hơn 2 lần trong ca làm việc",
+      "text_en": "Not exceed 15 mins each time and should not be exposed more than 2 times per day",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Không quá 30 phút mỗi lần và không nhiều hơn 2 lần trong ca làm việc",
+      "text_en": "Not exceed 30 mins each time and should not be exposed more than 2 times per day",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "10",
+  "category": "an toàn khí độc",
+  "question_vn": "Khi làm việc trong môi trường có nguy cơ rò rỉ khí CO cần phải trang bị loại máy đo khí cá nhân nào sau đây?",
+  "question_en": "When working in an environment with risk of CO gas leaking, what are personnel gas detector equipped?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Máy đo khí CO",
+      "text_en": "CO gas detector",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Máy đo khí H2S",
+      "text_en": "H2S gas detector",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Máy đo khí có thể đo được CO, H2S, Oxy và LEL",
+      "text_en": "Multi Gas detector can detect all of CO, H2S, O2, LEL",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Câu A và C đúng",
+      "text_en": "A and C are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "11",
+  "category": "an toàn khí độc",
+  "question_vn": "Vị trí đeo máy đo khí cá nhân tốt nhất theo khuyến cáo của nhà sản xuất là:",
+  "question_en": "The best position to wear personal gas detector follow Manufacturer's recommendations is:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Cách vùng thở khoảng 30cm",
+      "text_en": "30cm away from breathing zone",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Để trong túi quần",
+      "text_en": "Put in your pocket",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Có thể đeo ở bất kỳ vị trí nào trên người",
+      "text_en": "Can be worn any position of body",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều sai",
+      "text_en": "All are incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "12",
+  "category": "an toàn khí độc",
+  "question_vn": "Khi cứu hộ người bị nhiễm độc khí CO, H2S cần phải:",
+  "question_en": "When rescuing people poisoned by CO and H2S gas, it is necessary to:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nhân sự tham gia cứu hộ phải sử dụng SCBA",
+      "text_en": "The personnel involved in rescue activity must wear SCBA",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đưa nạn nhân đến nơi thông thoáng",
+      "text_en": "Bring the victim to well ventilated area",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Gọi y tế trợ giúp",
+      "text_en": "Call the medical for help",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "13",
+  "category": "an toàn khí độc",
+  "question_vn": "Trang bị phương tiện bảo hộ lao động cá nhân bổ sung khi làm việc trong môi trường có nguy cơ rò rỉ khí H2S là:",
+  "question_en": "What are the additional PPEs required when working in an environment with risk of H2S gas leaking are:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Sử dụng máy đo khí CO",
+      "text_en": "Using CO gas detector",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Sử dụng máy đo khí có chức năng đo H2S, khi đi theo nhóm thì cho phép sử dụng chung 1 máy đo khí cá nhân",
+      "text_en": "Use gas detector has the function of measuring H2S, allows sharing of 1 individual gas detector when working in groups",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Sử dụng mặt nạ phòng độc H2S khi làm việc trên sàn thao tác tại: A-5809-TK-01; A-5815-CD-01",
+      "text_en": "Use H2S gas mask when working on the platform at: A-5809-TK-01; A-5815-CD-01",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Câu B và C đúng",
+      "text_en": "B and C are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "14",
+  "category": "an toàn khí độc",
+  "question_vn": "Yêu cầu về sử dụng thiết bị hỗ trợ hô hấp khi làm việc trong môi trường có nguy cơ rò rỉ khí độc là:",
+  "question_en": "Requirements for using of respiratory protection device when working in an environment with risk of toxic gas leaking are:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Khu vực có nguy cơ rò rỉ khí độc cần trang bị thiết bị SCBA dự phòng",
+      "text_en": "Areas where there is risk of toxic gas leaking should be equipped SCBA",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Chỉ có những người đã được đào tạo sử dụng SCBA cùng với giấy phép làm việc được phê duyệt mới có thể vào khu vực này",
+      "text_en": "Only people who have been trained in SCBA using and an approved PTW can enter this area",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Phải đảm bảo an toàn trước khi tháo bỏ thiết bị SCBA, có thể khí độc vẫn còn tồn tại trong khu vực làm việc nên cần tháo bỏ thiết bị hỗ trợ hô hấp cách xa khu vực làm việc hoặc tiến hành đo khí trước khi tháo bỏ thiết bị này",
+      "text_en": "Safety must be ensured before removing SCBA, toxic gas may still exist in the work area, so the respirator support device should be removed away from working area or perform gas testing before removing this device",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "15",
+  "category": "an toàn khí độc",
+  "question_vn": "Ảnh hưởng nào sau đây của khí độc H2S đến người lao động khi hàm lượng từ 100ppm (nồng độ nguy hiểm tức thời) trở lên?",
+  "question_en": "What is the effect on workers when the H2S concentration is 100ppm (IDLH) or more?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Gây mệt mỏi, tê liệt khứu giác",
+      "text_en": "Cause fatigue, olfactory paralysis",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Ho, kích ứng mắt, rát cổ họng",
+      "text_en": "Cough, eyes irritation, sore throat",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tăng dần mức độ nghiêm trọng của các triệu chứng sau vài giờ, có thể tử vong sau 48 giờ",
+      "text_en": "Increasing the severity of symptom after few hours, can die after 48 hours",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "16",
+  "category": "an toàn khí độc",
+  "question_vn": "Khi kiểm tra điều kiện khí trong không gian hạn chế (KGHC), khí H2S (nếu có) sẽ được phát hiện khi người đo khí tiến hành đo ở vị trí nào sau đây?",
+  "question_en": "When testing gas in confined spaces, H2S gas (if any) will be detected when measuring at any of the following locations?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Ở vị trí đáy KGHC",
+      "text_en": "The bottom position of confined space",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Ở vị trí gần manhole trên đỉnh KGHC",
+      "text_en": "Near the manhole on top of confined space",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "17",
+  "category": "an toàn khí độc",
+  "question_vn": "Ảnh hưởng nào sau đây của khí độc CO đến người lao động khi hàm lượng từ 1000ppm trở lên?",
+  "question_en": "What is the effect on workers when the CO concentration is 1000ppm or more?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Gây khó chịu, đau đầu",
+      "text_en": "Irritating, headache",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Choáng, đứng không vững, tim đập nhanh",
+      "text_en": "Dizziness, unsteady standing, rapid heartbeat",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Bất tỉnh, tử vong khi hàm lượng vượt quá 4000ppm",
+      "text_en": "Unconsciousness, death when content over 4000 ppm",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "18",
+  "category": "an toàn khí độc",
+  "question_vn": "Khí độc CO gây nguy hiểm cho người lao động vì lý do nào sau đây?",
+  "question_en": "CO toxic gas is dangerous for employee’s health by following reasons:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "CO có tính liên kết với Hemoglobin (Hb) trong hồng cầu mạnh gấp 230–270 lần so với oxy nên khi hít vào CO sẽ gắn chặt với Hb thành HbCO làm máu không thể vận chuyển oxy đến tế bào",
+      "text_en": "CO gas is dangerous because CO is associated with hemoglobin (Hb) in red blood cells 230–270 times stronger than Oxygen, CO will attach tightly with Hb and become HbCO, so blood cannot transfer oxygen to cells",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Mức độ tác động phụ thuộc vào lượng CO trong không khí, thời gian hít CO vào cơ thể, tình trạng sức khỏe và mức độ nhạy cảm của người tiếp xúc",
+      "text_en": "The degree of impact depends on the amount of CO in the air, the time it takes to inhale, the state of health and the sensitivity of CO to the exposed person",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Người lớn tuổi, phụ nữ có thai và những người có bệnh về tim, hệ tuần hoàn hoặc phổi sẽ bị tác động nặng hơn khi tiếp xúc với CO",
+      "text_en": "Older people, pregnant women and people with heart, circulatory or lung conditions will be more severely affected by exposure to CO",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "19",
+  "category": "an toàn khí độc",
+  "question_vn": "Nguồn phát sinh khí CO chính tại Nhà máy là:",
+  "question_en": "The main sources of CO at Dung Quat refinery are:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Phân xưởng RFCC",
+      "text_en": "RFCC unit",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Phân xưởng CDU",
+      "text_en": "CDU unit",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Phân xưởng CCR & NHT",
+      "text_en": "CCR and NHT unit",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Khu vực phụ trợ (Cold & Hot Utility)",
+      "text_en": "Cold and Hot utility unit",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "20",
+  "category": "an toàn khí độc",
+  "question_vn": "Các khu vực nào ở Nhà máy tiềm ẩn nguy cơ rò rỉ khí H2S?",
+  "question_en": "Which areas in the Refinery have the potential risk of H2S gas leakage?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Phân xưởng xử lý nước chua (phân xưởng 18)",
+      "text_en": "Sour water treatment unit (Unit 18)",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Phân xưởng thu hồi lưu huỳnh (phân xưởng 22/25)",
+      "text_en": "Sulfur recovery unit (Unit 22/25)",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Khu vực đuốc đốt khí chua (phân xưởng 57)",
+      "text_en": "Flare area (Unit 57)",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Khu vực xử lý nước thải (phân xưởng 58) và các hố ga, bể chứa",
+      "text_en": "Waste water treatment unit (Unit 58) and manholes, tanks",
+      "is_correct": false
+    },
+    {
+      "label": "E",
+      "text_vn": "Tất cả các khu vực trên",
+      "text_en": "All areas above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "21",
+  "category": "an toàn khí độc",
+  "question_vn": "Yêu cầu an toàn được áp dụng tại khu vực rò rỉ khí CO là:",
+  "question_en": "Safety requirements apply in areas with CO gas leaks:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Giăng dây cô lập quanh khu vực rò rỉ khí CO",
+      "text_en": "Isolate around CO gas leaking area by warning tape",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đặt bảng cảnh báo khí độc CO",
+      "text_en": "Put up CO warning sign",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả nhân viên vào/làm việc trong khu vực bị rò rỉ CO phải đeo máy đo khí cá nhân CO và thiết bị hỗ trợ hô hấp",
+      "text_en": "All personnel entering or working in the CO gas leaking area must wear CO personal gas detector and personal respiratory protection",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "22",
+  "category": "an toàn khí độc",
+  "question_vn": "Mức độ tiếp xúc với khí CO được quy định trong QCVN 03:2019/BYT trung bình 8 giờ làm việc (TWA) là bao nhiêu?",
+  "question_en": "What is the level of exposure to CO gas which is specified in the QCVN 03:2019/BYT (average 8 working hours – TWA)?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "18 ppm",
+      "text_en": "18 ppm",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "35 ppm",
+      "text_en": "35 ppm",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "400 ppm",
+      "text_en": "400 ppm",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "1200 ppm",
+      "text_en": "1200 ppm",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "23",
+  "category": "an toàn khí độc",
+  "question_vn": "Tính chất nào sau đây là KHÔNG đúng của khí độc H₂S?",
+  "question_en": "Which following property is not true of H₂S toxic gas?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "H₂S là khí độc, dễ cháy và ăn mòn",
+      "text_en": "H₂S is toxic gas, flammable, corrosive",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Khí H₂S có mùi trứng thối và có thể phát hiện mùi",
+      "text_en": "H₂S has a rotten egg smell",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "H₂S nhẹ hơn không khí và không tích tụ tại các khu vực trũng như cống rãnh, đáy bồn",
+      "text_en": "H₂S is lighter than air and does not accumulate in low-lying areas such as drain and tank bottom",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Nhiệt độ tự bốc cháy: 260°C",
+      "text_en": "Self ignition temperature: 260°C",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "24",
+  "category": "an toàn khí độc",
+  "question_vn": "Theo QCVN 03:2019/BYT, hàm lượng khí CO nguy hiểm tức thời đến tính mạng, sức khỏe (IDLH) là:",
+  "question_en": "In the QCVN 03:2019/BYT, the CO content is immediately dangerous to life and health (IDLH) is:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "18 ppm",
+      "text_en": "18 ppm",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "35 ppm",
+      "text_en": "35 ppm",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "400 ppm",
+      "text_en": "400 ppm",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "1200 ppm",
+      "text_en": "1200 ppm",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "25",
+  "category": "an toàn khí độc",
+  "question_vn": "Theo QCVN 03:2019/BYT, hàm lượng khí H₂S nguy hiểm tức thời đến tính mạng, sức khỏe (IDLH) là:",
+  "question_en": "In the QCVN 03:2019/BYT, the H₂S content is immediately dangerous to life and health (IDLH) is:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "7,17 ppm",
+      "text_en": "7.17 ppm",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "10,76 ppm",
+      "text_en": "10.76 ppm",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "100 ppm",
+      "text_en": "100 ppm",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "500 ppm",
+      "text_en": "500 ppm",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "26",
+  "category": "an toàn khí độc",
+  "question_vn": "Tác hại của thủy ngân đối với con người là:",
+  "question_en": "The harmful effects of mercury on humans are:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thủy ngân ảnh hưởng trực tiếp đến hệ thống thần kinh và thận, gây ra các vấn đề chậm phát triển, vận động và thần kinh",
+      "text_en": "Mercury directly affects the central nervous and renal systems, causing development delay, motor and brain problems",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Thủy ngân ít độc khi ở dạng lỏng, nhưng rất độc khi ở dạng hơi và các hợp chất của nó và là nguyên nhân gây ra các tổn thương não, gan và thận khi tiếp xúc, hít thở hay ăn phải",
+      "text_en": "Mercury is less toxic in liquid state, but it is very toxic in vapor or organic compound, and the cause of the brain damage, liver and kidney when exposure, inhalation or ingestion",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thủy ngân có thể gây ngộ độc cấp tính và ngộ độc mạn tính",
+      "text_en": "Mercury can cause both chronic and acute poisoning",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "27",
+  "category": "an toàn khí độc",
+  "question_vn": "Khi vào khu vực sản xuất, kho hóa chất,… theo kế hoạch hoặc GPLV được phê duyệt, nhân sự liên quan phải:",
+  "question_en": "When entering production areas, chemical warehouses, etc. according to approved plans or PTW, relevant personnel must:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nhận diện mối nguy khí độc và chuẩn bị phương tiện bảo vệ cá nhân theo quy định",
+      "text_en": "Identify toxic gas hazard information and prepare PPE as required",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Tìm hiểu thông tin các trang thiết bị cứu nạn/thoát hiểm và lối thoát hiểm được lắp đặt/trang bị",
+      "text_en": "Find information on emergency/escape equipment and exits installed/equipped",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tuân thủ các yêu cầu/biện pháp kiểm soát theo SDS và biển báo, biển hướng dẫn cố định/tạm tại khu vực",
+      "text_en": "Comply with the requirements/control measure according to the SDS and permanent/temporary warning/guidance signs in the area",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "28",
+  "category": "an toàn khí độc",
+  "question_vn": "Theo bạn, các biện pháp an toàn đã được áp dụng khi có rò rỉ khí độc trong bức ảnh này là gì?",
+  "question_en": "In your opinion, what are the safety measures taken at the site of the toxic gas leak in this photo?",
+  "image": "nganhangcauhoi/etest/atkd-cau28.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Cô lập khu vực rò rỉ khí độc bằng dây cảnh báo",
+      "text_en": "Isolated toxic gas leaking area by barricade",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đặt bảng thông tin và bố trí nhân sự ứng cứu",
+      "text_en": "Have warning board and emergency response personnel",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Triển khai phương án cứu hộ cứu nạn",
+      "text_en": "Deploy rescue plan",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "29",
+  "category": "an toàn khí độc",
+  "question_vn": "Những biện pháp đảm bảo an toàn nào khi thực hiện công việc sửa chữa điểm rò rỉ khí CO trong hình là gì?",
+  "question_en": "What are the safety points when performing repair work of CO leak point in the picture?",
+  "image": "nganhangcauhoi/etest/atkd-cau29.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Sử dụng thiết bị hỗ trợ hô hấp khi làm việc",
+      "text_en": "Use respiratory assistive devices",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Có nhân sự ứng cứu sự cố hỗ trợ",
+      "text_en": "Have emergency response personnel supported",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Hạn chế số lượng nhân sự trong khu vực rò rỉ khí độc",
+      "text_en": "Limiting the number of personnel in the toxic gas leakage area",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "30",
+  "category": "an toàn khí độc",
+  "question_vn": "Theo tiêu chuẩn kỹ thuật máy đo khí di động (BSR-HSE-SPE-006), vị trí đeo máy đo khí cá nhân như hình ảnh bên dưới có đúng hay không?",
+  "question_en": "According to Technical Standard of Portable Gas Meter (BSR-HSE-SPE-006), is the position of personal gas detector in the image below correct?",
+  "image": "nganhangcauhoi/etest/atkd-cau30.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đúng",
+      "text_en": "Correct",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Sai",
+      "text_en": "Incorrect",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+}
+]

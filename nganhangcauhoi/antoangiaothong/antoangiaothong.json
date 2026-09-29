@@ -1,0 +1,3175 @@
+[
+  {
+    "id": "01",
+    "category": "An toàn giao thông",
+    "question_vn": "Những loại bảo hộ lao động bắt buộc nào cần phải mang hoặc mặc đúng cách trước khi vào Khu vực sản xuất của Nhà máy Lọc dầu Dung Quất?",
+    "question_en": "What types of mandatory PPE must be worn properly before entering the production area of Dung Quat refinery?",
+    "image": "",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Mũ bảo hộ còn hạn sử dụng; Kính bảo hộ trong suốt",
+        "text_en": "The hard hat is still in its expiration date and the transparent safety glasses",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text_vn": "Áo quần bảo hộ có tên Công ty, phản quang; Giày bảo hộ có mũi cứng",
+        "text_en": "Protective clothing with company name, reflective; safety shoes",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text_vn": "Kính bảo hộ màu đen, giày thể thao chạy bộ",
+        "text_en": "Dark glasses, running shoes",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text_vn": "Câu A và câu B đúng",
+        "text_en": "A and B are correct",
+        "is_correct": true
+      }
+    ],
+    "points": 1
+  },
+  {
+    "id": "02",
+    "category": "An toàn giao thông",
+    "question_vn": "Điện thoại di động thông thường, thuốc lá, diêm quẹt, bật lửa và các thiết bị gây ra lửa không được phép mang vào khu vực nào của Nhà máy Lọc dầu Dung Quất?",
+    "question_en": "Normal cell phones, cigarettes, matches, lighters and fire-causing devices are not allowed in which areas of Dung Quat refinery?",
+    "image": "",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Khu vực cảng xuất sản phẩm, bể chứa sản phẩm",
+        "text_en": "Jetty, product tank farm",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text_vn": "Khu vực tuyến ống dẫn sản phẩm",
+        "text_en": "Inter-connecting pipeline area",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text_vn": "Khu vực công nghệ của Nhà máy",
+        "text_en": "Production area",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text_vn": "Tất cả các khu vực nêu trên",
+        "text_en": "All the above",
+        "is_correct": true
+      }
+    ],
+    "points": 1
+  },
+  {
+    "id": "03",
+    "category": "An toàn giao thông",
+    "question_vn": "Trước khi vào cổng Nhà máy Lọc dầu Dung Quất làm việc, bạn cần phải thực hiện yêu cầu nào dưới đây?",
+    "question_en": "Which of the following requirements do you need to meet before entering Dung Quat refinery to work?",
+    "image": "",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Phải được nhân sự BSR bảo lãnh tại cổng kiểm soát an ninh",
+        "text_en": "Must be guaranteed by BSR personnel at the security gate",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text_vn": "Phải hoàn thành các khóa đào tạo, huấn luyện an toàn và được cấp thẻ ra vào Nhà máy",
+        "text_en": "Must complete safety training courses and be issued an BSR’s ID badge",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text_vn": "Tự kiểm tra diêm quẹt, bật lửa, điện thoại, chất cấm… trước khi nhân viên bảo vệ kiểm soát",
+        "text_en": "Self-check matches, lighters, phones, banned substances… before being controlled by security guards",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text_vn": "Tất cả các yêu cầu trên đều đúng",
+        "text_en": "All of the above",
+        "is_correct": true
+      }
+    ],
+    "points": 1
+  },
+  {
+    "id": "04",
+    "category": "An toàn giao thông",
+    "question_vn": "Tất cả các thiết bị, dụng cụ, vật tư trước khi mang vào hoặc mang ra cổng kiểm soát an ninh của Nhà máy Lọc dầu Dung Quất cần phải thực hiện yêu cầu nào sau đây?",
+    "question_en": "All equipment, tools, and supplies must meet which of the following requirements before being brought into or out of the security control gate of Dung Quat refinery?",
+    "image": "",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Chỉ cần thông báo với nhân viên bảo vệ tại cổng kiểm soát an ninh",
+        "text_en": "Just notify the security guard at the security gates",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text_vn": "Không cần thực hiện bất cứ yêu cầu nào nếu thiết bị, dụng cụ, vật tư là tài sản của tôi",
+        "text_en": "There is no need to make any request if the equipment, tools or supplies are my property",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text_vn": "Phải có giấy đăng ký vận chuyển vật tư ra vào được phê duyệt bởi BSR",
+        "text_en": "Must have a gate pass in or out approved by BSR",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text_vn": "Tất cả các yêu cầu trên đều đúng",
+        "text_en": "All of the above",
+        "is_correct": false
+      }
+    ],
+    "points": 1
+  }, 
+   {
+    "id": "05",
+    "category": "An toàn giao thông",
+    "question_vn": "Theo quyết định của Thủ tướng Chính phủ, Nhà máy Lọc dầu Dung Quất là công trình quan trọng liên quan đến an ninh Quốc gia, hành vi trộm cắp, phá hoại thiết bị, tài sản của Nhà máy sẽ bị xử lý như thế nào?",
+    "question_en": "According to the VN Prime Minister’s decision, Dung Quat refinery is an important project related to national security, how will theft and vandalism of the refinery’s assets be handled?",
+    "image": "",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Nhắc nhở, cảnh báo nếu vi phạm lần đầu",
+        "text_en": "Reminders and warnings for first-time violations",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text_vn": "Xử phạt hành chính và trục xuất khỏi Nhà máy nếu vi phạm lần thứ 2",
+        "text_en": "Administrative penalties and expulsion from the refinery for the second violation",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text_vn": "Ngay lập tức bị bắt giữ và chuyển giao cho Cảnh sát điều tra, bị xử lý ít nhất 3 năm tù giam",
+        "text_en": "Arrest immediately, transfer to police, prison sentences of at least 3 years",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text_vn": "Tất cả các hình thức xử lý vi phạm nêu trên đều đúng",
+        "text_en": "All of the above",
+        "is_correct": false
+      }
+    ],
+    "points": 1
+  },
+{
+    "id": "06",
+    "category": "An toàn giao thông",
+    "question_vn": "Những hành vi nào sau đây là vi phạm nghiêm trọng sẽ bị trục xuất và đưa vào danh sách cấm vào Nhà máy Lọc dầu Dung Quất vĩnh viễn hoặc có thể chuyển Công an để điều tra xử lý?",
+    "question_en": "Which of the following are serious violations that will result in being rejected, placed on the blacklist, or being transferred to the police for investigation?",
+    "image": "",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Mang thuốc lá, diêm quẹt, bật lửa, vật gây cháy hoặc điện thoại không có chức năng chống cháy nổ vào khu vực sản xuất của Nhà máy",
+        "text_en": "Bringing cigarettes, matches, lighters, inflammable objects or phones without explosion-proof functions into the refinery’s production area",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text_vn": "Mang vật tư, thiết bị ra ngoài nhưng không có giấy phép vận chuyển vật tư được phê duyệt",
+        "text_en": "Bringing supplies and equipment out without an approved gatepass",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text_vn": "Chơi cờ bạc, cá độ, trộm cắp bên trong phạm vi nhà máy",
+        "text_en": "Gambling, betting, stealing inside the refinery premises",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text_vn": "Tất cả các hành vi nêu trên",
+        "text_en": "All of the above",
+        "is_correct": true
+      }
+    ],
+    "points": 1
+},
+{
+    "id": "07",
+    "category": "An toàn giao thông",
+    "question_vn": "Những hành vi nào sau đây là vi phạm nghiêm trọng sẽ bị trục xuất và đưa vào danh sách cấm vào Nhà máy Lọc dầu Dung Quất vĩnh viễn hoặc có thể chuyển Công an để điều tra xử lý?",
+    "question_en": "Which of the following are serious violations that will result in being rejected, placed on the blacklist, or being transferred to the police for investigation?",
+    "image": "",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Thi hộ hoặc làm bài hộ khi tham dự các khóa đào tạo, huấn luyện an toàn",
+        "text_en": "Someone else doing the test for you when participating in HSE training courses",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text_vn": "Thực hiện công việc nhưng không được cấp giấy phép làm việc",
+        "text_en": "Performing work without a valid work permit",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text_vn": "Mang hoặc sử dụng rượu bia, chất kích thích, chất gây nghiện",
+        "text_en": "Carrying or using alcohol, stimulants, or narcotics",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text_vn": "Tất cả các hành vi nêu trên",
+        "text_en": "All of the above",
+        "is_correct": true
+      }
+    ],
+    "points": 1
+},
+{
+    "id": "08",
+    "category": "An toàn giao thông",
+    "question_vn": "Những hành vi nào sau đây là vi phạm nghiêm trọng sẽ bị trục xuất và đưa vào danh sách cấm vào Nhà máy Lọc dầu Dung Quất vĩnh viên hoặc có thể chuyển Công an để điều tra xử lý?",
+    "question_en": "Which of the following are serious violations that will result in being rejected, placed on the blacklist, or being transferred to the police for investigation?",
+    "image": "",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Sử dụng thẻ của người khác hoặc quẹt thẻ hộ",
+        "text_en": "Using or swiping someone else’s ID badge",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text_vn": "Điều khiển phương tiện giao thông vượt quá tốc độ giới hạn 10 km/h",
+        "text_en": "Driving a vehicle exceeding the speed limit of 10 km/h",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text_vn": "Cố ý báo cháy giả hoặc kích hoạt nút báo cháy khi không có tình huống cháy xảy ra",
+        "text_en": "Intentionally making false fire alarms or activating the fire alarm button when there is no fire situation",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text_vn": "Tất cả các hành vi nêu trên",
+        "text_en": "All of the above",
+        "is_correct": true
+      }
+    ],
+    "points": 1
+},
+{
+    "id": "09",
+    "category": "An toàn giao thông",
+    "question_vn": "Khi nghe hệ thống báo động của Nhà máy Lọc dầu Dung Quất thông báo có tình huống khẩn cấp xảy ra, bạn phải làm gì?",
+    "question_en": "When you hear the alarm system of Dung Quat refinery announcing an emergency case, what should you do?",
+    "image": "",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Chạy qua cổng bảo vệ để thoát hiểm an toàn",
+        "text_en": "Run through the security gate to escape safely",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text_vn": "Chạy đến vị trí sự cố để nắm bắt tình hình và hỗ trợ xử lý sự cố",
+        "text_en": "Run to the place where the incident occurs to find out the problem and assist in troubleshooting",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text_vn": "Vẫn làm việc bình thường vì sự cố không ảnh hưởng đến khu vực tôi đang làm việc",
+        "text_en": "Still working normally because the incident did not affect the area I was working in",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text_vn": "Tắt tất cả các thiết bị đang sử dụng và ngay lập tức di chuyển đến điểm tập kết gần nhất",
+        "text_en": "Switch off all devices and move immediately to the nearest muster point",
+        "is_correct": true
+      }
+    ],
+    "points": 1
+},
+{
+    "id": "10",
+    "category": "An toàn giao thông",
+    "question_vn": "Khi đang làm việc bên trong Nhà máy Lọc dầu Dung Quất, bạn phát hiện/thấy sự cố như nổ, rò rỉ khí độc, tràn dầu, tràn đổ hóa chất hoặc tai nạn xảy ra, bạn cần phải làm gì?",
+    "question_en": "While working inside Dung Quat refinery, you find an incident such as an explosion, toxic gas leak, oil spill, chemical spill or an accident, what should you do?",
+    "image": "",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Không cần phải thông báo vì sự cố không liên quan đến mình",
+        "text_en": "There is no need to notify because the incident is not related to you",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text_vn": "Ngay lập tức thông báo với người giám sát hoặc nhân sự của Nhà máy Lọc dầu Dung Quất",
+        "text_en": "Immediately notify a supervisor or Dung Quat refinery personnel",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text_vn": "Gọi đến số cố định theo số 6205 tại các trụ điện thoại hoặc gọi bộ đàm kênh 1 (nếu có)",
+        "text_en": "Dial 6205 at fixed telephone stations or use radio channel 1 (if available) to report the incident",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text_vn": "Câu B và câu C đúng",
+        "text_en": "B and C are correct",
+        "is_correct": true
+      }
+    ],
+    "points": 1
+},
+{
+    "id": "11",
+    "category": "An toàn giao thông",
+    "question_vn": "Khi bạn là người đầu tiên phát hiện cháy xảy ra tại nơi đang làm việc, bạn phải xử lý như thế nào?",
+    "question_en": "When you are the first person to find a fire at work, how should you handle it?",
+    "image": "",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Hô hoán lớn cho mọi người xung quanh biết và nhấn nút báo cháy. Nếu đám cháy nhỏ thì sử dụng bình chữa cháy để dập tắt đám cháy, nếu đám cháy lớn thì nhanh chóng di chuyển đến nơi an toàn.",
+        "text_en": "Shout loudly and press the fire alarm button. If the fire is small, use a fire extinguisher to extinguish the fire. If the fire is large, quickly move to a safe place",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text_vn": "Chạy đi tìm giám sát nhà thầu để nhờ giám sát thông báo cho Nhà máy biết",
+        "text_en": "Run to find the contractor’s supervisor to notify the refinery",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text_vn": "Không cần báo động vì đám cháy không liên quan đến mình",
+        "text_en": "There is no need to raise the alarm because the fire is not related to you",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text_vn": "Tất cả các ý trên đều đúng",
+        "text_en": "All of the above",
+        "is_correct": false
+      }
+    ],
+    "points": 1
+},
+{
+    "id": "12",
+    "category": "An toàn giao thông",
+    "question_vn": "Bạn có thể sử dụng vòi nước rửa khẩn cấp ở bên trong Nhà máy Lọc dầu Dung Quất để vệ sinh cá nhân hoặc rửa xe không?",
+    "question_en": "Can you use the safety shower and eye wash station inside Dung Quat refinery for personal hygiene or car washing?",
+    "image": "nganhangcauhoi/antoangiaothong/atgt-cau12.png",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Không được phép",
+        "text_en": "Not allowed",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text_vn": "Được phép nếu giám sát công việc cho phép",
+        "text_en": "Allowed if required by work supervisor",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text_vn": "Được phép nếu khu vực làm việc không có vòi nước vệ sinh",
+        "text_en": "Allowed if the work area does not have a toilet",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text_vn": "Tất cả các ý trên đều đúng",
+        "text_en": "All of the above",
+        "is_correct": false
+      }
+    ],
+    "points": 1
+},
+{
+    "id": "13",
+    "category": "An toàn giao thông",
+    "question_vn": "Những mối nguy nào dưới đây có thể gây ra tai nạn khi làm việc tại Nhà máy Lọc dầu Dung Quất?",
+    "question_en": "Which of the following hazards can cause accidents when working at Dung Quat refinery?",
+    "image": "",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Điện, thiết bị điện",
+        "text_en": "Electricity, electrical equipment",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text_vn": "Khí độc, khí cháy nổ",
+        "text_en": "Toxic gas, explosive gas",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text_vn": "Hóa chất, làm việc trên cao",
+        "text_en": "Chemicals, working at height",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text_vn": "Tất cả các ý trên đều đúng",
+        "text_en": "All of the above",
+        "is_correct": true
+      }
+    ],
+    "points": 1
+},
+{
+    "id": "14",
+    "category": "An toàn giao thông",
+    "question_vn": "Những loại khí độc và khí nguy hiểm nào luôn tiềm ẩn trong Nhà máy Lọc dầu Dung Quất?",
+    "question_en": "What types of toxic and dangerous gases are always hidden in Dung Quat Refinery?",
+    "image": "",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Khí cháy nổ (hơi xăng, hơi dầu, hơi ga)",
+        "text_en": "Explosive gas (mogas vapor, oil vapor, gas vapor)",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text_vn": "Khí H2S và khí CO",
+        "text_en": "H2S, CO",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text_vn": "Khí Nitơ (N2)",
+        "text_en": "Nitrogen (N2)",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text_vn": "Tất cả các ý trên đều đúng",
+        "text_en": "All of the above",
+        "is_correct": true
+      }
+    ],
+    "points": 1
+},
+{
+    "id": "15",
+    "category": "An toàn giao thông",
+    "question_vn": "Khi làm việc ở khu vực cách mép nước ít hơn 1,5 mét nhưng không có lan can tay vịn, người lao động cần phải trang bị thêm bảo hộ lao động gì?",
+    "question_en": "When working in an area less than 1.5 meters from the water's edge but without handrails, what additional PPE do workers need to wear?",
+    "image": "",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Áo phao",
+        "text_en": "Life jacket",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text_vn": "Bình dưỡng khí",
+        "text_en": "SCBA",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text_vn": "Dây đeo an toàn",
+        "text_en": "Safety hardness",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text_vn": "Mặt nạ phòng độc",
+        "text_en": "Toxic mask",
+        "is_correct": false
+      }
+    ],
+    "points": 1
+},
+{
+    "id": "16",
+    "category": "An toàn giao thông",
+    "question_vn": "Người lao động chưa hoàn thành khóa huấn luyện An toàn làm việc trên cao và chưa được cấp Safety Visa có được phép làm việc trên cao hay không?",
+    "question_en": "Are workers who have not completed the Work at Height training course and have not been granted a Safety Visa allowed to work at height?",
+    "image": "",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Được làm việc nếu cảm thấy đã đầy đủ kiến thức",
+        "text_en": "They can work if you feel they have enough knowledge",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text_vn": "Được làm việc nếu giám sát Nhà thầu yêu cầu",
+        "text_en": "They can work if requested by the Contractor's supervisor",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text_vn": "Được làm việc nếu đã từng làm trên cao",
+        "text_en": "They can work if you have ever worked at height",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text_vn": "Không được làm việc",
+        "text_en": "Do not work",
+        "is_correct": true
+      }
+    ],
+    "points": 1
+},
+{
+    "id": "17",
+    "category": "An toàn giao thông",
+    "question_vn": "Người lao động chưa hoàn thành khóa huấn luyện An toàn làm việc trong không gian hạn chế và chưa được cấp Safety Visa có được phép làm việc trong không gian hạn chế hay không?",
+    "question_en": "Are workers who have not completed the Confined Spaces training course and have not been granted a Safety Visa allowed to work in confined spaces?",
+    "image": "",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Được làm việc nếu đã từng làm việc trong không gian hạn chế",
+        "text_en": "They can work if they have ever worked in a confined space",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text_vn": "Được làm việc nếu cảm thấy đã đầy đủ kiến thức",
+        "text_en": "They can work if you feel they have enough knowledge",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text_vn": "Được làm việc nếu giám sát Nhà thầu yêu cầu",
+        "text_en": "They can work if requested by the Contractor's supervisor",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text_vn": "Không được làm việc",
+        "text_en": "Do not work",
+        "is_correct": true
+      }
+    ],
+    "points": 1
+},
+{
+    "id": "18",
+    "category": "An toàn giao thông",
+    "question_vn": "Chất thải sinh hoạt chứa trong thùng chứa chất thải màu gì?",
+    "question_en": "What color is the domestic waste stored in the waste container?",
+    "image": "nganhangcauhoi/antoangiaothong/atgt-cau18.png",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Xanh da trời",
+        "text_en": "Blue",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text_vn": "Xanh lá cây",
+        "text_en": "Green",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text_vn": "Vàng",
+        "text_en": "Yellow",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text_vn": "Trắng",
+        "text_en": "White",
+        "is_correct": false
+      }
+    ],
+    "points": 1
+},
+{
+    "id": "19",
+    "category": "An toàn giao thông",
+    "question_vn": "Chất thải nguy hại chứa trong thùng chứa chất thải màu gì?",
+    "question_en": "What color is hazardous waste contained in waste container?",
+    "image": "nganhangcauhoi/antoangiaothong/atgt-cau19.png",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Xanh da trời",
+        "text_en": "Blue",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text_vn": "Xanh lá cây",
+        "text_en": "Green",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text_vn": "Vàng",
+        "text_en": "Yellow",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text_vn": "Trắng",
+        "text_en": "White",
+        "is_correct": false
+      }
+    ],
+    "points": 1
+},
+{
+    "id": "20",
+    "category": "An toàn giao thông",
+    "question_vn": "Chất thải tái chế chứa trong thùng chứa chất thải màu gì?",
+    "question_en": "What color is the recyclable waste contained in the waste container?",
+    "image": "nganhangcauhoi/antoangiaothong/atgt-cau20.png",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Xanh da trời",
+        "text_en": "Blue",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text_vn": "Xanh lá cây",
+        "text_en": "Green",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text_vn": "Vàng",
+        "text_en": "Yellow",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text_vn": "Trắng",
+        "text_en": "White",
+        "is_correct": false
+      }
+    ],
+    "points": 1
+},
+{
+    "id": "21",
+    "category": "An toàn giao thông",
+    "question_vn": "Các chất thải có nhiễm phóng xạ, dễ cháy, nổ, gây ăn mòn, nhiễm dầu thuộc loại chất thải nào?",
+    "question_en": "What type of waste is radioactive, flammable, explosive, corrosive, and oil-contaminated waste?",
+    "image": "",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Chất thải tái chế",
+        "text_en": "Recycled waste",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text_vn": "Chất thải nguy hại",
+        "text_en": "Hazardous waste",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text_vn": "Chất thải thông thường",
+        "text_en": "Domestic waste",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text_vn": "Chất thải chưa được phân loại",
+        "text_en": "Unclassified waste",
+        "is_correct": false
+      }
+    ],
+    "points": 1
+},
+  {
+    "id": "22",
+    "category": "An toàn giao thông",
+    "question_vn": "Các khu vực có biển cảnh báo nguy hiểm hoặc được giăng dây cảnh báo màu vàng hoặc đỏ, người không phận sự hoặc không liên quan có được phép vào hay không?",
+    "question_en": "Are unauthorized or unrelated people allowed to enter areas with danger warning signs or yellow or red warning tapes?",
+    "image": "",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Không được phép vào",
+        "text_en": "Not allowed",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text_vn": "Được phép đi vào nếu bên trong không có người làm việc",
+        "text_en": "You are allowed to enter if there is no one working inside",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text_vn": "Được phép đi vào nếu cảm thấy khu vực đảm bảo an toàn",
+        "text_en": "You are allowed to enter if you feel the area is safe",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text_vn": "Tất cả ý trên đều đúng",
+        "text_en": "All of the above",
+        "is_correct": false
+      }
+    ],
+    "points": 1
+  },
+  {
+    "id": "23",
+    "category": "An toàn giao thông",
+    "question_vn": "Những quy định nào sau đây là SAI khi tham gia giao thông bên trong Nhà máy Lọc dầu Dung Quất?",
+    "question_en": "Which of the following regulations is WRONG when participating in traffic inside Dung Quat Refinery?",
+    "image": "",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Ngồi nghỉ ngơi dọc trên các tuyến đường giao thông",
+        "text_en": "Sit and rest along traffic routes",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text_vn": "Quan sát cẩn thận trước khi đi qua các đường giao nhau",
+        "text_en": "Observe carefully before crossing intersections",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text_vn": "Di chuyển đúng làn đường, vạch kẻ đường, tuân thủ biển báo giao thông",
+        "text_en": "Move in the right lane, follow road markings, and obey traffic signs",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text_vn": "Đi xe đạp phải tuân thủ lái xe bằng 2 tay, không dùng điện thoại, bộ đàm, để xe đúng nơi quy định",
+        "text_en": "When riding a bicycle, you must drive with two hands, do not use a phone or walkie-talkie, and park your bike in the right place",
+        "is_correct": false
+      }
+    ],
+    "points": 1
+  },
+  {
+    "id": "24",
+    "category": "An toàn giao thông",
+    "question_vn": "Những quy định nào sau đây là ĐÚNG khi làm việc tại Nhà máy Lọc dầu Dung Quất?",
+    "question_en": "Which of the following regulations is TRUE when working at Dung Quat Refinery?",
+    "image": "",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Nhảy qua mương cống, trèo qua lan can",
+        "text_en": "Jump over the sewer ditch, climb over the handrail",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text_vn": "Đi vệ sinh cá nhân dưới các mương cống, khu vực trống...",
+        "text_en": "Going to the toilet in sewers, open areas...",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text_vn": "Mang vật tư, máy móc, thiết bị ra ngoài khi chưa có giấy phép",
+        "text_en": "Bringing materials, machinery, and equipment outside without a gatepass",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text_vn": "Thông báo cho giám sát nếu phát hiện các bất thường trong khi tiến hành công việc",
+        "text_en": "Notify supervisor if you detect abnormalities while performing work",
+        "is_correct": true
+      }
+    ],
+    "points": 1
+  },
+  {
+    "id": "25",
+    "category": "An toàn giao thông",
+    "question_vn": "Những quy định nào sau đây là SAI khi làm việc tại Nhà máy Lọc dầu Dung Quất?",
+    "question_en": "Which of the following regulations is WRONG when working at Dung Quat Refinery?",
+    "image": "",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Tuân thủ chỉ dẫn của biển cảnh báo và bảng hướng dẫn an toàn",
+        "text_en": "Follow the instructions on warning signs and safety instructions",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text_vn": "Phân loại và bỏ chất thải vào đúng loại thùng chứa chất thải quy định",
+        "text_en": "Classify and put waste into the correct type of waste container",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text_vn": "Đi lại khu vực khác ngoài khu vực làm việc đã được quy định trong giấy phép",
+        "text_en": "Travel to other areas outside the work area specified in the permit",
+        "is_correct": true
+      },
+      {
+        "label": "D",
+        "text_vn": "Mang nút bịt tai ở những khu vực có độ ồn cao hoặc khu vực có biển cảnh báo độ ồn",
+        "text_en": "Wear earplugs in areas with high noise levels or areas with noise warning signs",
+        "is_correct": false
+      }
+    ],
+    "points": 1
+  },
+{
+    "id": "26",
+    "category": "An toàn giao thông",
+    "question_vn": "Hình bên dưới là thiết bị gì?",
+    "question_en": "What device is pictured below?",
+    "image": "nganhangcauhoi/antoangiaothong/atgt-cau26.png",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Hộp trang trí",
+        "text_en": "Decorative box",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text_vn": "Nút nhấn báo cháy",
+        "text_en": "Fire alarm push button",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text_vn": "Hộp khởi động thiết bị công nghệ",
+        "text_en": "Technology device starter box",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text_vn": "Nút cảnh báo khu vực rất nguy hiểm",
+        "text_en": "Warning button for very dangerous area",
+        "is_correct": false
+      }
+    ],
+    "points": 1
+},
+{
+    "id": "27",
+    "category": "An toàn giao thông",
+    "question_vn": "Tư thế nâng vật như thế nào là đúng?",
+    "question_en": "What is the correct posture for lifting objects?",
+    "image": "nganhangcauhoi/antoangiaothong/atgt-cau27.png",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Cúi khom lưng rồi nâng vật lên (Hình 1)",
+        "text_en": "Bend your back and then lift the object (Figure 1)",
+        "is_correct": false
+      },
+      {
+        "label": "B",
+        "text_vn": "Ngồi xổm, dùng sức của cơ đùi, cơ tay để nâng vật (Hình 2)",
+        "text_en": "Sit down and use the strength of your thigh and arm muscles to lift objects (Figure 2)",
+        "is_correct": true
+      },
+      {
+        "label": "C",
+        "text_vn": "Cả 2 tư thế (Hình 1 và Hình 2) đều đúng",
+        "text_en": "Both postures (Figure 1 and Figure 2) are correct",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text_vn": "Tư thế nào cũng được tùy theo điều kiện sức khỏe của mỗi người",
+        "text_en": "Which posture depends on each person's health condition",
+        "is_correct": false
+      }
+    ],
+    "points": 1
+},
+  {
+    "id": "28",
+    "category": "An toàn giao thông",
+    "question_vn": "Trình tự các bước sử dụng bình chữa cháy xách tay như thế nào là đúng?",
+    "question_en": "What is the correct sequence of steps to use a portable fire extinguisher?",
+    "image": "nganhangcauhoi/antoangiaothong/atgt-cau28.png",
+    "type": "MC",
+    "options": [
+      {
+        "label": "A",
+        "text_vn": "Rút chốt an toàn - Hướng vòi phun về đám cháy - Bóp mạnh van xả - Quét qua quét lại",
+        "text_en": "Pull out the safety pin - Aim the nozzle towards the fire - Squeeze the exhaust valve firmly - Sweep from side to side",
+        "is_correct": true
+      },
+      {
+        "label": "B",
+        "text_vn": "Rút chốt an toàn - Bóp mạnh van xả - Hướng vòi phun về đám cháy - Quét qua quét lại",
+        "text_en": "Pull out the safety pin - Squeeze the exhaust valve firmly - Aim the nozzle towards the fire - Sweep from side to side",
+        "is_correct": false
+      },
+      {
+        "label": "C",
+        "text_vn": "Hướng vòi phun về đám cháy - Rút chốt an toàn - Bóp mạnh van xả - Quét qua quét lại",
+        "text_en": "Aim the nozzle towards the fire - Pull out the safety pin - Squeeze the exhaust valve firmly - Sweep from side to side",
+        "is_correct": false
+      },
+      {
+        "label": "D",
+        "text_vn": "Hướng vòi phun về đám cháy - Bóp mạnh van xả - Rút chốt an toàn - Quét qua quét lại",
+        "text_en": "Aim the nozzle towards the fire - Squeeze the exhaust valve firmly - Pull out the safety pin - Sweep from side to side",
+        "is_correct": false
+      }
+    ],
+    "points": 1
+  },
+  {
+    "id": "29",
+    "category": "An toàn giao thông",
+    "question_vn": "Hãy chỉ ra những điểm chưa phù hợp trong thùng chứa chất thải bên dưới?",
+    "question_en": "What is the problem in the waste container below?",
+    "image": "nganhangcauhoi/antoangiaothong/atgt-cau29.png",
+    "options": [
+      { "label": "A", "text_vn": "Rác thải chưa được phân loại theo quy định", "text_en": "Waste has not been classified according to regulations", "is_correct": false },
+      { "label": "B", "text_vn": "Găng tay nhiễm dầu bỏ vào thùng chất thải sinh hoạt", "text_en": "Oil-contaminated gloves are thrown into the household waste bin", "is_correct": false },
+      { "label": "C", "text_vn": "Chất thải tái chế bỏ vào thùng chất thải sinh hoạt", "text_en": "Recyclable waste is placed in the household waste bin", "is_correct": false },
+      { "label": "D", "text_vn": "Tất cả ý trên đều chưa phù hợp", "text_en": "All of the above", "is_correct": true }
+    ],
+    "points": 1
+  },
+  {
+    "id": "30",
+    "category": "An toàn giao thông",
+    "question_vn": "Nguyên tắc sơ tán khi xảy ra “Tình huống khẩn cấp” là gì?",
+    "question_en": "What are the evacuation principles when an “Emergency Situation” occurs?",
+    "image": "nganhangcauhoi/antoangiaothong/atgt-cau30.png",
+    "options": [
+      { "label": "A", "text_vn": "Di chuyển theo hướng nào cũng được", "text_en": "Move in any direction", "is_correct": false },
+      { "label": "B", "text_vn": "Di chuyển xuôi theo chiều gió", "text_en": "Move downwind", "is_correct": false },
+      { "label": "C", "text_vn": "Di chuyển theo hướng cắt ngang hoặc ngược chiều hướng gió", "text_en": "Move in the cross-wind direction or against the wind direction", "is_correct": true },
+      { "label": "D", "text_vn": "Sử dụng thang máy khi sơ tán", "text_en": "Use the elevator when evacuating", "is_correct": false }
+    ],
+    "points": 1
+  },
+  {
+    "id": "31",
+    "category": "An toàn giao thông",
+    "question_vn": "Bảng chỉ dẫn bên dưới có ý nghĩa gì?",
+    "question_en": "What does the sign below mean?",
+    "image": "nganhangcauhoi/antoangiaothong/atgt-cau31.png",
+    "options": [
+      { "label": "A", "text_vn": "Vị trí điểm tập trung khi tiến hành sơ tán", "text_en": "Muster point during evacuation", "is_correct": true },
+      { "label": "B", "text_vn": "Vị trí tổ chức họp an toàn định kỳ", "text_en": "Location for holding periodic safety meetings", "is_correct": false },
+      { "label": "C", "text_vn": "Vị trí tổ chức sự kiện quan trọng", "text_en": "Location of important events", "is_correct": false },
+      { "label": "D", "text_vn": "Vị trí nghỉ ngơi, ăn uống", "text_en": "Location to rest and eat", "is_correct": false }
+    ],
+    "points": 1
+  },
+    {
+    "id": "32",
+    "category": "An toàn giao thông",
+    "question_vn": "Vì sao bạn phải tham dự các khóa đào tạo huấn luyện trước khi được cấp thẻ và thực hiện các công việc tại Nhà máy Lọc dầu Dung Quất?",
+    "question_en": "Why do you have to attend training courses before being issued a card and performing work at Dung Quat Refinery?",
+    "image": "",
+    "options": [
+      { "label": "A", "text_vn": "Môi trường làm việc bên trong Nhà máy Lọc dầu Dung Quất luôn tiềm ẩn các mối nguy cao gây ra tai nạn lao động như cháy nổ, khí độc, điện, rơi ngã, độ ồn, hóa chất...", "text_en": "The working environment inside Dung Quat Refinery always has high potential risks causing labor accidents such as fire, explosion, toxic gas, electricity, falls, noise, chemicals...", "is_correct": false },
+      { "label": "B", "text_vn": "Công ty cổ phần Lọc hóa dầu Bình Sơn luôn chú trọng công tác an toàn và xem đây là một trong những nhiệm vụ trọng tâm hàng đầu trong tất cả hoạt động sản xuất kinh doanh", "text_en": "Binh Son Refining and Petrochemical Joint Stock Company always focuses on safety and considers it one of the top key tasks in all production and business activities", "is_correct": false },
+      { "label": "C", "text_vn": "Công ty cổ phần Lọc hóa dầu Bình Sơn mong muốn các bạn đến làm việc tại Công ty BSR phải nắm rõ các mối nguy và hiểu được các biện pháp bảo vệ nhằm phòng tránh tai nạn xảy ra", "text_en": "Binh Son Refining and Petrochemical Joint Stock Company wants you to come to work at BSR Company to clearly understand the hazards and understand protective measures to prevent accidents from occurring", "is_correct": false },
+      { "label": "D", "text_vn": "Tất cả các ý trên đều đúng", "text_en": "All of the above", "is_correct": true }
+    ],
+    "points": 1
+  },
+  {
+    "id": "33",
+    "category": "An toàn giao thông",
+    "question_vn": "Với mong muốn các bạn đến làm việc tại Công ty BSR và trở về nhà 1 cách an toàn, yêu cầu của Công ty BSR đối với các bạn sau khi hoàn thành các khóa huấn luyện an toàn là gì?",
+    "question_en": "With the hope that you will work at BSR Company and return home safely, what are BSR Company's requirements for you after completing the safety training courses?",
+    "image": "",
+    "options": [
+      { "label": "A", "text_vn": "Nắm rõ các nội quy, quy định về An toàn - Sức khỏe - Môi trường và Phòng cháy chữa cháy đã được ban hành bởi Công ty BSR", "text_en": "Understand the rules and regulations on Safety - Health - Environment and Fire Prevention issued by BSR Company", "is_correct": false },
+      { "label": "B", "text_vn": "Nhận diện được đầy đủ các mối nguy hiểm, rủi ro khi tiến hành công việc", "text_en": "Fully identify hazards and risks when performing work", "is_correct": false },
+      { "label": "C", "text_vn": "Hiểu rõ và thực hiện nghiêm túc các biện pháp an toàn để phòng tránh rủi ro có thể gây ra tai nạn cho bản thân, cho người xung quanh và cho Nhà máy", "text_en": "Understand and seriously implement safety measures to prevent risks that can cause accidents to yourself, to people around you and to the refinery", "is_correct": false },
+      { "label": "D", "text_vn": "Tất cả các ý trên đều đúng", "text_en": "All of the above", "is_correct": true }
+    ],
+    "points": 1
+  },
+  {
+    "id": "34",
+    "category": "An toàn giao thông",
+    "question_vn": "Những hành vi nào sau đây là vi phạm nghiêm trọng sẽ bị trục xuất và đưa vào danh sách cấm vào Nhà máy Lọc dầu Dung Quất vĩnh viễn hoặc có thể chuyển Công an để điều tra xử lý?",
+    "question_en": "Which of the following acts are serious violations that will result in expulsion and being put on the black list of Dung Quat Refinery or can be transferred to the Police for investigation?",
+    "image": "",
+    "options": [
+      { "label": "A", "text_vn": "Gây cản trở, gây khó khăn cho hoạt động chữa cháy và ứng phó tình huống khẩn cấp", "text_en": "Obstructing and making it difficult for firefighting activities and responding to emergency situations", "is_correct": false },
+      { "label": "B", "text_vn": "Gây gổ, đánh nhau, chống đối, hăm dọa, kích động, gây rối", "text_en": "Arguing, fighting, opposing, threatening, inciting, causing trouble", "is_correct": false },
+      { "label": "C", "text_vn": "Mang, sử dụng, tàng trữ vũ khí, vật liệu nổ trái phép", "text_en": "Illegally carrying, using, and storing weapons and explosives", "is_correct": false },
+      { "label": "D", "text_vn": "Tất cả các hành vi nêu trên", "text_en": "All of the above", "is_correct": true }
+    ],
+    "points": 1
+  },
+  {
+    "id": "35",
+    "category": "An toàn giao thông",
+    "question_vn": "Thức ăn thừa, vỏ trái cây, giấy ăn đã sử dụng, bao bì chai lọ nhiễm bẩn, thủy tinh vỡ bỏ là loại chất thải gì?",
+    "question_en": "What types of waste are leftover food, fruit peels, used tissues, contaminated bottle packaging, and broken glass?",
+    "image": "",
+    "options": [
+      { "label": "A", "text_vn": "Chất thải tái chế", "text_en": "Recycled waste", "is_correct": false },
+      { "label": "B", "text_vn": "Chất thải nguy hại", "text_en": "Hazardous waste", "is_correct": false },
+      { "label": "C", "text_vn": "Chất thải rắn sinh hoạt", "text_en": "Domestic waste", "is_correct": true },
+      { "label": "D", "text_vn": "Chất thải chưa được phân loại", "text_en": "Unclassified waste", "is_correct": false }
+    ],
+    "points": 1
+  },
+  {
+    "id": "36",
+    "category": "An toàn giao thông",
+    "question_vn": "Lon, chai lọ, hộp bằng kim loại, nhựa không nhiễm bẩn là loại chất thải gì?",
+    "question_en": "What type of waste are uncontaminated metal and plastic cans, bottles?",
+    "options": [
+      { "label": "A", "text_vn": "Chất thải tái chế", "text_en": "Recycled waste", "is_correct": true },
+      { "label": "B", "text_vn": "Chất thải nguy hại", "text_en": "Hazardous waste", "is_correct": false },
+      { "label": "C", "text_vn": "Chất thải thông thường", "text_en": "Domestic waste", "is_correct": false },
+      { "label": "D", "text_vn": "Chất thải chưa được phân loại", "text_en": "Unclassified waste", "is_correct": false }
+    ],
+    "points": 1
+  },
+  {
+  "id": "37",
+  "category": "An toàn giao thông",
+  "question_vn": "Trước khi điều khiển phương tiện vào nhà máy, lái xe phải làm gì?",
+  "question_en": "What must a driver do before driving a vehicle into the factory?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Kiểm tra điều kiện kỹ thuật của xe đảm bảo an toàn",
+      "text_en": "Check the technical condition of the vehicle to ensure safety",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Kiểm tra trên xe không có các vật tư cấm mang vào nhà máy",
+      "text_en": "Check the vehicle for prohibited materials before entering the factory",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Kiểm tra tất cả vật tư trên xe phải có giấy phép vận chuyển vật tư",
+      "text_en": "Check that all materials on the vehicle must have a material transport permit",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả ý trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "38",
+  "category": "An toàn giao thông",
+  "question_vn": "Trước khi điều khiển phương tiện vào nhà máy, lái xe phải làm gì?",
+  "question_en": "What must a driver do before driving a vehicle into the factory?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Kiểm tra vật tư phải được chằng buộc an toàn",
+      "text_en": "Check that materials must be securely tied",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Kiểm tra tình trạng phương tiện và bình chữa cháy",
+      "text_en": "Check vehicle condition and fire extinguishers",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Gắn bịt bô vào ống xả khi vào khu vực sản xuất",
+      "text_en": "Attach a spark arrestor to the exhaust pipe when entering the production area",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả ý trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "39",
+  "category": "An toàn giao thông",
+  "question_vn": "Khi bốc xếp, vận chuyển hàng hóa, vật tư, thiết bị, dụng cụ ra khỏi nhà máy, lái xe phải làm gì?",
+  "question_en": "When loading and transporting goods, materials, equipment, and tools out of the factory, what must the driver do?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Kiểm tra đúng chủng loại và đủ danh mục hàng hóa, vật tư theo giấy phép vận chuyển vật tư được phê duyệt và còn hiệu lực",
+      "text_en": "Check for the correct type and complete list of goods and materials according to the approved and valid material transport permit",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Trường hợp có nhiều chủng loại vật tư và khó kiểm đếm tại cổng kiểm soát an ninh, phải liên hệ bảo vệ để kiểm tra tại khu vực bốc xếp",
+      "text_en": "In case there are many types of materials that are difficult to count at the security gate, contact security to check at the loading area",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Bốc lên xe tùy ý mà không cần kiểm đếm số lượng, chủng loại",
+      "text_en": "Load onto the vehicle arbitrarily without counting the quantity or type",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Câu A và câu B đúng",
+      "text_en": "Both A and B are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "40",
+  "category": "An toàn giao thông",
+  "question_vn": "Khi có người yêu cầu bạn chở vật tư ra khỏi Nhà máy nhưng không có giấy phép vận chuyển vật tư được phê duyệt, bạn phải làm gì?",
+  "question_en": "When someone asks you to transport materials out of the Factory without an approved material transport permit, what should you do?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Từ chối giúp đỡ",
+      "text_en": "Refuse to help",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Thông báo ngay với đội bảo vệ hoặc nhân sự An ninh của Công ty BSR",
+      "text_en": "Immediately notify the security team or Security personnel of BSR Company",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Giúp đỡ họ chở vật tư ra ngoài",
+      "text_en": "Help them transport the materials out",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Câu A và câu B đúng",
+      "text_en": "Both A and B are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "41",
+  "category": "An toàn giao thông",
+  "question_vn": "Vì sao hơi xăng, hơi dầu, hơi ga rất nguy hiểm?",
+  "question_en": "Why are gasoline, oil, and gas vapors very dangerous?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Hơi xăng, hơi dầu hoặc hơi ga là hơi của các chất dễ cháy và dễ bay hơi trong không khí",
+      "text_en": "Gasoline, oil, or gas vapors are the vapors of flammable and volatile substances in the air",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Hơi xăng, hơi dầu hoặc hơi ga bay hơi trong không khí sẽ kết hợp với khí ôxy hình thành hỗn hợp khí cháy nổ",
+      "text_en": "Gasoline, oil, or gas vapors evaporating in the air will combine with oxygen to form an explosive gas mixture",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Hỗn hợp khí cháy nổ khi gặp nguồn nhiệt, tia lửa sẽ gây ra cháy hoặc nổ",
+      "text_en": "Explosive gas mixtures when encountering a heat source or spark will cause fire or explosion",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "42",
+  "category": "An toàn giao thông",
+  "question_vn": "Những hành động nào sau đây là SAI khi lái xe?",
+  "question_en": "Which of the following actions are WRONG when driving?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nghe điện thoại, đùa giỡn, không tập trung lái xe",
+      "text_en": "Using a phone, joking around, or not focusing on driving",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Lái xe vượt tốc độ cho phép hoặc đậu đỗ xe sai quy định",
+      "text_en": "Speeding or parking/stopping in prohibited areas",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Mở cửa/ không đóng cửa lên xuống khi xe đang di chuyển",
+      "text_en": "Opening or not closing doors while the vehicle is moving",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "43",
+  "category": "An toàn giao thông",
+  "question_vn": "Tốc độ tối đa được quy định tại khu vực trạm xuất đường bộ là bao nhiêu km/h?",
+  "question_en": "What is the maximum speed limit at the road export station area in km/h?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "10 km/h",
+      "text_en": "10 km/h",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "20 km/h",
+      "text_en": "20 km/h",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "30 km/h",
+      "text_en": "30 km/h",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "40 km/h",
+      "text_en": "40 km/h",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "44",
+  "category": "An toàn giao thông",
+  "question_vn": "Các hành động nào sau đây là SAI khi vận chuyển vật tư?",
+  "question_en": "Which of the following actions are WRONG when transporting materials?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Chở quá tải trọng cho phép",
+      "text_en": "Overloading the permitted capacity",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Chở hàng quá khổ",
+      "text_en": "Carrying oversized goods",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Chở quá số lượng người cho phép",
+      "text_en": "Carrying more than the permitted number of people",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "45",
+  "category": "An toàn giao thông",
+  "question_vn": "Trường hợp cần thiết phải sử dụng phương tiện vận chuyển hàng quá khổ, quá tải lưu thông bên trong nhà máy, các biện pháp an toàn cần bổ sung gì?",
+  "question_en": "In case it is necessary to use vehicles to transport oversized or overloaded goods within the factory, what additional safety measures are required?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Có phụ xe (hoa tiêu) có kinh nghiệm và có giấy phép lái xe",
+      "text_en": "Have an experienced assistant (pilot) with a valid driving license",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Có xe dẫn đường, căng dây cảnh báo, cờ cảnh báo",
+      "text_en": "Have an escort vehicle, warning lines, and warning flags",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Có giấy phép vận chuyển hàng quá khổ, quá tải được phê duyệt",
+      "text_en": "Have an approved permit for transporting oversized or overloaded goods",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "46",
+  "category": "An toàn giao thông",
+  "question_vn": "Lái xe phải làm gì khi xe bị hỏng (chết máy) bên trong nhà máy?",
+  "question_en": "What must a driver do when the vehicle breaks down (engine stalls) inside the factory?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thông báo cho giám sát Công ty BSR để hướng dẫn xử lý",
+      "text_en": "Notify BSR Company supervisors for handling instructions",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Chủ động nhờ phương tiện khác kéo ra ngoài",
+      "text_en": "Proactively ask another vehicle to tow it out",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tìm mọi cách sửa chữa khắc phục tại chỗ",
+      "text_en": "Find every way to repair it on-site",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Nhờ người khác sửa chữa giúp",
+      "text_en": "Ask someone else for help with repairs",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "47",
+  "category": "An toàn giao thông",
+  "question_vn": "Tốc độ tối đa được quy định đối với đường hạn chế lưu thông là bao nhiêu km/h?",
+  "question_en": "What is the maximum speed limit for restricted traffic roads in km/h?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "10 km/h",
+      "text_en": "10 km/h",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "20 km/h",
+      "text_en": "20 km/h",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "30 km/h",
+      "text_en": "30 km/h",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "40 km/h",
+      "text_en": "40 km/h",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "48",
+  "category": "An toàn giao thông",
+  "question_vn": "Tốc độ tối đa được quy định đối với đường được phép lưu thông và khu vực hành chính là bao nhiêu km/h?",
+  "question_en": "What is the maximum speed limit for permitted traffic roads and administrative areas in km/h?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "10 km/h",
+      "text_en": "10 km/h",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "20 km/h",
+      "text_en": "20 km/h",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "30 km/h",
+      "text_en": "30 km/h",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "40 km/h",
+      "text_en": "40 km/h",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+  {
+    "id": "49",
+    "category": "An toàn giao thông",
+    "question_vn": "Tốc độ tối đa được quy định đối với đường tuyến ống dẫn sản phẩm và đoạn đường từ Võ Văn Kiệt đến trạm xuất sản phẩm đường bộ là bao nhiêu km/h?",
+    "question_en": "What is the maximum speed limit for the product pipeline route and the road from Vo Van Kiet to the road product export station in km/h?",
+    "options": [
+      { "label": "A", "text_vn": "10 km/h", "text_en": "10 km/h", "is_correct": false },
+      { "label": "B", "text_vn": "20 km/h", "text_en": "20 km/h", "is_correct": false },
+      { "label": "C", "text_vn": "30 km/h", "text_en": "30 km/h", "is_correct": false },
+      { "label": "D", "text_vn": "40 km/h", "text_en": "40 km/h", "is_correct": true }
+    ],
+    "points": 1
+  },
+  {
+    "id": "50",
+    "category": "An toàn giao thông",
+    "question_vn": "Hành vi không tuân thủ quy định nào dưới đây sẽ bị phát hành thẻ SAC đỏ?",
+    "question_en": "Which of the following non-compliance behaviors will result in a red SAC card?",
+    "options": [
+      { "label": "A", "text_vn": "Vi phạm tốc độ (vượt quá tốc độ quy định 10-15 km/h) trên các tuyến đường nội bộ", "text_en": "Speeding (exceeding the speed limit by 10-15 km/h) on internal roads", "is_correct": false },
+      { "label": "B", "text_vn": "Tự ý điều khiển phương tiện cơ giới hoặc điều khiển phương tiện va chạm làm hư hỏng thiết bị", "text_en": "Arbitrarily operating a motor vehicle or causing a collision that damages equipment", "is_correct": false },
+      { "label": "C", "text_vn": "Không lắp thiết bị bịt ống xả trên các phương tiện", "text_en": "Not installing spark arrestors on vehicles", "is_correct": false },
+      { "label": "D", "text_vn": "Tất cả hành vi nêu trên", "text_en": "All of the above behaviors", "is_correct": true }
+    ],
+    "points": 1
+  },
+  {
+  "id": "51",
+  "category": "An toàn giao thông",
+  "question_vn": "Khi gặp biển báo “CẤM XE Ô TÔ - TRỪ XE ƯU TIÊN” và xe của bạn không phải xe ưu tiên, bạn phải:",
+  "question_en": "When encountering the sign “NO CARS - EXCEPT PRIORITY VEHICLES” and your vehicle is not a priority vehicle, what should you do?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Kiểm tra thấy đường thông thoáng thì đi vào",
+      "text_en": "Enter if you check and find the road is clear",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Có người yêu cầu phải đi vào",
+      "text_en": "Enter because someone requests you to do so",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Vận chuyển hàng hóa, vật tư cho kịp tiến độ công việc.",
+      "text_en": "Enter to transport goods or materials to meet the work schedule",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Phải có giấy phép làm việc (PTW) được phê duyệt mới được vào đường cấm",
+      "text_en": "A duly approved Permit to Work (PTW) is required before entering the restricted road",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "52",
+  "category": "An toàn giao thông",
+  "question_vn": "Khi xe vào khu vực công nghệ sản xuất, hàng hóa cần phải chuyển sâu vào khu công nghệ nhưng đường bê tông nhựa đã hết, mặt bằng còn lại thông thoáng đã rải đá dăm bạn có được chạy xe vào khu vực rải đá dăm không:",
+  "question_en": "When a vehicle enters the production technology area and goods need to be transported further inside, but the asphalt concrete road has ended and the remaining open area is covered with crushed stone, are you allowed to drive into the crushed-stone area?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Được phép",
+      "text_en": "Allowed",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Được phép nếu xe bạn tải trọng cả xe và hàng hóa (tổng tải trọng) dưới 10 tấn.",
+      "text_en": "Allowed if the total weight of the vehicle and cargo is under 10 tons.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Được vào nếu có yêu cầu của giám sát nhà thầu và vận hành BSR",
+      "text_en": "Allowed to enter if requested by the contractor supervisor and BSR operations",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Phải có tấm lót thép phù hợp với tải trọng của phương tiện và đảm bảo an toàn mới được vào.",
+      "text_en": "Suitable steel plates appropriate for the vehicle load must be provided and safety must be ensured before entry.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "53",
+  "category": "An toàn giao thông",
+  "question_vn": "Khi xe vào nhà máy, để đảm bảo an toàn giao thông và PCCC, lái xe cần phải kiểm tra các hạng mục nào theo quy định?",
+  "question_en": "When entering the refinery, to ensure traffic safety and fire prevention and fighting, which items must the driver check as required?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Kiểm tra kính chắn gió, hệ thống điện không đứt hở mạch điện, các lốp xe đảm bảo an toàn, xe không rò rỉ nhiên liệu, bình chữa cháy còn sử dụng được, lắp thiết bị ngăn ngừa tia lửa cho ống xả theo quy định, đảm bảo xe làm sạch không có các chất nổ nguy hiểm.",
+      "text_en": "Check the windshield, ensure the electrical system has no broken or exposed circuits, tires are safe, the vehicle has no fuel leakage, the fire extinguisher is usable, the spark arrestor is installed on the exhaust pipe as required, and the vehicle is cleaned with no dangerous explosive substances.",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Chỉ cần kiểm tra thiết bị ngăn ngừa tia lửa (bịt bò) cho ống xả.",
+      "text_en": "Only check the spark arrestor installed on the exhaust pipe.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Lái xe không cần kiểm tra. Việc kiểm tra là của bảo vệ.",
+      "text_en": "The driver does not need to check. Inspection is the responsibility of security guards.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Kiểm tra lốp xe không quá mòn là đảm bảo.",
+      "text_en": "Checking that the tires are not excessively worn is sufficient.",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "54",
+  "category": "An toàn giao thông",
+  "question_vn": "Nhìn hình bên dưới lốp xe có đủ điều kiện vào nhà máy không?",
+  "question_en": "Looking at the image below, are the vehicle tires qualified to enter the refinery?",
+  "image": "nganhangcauhoi/antoangiaothong/atgt-cau54.png",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Được phép",
+      "text_en": "Allowed",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Được phép nếu là xe không tải",
+      "text_en": "Allowed if the vehicle is unloaded",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không được phép. Bắt buộc phải thay thế lốp dự phòng hoặc đổi lốp đảm bảo mới vào Nhà máy",
+      "text_en": "Not allowed. The spare tire must be installed or the tire must be replaced with a qualified one before entering the refinery",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "55",
+  "category": "An toàn giao thông",
+  "question_vn": "Nhìn hình bên dưới, chân đế xe cẩu có đủ điều kiện vào nhà máy không?",
+  "question_en": "Looking at the image below, is the crane outrigger pad qualified to enter the refinery?",
+  "image": "nganhangcauhoi/antoangiaothong/atgt-cau55.png",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Được phép",
+      "text_en": "Allowed",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Được phép nếu lau sạch dầu mỡ rò rỉ",
+      "text_en": "Allowed if the leaked oil and grease are cleaned",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không được phép. Bắt buộc phải khắc phục đảm bảo an toàn",
+      "text_en": "Not allowed. It must be corrected to ensure safety",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "56",
+  "category": "An toàn giao thông",
+  "question_vn": "Nhìn hình bên dưới, lái xe ô tô khi dừng đỗ để xếp dỡ hàng hóa bên trong nhà máy, lái xe thực hiện chèn bánh xe như vậy có cần thiết không?",
+  "question_en": "Looking at the image below, when a driver stops to load or unload goods inside the refinery, is it necessary to use wheel chocks as shown?",
+  "image": "nganhangcauhoi/antoangiaothong/atgt-cau56.png",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Bắt buộc thực hiện. Hành động này là rất cần thiết vì sẽ đảm bảo an toàn khi dừng, đỗ xếp dỡ hàng hóa tránh trường hợp xe tự trôi đâm va vào thiết bị của nhà máy và đảm bảo ATGT.",
+      "text_en": "Mandatory. This action is very necessary because it ensures safety when stopping or parking for loading and unloading goods, prevents the vehicle from rolling and colliding with refinery equipment, and ensures traffic safety.",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Không cần thiết vì xe đã có phanh tay và thắng Locke",
+      "text_en": "Not necessary because the vehicle already has a handbrake and lock brake",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Nếu đỗ ở vị trí bằng phẳng xe không tải thì không cần thiết",
+      "text_en": "If parked on a flat surface and the vehicle is unloaded, it is not necessary",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "57",
+  "category": "An toàn giao thông",
+  "question_vn": "Nhìn hình bên dưới, bạn hãy chỉ ra lỗi vi phạm của lái xe bồn cấp nhiên liệu?",
+  "question_en": "Looking at the image below, please identify the violations of the fuel tanker driver.",
+  "image": "nganhangcauhoi/antoangiaothong/atgt-cau57.png",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Vào khu vực rải đá dăm nhưng không có tấm lót thép, nguy cơ làm hư hỏng hệ thống cáp ngầm của nhà máy",
+      "text_en": "Entering the crushed-stone area without steel plates, posing a risk of damaging the refinery's underground cable system",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không vi phạm, nếu có người của BSR yêu cầu đi vào",
+      "text_en": "No violation if requested to enter by BSR personnel",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Đầu xe không hướng ra ngoài, khi có tình huống khẩn cấp sẽ cản trở việc sơ tán.",
+      "text_en": "The front of the vehicle is not facing outward, which will obstruct evacuation in an emergency.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Câu A và C",
+      "text_en": "Answers A and C",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "58",
+  "category": "An toàn giao thông",
+  "question_vn": "Khi phương tiện gặp sự cố hư hỏng, va chạm thiết bị của Nhà máy hoặc xảy ra tai nạn giao thông, lái xe phải làm gì?",
+  "question_en": "When a vehicle has a breakdown, collides with refinery equipment, or a traffic accident occurs, what must the driver do?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đứng yên không làm gì cả",
+      "text_en": "Stand still and do nothing",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Nhanh chóng xử lý và rời khỏi nơi xảy ra sự cố",
+      "text_en": "Quickly handle the situation and leave the incident area",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Báo tin cho người giám sát của nhà thầu là đủ",
+      "text_en": "It is sufficient to notify the contractor's supervisor",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Nhanh chóng thông báo đến giám sát nhà thầu, giám sát BSR hoặc đội PCCC của nhà máy. Trường hợp có người bị thương phải khẩn trương phối hợp sơ cứu người đồng thời phối hợp xử lý hậu quả và điều tra sự cố.",
+      "text_en": "Quickly notify the contractor supervisor, BSR supervisor, or the refinery fire prevention and fighting team. If anyone is injured, urgently coordinate first aid while also coordinating recovery actions and incident investigation.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "59",
+  "category": "An toàn giao thông",
+  "question_vn": "Trên trục đường giao thông của Nhà máy, biển hạn chế tải trọng qua các cầu giao thông nội bộ của BSR có gắn biển 30T (tổng tải trọng chịu lực của cầu), xe ô tô của bạn có tổng tải trọng lớn hơn tải trọng cho phép, xe bạn có được phép qua cầu không?",
+  "question_en": "On the refinery traffic road, the load-limit signs on BSR internal traffic bridges indicate 30T (the total load-bearing capacity of the bridge). If your vehicle has a total weight greater than the permitted load, is your vehicle allowed to cross the bridge?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Được phép nếu xe bạn có mỗi trục không quá 13 tấn",
+      "text_en": "Allowed if each axle of your vehicle does not exceed 13 tons",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không được phép",
+      "text_en": "Not allowed",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Được phép nếu không có đường khác để đi",
+      "text_en": "Allowed if there is no other route available",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Được phép nếu cầu đã được gia cường dầm chữ I đã tính toán chịu tải trên 30T và được cấp phép qua cầu theo lộ trình được phê duyệt của BSR",
+      "text_en": "Allowed if the bridge has been reinforced with I-beams, calculated to withstand loads over 30T, and the vehicle is permitted to cross the bridge according to the route approved by BSR",
+      "is_correct": false
+    },
+    {
+      "label": "E",
+      "text_vn": "Câu B và D",
+      "text_en": "Answers B and D",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "60",
+  "category": "An toàn giao thông",
+  "question_vn": "Khi điều khiển xe bên trong Nhà máy, tuyến đường chung được phép lưu thông tốc độ 30km/h nếu có người yêu cầu bạn chạy nhanh hơn 30km/h để kịp làm việc bạn có được phép điều khiển xe nhanh hơn tốc độ cho phép hay không?",
+  "question_en": "When driving inside the refinery, the general road allows a speed limit of 30 km/h. If someone asks you to drive faster than 30 km/h to be on time for work, are you allowed to drive faster than the permitted speed limit?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Được phép nếu thấy đường thông thoáng",
+      "text_en": "Allowed if the road is clear",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không được phép",
+      "text_en": "Not allowed",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Được phép nếu người yêu cầu là lãnh đạo cấp cao của BSR",
+      "text_en": "Allowed if the requester is a senior leader of BSR",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Không được phép trừ trường hợp khẩn cấp theo quy định của BSR và phải tuyệt đối đảm bảo an toàn giao thông khi lưu thông",
+      "text_en": "Not allowed except in emergency cases as regulated by BSR, and traffic safety must be absolutely ensured while driving",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "61",
+  "category": "An toàn giao thông",
+  "question_vn": "Khi kiểm tra bốc xếp hàng hóa, vật tư, công cụ, dụng cụ ra khỏi nhà máy, lái xe và người giám sát phải làm gì?",
+  "question_en": "When checking the loading of goods, materials, tools, and equipment to be taken out of the refinery, what must the driver and supervisor do?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Kiểm tra đúng chủng loại, số lượng đã được phê duyệt",
+      "text_en": "Check that the type and quantity are as approved",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không cần kiểm tra nếu biết đó là hàng hóa của nhà thầu đã được duyệt",
+      "text_en": "No need to check if it is known that the goods belong to the approved contractor",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Kiểm tra đúng số lượng, chủng loại, đối chiếu đúng số seri nếu có đã được duyệt. Trường hợp phát hiện thấy nhầm lẫn số seri hoặc chủng loại phải báo cáo ngay với giám sát BSR, an ninh để kiểm tra, đối chiếu lại. Khi đã có xác nhận của các bên đảm bảo, hợp lệ mới tiến hành bốc hàng hóa lên xe ra khỏi Nhà máy",
+      "text_en": "Check the approved quantity and type, and verify the correct serial numbers if any. If any discrepancy in serial numbers or type is found, immediately report to the BSR supervisor and security for checking and re-verification. Only after confirmation by all relevant parties that everything is ensured and valid may the goods be loaded onto the vehicle and taken out of the refinery",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Đây là nhiệm vụ của giám sát lái xe không có trách nhiệm phải kiểm tra",
+      "text_en": "This is the supervisor's duty; the driver is not responsible for checking",
+      "is_correct": false
+    },
+    {
+      "label": "E",
+      "text_vn": "Câu A và C",
+      "text_en": "Answers A and C",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "62",
+  "category": "An toàn giao thông",
+  "question_vn": "Nhìn 03 hình bên dưới, anh chị hãy cho biết đây là hoạt động gì tại cổng trước khi vào Nhà máy?",
+  "question_en": "Looking at the 03 images below, please identify what activity is being performed at the gate before entering the refinery.",
+  "image": "nganhangcauhoi/antoangiaothong/atgt-cau62.png",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Kiểm tra nhịp tim trước khi vào Nhà máy",
+      "text_en": "Checking heart rate before entering the refinery",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Kiểm tra quần áo bảo hộ lao động, giày bảo hộ",
+      "text_en": "Checking personal protective clothing and safety shoes",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Kiểm tra nồng độ cồn và quần áo bảo hộ",
+      "text_en": "Checking alcohol concentration and personal protective clothing",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Kiểm tra nồng độ cồn và công tác an ninh nhằm đảm bảo nhân sự vào nhà máy không có nồng độ cồn và không mang vật cấm, chất cấm vào bên trong nhà máy.",
+      "text_en": "Checking alcohol concentration and conducting security inspection to ensure personnel entering the refinery have no alcohol concentration and do not bring prohibited items or substances into the refinery.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "63",
+  "category": "An toàn giao thông",
+  "question_vn": "Nhìn hình bên dưới, anh chị hãy cho biết đây là hoạt động gì?",
+  "question_en": "Looking at the image below, please identify what activity is being performed.",
+  "image": "nganhangcauhoi/antoangiaothong/atgt-cau63.png",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Kiểm tra hàng hóa không có hồ sơ chứng từ",
+      "text_en": "Checking goods without supporting documents",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Kiểm tra dò chất nổ phương tiện trước khi xe vào Nhà máy",
+      "text_en": "Checking vehicles for explosives before entering the refinery",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Kiểm tra vật cấm, chất cấm trên phương tiện vào Nhà máy",
+      "text_en": "Checking prohibited items and prohibited substances on vehicles entering the refinery",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Đây là hoạt động chống khủng bố nhằm đảm bảo an ninh, an toàn cho Nhà máy",
+      "text_en": "This is an anti-terrorism activity to ensure security and safety for the refinery",
+      "is_correct": false
+    },
+    {
+      "label": "E",
+      "text_vn": "Câu B và D",
+      "text_en": "Answers B and D",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "64",
+  "category": "An toàn giao thông",
+  "question_vn": "Xe ô tô vào nhà máy bắt buộc phải lắp thiết bị ngăn ngừa tia lửa theo tiêu chuẩn để ngăn tia lửa do chủ xe tự trang bị. Đối với phương tiện vào tạm để giao/nhận hàng hóa khi đến cổng bảo vệ lái xe được BSR cho mượn để lắp vào phương tiện. Trường hợp lắp không đảm bảo làm rơi mất hoặc hư hỏng, lái xe/chủ xe có phải bồi thường cho BSR không?",
+  "question_en": "Vehicles entering the refinery are required to install a standard spark arrestor to prevent sparks, which must be provided by the vehicle owner. For temporary vehicles entering to deliver/receive goods, when arriving at the security gate, the driver may borrow one from BSR to install on the vehicle. If it is improperly installed and becomes lost or damaged, must the driver/vehicle owner compensate BSR?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Không phải bồi thường",
+      "text_en": "No compensation is required",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Bồi thường 50% giá trị",
+      "text_en": "Compensate 50% of the value",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Bắt buộc phải bồi thường 100% cho BSR",
+      "text_en": "Must compensate BSR 100%",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "65",
+  "category": "An toàn giao thông",
+  "question_vn": "Xe ô tô vào nhà máy sau khi đã đăng ký đầy đủ hồ sơ còn hạn trên hệ thống của BSR, nếu là phương tiện cấp thẻ lâu dài thì lái xe, chủ phương tiện phải trang bị gì theo quy định?",
+  "question_en": "After a vehicle has fully registered valid documents in BSR's system, if it is a long-term badged vehicle, what must the driver and vehicle owner equip as required?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đã duyệt thì được cấp thẻ xe",
+      "text_en": "Once approved, the vehicle badge will be issued",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không cần phải trang bị gì thêm",
+      "text_en": "No additional equipment is required",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Lắp bịt bô theo quy định, trang bị bình chữa cháy xách tay",
+      "text_en": "Install a spark arrestor as required and equip a portable fire extinguisher",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Gắn Logo, lắp thiết bị ngăn ngừa tia lửa cho ống xả, trang bị bình chữa cháy theo quy định, các phương tiện (trừ xe máy chuyên dùng) phải có thiết bị giám sát hành trình để BSR giám sát tốc độ khi lưu thông trong nhà máy.",
+      "text_en": "Affix the logo, install a spark arrestor on the exhaust pipe, equip a fire extinguisher as required, and vehicles (except specialized motorcycles) must have a journey monitoring device so that BSR can monitor speed while traveling inside the refinery.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "66",
+  "category": "An toàn giao thông",
+  "question_vn": "Ai là người chịu trách nhiệm chính khi bảo vệ kiểm tra an ninh vào nhà máy phát hiện có vật cấm, chất cấm trên xe?",
+  "question_en": "Who is mainly responsible when security inspection upon entering the refinery detects prohibited items or prohibited substances on the vehicle?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Chủ xe, người giám sát, người áp tải hàng hóa, phụ xe",
+      "text_en": "Vehicle owner, supervisor, cargo escort, and assistant driver",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Chủ xe, phụ xe người áp tải hàng hóa",
+      "text_en": "Vehicle owner, assistant driver, and cargo escort",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không ai chịu trách nhiệm",
+      "text_en": "No one is responsible",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Lái xe chịu trách nhiệm chính",
+      "text_en": "The driver is mainly responsible",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "67",
+  "category": "An toàn giao thông",
+  "question_vn": "Khi kiểm tra an ninh và phát hiện phương tiện vận chuyển vật tư, công cụ, dụng cụ vượt số lượng, khác chủng loại so với giấy phép được phê duyệt, lái xe có chịu trách nhiệm hay không?",
+  "question_en": "During security inspection, if a vehicle is found transporting materials, tools, or equipment exceeding the approved quantity or differing in type from the approved permit, is the driver responsible?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Người giám sát chịu trách nhiệm",
+      "text_en": "The supervisor is responsible",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Người giám sát và người bốc xếp, phụ xe chịu trách nhiệm",
+      "text_en": "The supervisor, loading personnel, and assistant driver are responsible",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không ai chịu trách nhiệm",
+      "text_en": "No one is responsible",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Lái xe phải chịu trách nhiệm nếu để xảy ra tình trạng bốc xếp hàng hóa không đúng với số lượng, chủng loại",
+      "text_en": "The driver must be responsible if goods are loaded incorrectly in terms of quantity or type",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "68",
+  "category": "An toàn giao thông",
+  "question_vn": "Theo Hướng dẫn giao thông nội bộ, các phương tiện như xe đầu kéo, xe cẩu khi di chuyển lùi xe có cần người hướng dẫn (hoa tiêu, xi nhan) hay không?",
+  "question_en": "According to the internal traffic guidelines, when vehicles such as tractors and cranes move in reverse, is a guide person/signaler required?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Không cần người hướng dẫn nếu đường rộng",
+      "text_en": "No guide person is required if the road is wide",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Nếu đường hẹp không gian hẹp thì có thể phải có người hướng dẫn",
+      "text_en": "If the road or space is narrow, a guide person may be required",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Bắt buộc phải có người hướng dẫn, hoa tiêu và kiểm tra đảm bảo an toàn mới được phép lùi xe.",
+      "text_en": "A guide person/signaler is mandatory, and safety must be checked and ensured before the vehicle is allowed to reverse.",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Được phép lùi xe nếu có yêu cầu của nhân sự giám sát của BSR",
+      "text_en": "Reversing is allowed if requested by BSR supervisory personnel",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "69",
+  "category": "An toàn giao thông",
+  "question_vn": "Theo quy trình quản lý an ninh BSR, khi lái xe đăng ký vào nhà máy phải học an toàn ban đầu. Trường hợp lái xe đó không làm bài kiểm tra đánh giá được thì có được phép nhờ người giám sát của nhà thầu làm bài giúp hay không?",
+  "question_en": "According to BSR security management procedures, drivers registering to enter the refinery must attend initial safety training. If the driver cannot complete the assessment test, is the driver allowed to ask the contractor's supervisor to take the test on their behalf?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Được phép, nếu có sự đồng ý của người quản lý đào tạo",
+      "text_en": "Allowed if approved by the training manager",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không được phép",
+      "text_en": "Not allowed",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không được phép, bắt buộc người học phải làm bài đánh giá có kết quả đạt yêu cầu mới được cấp phép vào nhà máy. Trường hợp thi không đạt yêu cầu lái xe có quyền đề xuất người đào tạo xếp lịch tự học, ôn tập và thi lại lần sau.",
+      "text_en": "Not allowed. The trainee must personally complete the assessment and achieve a satisfactory result before being permitted to enter the refinery. If the test result is unsatisfactory, the driver may request the trainer to schedule self-study, review, and retake the test later.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "70",
+  "category": "An toàn giao thông",
+  "question_vn": "Nhìn hình bên dưới, lái xe vi phạm lỗi gì?",
+  "question_en": "Looking at the image below, what violation did the driver commit?",
+  "image": "nganhangcauhoi/antoangiaothong/atgt-cau70.png",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Không vi phạm vì đã đỗ xe sát lề đường",
+      "text_en": "No violation because the vehicle was parked close to the roadside",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Dừng xe/ đỗ xe không đúng quy định",
+      "text_en": "Stopping/parking the vehicle not in accordance with regulations",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Dừng, đỗ xe bên trái ngay tại ngã ba có đường giao thông giao nhau",
+      "text_en": "Stopping/parking on the left side right at a three-way intersection",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Câu B và C",
+      "text_en": "Answers B and C",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "71",
+  "category": "An toàn giao thông",
+  "question_vn": "Nhìn hình bên dưới, có các lỗi vi phạm gì?",
+  "question_en": "Looking at the image below, what violations are present?",
+  "image": "nganhangcauhoi/antoangiaothong/atgt-cau71.png",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Không vi phạm vì xe cẩu chỉ ra cần mà không cẩu hàng",
+      "text_en": "No violation because the crane only extends its boom and does not lift any load",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Lỗi vi phạm người đứng dưới tầm với xe cẩu",
+      "text_en": "Violation: people are standing within the crane's operating radius",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Lỗi vi phạm người đứng dưới xe cẩu; Khu vực cẩu không được cô lập bằng dây cảnh báo; Người không có trách nhiệm vào khu vực xe cẩu đang hoạt động",
+      "text_en": "Violations: people are standing under/within the crane operating area; the lifting area is not isolated with warning tape; unauthorized persons enter the area where the crane is operating",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "72",
+  "category": "An toàn giao thông",
+  "question_vn": "Yêu cầu gì dưới đây với lái xe khi lắp thiết bị ngăn ngừa tia lửa cho ống xả của phương tiện vào nhà máy?",
+  "question_en": "Which of the following requirements applies to drivers when installing a spark arrestor on the exhaust pipe of vehicles entering the refinery?",
+  "image": "nganhangcauhoi/antoangiaothong/atgt-cau72.png",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Lắp chắc chắn, đảm bảo kín khe hở là đạt yêu cầu",
+      "text_en": "Install it firmly and ensure all gaps are sealed to meet the requirement",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Chỉ cần gắn vào là được và không cần phải kín",
+      "text_en": "It only needs to be attached and does not need to be sealed",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thiết bị ngăn ngừa tia lửa đúng tiêu chuẩn EN-1834 hoặc tiêu chuẩn tương đương. Lắp đúng kích thước, đảm bảo kín đúng công suất, móc phụ dây cáp hoặc dây xích để đảm bảo chắc chắn, an toàn khi lưu thông",
+      "text_en": "The spark arrestor must comply with EN-1834 or an equivalent standard. It must be installed with the correct size, properly sealed according to capacity, and secured with an auxiliary cable or chain to ensure firmness and safety while traveling",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "73",
+  "category": "An toàn giao thông",
+  "question_vn": "Nhìn hình bên dưới, xe vận chuyển làm rơi thùng chứa hóa chất xuống đường gây tràn đổ ra bên ngoài, nguyên nhân từ đâu?",
+  "question_en": "Looking at the image below, the vehicle transporting chemical containers dropped them onto the road, causing chemical spillage outside. What are the causes?",
+  "image": "nganhangcauhoi/antoangiaothong/atgt-cau73.png",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Do thùng chứa hóa chất mỏng, không đậy kín nắp",
+      "text_en": "Because the chemical containers are thin and the lids are not tightly closed",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Do lái xe phanh gấp",
+      "text_en": "Because the driver braked suddenly",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Do dùng xe đầu kéo móc sàn không có thành thùng, dây buộc không đảm bảo chắc",
+      "text_en": "Because a flatbed trailer without side panels was used and the lashing straps were not secure",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Do sử dụng xe đầu kéo móc sàn sắt, kệ palet kim loại xếp kệ lên xe chèn buộc không đảm bảo chắc chắn khi phương tiện di chuyển tốc độ cao lái xe phanh gấp các kệ palet theo phản xạ dồn về phía trước rơi xuống đất.",
+      "text_en": "Because a tractor with a steel flatbed trailer was used, metal pallet racks were loaded and not properly secured; when the vehicle moved at high speed and the driver braked suddenly, the pallet racks shifted forward and fell to the ground.",
+      "is_correct": false
+    },
+    {
+      "label": "E",
+      "text_vn": "Câu B, C và D",
+      "text_en": "Answers B, C and D",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "74",
+  "category": "An toàn giao thông",
+  "question_vn": "Theo quy trình quản lý an ninh khi vật tư, hàng hóa, công cụ, dụng cụ, máy móc thiết bị đã được phê duyệt mang ra ngoài, lái xe có được phép vận chuyển ra khỏi nhà máy vào ngày nghỉ ngày lễ, chủ nhật và ban đêm hay không?",
+  "question_en": "According to the security management procedure, when materials, goods, tools, equipment, machinery, and devices have been approved to be taken out, is the driver allowed to transport them out of the refinery on holidays, Sundays, and at night?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Được phép nếu đã được phê duyệt",
+      "text_en": "Allowed if it has been approved",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không được phép",
+      "text_en": "Not allowed",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Được phép nếu có người của BSR yêu cầu",
+      "text_en": "Allowed if requested by BSR personnel",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Không được phép mang ra ngoài trừ trường hợp khẩn cấp đã được các cấp lãnh đạo bao gồm Ban đầu mối, Ban ATMT BSR đồng ý và được kiểm soát bởi lực lượng bảo vệ",
+      "text_en": "Not allowed to be taken out except in emergency cases approved by relevant leadership levels, including the focal department and BSR HSE Department, and controlled by the security force",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "75",
+  "category": "An toàn giao thông",
+  "question_vn": "Nhìn 04 hình bên dưới, có các điều kiện không an toàn nào?",
+  "question_en": "Looking at the 04 images below, what unsafe conditions are present?",
+  "image": "nganhangcauhoi/antoangiaothong/atgt-cau75.png",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Không có điểm nào không an toàn",
+      "text_en": "There are no unsafe conditions",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Dây điện không có nguồn",
+      "text_en": "The electrical wires are not energized",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Cọc bình điện lắp không chắc chắn",
+      "text_en": "The battery terminal is not securely installed",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Lốp xe quá mòn đến mành lốp, ống xả động cơ không đủ kín nguy cơ phát tia lửa ra bên ngoài, dây điện đứt không được loại bỏ hoặc cô lập, bình điện không có nắp che chắn nguy cơ phát sinh tia lửa",
+      "text_en": "The tire is excessively worn down to the tire cord, the engine exhaust pipe is not sufficiently sealed causing a risk of sparks escaping, broken electrical wires are not removed or isolated, and the battery has no protective cover causing a risk of sparks",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "76",
+  "category": "An toàn giao thông",
+  "question_vn": "Nhìn hình bên dưới, trước khi tiến hành công việc, nhà thầu đã được cấp giấy phép làm việc tại khu vực. Lái xe nhà thầu có được phép điều khiển phương tiện vận chuyển vật tư vào tuyến đường này của khu vực đã được cấp phép không?",
+  "question_en": "Looking at the image below, before carrying out the work, the contractor has been issued a work permit for the area. Is the contractor's driver allowed to drive a vehicle transporting materials into this restricted road within the permitted area?",
+  "image": "nganhangcauhoi/antoangiaothong/atgt-cau76.png",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Tuyệt đối không được",
+      "text_en": "Absolutely not allowed",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Được phép vào khi đã có giấy phép, mà không cần quan tâm có giám sát viên xác nhận hay không.",
+      "text_en": "Allowed to enter once a permit has been issued, without needing to consider whether a supervisor has confirmed it or not.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Trước khi điều khiển vào tuyến đường hạn chế lưu thông này, lái xe kiểm tra xác nhận với giám sát viên công việc đúng giấy phép được phê duyệt và đã thực hiện các biện pháp kiểm tra an toàn như kiểm tra nồng độ khí,....trước khi điều khiển phương tiện vào",
+      "text_en": "Before driving into this restricted traffic route, the driver must check and confirm with the work supervisor that the approved permit is correct and that safety inspection measures, such as gas concentration checks, have been carried out before driving the vehicle in.",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Thấy đường thông thoáng, không có căng dây cô lập là được đi vào.",
+      "text_en": "If the road is clear and there is no isolation tape, the vehicle is allowed to enter.",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "77",
+  "category": "An toàn giao thông",
+  "question_vn": "Nhìn hình bên dưới, đây là hoạt động gì của các bên?",
+  "question_en": "Looking at the image below, what activity are the parties performing?",
+  "image": "nganhangcauhoi/antoangiaothong/atgt-cau77.png",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Bàn giao vật tư",
+      "text_en": "Handing over materials",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Kiểm tra giao hàng hóa cho BSR",
+      "text_en": "Checking the delivery of goods to BSR",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Kiểm tra hàng hóa, vật tư trước khi bốc xếp lên xe đưa ra ngoài có sự kiểm tra, kiểm soát số lượng, chủng loại bởi bảo vệ và giám sát BSR trên cơ sở giấy phép được duyệt.",
+      "text_en": "Checking goods and materials before loading them onto the vehicle for removal, with the quantity and type inspected and controlled by security and BSR supervision based on the approved permit.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "78",
+  "category": "An toàn giao thông",
+  "question_vn": "Nhìn hình bên dưới, việc canh bánh xe khi dừng/ đỗ xếp dỡ hàng hóa có đảm bảo ATGT hay không?",
+  "question_en": "Looking at the image below, does using wheel chocks when stopping/parking for loading and unloading goods ensure traffic safety?",
+  "image": "nganhangcauhoi/antoangiaothong/atgt-cau78.png",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Không đảm bảo",
+      "text_en": "Not safe",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không cần thiết chèn bánh xe vì xe đã tắt máy gài số và thắng Locker",
+      "text_en": "Wheel chocks are not necessary because the vehicle has been turned off, put in gear, and the locker brake has been applied",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Đảm bảo an toàn. Đây là biện pháp bắt buộc.",
+      "text_en": "It ensures safety. This is a mandatory measure.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "79",
+  "category": "An toàn giao thông",
+  "question_vn": "Nhìn hình bên dưới, lái xe vi phạm lỗi gì?",
+  "question_en": "Looking at the image below, what violation did the driver commit?",
+  "image": "nganhangcauhoi/antoangiaothong/atgt-cau79.png",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đỗ xe đúng quy định",
+      "text_en": "Parking in accordance with regulations",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Dừng xe ngay cổng ra vào",
+      "text_en": "Stopping the vehicle right at the entrance/exit gate",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Xe đi trên vỉa hè rủi ro làm hư hỏng phương tiện, hư hỏng mương thoát nước và cản trở lối đi của người đi bộ.",
+      "text_en": "The vehicle is driven on the sidewalk, posing a risk of damaging the vehicle, damaging the drainage ditch, and obstructing the pedestrian walkway.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "80",
+  "category": "An toàn giao thông",
+  "question_vn": "Nhìn hình bên dưới, đây là hoạt động gì của lực lượng an ninh?",
+  "question_en": "Looking at the image below, what activity is being performed by the security force?",
+  "image": "nganhangcauhoi/antoangiaothong/atgt-cau80.png",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đo nhịp tim lái xe",
+      "text_en": "Measuring the driver's heart rate",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Kiểm tra test các loại ma túy tổng hợp",
+      "text_en": "Testing for synthetic drugs",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Đo huyết áp cho người làm việc trên cao",
+      "text_en": "Measuring blood pressure for people working at height",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Kiểm tra nồng độ cồn và test nhanh ma túy tổng hợp cho lái xe trước khi vào Nhà máy.",
+      "text_en": "Checking alcohol concentration and conducting rapid synthetic drug testing for drivers before entering the refinery.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "81",
+  "category": "An toàn giao thông",
+  "question_vn": "Nhìn hình bên dưới, phương tiện có được phép vào nhà máy không?",
+  "question_en": "Looking at the image below, is the vehicle allowed to enter the refinery?",
+  "image": "nganhangcauhoi/antoangiaothong/atgt-cau81.png",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Không được phép",
+      "text_en": "Not allowed",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Được phép nếu không phải là thùng xăng",
+      "text_en": "Allowed if it is not a fuel tank",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không được phép, thùng chứa nhiên liệu phương tiện bị rò rỉ dầu, bắt buộc phải làm sạch, kiểm tra đảm bảo an toàn không rò rỉ mới được phép vào Nhà máy",
+      "text_en": "Not allowed. The vehicle's fuel tank is leaking oil; it must be cleaned and checked to ensure safety with no leakage before being permitted to enter the refinery",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Câu A và C",
+      "text_en": "Answers A and C",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "82",
+  "category": "An toàn giao thông",
+  "question_vn": "Nhân sự phụ cẩu chưa được huấn luyện nâng hạ có được phép thực hiện móc cẩu, hoa tiêu cho lái cẩu không?",
+  "question_en": "Are rigging assistants who have not been trained in lifting operations allowed to perform hooking/rigging and signaling for crane operators?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Được phép nếu công việc nâng cẩu vật nặng dưới 1 tấn",
+      "text_en": "Allowed if the lifting work involves loads under 1 ton",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không được phép",
+      "text_en": "Not allowed",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Bắt buộc phải hoàn thành khóa huấn luyện và được cấp chứng chỉ nâng hạ.",
+      "text_en": "It is mandatory to complete the training course and be issued a lifting operation certificate.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Câu B và C",
+      "text_en": "Answers B and C",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "83",
+  "category": "An toàn giao thông",
+  "question_vn": "Xe bồn vào nhà máy nhận sản phẩm xăng, dầu các loại tại Trạm xuất đường bộ. Sau khi ra khỏi cổng, lái xe đã hoàn thành ký phiếu biên nhận xuất kho và trả thiết bị ngăn ngừa tia lửa cho bảo vệ thì có được phép tiếp tục đỗ xe trước cổng B1 (cổng xe bồn) hay không?",
+  "question_en": "A tanker truck enters the refinery to receive gasoline and oil products at the road loading station. After leaving the gate, the driver has completed signing the warehouse delivery receipt and returned the spark arrestor to security. Is the driver allowed to continue parking in front of Gate B1, the tanker truck gate?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Được phép nếu tuyến đường không có phương tiện khác đang dừng đỗ phía trước",
+      "text_en": "Allowed if there are no other vehicles stopping or parking ahead on the route",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không được phép vì cản trở các phương tiện ra / vào bãi đỗ xe",
+      "text_en": "Not allowed because it obstructs vehicles entering/exiting the parking area",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Sau khi hoàn thành ký phiếu biên nhận xuất kho và trả thiết bị ngăn ngừa tia lửa, lái xe phải điều khiển phương tiện đi ra khỏi khu vực này. CẤM đỗ xe trên tuyến đường trước cổng B1 này.",
+      "text_en": "After completing the warehouse delivery receipt signing and returning the spark arrestor, the driver must drive the vehicle out of this area. Parking on the road in front of Gate B1 is prohibited.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "84",
+  "category": "An toàn giao thông",
+  "question_vn": "Trong khu vực trạm xuất đường bộ và các khu vực khác do BSR quản lý, có được phép sang chiết, nạp nhiên liệu xăng, dầu hay không?",
+  "question_en": "In the road loading station area and other areas managed by BSR, is it allowed to transfer or refuel gasoline or oil?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Được phép nếu có sự đồng ý của giám sát nhà thầu và BSR",
+      "text_en": "Allowed if approved by the contractor supervisor and BSR",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Tuyệt đối Cấm",
+      "text_en": "Absolutely prohibited",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không được phép. Trường theo yêu cầu công việc bắt buộc phải sang chiết, nạp tiếp nhiên liệu cho máy móc thiết bị phục vụ sản xuất thì phải có giấy phép làm việc và thực hiện các biện pháp an toàn mới được phép chiết, nạp nhiên liệu.",
+      "text_en": "Not allowed. In cases where work requirements make it mandatory to transfer or refuel machinery and equipment serving production, a work permit must be obtained and safety measures must be implemented before fuel transfer or refueling is allowed.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "85",
+  "category": "An toàn giao thông",
+  "question_vn": "Khi vận chuyển hàng hóa vào nhà máy, lực lượng an ninh phát hiện phương tiện hàng hóa có báo tín hiệu có chất nổ trên phương tiện, hàng hóa thì lái xe phải làm gì?",
+  "question_en": "When transporting goods into the refinery, if the security force detects a signal indicating explosives on the vehicle or goods, what must the driver do?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Không cần hợp tác vì kiểm tra an ninh là trách nhiệm của bảo vệ và công an",
+      "text_en": "No cooperation is needed because security inspection is the responsibility of security guards and police",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Trường hợp máy dò phát hiện tín hiệu nhưng kiểm tra trực tiếp hàng hóa, phương tiện không phát hiện chất nổ nhưng máy dò vẫn báo thì lái xe phối hợp và làm theo hướng dẫn của bảo vệ như làm sạch phương tiện, rửa xe, tách hàng hóa, phương tiện, dụng cụ, vật tư riêng lẻ để kiểm tra phân loại từng phần để kiểm tra máy báo tín hiệu ở điểm nào sau đó khoanh vùng kiểm tra đảm bảo an toàn và loại bỏ mối nguy mới cho phương tiện vào nhà máy.",
+      "text_en": "If the detector gives a signal but direct inspection of the goods and vehicle does not detect explosives, and the detector still alarms, the driver must cooperate and follow the security guards' instructions, such as cleaning the vehicle, washing the vehicle, separating goods, vehicles, tools, and materials for individual inspection and classification to identify where the detector signal occurs, then zoning the area for inspection to ensure safety and eliminate hazards before the vehicle is allowed to enter the refinery.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Câu B đúng",
+      "text_en": "Answer B is correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "86",
+  "category": "An toàn giao thông",
+  "question_vn": "Công việc nào dưới đây liên quan đến lái - phụ xe trong nhà máy trước khi thực hiện vận chuyển, xếp dỡ hàng hóa nâng, cẩu phải thực hiện ký giấy phép làm việc",
+  "question_en": "Which of the following jobs related to drivers and assistant drivers inside the refinery requires signing a work permit before transporting, loading/unloading heavy goods, or lifting operations?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Lái xe buýt đón CBNV và nhà thầu trong Nhà máy, lái xe vận chuyển hàng hóa là vật liệu xây dựng (đất, cát, đá, sỏi, bê tông) vào khu vực không có biển báo cấm.",
+      "text_en": "Driving buses to transport employees and contractors inside the refinery, or driving vehicles transporting construction materials such as soil, sand, stone, gravel, and concrete into areas without prohibition signs.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đi trên tuyến đường chung được phép lưu thông",
+      "text_en": "Traveling on general roads where traffic is permitted",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Xe vào đường cấm, xe vận chuyển hàng quá khổ, quá tải, xe bơm nạp ni tơ, kiềm, axit.",
+      "text_en": "Vehicles entering prohibited roads, vehicles transporting oversized or overloaded cargo, and vehicles pumping or filling nitrogen, alkali, or acid.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "87",
+  "category": "An toàn giao thông",
+  "question_vn": "Xe ô tô nhà thầu kể cả BSR khi vận chuyển vật tư nội bộ trong nhà máy từ khu vực: Khu vực P1 đến P3 và ngược lại; Khu vực P1 đến PP và ngược lại; Khu vực HCNM đến P1 và ngược lại có làm giấy phép vận chuyển vật tư nội bộ hay không và bắt buộc thực hiện yêu cầu gì?",
+  "question_en": "When contractor vehicles, including BSR vehicles, transport internal materials within the refinery from P1 area to P3 and vice versa; from P1 area to PP and vice versa; from HCNM area to P1 and vice versa, is an internal material transport permit required and what requirement must be followed?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nếu vận chuyển đi nội bộ bên trong nhà máy đến các khu vực nội bộ thì không cần ký giấy phép vận chuyển nội bộ",
+      "text_en": "If materials are transported internally within the refinery to internal areas, an internal transport permit is not required",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Tất cả hàng hóa, vật tư vận chuyển nội bộ giao diện các khu vực trên phải có giấy phép vận chuyển nội bộ được BSR phê duyệt. Trong quá trình vận chuyển phải đi đúng lộ trình và không được ra khỏi khu vực nội của BSR.",
+      "text_en": "All goods and materials transported internally between the above interface areas must have an internal transport permit approved by BSR. During transportation, the vehicle must follow the approved route and must not leave BSR's internal area.",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Có người của BSR áp tải thì không phải ký giấy vận chuyển nội bộ",
+      "text_en": "If escorted by BSR personnel, an internal transport permit is not required",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "88",
+  "category": "An toàn giao thông",
+  "question_vn": "Lái xe vào Nhà máy mà trong cơ thể có nồng độ chất kích thích như rượu, bia, ma túy thì có được vào nhà máy hay không?",
+  "question_en": "Is a driver allowed to enter the refinery if there are stimulants in the body such as alcohol, beer, or drugs?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Được phép vào nếu công việc vận chuyển hàng hóa khẩn cấp",
+      "text_en": "Allowed to enter if the goods transportation work is urgent",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Chỉ được vào khu vực hành chính",
+      "text_en": "Only allowed to enter the administrative area",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Được vào nếu đo nồng độ cồn chưa vượt quá 50 miligam/100 ml máu hoặc chưa vượt quá 0,25 miligam/1 lít khí thở",
+      "text_en": "Allowed to enter if the alcohol concentration does not exceed 50 milligrams/100 ml of blood or does not exceed 0.25 milligrams/1 liter of breath",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tuyệt đối cấm vào tất cả các khu vực của BSR và sẽ bị lập biên bản vi phạm đối với hành vi vi phạm an ninh theo quy định.",
+      "text_en": "Strictly prohibited from entering all BSR areas and a violation record will be made for the security violation in accordance with regulations.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "89",
+  "category": "An toàn giao thông",
+  "question_vn": "Khi dừng/đỗ xe xếp dỡ hàng hóa, nâng cẩu ngoài việc thực hiện các biện pháp an toàn và có đầy đủ giấy phép làm việc (nếu có) lái xe phải thực hiện biện pháp bổ sung nào để đảm bảo an toàn?",
+  "question_en": "When stopping/parking vehicles for loading/unloading goods or lifting operations, in addition to implementing safety measures and having all required work permits, if any, what additional measures must the driver take to ensure safety?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Có người của BSR yêu cầu và có giấy phép thì tiến hành công việc",
+      "text_en": "Proceed with the work if requested by BSR personnel and a permit is available",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không cần các biện pháp bổ sung vì đã có giấy phép làm việc được duyệt",
+      "text_en": "No additional measures are needed because the work permit has already been approved",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thực hiện biện pháp an toàn bổ sung như giăng dây cảnh báo, cô lập khu vực theo quy định và cử nhân sự giám sát trong quá trình xếp dỡ, nâng hạ.",
+      "text_en": "Implement additional safety measures such as setting up warning tape, isolating the area as required, and assigning personnel to supervise during loading/unloading and lifting operations.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "90",
+  "category": "An toàn giao thông",
+  "question_vn": "Khi thực hiện công việc lái xe bên trong nhà máy, trường hợp lái xe bị tai nạn hoặc vì lý do bất khả kháng không thể điều khiển phương tiện nhưng giám sát nhà thầu biết được ông Nguyễn Văn A công nhân giàn giáo có GPLX phù hợp nhờ điều khiển phương tiện thay cho lái xe đó thì hành vi này có được phép không?",
+  "question_en": "When driving inside the refinery, if the driver has an accident or, due to force majeure, cannot operate the vehicle, and the contractor supervisor knows that Mr. Nguyen Van A, a scaffolding worker, has a suitable driving license and asks him to drive the vehicle instead, is this behavior allowed?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Được phép nếu có sự đồng ý của giám sát BSR",
+      "text_en": "Allowed if approved by the BSR supervisor",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Được phép nếu là điều khiển xe không tải và chỉ lái xe ra khỏi Nhà máy ở đoạn đường ngắn.",
+      "text_en": "Allowed if the vehicle is unloaded and only driven out of the refinery for a short distance.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tuyệt đối cấm đưa phương tiện cho người không được cấp thẻ lái xe điều khiển dù bất kỳ tình huống nào. Trường hợp bắt buộc phải đổi lái xe phải có ý kiến của Ban ATMT và được kiểm tra đảm bảo đúng quy định mới đổi lái xe.",
+      "text_en": "It is strictly prohibited to hand over the vehicle to a person who has not been issued a driver card to operate it under any circumstances. If it is mandatory to change the driver, approval from the HSE Department must be obtained and checks must be conducted to ensure compliance with regulations before changing the driver.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "91",
+  "category": "An toàn giao thông",
+  "question_vn": "Danh mục kiểm tra an ninh, an toàn phương tiện vào Nhà máy như: Kiểm tra hệ thống điện (dây điện bị bong tróc, cọc bình điện không hở đảm bảo kín...), kiểm tra lắp thiết bị ngăn ngừa tia lửa, kiểm tra đảm bảo kín, đường ống xả từ động cơ ra đến mặt cắt cuối cùng của ống xả nhằm mục đích gì?",
+  "question_en": "The security and safety checklist for vehicles entering the refinery includes checking the electrical system such as peeled electrical wires and covered battery terminals, checking the installation of spark arrestors, checking tightness, and checking the exhaust pipe from the engine to the final outlet section. What is the purpose of these checks?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đảm bảo cho đèn chiếu sáng không bị chạm",
+      "text_en": "To ensure the lighting system does not have electrical contact faults",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Để dễ khởi động phương tiện",
+      "text_en": "To make the vehicle easier to start",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Giảm rủi ro khi có cháy xe",
+      "text_en": "To reduce risks when a vehicle fire occurs",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Mục đích loại bỏ và giảm mối nguy phát sinh nguồn nhiệt gây cháy nổ phương tiện, vật tư, hàng hóa, nhiên liệu trong khu vực sản xuất của Nhà máy.",
+      "text_en": "The purpose is to eliminate and reduce hazards from heat sources that may cause fire or explosion involving vehicles, materials, goods, and fuel in the refinery's production area.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "92",
+  "category": "An toàn giao thông",
+  "question_vn": "Phương tiện là xe bồn (trừ xe bồn trộn bê tông, xe bồn chở nước sạch) hoặc xe đầu kéo vận chuyển bồn chứa hóa chất ngoài các giấy tờ theo quy định của xe bồn như đăng kiểm, đăng ký, bảo hiểm, kiểm định đo lường, giấy CN vận chuyển hàng nguy hiểm theo quy định thì lái xe/chủ phương tiện bắt buộc phải có giấy tờ gì theo quy định để vận chuyển hàng hóa, xăng dầu, hoá chất (hàng hóa nguy hiểm) vào cung cấp cho BSR?",
+  "question_en": "For tank trucks (except concrete mixer trucks and clean water tankers) or tractor vehicles transporting chemical tanks, in addition to the required documents for tank trucks such as inspection certificate, registration, insurance, measurement calibration certificate, and certificate for transporting dangerous goods as required, what document must the driver/vehicle owner have to transport goods, petroleum, or chemicals (dangerous goods) to supply BSR?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Chỉ cần có đủ các giấy tờ xe theo quy định như: bảo hiểm, đăng kiểm, kiểm định đo lường.",
+      "text_en": "Only the required vehicle documents are needed, such as insurance, inspection certificate, and measurement calibration certificate.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Thông báo giao hàng theo quy định",
+      "text_en": "Delivery notice as required",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Phương án vận chuyển hàng nguy hiểm được đơn vị vận chuyển lập và hướng dẫn cho lái phụ xe, người áp tải hàng biết để thực hiện ứng phó khi có tình huống khẩn cấp như TNGT, sự cố tràn đổ nhiên liệu hóa chất khi lưu thông trên đường nhằm giảm thiểu rủi ro ảnh hưởng đến môi trường.",
+      "text_en": "A dangerous goods transportation plan prepared by the transport unit and instructed to the driver, assistant driver, and cargo escort so they can respond in emergency situations such as traffic accidents or fuel/chemical spills during transportation, in order to minimize environmental risks.",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Câu A và B",
+      "text_en": "Answers A and B",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "93",
+  "category": "An toàn giao thông",
+  "question_vn": "Theo quy định của BSR, nhân sự lái xe hằng ngày (kể cả vào dài hạn và vào tạm thời) vào BSR có chịu sự kiểm tra ma túy, nồng độ cồn đột xuất bởi lực lượng bảo vệ hay không?",
+  "question_en": "According to BSR regulations, are daily drivers entering BSR, including long-term and temporary entry drivers, subject to random drug and alcohol concentration checks by the security force?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đã kiểm khi khám sức khỏe đổi giấy phép lái xe 1 lần thì không cần kiểm tra đột xuất",
+      "text_en": "If checked once during the health examination for driver's license renewal, random checks are not required",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Chỉ kiểm tra đối với lái xe vào dài hạn hằng ngày",
+      "text_en": "Only daily long-term entry drivers are checked",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không cần kiểm tra.",
+      "text_en": "No check is required.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Bắt buộc kiểm tra khi đăng ký cấp thẻ dài hạn vào nhà máy và chịu sự kiểm tra đột xuất hằng ngày bởi lực lượng bảo vệ tại cổng đối với lái xe được cấp thẻ vào nhà máy hằng ngày và lái xe cấp thẻ tạm khi vào cổng khi có phát hiện nghi ngờ.",
+      "text_en": "Checks are mandatory when registering for a long-term refinery entry card, and drivers issued daily refinery entry cards as well as temporary-card drivers are subject to daily random checks by the security force at the gate when suspicion is detected.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "94",
+  "category": "An toàn giao thông",
+  "question_vn": "Trường hợp phương tiện đang hoạt động trong Nhà máy nếu bị hư hỏng thì lái xe phải làm gì?",
+  "question_en": "If a vehicle operating inside the refinery breaks down, what must the driver do?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Tạm dừng công việc ngay lập tức",
+      "text_en": "Immediately stop the work",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Tổ chức cô lập, khoanh vùng và căng dây cảnh báo, nếu ban đêm phải bật đèn cảnh báo cho các phương tiện khác biết",
+      "text_en": "Isolate and zone off the area, set up warning tape, and if it is at night, turn on warning lights to alert other vehicles",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thông báo cho BSR để phối hợp kiểm tra khắc phục",
+      "text_en": "Notify BSR to coordinate inspection and corrective actions",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "95",
+  "category": "An toàn giao thông",
+  "question_vn": "Khi lưu thông trong nhà máy lái xe phát hiện bất thường như rò rỉ xăng, dầu từ các đường ống công nghệ, máy móc của nhà máy hoặc phát hiện cháy ở khu vực lái xe làm việc thì lái xe phải làm gì?",
+  "question_en": "When driving inside the refinery, if the driver detects abnormalities such as gasoline or oil leakage from process pipelines or refinery machinery, or detects a fire in the driver's working area, what must the driver do?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Dừng phương tiện và công việc nếu có",
+      "text_en": "Stop the vehicle and the work, if any",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Thông báo ngay cho nhân sự BSR hoặc đội PCCC của BSR",
+      "text_en": "Immediately notify BSR personnel or BSR fire prevention and fighting team",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Cứ tiến hành công việc bình thường nếu thấy không ảnh hưởng đến an thân.",
+      "text_en": "Continue working normally if it does not affect personal safety.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Câu A và B",
+      "text_en": "Answers A and B",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "96",
+  "category": "An toàn giao thông",
+  "question_vn": "Trong quá trình bốc xếp hàng hóa, vật tư, công cụ, dụng cụ, khi kiểm tra giấy phép mang ra đã hết hạn nhưng hàng hóa vật tư, công cụ chưa vận chuyển ra ngoài thì lái xe phải làm gì?",
+  "question_en": "During the loading of goods, materials, tools, and equipment, if the permit for taking them out has expired but the goods, materials, or tools have not yet been transported outside, what must the driver do?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Cứ tiến hành bốc lên xe nếu xác định đúng hàng hóa, vật tư của đơn vị mình cần vận chuyển ra ngoài.",
+      "text_en": "Continue loading onto the vehicle if it is confirmed that the goods and materials belong to the unit and need to be transported outside.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Thông báo giám sát nhà thầu gia hạn thời hạn cấp phép mang ra ngoài",
+      "text_en": "Notify the contractor supervisor to extend the validity period of the permit for taking goods outside.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Chỉ cần xác nhận của nhà thầu mang ra là đủ điều kiện, đúng quy định",
+      "text_en": "Only confirmation from the contractor taking the goods out is sufficient and compliant with regulations.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Phải có đủ chữ ký gia hạn hợp lệ của ban đầu mối BSR và Ban ATMT BSR mới được mang ra khỏi Nhà máy.",
+      "text_en": "Valid extension signatures from the relevant BSR focal department and BSR HSE Department are required before the goods are allowed to be taken out of the refinery.",
+      "is_correct": false
+    },
+    {
+      "label": "E",
+      "text_vn": "Câu B và D",
+      "text_en": "Answers B and D",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "97",
+  "category": "An toàn giao thông",
+  "question_vn": "Hành vi gây rối trật tự trong nhà máy sẽ bị xử lý như thế nào?",
+  "question_en": "How will disruptive behavior inside the refinery be handled?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nếu vi phạm lần đầu sẽ chấn chỉnh nhắc nhở",
+      "text_en": "If it is the first violation, the person will be corrected and reminded",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Lập biên bản vi phạm, trường hợp chống đối sẽ chuyển giao cho cơ quan chức năng điều tra xử lý theo quy định",
+      "text_en": "A violation record will be made; in case of resistance, the case will be handed over to the competent authority for investigation and handling in accordance with regulations",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Lập biên bản vi phạm, trục xuất ra khỏi nhà máy ngay lập tức và bị phát hành thẻ S.A.C đỏ. Trường hợp gây thương tích cho người khác hoặc hành vi gây rối trật tự ảnh hưởng đến hoạt động sản xuất của nhà máy, sẽ chuyển giao cho cơ quan chức năng điều tra xử lý theo quy định",
+      "text_en": "A violation record will be made, the person will be immediately expelled from the refinery and issued a red S.A.C card. In case of causing injury to others or disruptive behavior affecting the refinery's production activities, the case will be handed over to the competent authority for investigation and handling in accordance with regulations",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Câu B và C",
+      "text_en": "Answers B and C",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "98",
+  "category": "An toàn giao thông",
+  "question_vn": "02 tuyến đường 1km từ Võ Văn Kiệt vào khu hành chính và vào khu vực sản xuất, lái xe có được phép đỗ xe hay không?",
+  "question_en": "On the two 1-km roads from Vo Van Kiet to the administrative area and to the production area, are drivers allowed to park vehicles?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Được phép nếu đường thông thoáng hoặc ngày Thứ Bảy, Chủ Nhật và ban đêm",
+      "text_en": "Allowed if the road is clear or on Saturdays, Sundays, and at night",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không được phép trừ trường hợp phương tiện hư hỏng và thực hiện các biện pháp an toàn bổ sung khi đỗ xe.",
+      "text_en": "Not allowed except in cases where the vehicle breaks down and additional safety measures are implemented when parking.",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Được phép nếu có sự đồng ý của giám sát BSR",
+      "text_en": "Allowed if approved by the BSR supervisor",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "99",
+  "category": "An toàn giao thông",
+  "question_vn": "Hàng hóa xếp dỡ lên xe đầu kéo móc sàn (không có thành thùng xe) lái xe phải thực hiện biện pháp an toàn nào?",
+  "question_en": "When loading goods onto a flatbed semi-trailer without side panels, what safety measures must the driver implement?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Không cần thực hiện biện pháp an toàn nếu xếp dỡ lên xe thấy chắc chắn không rơi đổ khi lưu thông",
+      "text_en": "No safety measures are required if the goods appear firmly loaded and will not fall during transportation",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Chỉ cần dùng dây cáp vải tăng đơ ở cuối xe là được",
+      "text_en": "It is sufficient to use a ratchet strap only at the rear of the vehicle",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Phải dùng dây cáp vải tăng đơ tối thiểu điểm đầu, điểm giữa và điểm cuối xe, đảm bảo rằng việc chèn, buộc đã chắc chắn, không bị rơi đổ vật tư, hàng hóa trên đường. Trường hợp hàng hóa nhô ra so với chiều dài, chiều ngang cơ sở của xe mà không quá 10% thì phải có dây cảnh báo để phương tiện ngược chiều quan sát. Ban đêm phải có đèn cảnh báo hai bên thân xe.",
+      "text_en": "Ratchet straps must be used at least at the front, middle, and rear points of the vehicle, ensuring that chocking and securing are firm and that materials or goods will not fall onto the road. If the goods protrude beyond the vehicle's base length or width by no more than 10%, warning tape must be used so oncoming vehicles can observe it. At night, warning lights must be installed on both sides of the vehicle body.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "100",
+  "category": "An toàn giao thông",
+  "question_vn": "Trong công trường Nhà máy lọc dầu, trong thời gian chờ việc, lái xe có được phép nằm ngủ trên xe không?",
+  "question_en": "At the refinery construction site, while waiting for work, is the driver allowed to sleep in the vehicle?",
+  "image": "",
+  "type": "MC",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Được phép nếu không có công việc",
+      "text_en": "Allowed if there is no work",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Được phép nếu có sự cho phép của nhân sự giám sát nhà thầu và giám sát BSR",
+      "text_en": "Allowed if permitted by the contractor supervisor and BSR supervisor",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không được phép ngủ trên xe và trong công trường. Trường hợp không có công việc, lái xe đưa phương tiện về điểm tập kết an toàn hoặc điểm tập trung theo quy định đã được thiết lập mới được nghỉ giữa ca và tái tạo sức lao động.",
+      "text_en": "Sleeping in the vehicle and at the construction site is not allowed. If there is no work, the driver must move the vehicle to a safe gathering point or a designated gathering area before taking a mid-shift rest and recovering work capacity.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+}
+]

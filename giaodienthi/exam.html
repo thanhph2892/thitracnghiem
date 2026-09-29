@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safety Portal | Examination</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>if (localStorage.getItem('hse_theme') === 'dark') document.documentElement.setAttribute('data-theme', 'dark');</script>
+    <link rel="stylesheet" href="exam.css">
+</head>
+<body class="lang-vi">
+    
+    <div class="bg-gradient"></div>
+
+    <div id="loader">
+        <div class="spinner"></div>
+        <div class="vi">Đang thiết lập thuật toán bài thi...</div>
+        <div class="en">Initializing examination algorithm...</div>
+    </div>
+
+    <header>
+        <div class="logo-wrap">
+            <div class="logo-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></div>
+            SAFETY PORTAL
+        </div>
+
+        <div class="header-center font-heading" id="exam-title-display">
+            <!-- Tên bài thi -->
+        </div>
+
+        <div class="header-right">
+            <div class="candidate-info">
+                <div class="candidate-avatar">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                </div>
+                <div class="candidate-details">
+                    <div class="candidate-name" id="c-name">Loading...</div>
+                    <div class="candidate-id" id="c-id">Loading...</div>
+                    <div class="candidate-company" id="c-company">Loading...</div>
+                </div>
+            </div>
+
+            <div class="timer-box font-heading">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <span class="timer-text" id="countdown">00:00:00</span>
+            </div>
+
+            <!-- Nút Theme Toggle -->
+            <button class="theme-toggle" onclick="window.toggleTheme()" title="Chuyển đổi giao diện">
+                <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="display:none;"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+            </button>
+
+            <div class="lang-switch">
+                <button class="lang-btn active" onclick="switchLanguage('vi')" id="btn-lang-vi">VN</button>
+                <button class="lang-btn" onclick="switchLanguage('en')" id="btn-lang-en">EN</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="exam-container">
+        <div class="main-scroll-area">
+            <div id="questions-wrapper">
+                <!-- Javascript sẽ đổ toàn bộ câu hỏi vào đây -->
+            </div>
+            
+            <div id="submit-wrapper" style="display: none; margin-top: 40px; margin-bottom: 80px; text-align: center;">
+                <button class="btn-submit" onclick="submitExam()">
+                    <span class="vi">HOÀN TẤT & NỘP BÀI THI</span>
+                    <span class="en">COMPLETE & SUBMIT EXAM</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="margin-left:8px;"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="nav-panel-wrapper">
+            <div class="nav-panel">
+                <div class="nav-title font-heading vi">Danh sách câu hỏi</div>
+                <div class="nav-title font-heading en">Question Navigator</div>
+                
+                <div class="nav-grid" id="nav-grid">
+                    <!-- Javascript sẽ tạo các ô số ở đây -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- BẢNG XÁC NHẬN NỘP BÀI TỰ NGUYỆN -->
+    <div class="modal-overlay" id="confirm-submit-modal">
+        <div class="confirm-premium-box">
+            <div class="confirm-icon-wrap">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+            </div>
+            <h2 class="vi font-heading">Xác Nhận Nộp Bài</h2>
+            <h2 class="en font-heading">Confirm Submission</h2>
+            
+            <p class="vi" id="confirm-msg-vi"></p>
+            <p class="en" id="confirm-msg-en"></p>
+            
+            <div class="confirm-actions-premium">
+                <button class="btn-cancel-premium" onclick="closeConfirmModal()">
+                    <span class="vi">Quay lại làm tiếp</span><span class="en">Back to Exam</span>
+                </button>
+                <button class="btn-submit-premium" onclick="executeSubmit()">
+                    <span class="vi">Nộp bài ngay</span><span class="en">Submit Now</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- BẢNG THÔNG BÁO KẾT QUẢ ĐẠT/TRƯỢT BÌNH THƯỜNG -->
+    <div class="modal-overlay" id="result-modal">
+        <div class="result-box">
+            <div class="result-icon" id="result-icon">
+                <!-- Icon check hoặc X sẽ được JS chèn vào -->
+            </div>
+            <div class="result-title font-heading vi">KẾT QUẢ BÀI THI</div>
+            <div class="result-title font-heading en">EXAM RESULT</div>
+            
+            <div class="score-circle">
+                <span class="score-val" id="score-val">0</span>
+                <span class="score-unit">%</span>
+            </div>
+
+            <div class="result-details">
+                <div class="detail-row">
+                    <span class="vi">Số câu trả lời đúng:</span>
+                    <span class="en">Correct Answers:</span>
+                    <strong id="correct-count">0/0</strong>
+                </div>
+                <div class="detail-row">
+                    <span class="vi">Đánh giá chung:</span>
+                    <span class="en">Final Status:</span>
+                    <span id="pass-status">...</span>
+                </div>
+            </div>
+
+            <div class="result-actions">
+                <button class="btn-review" onclick="reviewExam()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                    <span class="vi">Xem lại bài làm</span>
+                    <span class="en">Review Exam</span>
+                </button>
+                <button class="btn-home" onclick="goHome()">
+                    <span class="vi">Về Trang chủ</span>
+                    <span class="en">Back to Home</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- BẢNG THÔNG BÁO ĐÌNH CHỈ THI (HIỂN THỊ KHI ADMIN TRẢM) -->
+    <div class="modal-overlay" id="ban-modal">
+        <div class="ban-box">
+            <div class="ban-icon">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"></line></svg>
+            </div>
+            <div class="ban-title vi font-heading">BÀI THI BỊ ĐÌNH CHỈ</div>
+            <div class="ban-title en font-heading">EXAM SUSPENDED</div>
+            
+            <div class="ban-desc vi">Tài khoản của bạn đã bị Quản trị viên khóa và ép nộp bài do vi phạm quy chế thi. Hệ thống ghi nhận kết quả Không Đạt.</div>
+            <div class="ban-desc en">Your session has been frozen and force-submitted by the Administrator due to policy violation.</div>
+            
+            <div class="ban-reason-box">
+                <div class="ban-reason-label vi">LÝ DO ĐÌNH CHỈ TỪ ADMIN:</div>
+                <div class="ban-reason-label en">REASON FROM ADMIN:</div>
+                <div class="ban-reason-text" id="ban-reason-text">...</div>
+            </div>
+            
+            <button class="btn-ban-home font-heading" onclick="goHome()">
+                <span class="vi">VỀ TRANG CHỦ</span><span class="en">BACK TO HOME</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="exam.js"></script>
+</body>
+</html>

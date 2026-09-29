@@ -1,0 +1,2303 @@
+[
+  {
+  "id": "01",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Khi xảy ra hỏa hoạn về điện, không được phép sử dụng môi chất nào dưới đây để dập tắt đám cháy?",
+  "question_en": "In the event of an electrical fire, which of the following extinguishing agents must not be used to put out the fire?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nước",
+      "text_en": "Water",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Bình CO₂",
+      "text_en": "CO₂",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Bình bột",
+      "text_en": "Powder",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "FM200",
+      "text_en": "FM200",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "02",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Đối với công việc phát nhiệt có sử dụng thiết bị điện, việc kiểm tra thiết bị điện theo checklist điện tạm (trong Quy chuẩn kỹ thuật điện tạm) sẽ được thực hiện:",
+  "question_en": "For hot work using electrical equipment, the inspection of electrical equipment according to the temporary electricity checklist (in the temporary electricity technical regulation) will be performed:",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Hàng ngày bởi đội thực hiện công việc",
+      "text_en": "Daily by the work team",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Hàng tuần bởi giám sát công việc BSR/Nhà thầu, giám sát an toàn BSR, nhân sự Bảo dưỡng điện tại khu vực",
+      "text_en": "Weekly by BSR/Contractor supervisor, BSR safety supervisor, personnel of BSR electrical department",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không cần kiểm tra xác nhận",
+      "text_en": "No need to verify",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "A và B đúng",
+      "text_en": "A and B correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "03",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Máy mài cầm tay không được phép sử dụng trong trường hợp nào?",
+  "question_en": "In which cases is a handheld grinder not allowed to be used?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Máy mài không có tay cầm",
+      "text_en": "The grinding machine does not have a side handle",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Máy mài không có bao che",
+      "text_en": "Grinding machine without safeguard",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Đá mài nứt, mẻ",
+      "text_en": "Grinding wheel cracked and having visible damage",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả ở trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "04",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Theo quy định của BSR, chai khí nén được phép vận chuyển từ nơi lưu giữ đến vị trí làm việc bằng cách nào?",
+  "question_en": "According to BSR regulations, how are compressed gas cylinders allowed to be transported from the storage area to the work location?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Lăn chai trên mặt đất",
+      "text_en": "Roll the cylinder on the ground",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Kéo lê trên mặt đất",
+      "text_en": "Dragging cylinder on the ground",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Mang vác trên vai",
+      "text_en": "Carry on shoulder",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Dùng xe chuyên dụng (có vòng ôm để giữ cố định chai)",
+      "text_en": "Use gas cylinder trolley & secured the cylinder to prevent it from falling while shifting.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "05",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Điều kiện an toàn trong quá trình lưu chứa và sử dụng chai khí nén Oxy và khí (LPG, acetylene) là gì?",
+  "question_en": "What are the safety conditions during the storage and use of oxygen and gas (LPG, acetylene) cylinders?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Cách xa nhau ít nhất 6m",
+      "text_en": "Keep a safe distance at least 6 meters",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Có vách ngăn bởi tường chịu lửa cao 1,5m trở lên",
+      "text_en": "Having a partition by a fire-resistant wall with a height of 1.5m or more",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thoáng gió, có đủ ánh sáng để quan sát, tránh xa các nguồn nhiệt",
+      "text_en": "Shall be stored at well ventilated area, away from direct sunlight & other source of ignition",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả ý trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "06",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Trường hợp nào phải sử dụng phương tiện bảo vệ mắt?",
+  "question_en": "When eye protection is required?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Công việc mài",
+      "text_en": "Grinding work",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Công việc hàn",
+      "text_en": "Welding work",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Công việc bắn cát làm sạch",
+      "text_en": "Sandblasting",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Cả ba trường hợp trên đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "07",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Theo quy định an toàn của BSR, vật liệu dễ cháy phải đặt cách xa chỗ người đang thao tác hàn ít nhất là bao nhiêu mét?",
+  "question_en": "According to BSR Safety regulations, what is the safe distance to be maintained from flammable material to the weld point?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "7m",
+      "text_en": "7m",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "9m",
+      "text_en": "9m",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "11m",
+      "text_en": "11m",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "15m",
+      "text_en": "15m",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "08",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Phương pháp kiểm tra rò rỉ chai khí nén?",
+  "question_en": "What is the method to be used to detect any gas leak from the gas cylinder?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Sử dụng lửa để soi kiểm tra",
+      "text_en": "Make open flame & make fire to check",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Sử dụng mũi để ngửi",
+      "text_en": "Use your nose to smell",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Sử dụng nước xà phòng để kiểm tra",
+      "text_en": "Use soapy water to check",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "3 phương án trên đều đúng",
+      "text_en": "All of these above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "09",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Người vận hành thiết bị điện cầm tay phải cắt điện trong các trường hợp nào sau đây?",
+  "question_en": "Operator of handheld electrical equipment have to cut off the electricity in case?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Khi ngừng việc",
+      "text_en": "Stop working",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Khi bị mất điện",
+      "text_en": "When a power failure",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Khi lau chùi hoặc tra dầu mỡ vào máy",
+      "text_en": "Cleaning or re-greasing",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Cả ba phương án trên đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "10",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Khi hàn hồ quang trên cao, thợ hàn cần phải thực hiện các biện pháp gì để đảm bảo an toàn?",
+  "question_en": "When performing overhead arc welding, what safety measures do welders need to take to ensure safety?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Che chắn kín các mặt xung quanh khu vực hàn bằng vật liệu chống cháy",
+      "text_en": "Completely cover all sides surrounding the welding area with fire-resistant materials",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Che chắn miệng cống, hố ga, đi dời/cô lập vật liệu dễ cháy",
+      "text_en": "Cover the sewer/channel and remove or isolate flammable materials",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Có màng hứng xỉ và có biển báo",
+      "text_en": "Barricades the hot work affected area & install warning sign",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Cả 3 phương án trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "11",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Các dụng cụ của công việc cắt khí và chai oxy có được dính dầu mỡ không?",
+  "question_en": "Are tools of gas cutting and oxygen cylinder can be left greasy?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Chỉ có dụng cụ cắt khí không được dính dầu mỡ",
+      "text_en": "Only tools of gas cutting shall not be greasy",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Chỉ có chai oxy không được dính dầu mỡ",
+      "text_en": "Only oxygen cylinder shall not be greasy",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả không được dính dầu mỡ",
+      "text_en": "All shall not be greasy",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "12",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Khi chúng ta quan sát thấy một thợ hàn có hành vi không an toàn thì phải làm gì?",
+  "question_en": "When we observe that a welder has unsafe behavior, what to do:",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Tiếp tục để thợ hàn thực hiện hành vi không an toàn",
+      "text_en": "Continue to let the welder perform unsafe behavior until he complete the welding",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Dừng hành vi không an toàn",
+      "text_en": "Stop unsafe behavior immediately",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Giải thích và yêu cầu thực hiện theo đúng quy định an toàn",
+      "text_en": "Explain and request to compliance with safety regulations",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "B và C đúng",
+      "text_en": "B and C correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "13",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Theo quy định của BSR, phương pháp cố định dây dẫn khí vào các thiết bị phục vụ công tác hàn, cắt được quy định như thế nào?",
+  "question_en": "According to BSR regulations, what are the requirements for securing gas hoses to welding and cutting equipment?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Ear clamp chuyên dụng phải được trang bị để giữ cho các dây dẫn khí được cố định vào các đầu nối",
+      "text_en": "Ear clamps must be provided to keep the gas hoses fixed to the connections and prevent gas leak",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không được phép sử dụng cổ dê",
+      "text_en": "Screw type clamp / collier are not allowed",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không được dùng dây kẽm",
+      "text_en": "Steel wire are not allowed",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "14",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Người giám sát công việc phát sinh nhiệt (fire watcher) cần ở lại vị trí làm việc tối thiểu bao lâu sau khi hoàn thành công việc?",
+  "question_en": "According to BSR regulations, how long must a fire watcher remain at the work location after the work is completed?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "30 phút",
+      "text_en": "30 minutes",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "15 phút",
+      "text_en": "15 minutes",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "5 phút",
+      "text_en": "5 minutes",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Không cần ở lại",
+      "text_en": "No need to stay",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "15",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Việc sử dụng ống dẫn khí trong hàn cắt phải tuân thủ quy định nào sau đây?",
+  "question_en": "The use of gas hoses in welding and cutting must comply with the following regulations?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Sử dụng ống dẫn khí trong tình trạng nguyên vẹn, không bị rạn nứt",
+      "text_en": "Gas hoses are to be in good condition, no cracks",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Ống dẫn khí, bộ điều áp và mỏ hàn phải được kết nối bằng khớp nối chuyên dụng",
+      "text_en": "Gas hose, pressure regulators and torch must be connected by specialized couplings",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Ống dẫn khí phải được làm sạch bằng khí trước khi nối vào bộ điều áp và mỏ hàn để tránh tắc nghẽn",
+      "text_en": "Gas hose must be cleaned at connection point before connecting to the pressure regulator and the torch",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "16",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Quy định an toàn đối với máy hàn là:",
+  "question_en": "Safety regulations for welding machine are:",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Máy hàn và các thiết bị đi kèm phải trong tình trạng tốt và chịu được tải tương ứng",
+      "text_en": "The welding machine and accompanying equipment must be in good condition and can withstand the corresponding power",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Trên các bộ phận điều khiển của máy hàn phải ghi chữ, số hoặc các ký hiệu chỉ rõ chức năng của chúng. Tất cả các cơ cấu điều khiển của máy hàn phải được định vị và che chắn cẩn thận để tránh đóng (hoặc cắt) sai",
+      "text_en": "The words, numbers or symbols on the control panel of a welding machine must indicate their functions. All control devices of the welding machine must be located and carefully covered",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Các máy hàn phải được bảo vệ bằng thiết bị đóng cắt: MCB, MCCB, cầu chì...",
+      "text_en": "The welding machine must be protected by switches: MCB, MCCB, Fuse & earthing",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "17",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Mối nguy tiếng ồn cao tại nơi thực hiện công việc phát nhiệt có thể được giảm thiểu bởi biện pháp nào?",
+  "question_en": "The risk of high noise can be minimized at hot work area by:",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Bao che thiết bị phát ra tiếng ồn",
+      "text_en": "Cover the device which is making noise (Engineering control if possible)",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Sử dụng bảo hộ lao động bảo vệ tai",
+      "text_en": "Use ear protection (PPE)",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Giảm thời gian tiếp xúc",
+      "text_en": "Reduce exposure time (Administrative control)",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "18",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Các khóa đào tạo an toàn theo yêu cầu pháp luật đối với thợ hàn là gì?",
+  "question_en": "What are the legally required safety training courses for welders?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "An toàn vệ sinh lao động nhóm 1 và An toàn lao động khi vận hành sử dụng thiết bị áp lực",
+      "text_en": "HSE training group 1 and specific safety training course for working with pressure equipment",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "An toàn vệ sinh lao động nhóm 2 và An toàn lao động khi vận hành sử dụng thiết bị áp lực",
+      "text_en": "HSE training group 2 and specific safety training course for working with pressure equipment",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "An toàn vệ sinh lao động nhóm 3 và An toàn lao động khi vận hành sử dụng thiết bị áp lực nếu thực hiện công việc hàn hơi",
+      "text_en": "HSE training group 3 and specific safety training course for working with pressure equipment if do oxy-fuel welding",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "An toàn vệ sinh lao động nhóm 4 và An toàn lao động khi vận hành sử dụng thiết bị áp lực nếu thực hiện công việc hàn hơi",
+      "text_en": "HSE training group 4 and specific safety training course for working with pressure equipment if do oxy-fuel welding",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "19",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Để bảo vệ con người khỏi bị điện giật khi tiếp xúc với thiết bị điện, những biện pháp gì cần được áp dụng?",
+  "question_en": "What measures should be applied to protect people from electric shock when coming into contact with electrical equipment?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nối tiếp đất/nối không thiết bị điện",
+      "text_en": "Grounding, neutral earthing",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Lắp đặt ELCB",
+      "text_en": "Install ELCB",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Lắp ampe kế vào thiết bị điện",
+      "text_en": "Connecting an ammeter to electrical equipment",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Cả A và B đúng",
+      "text_en": "A and B correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "20",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Người giám sát công việc phát nhiệt phải:",
+  "question_en": "The fire watcher of hot work must:",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Tham gia và hoàn thành khóa đào tạo dành cho người giám sát công việc phát nhiệt của BSR",
+      "text_en": "Participate and complete a BSR training course for supervisor of hot work",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Thành thạo khu vực làm việc và các quy trình thông báo khi có sự cố cháy xảy ra",
+      "text_en": "Implement actions as per ERP procedure when the fire occurs",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Ở lại nơi tiến hành công việc ít nhất 30 phút sau khi công việc hoàn thành để phát hiện và dập tắt các vật liệu cháy âm ỉ",
+      "text_en": "Ensure that Fire watcher stay at the work location at least 30 minutes after the job is completed to detect any developing fire hazard",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "21",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Theo quy định của BSR, người có trách nhiệm thực hiện kiểm tra khí lần đầu đối với các công việc phát sinh nhiệt là ai?",
+  "question_en": "According to BSR regulations, who is responsible for performing the initial gas testing for hot work?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Giám sát an toàn khu vực đối với công việc phát sinh ngọn lửa trần (PTW đỏ)",
+      "text_en": "Area safety supervisor for hot work",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Nhân sự có nhiệm vụ đo khí AGT (Authorized Gas Tester) của đội thực hiện công việc",
+      "text_en": "The AGT (Authorized Gas Tester) of the work team",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Ngoài giờ hành chính sẽ do đội PCCC thực hiện đối với công việc phát sinh ngọn lửa trần (PTW đỏ)",
+      "text_en": "Overtime will be performed by the firefighting team for hot work",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "A và C đúng",
+      "text_en": "A and C are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "22",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Trong bán kính 11m xung quanh khu vực hàn/cắt hoặc công việc có ngọn lửa trần, nếu vật liệu dễ bắt cháy không thể di chuyển thì biện pháp nào sau đây được áp dụng?",
+  "question_en": "What is the solution if combustible material cannot be removed within an 11m radius around a welding/cutting area?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Dùng bạt nhựa (bạt xanh) để che chắn vật liệu dễ bắt cháy",
+      "text_en": "Use plastic canvas to cover flammable material",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Dùng bạt chống cháy được làm ướt để che chắn vật liệu dễ bắt cháy",
+      "text_en": "Use fire blanket to cover flammable material",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Không cần che chắn vật liệu dễ bắt cháy",
+      "text_en": "No need to cover combustible material",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},{
+  "id": "23",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Tổng số lượng thiết bị chống cháy ngược (flashback arrestors) được lắp trên đường ống dẫn khí nhiên liệu (LPG, Axetylen) và đường ống dẫn khí Oxy là bao nhiêu?",
+  "question_en": "The total number of flashback arrestors installed on gas hose (LPG, Acetylene) and Oxygen hose is:",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "1",
+      "text_en": "1",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "2",
+      "text_en": "2",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "3",
+      "text_en": "3",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "4",
+      "text_en": "4",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "24",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Thiết bị chống cháy ngược được sử dụng cho loại công việc hàn cắt nào?",
+  "question_en": "Flashback arrestor is used for type of welding & cutting:",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Cắt khí Oxy và LPG/acetylene",
+      "text_en": "Cutting with oxygen & LPG/acetylene",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Hàn TIG với khí argon",
+      "text_en": "TIG welding with argon",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Hàn MIG",
+      "text_en": "MIG welding",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các loại trên",
+      "text_en": "All of these above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "25",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Quy định về màu sắc của ống dẫn khí phục vụ công việc hàn cắt là gì?",
+  "question_en": "The colors of the gas hoses for welding and cutting work are:",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Ống dẫn khí oxy màu xanh lá cây",
+      "text_en": "Green for oxygen",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Ống dẫn khí gas màu đỏ",
+      "text_en": "Red for LPG & Acetylene Gas",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Ống dẫn khí Argon màu đen",
+      "text_en": "Black for argon gas",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "26",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Theo bạn, vấn đề mất an toàn tại bức ảnh này là gì?",
+  "question_en": "In your opinion, what is the unsafe condition / act in this photo?",
+  "image": "nganhangcauhoi/antoanchuyensau/athc-cau26.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Không bố trí bình chữa cháy xách tay",
+      "text_en": "Do not have fire extinguisher",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Tư thế ngồi của nhân sự không phù hợp",
+      "text_en": "Improper sitting posture of personnel",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Bao che khu vực hàn cắt bằng gỗ (là vật liệu cháy được) không đảm bảo an toàn cho công việc phát sinh ngọn lửa trần",
+      "text_en": "Hot work area cordon with wood (combustible material) which does not guarantee safety for the hot work",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều sai",
+      "text_en": "All incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "27",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Theo bạn, điểm an toàn bức ảnh này là gì?",
+  "question_en": "In your opinion, what is the safe condition in this photo?",
+  "image": "nganhangcauhoi/antoanchuyensau/athc-cau27.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Các chai khí nén đặt thẳng đứng",
+      "text_en": "The Gas cylinders are placed vertically",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Các chai khí nén được gia cố chống đổ ngã bằng thanh giàn giáo",
+      "text_en": "The Gas cylinders are reinforced against falling by scaffolding",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Chai khí được đậy nắp khi không sử dụng",
+      "text_en": "The protection cap provided on all Gas cylinders at storage area",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "28",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Theo quy định BSR, vấn đề mất an toàn tại bức ảnh này là gì?",
+  "question_en": "According to BSR regulations, what is the unsafe issue shown in this picture?",
+  "image": "nganhangcauhoi/antoanchuyensau/athc-cau28.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Các chai khí nén không được buộc cố định để tránh ngã",
+      "text_en": "Compressed gas cylinders are not secured to prevent falling",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Chai khí nén để ngoài trời nắng và gần nguồn điện",
+      "text_en": "Compressed gas cylinders in the sun outside and near the power source",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không bố trí sắp xếp vật tư, thiết bị dụng cụ",
+      "text_en": "Materials, equipment and tools are not arranged",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "29",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Theo quy định BSR, điểm an toàn trong bức ảnh này là gì?",
+  "question_en": "According to BSR regulations, what is the safe point shown in this picture?",
+  "image": "nganhangcauhoi/antoanchuyensau/athc-cau29.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Vị trí hàn cắt được che kín bằng bạt chống cháy",
+      "text_en": "Welding location is fully covered by fire blanket",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Các hố ga bên dưới được che kín bằng bạt chống cháy",
+      "text_en": "The sewer, pit, channel is fully covered by fire blanket",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Khu vực bên dưới điểm hàn cắt được làm ướt bằng nước",
+      "text_en": "The area below the welding point is wetted with water",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "30",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Theo quy định BSR, vấn đề mất an toàn tại bức ảnh này là gì?",
+  "question_en": "According to BSR regulations, what is the unsafe issue shown in this picture?",
+  "image": "nganhangcauhoi/antoanchuyensau/athc-cau30.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Khu vực hàn cắt không được che chắn bằng bạt chống cháy",
+      "text_en": "The welding area is not covered with fire blanket",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Máy mài không có tay cầm",
+      "text_en": "The grinding machine does not have a handle",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Các chai khí nén không được che chắn, di chuyển đến vị trí an toàn, cách xa nguồn nhiệt. Chai Oxy và LPG đặt sát nhau",
+      "text_en": "Air cylinders do not locate in safety locations and are not covered from heat sources. Oxygen and LPG bottles placed close together",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "31",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Mục đích của việc kiểm tra và sử dụng an toàn thiết bị, dụng cụ cầm tay di động?",
+  "question_en": "The purpose of safety inspection and using portable/hand tools/equipments?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đảm bảo đáp ứng các tiêu chuẩn kỹ thuật an toàn trước khi sử dụng",
+      "text_en": "Ensure to meet safety specifications before using",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Để đạt được mục tiêu “Không có tai nạn hoặc sự cố” và tuân thủ yêu cầu pháp luật",
+      "text_en": "Guide to the safety using of hand tools/equipments at BSR to achieve the goal of “No accidents or incidents” and comply with legal requirements",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "32",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Yêu cầu đối với người vận hành thiết bị theo Hướng dẫn kiểm tra và sử dụng an toàn thiết bị cầm tay, di động?",
+  "question_en": "What are requirements for equipment operator as Guidelines for inspection and safe use of equipment and hand tools?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Được huấn luyện an toàn lao động theo Nghị định 44/2016/NĐ-CP và chương trình huấn luyện ATSKMT của BSR",
+      "text_en": "Trained according to Decree No. 44/2016/ND-CP and BSR's Safety Training Program",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Người vận hành các thiết bị có yêu cầu nghiêm ngặt về an toàn lao động phải được đào tạo vận hành máy/thiết bị và được người sử dụng lao động chỉ định/phân công vận hành máy",
+      "text_en": "Operators of equipment with strict requirements on occupational safety must be trained in operating the machine/equipment and assigned by the employer to operate the machine",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "33",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Thiết bị, máy móc, dụng cụ cầm tay theo định nghĩa trong Hướng dẫn kiểm tra và sử dụng an toàn thiết bị và dụng cụ cầm tay, di động là gì?",
+  "question_en": "What are equipments, machines and hand tools as defined in guideline for safety inspection and using portable/hand tools/equipments?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thiết bị, máy móc: Là tổ hợp của nhiều chi tiết tạo thành, có nguyên lý hoạt động dựa trên các nguồn năng lượng như điện/pin/khí nén/thủy lực/nhiên liệu",
+      "text_en": "Equipments, machine: It is a combination of many components, with operating principles based on energy sources such as electricity/battery/pneumatic/hydraulic/fuel",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Dụng cụ cầm tay: Là những vật dụng được sử dụng bằng tay để hỗ trợ con người nhằm tăng năng suất, hiệu quả công việc. Dụng cụ cầm tay có thể hoạt động dựa trên các nguồn năng lượng như điện/pin/khí nén/thủy lực",
+      "text_en": "Hand tools: Are items used by hand to assist people in order to increase productivity and work efficiency. Hand tools can operate on power sources such as electricity/battery/pneumatic/hydraulic",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "34",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Quy định sử dụng an toàn của BSR đối với máy phát điện, máy nén khí di động là gì?",
+  "question_en": "What are the BSR safety regulations for the use of generators and portable air compressors?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thiết bị phải được nối đất khi sử dụng, bao gồm phương tiện phục vụ công tác nạp nhiên liệu",
+      "text_en": "Equipment must be grounded when in use, including vehicles serving fuel fill",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Phải trang bị thiết bị ngăn ngừa tia lửa theo tiêu chuẩn quy định",
+      "text_en": "Standard spark arrestors must be equipped",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Phải xây dựng Quy trình/Hướng dẫn vận hành an toàn máy",
+      "text_en": "Have the Procedure/Instruction on safe operation of equipment",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "35",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Nguyên tắc an toàn cơ bản đối với TBDC cầm tay di động tại BSR là gì?",
+  "question_en": "What are the basic safety principles for portable and mobile equipment at BSR?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đảm bảo các yêu cầu pháp luật Việt Nam về kiểm định an toàn đối với các TBDC thuộc danh mục TBDC có yêu cầu nghiêm ngặt về an toàn và các quy chuẩn kỹ thuật quốc gia (QCVN) hiện hành",
+      "text_en": "Ensure the Vietnamese legal requirements on safety inspection for tools/equipment subject to strict occupational safety and health requirements and current national technical regulations (QCVN) for tools/equipment",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Có hướng dẫn sử dụng/biện pháp thi công được phê duyệt trước khi sử dụng và tuân thủ hướng dẫn sử dụng của nhà sản xuất",
+      "text_en": "Have approved Instruction/Work method before using and compliance with manufacturer's instructions",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "TBDC được bảo quản, lưu trữ tại công trường theo vị trí quy định tại BSR-HSE-WI-041 hoặc được phê duyệt tạm theo GFVL",
+      "text_en": "Tools/Equipments are stored at the site according to the BSR-HSE-WI-041 or temporarily approved by PTW",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "36",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Theo Hướng dẫn an toàn chai khí nén di động, các yêu cầu an toàn khi bảo quản và lưu chứa chai khí nén tại kho được quy định như thế nào?",
+  "question_en": "According to the Safety Guidelines for Portable Compressed Gas Cylinders, what are the safety requirements for storing and preserving compressed gas cylinders in a warehouse?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Tất cả các chai khí phải được buộc chắc chắn để ngăn ngừa ngã đổ và đảm bảo ở vị trí thẳng đứng bằng giá đỡ, kẹp, xích hoặc cáp tại điểm xấp xỉ 2/3 chiều cao của chai khí",
+      "text_en": "All compressed gas cylinders must be secured to prevent falling and secured at upright position by means of support, clamps, chain or cable at approximately two third of the height of the gas cylinder",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Chai khí oxy hóa cách khí nhiên liệu và vật liệu dễ cháy ít nhất 6 mét hoặc được ngăn cách bởi tường chịu lửa cao ít nhất 1,5 m",
+      "text_en": "Arranging oxidizing gases cylinders at least 6 meters away from fuel gas and combustible materials or separated by fire-proof wall with the height at least 1.5 meters",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thực hiện kiểm tra định kỳ hàng tháng",
+      "text_en": "Monthly check by checklist",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "37",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Trong Hướng dẫn an toàn chai khí nén di động, khi bảo quản, sử dụng chai khí nén tại công trường phải đảm bảo các yêu cầu an toàn gì?",
+  "question_en": "In mobile compressed gas cylinder safety guideline, what is safety requirement must be ensured when storing and using compressed gas cylinders at site?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Các chai khí nén lắp đặt tại công trường nên có mái che mưa, nắng để hạn chế nguy cơ ăn mòn vỏ chai do thời tiết, không khí",
+      "text_en": "Compressed gas cylinders installed at process area should be covered with the roof to prevent the rain water and direct sunlight to ensure minimize the corrosion hazard at the bottom of the cylinders",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Các chai khí nén không có vòng chân đế tại công trường phải được đặt trên tấm đế để tránh tiếp xúc trực tiếp với nước và nền bê tông gây ăn mòn đáy bình",
+      "text_en": "The compressed gas cylinders without ring base at site must be placed on the base frame to avoid directly contact with concrete floor & accumulation of water which may cause corrosion at the bottom of the cylinders",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Giữ chai khí nén tránh xa các khu vực có phát sinh nguồn nhiệt, tia lửa, ngọn lửa trần và các nguồn điện",
+      "text_en": "Keep compressed gas cylinders away from areas where heat, spark, naked flames and electrical sources are generated",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "38",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Trong Hướng dẫn kiểm tra và sử dụng an toàn thiết bị, dụng cụ cầm tay và di động, dây dẫn của thiết bị điện cầm tay phải đáp ứng những yêu cầu gì?",
+  "question_en": "According to the Guidelines for the Inspection and Safe Use of Handheld and Portable Equipment and Tools, what requirements must the cords of handheld electrical equipment meet?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Dây dẫn phải được bảo vệ để tránh các hư hỏng gây nguy hiểm khi sử dụng",
+      "text_en": "Electric cable must be protected to avoid dangerous damage when used",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Giữ dây dẫn của TBDC tránh xa các nguồn nhiệt, nước, dầu, không để vật nặng đè lên và có biện pháp bảo vệ khỏi các vật sắc nhọn khác. Tại các vị trí có góc cạnh khi dây dẫn đi qua cần có các biện pháp giảm ma sát phù hợp để bảo vệ dây dẫn",
+      "text_en": "Keep the power cable away from sources of heat, water, oil, do not place heavy objects on it, and take measures to protect it from other sharp objects. At angled positions when the conductor is passing through, suitable friction reduction measures should be taken to protect the conductor",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không được giật mạnh để ngắt kết nối dây dẫn với thiết bị, hoặc sử dụng dây dẫn để nâng hay di chuyển thiết bị điện cầm tay",
+      "text_en": "Do not jerk to disconnect the lead from the device, or use electric cable to lift or move electrical hand tools",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "39",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Phương tiện bảo vệ cá nhân (PPE) nào sau đây dành cho người sử dụng máy mài/cắt?",
+  "question_en": "Which of Personnel Protective Equipment (PPE) for Grinder/Cutting machine?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Sử dụng mặt nạ che kín mặt để bảo vệ mặt khỏi các mảnh vỡ văng bắn",
+      "text_en": "Use full face mask to protect the face from splinters",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Mang khẩu trang chống bụi, nút bịt tai khi làm việc, sử dụng găng tay vải hoặc găng tay chống cắt (nếu có)",
+      "text_en": "Use dust mask, ear plug, cloth gloves or cut-resistant gloves (if have)",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Quần áo chống hóa chất",
+      "text_en": "Chemical resistant clothes",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Câu A và B đúng",
+      "text_en": "A and B are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "40",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Mối nguy và rủi ro khi sử dụng thiết bị điện cầm tay là gì?",
+  "question_en": "What are the risk and hazards involved while using the electrical hand tools?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Giật điện, chập điện gây cháy nổ",
+      "text_en": "Electric shock, short circuit can cause fire & burn injury",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Các tai nạn xảy ra với người sử dụng do thiếu hay hư hỏng các cơ cấu bảo vệ các bộ phận quay của thiết bị",
+      "text_en": "Accidents occur due to the lack of or damage to the rotating device protection devices (Wheel guard)",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Các tổn thương xảy ra do các vật thể bay văng bắn vào người như: vỡ đá mài/cắt, các vật thể bay ra từ vị trí mài/cắt",
+      "text_en": "Injury occurs by flying objects flying such as: grinding wheel broken, objects flying out from the grinding/cutting position",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "41",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Khi người sử dụng thiết bị điện cầm tay bị điện giật, việc làm trước tiên là gì?",
+  "question_en": "If the user gets electric shocked, what is the first action?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Cách ly nguồn điện khỏi người bị nạn",
+      "text_en": "Isolate the power source from the victim immediately",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Sơ cứu người bị nạn",
+      "text_en": "Provide First aid for victims if safe to do so",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Rời khỏi vị trí",
+      "text_en": "Leave from victim position",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Báo cáo với cán bộ an toàn phụ trách",
+      "text_en": "Inform to safety supervisor",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "42",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Trong những trường hợp nào không được phép sử dụng máy mài cầm tay?",
+  "question_en": "In which cases is a handheld grinder not allowed to be used?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Máy mài không có tay cầm, không có bao che",
+      "text_en": "Grinding machine has no handle, no safety guard",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đã được kiểm tra và dán tem",
+      "text_en": "Grinding machine is checked and stamped",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Đá mài nứt, mẻ",
+      "text_en": "Grinding wheel is damaged and having cracks",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Câu A và C đúng",
+      "text_en": "A and C are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "43",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Trong các hoạt động nào sau đây, việc sử dụng phương tiện bảo vệ mắt là bắt buộc?",
+  "question_en": "In which of the following operations is the use of protective eyewear mandatory?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Công việc tiện/gia công cơ khí",
+      "text_en": "Turning/Machining",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Công việc hàn",
+      "text_en": "Welding",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Công việc mài, cắt vật liệu",
+      "text_en": "Grinding/Cutting",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các trường hợp trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "44",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Khi người sử dụng máy mài/cắt xảy ra tai nạn lao động, bạn cần phải làm gì?",
+  "question_en": "When an accident occurs involving a handheld grinder/cutter operator, what actions should you take?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Tổ chức cấp cứu người bị nạn",
+      "text_en": "Provide first aid if safe to do so or call for medical assistance",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Báo cho người có trách nhiệm",
+      "text_en": "Inform immediately to responsible person",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không phải việc của mình, bỏ đi",
+      "text_en": "None of your business, walk away from the injury location",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "A và B đúng",
+      "text_en": "A and B are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "45",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Người vận hành máy mài/cắt phải cắt điện trong các trường hợp nào sau đây?",
+  "question_en": "The worker using grinding/cutting machine must turn off the electricity in any of the following situations?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Khi tạm ngừng việc hoặc khi bị mất điện",
+      "text_en": "When work is temporary stop or power failure",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Tạm dừng công việc giữa ca",
+      "text_en": "Temporary stop work in shift (Shift change)",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Khi vệ sinh và kiểm tra máy",
+      "text_en": "Cleaning and inspecting the machine / replacing wheel / drill bits",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "46",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Mối nguy tiếng ồn cao tại nơi thực hiện công việc mài/cắt có thể được giảm thiểu bằng cách nào?",
+  "question_en": "The risk of noise hazard exposure at the work place cutting can be minimized by",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Sử dụng bảo hộ lao động bảo vệ tai",
+      "text_en": "Use ear protection (PPE)",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Bao che thiết bị phát ra tiếng ồn",
+      "text_en": "Cover the device making noise (Engineering control)",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Giảm thời gian tiếp xúc",
+      "text_en": "Reduce the working time (Administrative control)",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "47",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Theo quy định BSR, các thiết bị nào cần phải có chức năng (cò đóng ngắt tự động) deadman switch để đảm bảo an toàn khi sử dụng tại BSR?",
+  "question_en": "According to BSR regulations, which equipment must be equipped with a deadman switch (automatic shut-off trigger) to ensure safe operation at BSR?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Máy mài cầm tay",
+      "text_en": "Angle grinder",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Súng bắn cát",
+      "text_en": "Sandblasting gun",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Súng phun nước áp lực cao",
+      "text_en": "High pressure jet machine",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "48",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Tất cả các thiết bị điện cầm tay phục vụ công tác BDSC tại BSR có bắt buộc phải được kiểm tra và dán tem trước khi sử dụng hay không?",
+  "question_en": "Are all handheld electrical equipment used for maintenance and repair work at BSR strictly required to be inspected and tagged with a safety label before use?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đúng",
+      "text_en": "Right",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Sai",
+      "text_en": "Wrong",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "49",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Yêu cầu về dây cáp điện và đầu kết nối cáp điện đối với thiết bị điện cầm tay?",
+  "question_en": "What is the safety requirement for electric cable and cable connector?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Tất cả cáp điện, đầu kết nối phải ở trong tình trạng tốt và chịu được công suất tương ứng và được kiểm tra an toàn trước khi sử dụng",
+      "text_en": "Electric cable and cable connector must be in good condition, withstand the corresponding load and be checked for safety before using",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Cho phép sử dụng cáp điện chỉ bị hư hỏng lớp vỏ bên ngoài",
+      "text_en": "Allowing to use electric cables with damaged outer cover only",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Cho phép sử dụng đầu kết nối cáp điện bị nứt hoặc có dấu hiệu hư hỏng",
+      "text_en": "Allowing to use the cable connectors that are cracked or broken",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các yêu cầu trên",
+      "text_en": "All of these above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "50",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Trang bị BHLĐ (PPE) cho thợ hàn là gì?",
+  "question_en": "What are PPEs for welder?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Kính hàn, mặt nạ hàn, mặt nạ cắt, găng tay da, quần áo cho thợ hàn tối thiểu loại 100% cotton, giày bảo hộ, tạp dề bằng da",
+      "text_en": "Welding goggles, welding masks, cutting masks, leather gloves, welder clothes for at least 100% cotton, protective shoes, leather aprons",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Nếu hồ quang, tia lửa hàn ở phía trên đầu hoặc vai người thợ hàn thì cần phải trang bị quần áo chịu nhiệt để bảo vệ cho thợ hàn",
+      "text_en": "If the arc, welding sparks are above the welder's head or shoulders, heat-resistant clothing is required",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Trong khi thực hiện công việc hàn trong điều kiện nguy hiểm, ẩm ướt, thợ hàn phải trang bị thêm: Găng tay cách điện",
+      "text_en": "While performing welding work in dangerous, wet conditions, the welder must equip insulated gloves, insulated boots, insulated mats",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "51",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Các yêu cầu an toàn khi thực hiện công việc sử dụng thiết bị điện cầm tay là gì?",
+  "question_en": "What are the safety requirements when performing work using handheld electrical equipment?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Ban đầu mối và Nhà thầu có trách nhiệm bố trí nhân sự có chuyên môn phù hợp kiểm tra và đảm bảo thiết bị an toàn trước mỗi lần sử dụng",
+      "text_en": "The focal point and the Contractor are responsible for assigning competent personnel to check and ensure electrical hand tools before using",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Người sử dụng phải được đào tạo/hướng dẫn sử dụng thành thạo thiết bị trước khi sử dụng",
+      "text_en": "Users must be trained/instructed to use the device well before using",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Kết nối nguồn năng lượng và vận hành thiết bị phải theo đúng hướng dẫn/chỉ dẫn của nhà sản xuất. Khi thay thế các bộ phận của thiết bị như: đá mài, đá cắt, mũi khoan,... phải đúng chủng loại và các thông số kỹ thuật phù hợp theo khuyến cáo của nhà sản xuất",
+      "text_en": "Connect the power source and operate the device according to the manufacturer's instructions. When replacing parts of equipment such as grinding wheel, cutting wheel, drill bits, must be in the right category and specifications according to the manufacturer's recommendations",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các yêu cầu trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "52",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Yêu cầu an toàn đối với thiết bị điện cầm tay khi làm việc trên cao là gì?",
+  "question_en": "What is the safety requirement for electrical hand tools while working at height?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thiết bị sử dụng khi làm việc trên cao phải được đảm bảo chống rơi",
+      "text_en": "Electrical hand tools must be secured to avoid falling from height",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Thiết bị sử dụng làm việc trên cao phải có dây chống rơi (lanyard), lưu ý điểm gắn dây chống rơi trên thiết bị không làm ảnh hưởng đến tính năng của thiết bị; dây chống rơi sẽ kết nối thiết bị với túi đựng dụng cụ hoặc dây đeo an toàn",
+      "text_en": "Electrical hand tools must have lanyard that its contact point doesn't affect to device's features; lanyard should be tied with materials bag or safety harness",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Khi di chuyển thiết bị lên cao không được sử dụng dây điện để kéo thiết bị, phải sử dụng dây thừng hoặc túi chuyên dụng để chuyển thiết bị lên cao",
+      "text_en": "While lifting materials up, do not allow to use electric cable, must use a rope or dedicated bag for lifting tools & materials",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các yêu cầu trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "53",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Khi sử dụng máy mài/cắt cần lưu ý điểm nào sau đây?",
+  "question_en": "What should you ensure when using grinding/cutting machine?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Máy mài, máy cắt phải trang bị bộ phận đóng ngắt tự động (deadman switch) để đảm bảo an toàn trong quá trình sử dụng",
+      "text_en": "Grinding/Cutting machine must be equipped the auto on-off switch (Deadman switch)",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Người vận hành thiết bị KHÔNG được mang các đồ trang sức khi làm việc, ngắt kết nối nguồn năng lượng với thiết bị khi không sử dụng",
+      "text_en": "The operator is not allowed to wear jewelry & loose clothing while working, disconnect the power source when not in use",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Nhanh chóng ngắt dòng năng lượng khi thiết bị hoạt động không bình thường: phát sinh tia lửa, âm thanh khác lạ, mùi khét, quá nhiệt, chập điện",
+      "text_en": "Immediately disconnect the power source if the device is not working properly such as generating spark, strange sound, burning smell, over heat, short circuit",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "54",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Yêu cầu đối với đá mài/cắt khi sử dụng là gì?",
+  "question_en": "What are the requirements for grinding and cutting wheels when in use?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đá mài/cắt không có dấu hiệu nứt bể",
+      "text_en": "Grinding/cutting wheel show no sign of cracking",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Tốc độ vòng quay của đá mài hoặc đá cắt phải lớn hơn hoặc bằng số vòng quay trên thiết bị tương ứng",
+      "text_en": "The rotation speed of grinding/cutting wheel must be greater than or equal to the rated speed on the grinding machine",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Loại đá mài/cắt phải phù hợp và vừa khớp với trục quay của thiết bị khi lắp đặt",
+      "text_en": "The type of grinding/cutting wheel must be suitable and fit with rotating shaft of the grinding machine and suitable to the grinding surface",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "55",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Biểu tượng sau trên thiết bị điện cầm tay có ý nghĩa gì?",
+  "question_en": "What is meaning of below symbol on electrical hand tools?",
+  "image": "nganhangcauhoi/antoanchuyensau/athc-cau55.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thiết bị đạt tiêu chuẩn",
+      "text_en": "Standard equipment",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Thiết bị 2 lớp vỏ cách điện",
+      "text_en": "Double insulated tool",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Thiết bị chống cháy nổ",
+      "text_en": "Explosion-proof equipment",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "56",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Trang bị bảo hộ lao động của công nhân thực hiện công việc hàn trong hình ảnh bên dưới có đảm bảo an toàn không?",
+  "question_en": "Is the PPE of the worker who weld job in this below image safe?",
+  "image": "nganhangcauhoi/antoanchuyensau/athc-cau56.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đầy đủ quần áo, găng tay, kính bảo hộ che kín mặt, đảm bảo an toàn để làm việc",
+      "text_en": "Wear full PPE including safety clothes, glove, face shield. It is safe to work.",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Không đảm bảo an toàn",
+      "text_en": "Unsafe",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "57",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Tìm điểm không an toàn trong hình bên dưới?",
+  "question_en": "Identify the hazards in the picture below?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Công nhân không mang găng tay khi sử dụng máy mài",
+      "text_en": "Worker not wear glove when using grinding machine.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Máy mài không đảm bảo an toàn, thiếu bộ phận che chắn",
+      "text_en": "The grinding machine is unsafe to work, lack of the safeguard.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "58",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Hãy chỉ ra điểm an toàn trong hình bên dưới?",
+  "question_en": "Please list the safe condition in below picture:",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Chai khí nén được bảo quản ở tư thế thẳng đứng, cố định bằng dây xích để chống ngã đổ",
+      "text_en": "The compressed air cylinder is stored in an upright position, fixed by a chain to prevent falling",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Chai khí được dán nhãn thông tin để dễ theo dõi và quản lý tình trạng",
+      "text_en": "Compressed gas cylinder was labeled with information for easy tracking and management",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả các ý trên đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "59",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Theo hướng dẫn an toàn điện của BSR, các thiết bị điện tạm phải được xử lý như thế nào?",
+  "question_en": "According to BSR electrical safety guidelines, how must temporary electrical equipment be handled?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Cần ngắt điện tất cả các thiết bị/dụng cụ điện tạm đang vận hành khi bắt đầu có mưa",
+      "text_en": "Must all operating temporary electrical equipment/tools be disconnected from the power supply when it starts raining",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Kiểm tra lại hệ thống điện tạm theo biểu mẫu số BSR-GR-004-001/F-007 trước khi cho phép vận hành lại",
+      "text_en": "Inspection of temporary electrical system as per BSR-GR-004-001/F-007 before getting permission to use again",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "A và B đều đúng",
+      "text_en": "A & B are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "60",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Các mối nguy chính của công việc hàn cắt là gì?",
+  "question_en": "What are the main hazards of welding and cutting work?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nhiệt/bức xạ nhiệt",
+      "text_en": "Heat/Thermal radiation",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Khói hàn",
+      "text_en": "Welding & cutting fumes",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Hồ quang",
+      "text_en": "Electric arc",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "61",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Điểm đấu nối an toàn của dây tiếp địa tạm với hệ thống tiếp địa cố định là gì?",
+  "question_en": "The safe connecting points between temporary earthing cable and fixed earthing system are:",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Bất kỳ kết cấu kim loại có nối tiếp địa",
+      "text_en": "Connect to any grounding metal structure",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đường ống kim loại",
+      "text_en": "Steel pipe line",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Điểm tiếp địa thiết kế tại chân trụ đèn hoặc điểm tiếp địa được thiết kế",
+      "text_en": "The fixed earthing point at the bottom of the lamp post or fixed earthing points",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều sai",
+      "text_en": "All answers are incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "62",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Màu sắc của dây tiếp địa theo Quy định kỹ thuật cung cấp điện tạm (BSR-GR-004-001) là màu gì?",
+  "question_en": "For Technical regulations – Temporary electric supply (BSR-GR-004-001), what is the color of earthing cable?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Vàng-xanh",
+      "text_en": "Yellow-Green",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Trắng-đen",
+      "text_en": "White-black",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Đỏ-đen",
+      "text_en": "Red-black",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Nâu",
+      "text_en": "Brown",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "63",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Tại sao phải nối đất cho tủ phân phối điện tạm trong quá trình sử dụng?",
+  "question_en": "Why is it necessary to ground the temporary power distribution box during use?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Bảo vệ chống rò điện để đảm bảo an toàn khi vận hành tủ điện",
+      "text_en": "Protection against electric leakage for ensuring safety during operation of the temporary power distribution box",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Để vận chuyển và bảo quản tủ điện an toàn",
+      "text_en": "For transport and storage of temporary power distribution box",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Chống sét",
+      "text_en": "Anti-lightning",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "64",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Các nguyên tắc nào sau đây là nguyên tắc an toàn điện?",
+  "question_en": "Which of the following sentences are electrical safety principles?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Ngắt nguồn điện, treo thẻ cô lập, chứng chỉ cô lập được phê duyệt và còn hiệu lực",
+      "text_en": "Turn off the power, tag LOTO, approved LOTO certificate with valid",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Kiểm tra hiệu quả sau khi cô lập điện",
+      "text_en": "Check voltage after electrical isolation",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Nối đất cho thiết bị điện theo quy định",
+      "text_en": "Connecting earthing cable when required",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "65",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Những yếu tố nào ảnh hưởng đến mức độ hậu quả điện giật?",
+  "question_en": "What factors affect the degree of electric shock consequences?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thời gian tiếp xúc",
+      "text_en": "Exposure time",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Tần số của dòng điện qua cơ thể",
+      "text_en": "Frequency of current pass thru the body",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Cường độ dòng điện",
+      "text_en": "Amperage Capacity",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "66",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Những nguyên nhân chính gây ra tai nạn điện?",
+  "question_en": "What are the main causes of electrical incident?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Do không tuân thủ quy trình/hướng dẫn làm việc liên quan đến công việc điện",
+      "text_en": "Do not follow the relevant electrical safety procedures/guidelines",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Nhân sự làm công việc điện chưa được đào tạo",
+      "text_en": "Incompetent person",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Sử dụng thiết bị điện không an toàn",
+      "text_en": "Use of the unsafe electrical equipment/tools",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "67",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Các loại thiết bị, dụng cụ thường được sử dụng cho người làm công việc điện là gì?",
+  "question_en": "What types of tool/equipment generally being used by electrical worker?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Giày bảo hộ chuyên dụng cho người làm công việc điện",
+      "text_en": "Specialized safety shoes",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Găng tay cách điện",
+      "text_en": "Insulated gloves",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Vôn kế",
+      "text_en": "Voltage meter",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "68",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Các bước cơ bản khi xử lý, cấp cứu người bị điện giật là gì?",
+  "question_en": "What are the basic steps to be followed when rescuing the person from the electric shock?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Tách nạn nhân ra khỏi nguồn điện",
+      "text_en": "Separate the victim out of the electric source",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Tiến hành sơ cấp cứu ban đầu",
+      "text_en": "Do first aid",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Gọi hỗ trợ của Y tế",
+      "text_en": "Call Clinic center for help",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "69",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Những trường hợp nào dưới đây không được phép thực hiện công việc hàn/cắt trên thiết bị công nghệ?",
+  "question_en": "In which of the following cases is welding or cutting work not allowed on process equipment?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Khi thiết bị, đường ống đang có áp suất (chưa hoàn thành thủ tục cô lập, xả và thông chất cháy)",
+      "text_en": "Equipment or pipelines are under pressure (before completing isolation, depressurization, and purging of flammable substances)",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Các thiết bị, đường ống đang mang năng lượng",
+      "text_en": "Equipment or pipelines are energized (live)",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Nồng độ khí cháy/khí độc trên ngưỡng quy định của BSR",
+      "text_en": "Flammable/toxic gas concentrations are above BSR’s prescribed limits",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "70",
+  "category": "An toàn hàn cắt",
+  "question_vn": "Các biện pháp đảm bảo an toàn khi hàn, cắt trong không gian hạn chế dưới đây, biện pháp nào là đúng?",
+  "question_en": "Which of the following safety measures for welding and cutting in confined spaces is correct?",
+  "image": "",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Máy hàn/chai khí nén phải để bên ngoài",
+      "text_en": "Welding machine, compressed gas cylinder must be left outside",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Giám sát viên hàn/cắt phải thường trực tại khu vực làm việc để giám sát công việc hàn/cắt bên trong và tình trạng thiết bị bên ngoài",
+      "text_en": "Welding/cutting supervisor must be on duty at work area to monitor welding/cutting work in confined space and equipment condition outside",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không đồng thời thực hiện hàn cắt bằng điện và hàn cắt bằng hơi trong cùng một không gian kín",
+      "text_en": "Not allow to perform electric welding and gas cutting at the same time in the same enclosed space",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+}
+]

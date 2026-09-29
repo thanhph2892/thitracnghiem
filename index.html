@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safety Portal | Competency Assessment</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>if (localStorage.getItem('hse_theme') === 'dark') document.documentElement.setAttribute('data-theme', 'dark');</script>
+    <style>
+        :root {
+            --primary: #4338ca;
+            --primary-hover: #3730a3;
+            --text-main: #0f172a;
+            --text-sub: #64748b;
+            --bg-body: #f8fafc;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-main);
+            background-color: var(--bg-body);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .bg-gradient {
+            position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: -1; pointer-events: none;
+            background: radial-gradient(circle at 15% 0%, #eff6ff 0%, transparent 40%),
+                        radial-gradient(circle at 85% 100%, #eef2ff 0%, transparent 40%);
+        }
+
+        h1, h2, h3, .font-heading { font-family: 'Plus Jakarta Sans', sans-serif !important; }
+
+        body.lang-vi .en { display: none !important; }
+        body.lang-en .vi { display: none !important; }
+
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+        /* ─── HEADER ─── */
+        header {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 24px 50px; position: sticky; top: 0; z-index: 100;
+            background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(20px); border-bottom: 1px solid rgba(226,232,240,0.6);
+        }
+        
+        .logo-wrap { display: flex; align-items: center; gap: 12px; font-weight: 800; font-size: 1.15rem; letter-spacing: 0.5px; color: #0f172a;}
+        .logo-icon { background: #0f172a; color: #fff; padding: 8px 10px; border-radius: 12px; display: flex; }
+        
+        .header-center { display: flex; align-items: center; gap: 30px; position: absolute; left: 50%; transform: translateX(-50%); }
+        .live-badge { display: flex; align-items: center; gap: 8px; font-size: 0.85rem; font-weight: 700; color: #059669; background: #ecfdf5; border: 1px solid #a7f3d0; padding: 8px 16px; border-radius: 100px; position: relative; }
+        .live-dot { width: 8px; height: 8px; background: #10b981; border-radius: 50%; box-shadow: 0 0 0 3px #d1fae5; animation: pulse 2s infinite; }
+        @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4); } 70% { box-shadow: 0 0 0 6px rgba(16, 185, 129, 0); } 100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); } }
+
+        .dropdown-container { position: relative; }
+        .btn-dropdown { display: flex; align-items: center; gap: 8px; font-size: 0.9rem; font-weight: 700; color: #334155; background: transparent; border: 1px solid #e2e8f0; padding: 8px 20px; border-radius: 100px; cursor: pointer; transition: all 0.2s; font-family: 'Inter', sans-serif;}
+        .btn-dropdown:hover { background: #f1f5f9; border-color: #cbd5e1; color: #0f172a;}
+        .dropdown-menu { position: absolute; top: calc(100% + 15px); left: 50%; transform: translateX(-50%) translateY(10px); background: #ffffff; width: 460px; border-radius: 24px; padding: 24px; box-shadow: 0 20px 40px rgba(0,0,0,0.08); border: 1px solid #e2e8f0; opacity: 0; visibility: hidden; transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1); }
+        .dropdown-container:hover .dropdown-menu { opacity: 1; visibility: visible; transform: translateX(-50%) translateY(0); }
+        .dropdown-header { font-size: 0.75rem; font-weight: 800; color: #94a3b8; margin-bottom: 16px; padding: 0 10px; display: flex; align-items: center; gap: 8px; letter-spacing: 1px; text-transform: uppercase;}
+        .dropdown-item { display: flex; gap: 16px; align-items: flex-start; padding: 16px; border-radius: 16px; text-decoration: none; transition: 0.2s; background: transparent; border: 1px solid transparent;}
+        .dropdown-item:hover { background: #f8fafc; border-color: #e2e8f0; }
+        .dropdown-icon { width: 42px; height: 42px; border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+        .dropdown-item-title { font-weight: 800; color: #0f172a; font-size: 1rem; margin-bottom: 4px; font-family: 'Plus Jakarta Sans', sans-serif;}
+        .dropdown-item-sub { font-size: 0.8rem; color: #64748b; display: flex; align-items: center; gap: 6px; font-weight: 500;}
+
+        .header-right { display: flex; align-items: center; gap: 20px; }
+        .btn-admin { font-size: 0.9rem; font-weight: 700; color: #64748b; text-decoration: none; display: flex; align-items: center; gap: 8px; transition: 0.2s; }
+        .btn-admin:hover { color: #0f172a; }
+        .lang-switch { display: flex; background: #f1f5f9; border-radius: 100px; padding: 4px; border: 1px solid #e2e8f0;}
+        .lang-btn { background: transparent; border: none; padding: 6px 14px; border-radius: 100px; font-size: 0.8rem; font-weight: 800; color: #64748b; cursor: pointer; transition: 0.3s; font-family: 'Inter', sans-serif;}
+        .lang-btn.active { background: #fff; color: #0f172a; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid #e2e8f0;}
+
+        /* ─── APP CONTAINER CHÍNH ─── */
+        .app-container {
+            max-width: 1440px; margin: 40px auto 20px; padding: 0 40px;
+            display: grid; grid-template-columns: 1.4fr 1fr; gap: 60px; align-items: start;
+        }
+
+        /* ─── CỘT TRÁI: CHỌN BÀI THI ─── */
+        .left-panel { display: flex; flex-direction: column; gap: 40px;}
+        .hero-title { font-size: 2.5rem; font-weight: 900; color: #0f172a; line-height: 1.3; letter-spacing: -0.5px; margin-bottom: 12px; }
+        .hero-title span { color: var(--primary); }
+        .hero-desc { font-size: 1.05rem; color: #64748b; font-weight: 500; line-height: 1.6; margin-bottom: 10px;}
+
+        .module-group { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); opacity: 1; margin-bottom: 20px;}
+        .disabled-section { opacity: 0.35; pointer-events: none; filter: grayscale(80%); }
+
+        .module-group-title { font-size: 1.05rem; font-weight: 800; color: #0f172a; display: flex; align-items: center; gap: 10px; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 0.5px;}
+        .dot { width: 10px; height: 10px; border-radius: 50%; }
+        .dot.blue { background: #3b82f6; box-shadow: 0 0 0 3px #dbeafe; }
+        .dot.orange { background: #f97316; box-shadow: 0 0 0 3px #ffedd5; }
+
+        .exam-list-wrap { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+        
+        .exam-tag { 
+            background: #ffffff; border: 1.5px solid #e2e8f0; border-radius: 20px; 
+            padding: 20px 24px; text-align: left; cursor: pointer; transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1); 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.02); position: relative; overflow: hidden;
+            display: flex; align-items: center; gap: 16px; font-family: 'Plus Jakarta Sans', sans-serif; z-index: 1;
+        }
+
+        .exam-tag:hover { border-color: #a5b4fc; transform: translateY(-4px); box-shadow: 0 15px 35px -5px rgba(67, 56, 202, 0.12); }
+        .exam-tag.selected { 
+            background: linear-gradient(145deg, #ffffff 0%, #f4f6ff 100%); border: 2px solid transparent; 
+            box-shadow: 0 20px 40px -10px rgba(67, 56, 202, 0.25), 0 0 0 4px rgba(67, 56, 202, 0.1); 
+            transform: translateY(-4px) scale(1.02); z-index: 10;
+        }
+        .exam-tag.selected::before {
+            content: ''; position: absolute; inset: -2px; z-index: -1; background: linear-gradient(135deg, #4f46e5, #ec4899, #3b82f6); border-radius: 22px; padding: 2px;
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); -webkit-mask-composite: xor; mask-composite: exclude;
+        }
+        .exam-tag::after {
+            content: '✓'; position: absolute; right: 20px; width: 28px; height: 28px; background: linear-gradient(135deg, #4f46e5, #3b82f6);
+            color: #ffffff; font-size: 0.9rem; font-weight: bold; display: flex; align-items: center; justify-content: center;
+            border-radius: 50%; box-shadow: 0 4px 10px rgba(79, 70, 229, 0.3); opacity: 0; transform: scale(0.5) rotate(-45deg); transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+        .exam-tag.selected::after { opacity: 1; transform: scale(1) rotate(0); }
+
+        .exam-icon { font-size: 1.6rem; background: #f8fafc; width: 52px; height: 52px; display: flex; align-items: center; justify-content: center; border-radius: 14px; border: 1px solid #f1f5f9; transition: 0.3s; box-shadow: inset 0 2px 4px rgba(0,0,0,0.02); }
+        .exam-tag.selected .exam-icon { background: #fff; border-color: #e0e7ff; box-shadow: 0 8px 16px rgba(79, 70, 229, 0.15); }
+        .exam-name { flex: 1; font-weight: 700; color: #1e293b; font-size: 1.05rem; line-height: 1.4; padding-right: 30px; transition: 0.3s;}
+        .exam-tag.selected .exam-name { color: #4f46e5; font-weight: 800; }
+
+        /* ─── CỘT PHẢI: FORM XÁC THỰC ─── */
+        .right-panel { position: sticky; top: 130px; }
+        .auth-box { background: #ffffff; border-radius: 28px; padding: 40px; box-shadow: 0 25px 50px -12px rgba(15,23,42,0.06); border: 1px solid #f1f5f9; }
+        .auth-title { font-size: 1.35rem; font-weight: 800; color: #0f172a; margin-bottom: 8px; }
+        .auth-subtitle { font-size: 0.9rem; color: #64748b; font-weight: 500; margin-bottom: 30px; line-height: 1.5;}
+
+        .input-group { margin-bottom: 10px; }
+        .input-label { display: flex; align-items: center; gap: 8px; font-size: 0.8rem; font-weight: 700; color: #64748b; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+        
+        .auth-input { width: 100%; padding: 16px 20px; font-size: 1.05rem; font-weight: 600; color: #0f172a; background: #f8fafc; border: 1.5px solid #e2e8f0; border-radius: 14px; outline: none; transition: all 0.2s; font-family: 'Inter', sans-serif; margin-bottom: 16px;}
+        .auth-input:focus { background: #ffffff; border-color: var(--primary); box-shadow: 0 0 0 4px rgba(67, 56, 202, 0.1); }
+        .auth-input::placeholder { color: #94a3b8; font-weight: 500; text-transform: none; }
+        
+        #user-name-input, #user-name-input-en { text-transform: capitalize; }
+        #user-company-input, #user-company-input-en { text-transform: uppercase; }
+
+        .btn-start { width: 100%; background: #f1f5f9; color: #94a3b8; border: none; padding: 20px; margin-top: 10px; border-radius: 16px; font-size: 1rem; font-weight: 800; cursor: not-allowed; transition: all 0.3s; display: flex; align-items: center; justify-content: center; gap: 10px; font-family: 'Plus Jakarta Sans', sans-serif; text-transform: uppercase; letter-spacing: 0.5px; }
+        .btn-start.active { background: var(--primary); color: #fff; cursor: pointer; box-shadow: 0 8px 20px rgba(67, 56, 202, 0.25); }
+        .btn-start.active:hover { background: var(--primary-hover); transform: translateY(-2px); box-shadow: 0 12px 25px rgba(67, 56, 202, 0.35); }
+
+        /* ════════════ BẢNG LỊCH SỬ THI ĐỒNG BỘ ════════════ */
+        .history-full-wrap { max-width: 1440px; margin: 40px auto 80px; padding: 0 40px; display: none; animation: slideUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+        @keyframes slideUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+
+        .history-box { background: rgba(255, 255, 255, 0.65); backdrop-filter: blur(24px); border-radius: 32px; padding: 40px; box-shadow: 0 20px 50px -10px rgba(15, 23, 42, 0.05); border: 1px solid rgba(255, 255, 255, 0.8); width: 100%; overflow: hidden;}
+        .history-header { display: flex; align-items: center; gap: 12px; font-family: 'Plus Jakarta Sans', sans-serif !important; font-size: 1.3rem; font-weight: 900; color: #0f172a; margin-bottom: 30px; text-transform: uppercase; letter-spacing: 0.5px; }
+        .history-count-badge { background: linear-gradient(135deg, #4f46e5, #3b82f6); color: #ffffff; padding: 6px 14px; border-radius: 100px; font-size: 0.95rem; font-weight: 800; box-shadow: 0 4px 10px rgba(79, 70, 229, 0.3); }
+
+        .history-table-container { width: 100%; max-height: 600px; overflow-y: auto; overflow-x: auto; padding-bottom: 15px; margin: -10px; }
+        .history-table-container::-webkit-scrollbar { width: 6px; height: 6px; }
+        .history-table-container::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+
+        .history-table { width: 100%; border-collapse: separate; border-spacing: 0 14px; min-width: 1100px; }
+        .history-table th { color: #64748b; font-weight: 800; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 1px; padding: 0 12px 10px; border: none; background: transparent; text-align: center; white-space: nowrap;}
+        
+        .history-card-row { background: #ffffff; box-shadow: 0 6px 20px rgba(15, 23, 42, 0.03); transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1); }
+        .history-card-row:hover { box-shadow: 0 15px 35px rgba(15, 23, 42, 0.08); transform: translateY(-3px) scale(1.005); }
+        .history-card-row td { padding: 16px 12px; border: 1px solid #f1f5f9; border-width: 1px 0; vertical-align: middle; }
+        .history-card-row td:first-child { border-left-width: 1px; border-radius: 20px 0 0 20px; }
+        .history-card-row td:last-child { border-right-width: 1px; border-radius: 0 20px 20px 0; }
+
+        .td-cccd { font-weight: 800; color: #475569; white-space: nowrap;}
+        .td-name { font-weight: 800; font-size: 0.95rem; color: #0f172a; white-space: nowrap;}
+        
+        .time-box { display: flex; flex-direction: column; align-items: center; justify-content: center; }
+        .time-date-badge { font-size: 0.75rem; font-weight: 800; color: #475569; background: #f1f5f9; padding: 4px 10px; border-radius: 100px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 4px; white-space: nowrap;}
+        .time-range-badge { font-size: 0.8rem; font-weight: 700; color: #64748b; display: flex; align-items: center; gap: 6px; white-space: nowrap;}
+        .t-arrow { color: #cbd5e1; font-weight: 500; }
+        .t-start, .t-end { font-family: 'Plus Jakarta Sans', sans-serif !important; color: #0f172a; font-weight: 800; }
+
+        .exam-title-vi { font-weight: 900; font-size: 0.85rem; color: #0f172a; font-family: 'Plus Jakarta Sans', sans-serif !important; margin-bottom: 4px; line-height: 1.4; display: block;}
+        .exam-title-en { font-weight: 600; font-size: 0.7rem; color: #94a3b8; display: block;}
+
+        .score-box { display: flex; flex-direction: column; align-items: center; justify-content: center; white-space: nowrap;}
+        .score-percent { font-size: 1.15rem; font-weight: 900; color: #4f46e5; line-height: 1; font-family: 'Plus Jakarta Sans', sans-serif;}
+        .score-fraction { font-size: 0.8rem; font-weight: 700; color: #64748b; margin-top: 6px;}
+
+        .status-badge { padding: 8px 16px; border-radius: 100px; font-size: 0.75rem; font-weight: 800; white-space: nowrap; letter-spacing: 0.5px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);}
+        .status-badge.pass { background: linear-gradient(135deg, #10b981, #059669); color: #ffffff; border: none; }
+        .status-badge.fail { background: #fff1f2; color: #e11d48; border: 1px solid #fecdd3; }
+
+        .btn-view-modern { display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 8px 16px; border-radius: 12px; font-size: 0.8rem; font-weight: 800; cursor: pointer; transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1); background: #eef2ff; color: #4f46e5; border: none; outline: none; font-family: 'Plus Jakarta Sans', sans-serif !important; box-shadow: 0 2px 4px rgba(79, 70, 229, 0.05); white-space: nowrap; }
+        .btn-view-modern svg { transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1); }
+        .btn-view-modern:hover { background: linear-gradient(135deg, #4f46e5, #3b82f6); color: #ffffff; transform: translateY(-2px); box-shadow: 0 8px 20px rgba(79, 70, 229, 0.25); }
+        .btn-view-modern:hover svg { transform: scale(1.15); }
+
+        /* ─── THEME TOGGLE ─── */
+        .theme-toggle { background: transparent; border: 1px solid #e2e8f0; border-radius: 100px; padding: 6px 12px; display: flex; align-items: center; justify-content: center; cursor: pointer; color: #64748b; transition: 0.3s; margin-right: 10px;}
+        .theme-toggle:hover { background: #f1f5f9; color: #0f172a; }
+
+        /* ════════════ CHỮ KÝ TÁC GIẢ - BẢN SANG TRỌNG (LUXURY PILL) ════════════ */
+        .luxury-signature-wrap {
+            width: 100%;
+            padding-bottom: 40px;
+            margin-top: auto;
+            display: flex;
+            justify-content: center;
+            z-index: 10;
+            position: relative;
+            animation: slideUp 0.8s ease forwards;
+        }
+
+        .luxury-signature-glass {
+            display: inline-flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+            border: 1px solid rgba(255, 255, 255, 0.9);
+            border-radius: 100px;
+            padding: 6px 6px 6px 24px;
+            box-shadow: 0 20px 40px -10px rgba(15, 23, 42, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .luxury-signature-glass:hover {
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 25px 50px -12px rgba(0, 104, 255, 0.15);
+            transform: translateY(-2px);
+        }
+
+        .sig-creator {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .sig-role {
+            font-size: 0.65rem;
+            font-weight: 800;
+            color: #64748b;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        .sig-name {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 1.05rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #0f172a 0%, #3b82f6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 0.2px;
+        }
+
+        .sig-divider {
+            width: 1px;
+            height: 24px;
+            background: #cbd5e1;
+            margin: 0 16px;
+        }
+
+        .sig-contact {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: #ffffff;
+            color: #0f172a;
+            padding: 6px 20px 6px 6px;
+            border-radius: 100px;
+            font-weight: 800;
+            font-size: 0.9rem;
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            border: 1px solid #f1f5f9;
+        }
+
+        .sig-contact:hover {
+            box-shadow: 0 8px 20px rgba(0, 104, 255, 0.15);
+            border-color: #bfdbfe;
+            transform: scale(1.02);
+        }
+
+        .sig-icon-wrap {
+            width: 32px;
+            height: 32px;
+            background: #0068ff;
+            color: #ffffff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 8px rgba(0, 104, 255, 0.4);
+        }
+
+        .sig-phone {
+            letter-spacing: 0.5px;
+        }
+
+        /* Tương thích Dark Mode */
+        [data-theme="dark"] .luxury-signature-glass {
+            background: rgba(15, 23, 42, 0.6);
+            border-color: rgba(51, 65, 85, 0.8);
+            box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+        }
+        [data-theme="dark"] .luxury-signature-glass:hover {
+            background: rgba(30, 41, 59, 0.9);
+            box-shadow: 0 25px 50px -12px rgba(0, 104, 255, 0.25);
+        }
+        [data-theme="dark"] .sig-role { color: #94a3b8; }
+        [data-theme="dark"] .sig-name {
+            background: linear-gradient(135deg, #f8fafc 0%, #93c5fd 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        [data-theme="dark"] .sig-divider { background: #334155; }
+        [data-theme="dark"] .sig-contact { 
+            background: #0f172a; 
+            color: #f8fafc; 
+            border-color: #1e293b;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+        [data-theme="dark"] .sig-contact:hover {
+            border-color: #3b82f6;
+            box-shadow: 0 8px 20px rgba(0, 104, 255, 0.3);
+        }
+
+        /* Responsive Mobile */
+        @media (max-width: 640px) {
+            .luxury-signature-glass {
+                flex-direction: column;
+                padding: 20px;
+                border-radius: 28px;
+                gap: 16px;
+            }
+            .sig-creator { flex-direction: column; gap: 4px; text-align: center; }
+            .sig-divider { display: none; }
+            .sig-contact { width: 100%; justify-content: center; padding: 8px 20px 8px 8px;}
+        }
+
+        /* ─── DARK MODE (Cơ bản) ─── */
+        [data-theme="dark"] { --text-main: #f8fafc; --text-sub: #94a3b8; --bg-body: #0f172a; --primary: #6366f1; --primary-hover: #4f46e5; }
+        [data-theme="dark"] body { background-color: var(--bg-body); color: var(--text-main); }
+        [data-theme="dark"] .bg-gradient { background: radial-gradient(circle at 15% 0%, #1e293b 0%, transparent 40%), radial-gradient(circle at 85% 100%, #1e1b4b 0%, transparent 40%); }
+        [data-theme="dark"] header { background: rgba(30, 41, 59, 0.85); border-bottom-color: #334155; }
+        [data-theme="dark"] .logo-wrap { color: #f8fafc; }
+        [data-theme="dark"] .logo-icon { background: #818cf8; color: #0f172a; }
+        [data-theme="dark"] .hero-title { color: #f8fafc; }
+        [data-theme="dark"] .hero-title span { color: #818cf8; }
+        [data-theme="dark"] .module-group-title { color: #f8fafc; }
+        [data-theme="dark"] .exam-tag { background: #1e293b; border-color: #334155; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
+        [data-theme="dark"] .exam-tag:hover { border-color: #6366f1; box-shadow: 0 15px 35px -5px rgba(0,0,0,0.4); }
+        [data-theme="dark"] .exam-tag.selected { background: linear-gradient(145deg, #1e293b 0%, #312e81 100%); border-color: transparent; box-shadow: 0 20px 40px -10px rgba(0,0,0,0.5), 0 0 0 4px rgba(99, 102, 241, 0.2); }
+        [data-theme="dark"] .exam-tag.selected::before { background: linear-gradient(135deg, #6366f1, #a855f7, #3b82f6); }
+        [data-theme="dark"] .exam-icon { background: #0f172a; border-color: #334155; }
+        [data-theme="dark"] .exam-name { color: #e2e8f0; }
+        [data-theme="dark"] .exam-tag.selected .exam-name { color: #a5b4fc; }
+        [data-theme="dark"] .auth-box { background: #1e293b; border-color: #334155; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5); }
+        [data-theme="dark"] .auth-title { color: #f8fafc; }
+        [data-theme="dark"] .auth-input { background: #0f172a; border-color: #334155; color: #f8fafc; }
+        [data-theme="dark"] .auth-input:focus { border-color: #6366f1; box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.15); }
+        [data-theme="dark"] .btn-start { background: #334155; color: #94a3b8; }
+        [data-theme="dark"] .btn-start.active { background: #6366f1; color: #fff; box-shadow: 0 8px 20px rgba(99, 102, 241, 0.25); }
+        [data-theme="dark"] .btn-start.active:hover { background: #4f46e5; }
+        [data-theme="dark"] .history-box { background: rgba(30, 41, 59, 0.85); border-color: #334155; box-shadow: 0 20px 50px -10px rgba(0,0,0,0.5); }
+        [data-theme="dark"] .history-header { color: #f8fafc; }
+        [data-theme="dark"] .history-card-row { background: #1e293b; box-shadow: 0 6px 20px rgba(0,0,0,0.2); }
+        [data-theme="dark"] .history-card-row:hover { box-shadow: 0 15px 35px rgba(0,0,0,0.4); }
+        [data-theme="dark"] .history-card-row td { border-color: #334155; color: #e2e8f0; }
+        [data-theme="dark"] .time-date-badge { background: #0f172a; color: #cbd5e1; }
+        [data-theme="dark"] .t-start, [data-theme="dark"] .t-end { color: #f8fafc; }
+        [data-theme="dark"] .exam-title-vi { color: #f8fafc; }
+        [data-theme="dark"] .score-percent { color: #818cf8; }
+        [data-theme="dark"] .btn-view-modern { background: #312e81; color: #818cf8; }
+        [data-theme="dark"] .btn-view-modern:hover { background: linear-gradient(135deg, #6366f1, #3b82f6); color: #fff; }
+        [data-theme="dark"] .btn-dropdown { border-color: #334155; color: #cbd5e1; }
+        [data-theme="dark"] .btn-dropdown:hover { background: #334155; color: #f8fafc; }
+        [data-theme="dark"] .dropdown-menu { background: #1e293b; border-color: #334155; box-shadow: 0 20px 40px rgba(0,0,0,0.5); }
+        [data-theme="dark"] .dropdown-item:hover { background: #334155; }
+        [data-theme="dark"] .dropdown-item-title { color: #f8fafc; }
+        [data-theme="dark"] .lang-switch { background: #1e293b; border-color: #334155; }
+        [data-theme="dark"] .lang-btn { color: #94a3b8; }
+        [data-theme="dark"] .lang-btn.active { background: #334155; color: #f8fafc; border-color: #475569; }
+        [data-theme="dark"] .btn-admin { color: #94a3b8; }
+        [data-theme="dark"] .btn-admin:hover { color: #f8fafc; }
+        [data-theme="dark"] .theme-toggle { background: transparent; border-color: #334155; color: #fbbf24; }
+        [data-theme="dark"] .theme-toggle:hover { background: #334155; color: #fcd34d; }
+        [data-theme="dark"] .td-cccd { color: #cbd5e1; }
+        [data-theme="dark"] .td-name { color: #f8fafc; }
+
+        /* ═════════ RESPONSIVE TỰ ĐỘNG CO GIÃN ═════════ */
+        @media (max-width: 1300px) {
+            .app-container { gap: 40px; grid-template-columns: 1fr 340px; padding: 0 30px;}
+        }
+        @media (max-width: 1024px) {
+            .app-container { flex-direction: column; display: flex;}
+            .left-panel { width: 100%; }
+            .right-panel { width: 100%; position: static; }
+            header { flex-wrap: wrap; gap: 15px; }
+            .header-center { position: static; transform: none; width: 100%; order: 3; justify-content: center; }
+            .history-box { padding: 20px; }
+            .history-full-wrap { padding: 0 15px; margin-top: 20px; }
+        }
+        @media (max-width: 768px) {
+            .hero-title { font-size: 1.8rem; }
+            .exam-tag { flex-direction: column; text-align: center; justify-content: center; }
+            .exam-tag::after { right: 10px; top: 10px; }
+            .exam-name { padding-right: 0; }
+        }
+    </style>
+</head>
+<body class="lang-vi">
+    
+    <div class="bg-gradient"></div>
+
+    <header>
+        <div class="logo-wrap">
+            <div class="logo-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></div>
+            SAFETY PORTAL
+        </div>
+
+        <div class="header-center">
+            <div class="live-badge">
+                <div class="badge-text-container" style="display:flex; align-items:center; gap:8px;"></div>
+            </div>
+            
+            <div class="dropdown-container">
+                <button class="btn-dropdown">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                    <span class="vi">Tài liệu hướng dẫn</span>
+                    <span class="en">Learning Resources</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div class="dropdown-menu">
+                    <div class="dropdown-header">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                        <span class="vi">TÀI LIỆU & VIDEO</span>
+                        <span class="en">LEARNING RESOURCES</span>
+                    </div>
+                    
+                    <a href="https://dangky.bsr.com.vn" target="_blank" class="dropdown-item">
+                        <div class="dropdown-icon" style="background: #eff6ff; color: #2563eb;">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                        </div>
+                        <div>
+                            <div class="dropdown-item-title vi">Hướng dẫn đào tạo an toàn</div>
+                            <div class="dropdown-item-title en">HSE Training</div>
+                            <div class="dropdown-item-sub vi"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg> dangky.bsr.com.vn → Hướng dẫn → Hướng dẫn đào tạo an toàn</div>
+                            <div class="dropdown-item-sub en"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg> dangky.bsr.com.vn → User Manual → HSE Training</div>
+                        </div>
+                    </a>
+
+                    <a href="https://iportal.bsr.com.vn/es/f/chuong-trinh-huan-luyen-an-toan---suc-khoe--_102" target="_blank" class="dropdown-item">
+                        <div class="dropdown-icon" style="background: #fff1f2; color: #e11d48;">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+                        </div>
+                        <div>
+                            <div class="dropdown-item-title vi">Chương trình huấn luyện an toàn</div>
+                            <div class="dropdown-item-title en">Safety Training Program</div>
+                            <div class="dropdown-item-sub vi"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg> iPortal BSR · Video & Tài liệu</div>
+                            <div class="dropdown-item-sub en"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg> iPortal BSR · Video & Docs</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-right">
+            <button class="theme-toggle" onclick="window.toggleTheme()" title="Chuyển đổi giao diện">
+                <svg class="moon-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                <svg class="sun-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="display:none;"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+            </button>
+            <a href="admin/admin.html" class="btn-admin">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                <span class="vi">Quản trị</span><span class="en">Admin</span>
+            </a>
+            <div class="lang-switch">
+                <button class="lang-btn active" onclick="switchLanguage('vi')" id="btn-lang-vi">VN</button>
+                <button class="lang-btn" onclick="switchLanguage('en')" id="btn-lang-en">EN</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="app-container">
+        
+        <div class="left-panel" id="dynamic-left-panel">
+            <div class="font-heading">
+                <h1 class="hero-title vi">Đánh giá năng lực<br><span>Sức khỏe - An toàn - Môi trường</span></h1>
+                <h1 class="hero-title en">Competency Assessment<br><span>Health - Safety - Environment</span></h1>
+                <p class="hero-desc vi">Vui lòng chọn bài thi tương ứng để bắt đầu kiểm tra.</p>
+                <p class="hero-desc en">Please select the appropriate module to begin your test.</p>
+            </div>
+        </div>
+
+        <div class="right-panel">
+            <div class="auth-box">
+                <div class="auth-title font-heading vi">Thông tin Thí sinh</div>
+                <div class="auth-title font-heading en">Candidate Info</div>
+
+                <div class="input-group">
+                    <input type="text" id="user-id-input" class="auth-input vi" placeholder="Số CCCD / Hộ chiếu..." oninput="formatCccdInput(this, false)">
+                    <input type="text" id="user-id-input-en" class="auth-input en" placeholder="Passport number..." oninput="formatCccdInput(this, true)">
+                    
+                    <input type="text" id="user-name-input" class="auth-input vi" placeholder="Họ và Tên (Có dấu)..." oninput="formatNameInput(this)">
+                    <input type="text" id="user-name-input-en" class="auth-input en" placeholder="Full Name..." oninput="formatNameInput(this)">
+
+                    <input type="text" id="user-company-input" class="auth-input uppercase-input vi" placeholder="Tên Công ty..." oninput="formatCompanyInput(this)">
+                    <input type="text" id="user-company-input-en" class="auth-input uppercase-input en" placeholder="Company Name..." oninput="formatCompanyInput(this)">
+                </div>
+                
+                <button id="btn-start-exam" class="btn-start font-heading" onclick="startExam()">
+                    <span class="vi">BẮT ĐẦU THI</span>
+                    <span class="en">START EXAM</span>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <div class="history-full-wrap" id="history-full-wrap">
+        <div class="history-box">
+            <div class="history-header">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2.5"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <span class="vi">LỊCH SỬ ĐÃ THI CỦA THÍ SINH</span>
+                <span class="en">CANDIDATE EXAM HISTORY</span>
+                <span class="history-count-badge" id="history-count">0</span>
+            </div>
+            <div class="history-table-container">
+                <table class="history-table">
+                    <thead>
+                        <tr>
+                            <th style="width: 50px;">#</th>
+                            <th>CCCD / Hộ chiếu</th>
+                            <th>Họ và Tên</th>
+                            <th>Công ty</th>
+                            <th>Thời gian thi</th>
+                            <th>Bài thi</th>
+                            <th>Điểm số</th>
+                            <th>Kết quả</th>
+                            <th>Thao tác</th>
+                        </tr>
+                    </thead>
+                    <tbody id="history-full-tbody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- CHỮ KÝ TÁC GIẢ (BẢN LUXURY PILL HIỆN ĐẠI) -->
+    <div class="luxury-signature-wrap">
+        <div class="luxury-signature-glass">
+            <div class="sig-creator">
+                <span class="sig-role vi">THIẾT KẾ & PHÁT TRIỂN BỞI</span>
+                <span class="sig-role en">DESIGNED & DEVELOPED BY</span>
+                <strong class="sig-name">Phạm Hoài Thanh</strong>
+            </div>
+            
+            <div class="sig-divider"></div>
+            
+            <a href="https://zalo.me/0365295540" target="_blank" class="sig-contact">
+                <div class="sig-icon-wrap">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <span class="sig-phone">036.529.5540</span>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        window.toggleTheme = function() {
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            if(isDark) { document.documentElement.removeAttribute('data-theme'); localStorage.setItem('hse_theme', 'light'); document.querySelector('.moon-icon').style.display = 'block'; document.querySelector('.sun-icon').style.display = 'none'; } 
+            else { document.documentElement.setAttribute('data-theme', 'dark'); localStorage.setItem('hse_theme', 'dark'); document.querySelector('.moon-icon').style.display = 'none'; document.querySelector('.sun-icon').style.display = 'block'; }
+        }
+        document.addEventListener('DOMContentLoaded', () => { if (document.documentElement.getAttribute('data-theme') === 'dark') { const moon = document.querySelector('.moon-icon'); const sun = document.querySelector('.sun-icon'); if(moon && sun) { moon.style.display = 'none'; sun.style.display = 'block'; } } });
+    </script>
+    <script src="giaodienchinh/main.js"></script>
+</body>
+</html>

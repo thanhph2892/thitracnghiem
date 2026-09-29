@@ -1,0 +1,104 @@
+{
+  "basic": [],
+  "advanced": [],
+  "Mô-đun Cơ bản (Chỉ chọn 1 bài thi)": [
+    {
+      "id": "an-ton-ban-u-1785201142352",
+      "nameVi": "An Toàn Ban Đầu",
+      "nameEn": "Initial Safety",
+      "timeMinutes": 45,
+      "questionCount": 30,
+      "folder": "antoanbandau",
+      "files": [
+        "antoanbandau/antoanbandau.json"
+      ],
+      "uploadTime": 1785201142352,
+      "enabled": true,
+      "icon": "🔰"
+    },
+    {
+      "id": "an-ton-giao-thng-1785201169191",
+      "nameVi": "An Toàn Giao Thông",
+      "nameEn": "Traffic Safety",
+      "timeMinutes": 45,
+      "questionCount": 30,
+      "folder": "antoangiaothong",
+      "files": [
+        "antoangiaothong/antoangiaothong.json"
+      ],
+      "uploadTime": 1785201169191,
+      "enabled": true,
+      "icon": "🚦"
+    },
+    {
+      "id": "nh-gi-kin-thc-atskmt-1785201252794",
+      "nameVi": "Đánh Giá Kiến Thức Atskmt",
+      "nameEn": "Etest",
+      "timeMinutes": 50,
+      "questionCount": 50,
+      "folder": "etest",
+      "files": [
+        "etest/etest-antoanbucxa.json",
+        "etest/etest-antoandien.json",
+        "etest/etest-antoangiangiao.json",
+        "etest/etest-antoanhancat.json",
+        "etest/etest-antoankghc.json",
+        "etest/etest-antoankhidoc.json",
+        "etest/etest-antoannangha.json",
+        "etest/etest-antoanthietbicamtay.json",
+        "etest/etest-antoantrencao.json",
+        "etest/etest-colapnangluong.json",
+        "etest/etest-giaypheplamviec.json",
+        "etest/etest-moinguyvaruiro.json",
+        "etest/etest-upkc.json"
+      ],
+      "uploadTime": 1785201252794,
+      "enabled": true,
+      "icon": "📝"
+    }
+  ],
+  "Mô-đun Chuyên sâu (Có thể chọn nhiều bài thi cùng lúc)": [
+    {
+      "id": "an-ton-trn-cao-1785201355300",
+      "nameVi": "An Toàn Trên Cao",
+      "nameEn": "working safely at heights",
+      "timeMinutes": 50,
+      "questionCount": 50,
+      "folder": "antoanchuyensau",
+      "files": [
+        "antoanchuyensau/antoantrencao.json"
+      ],
+      "uploadTime": 1785204071108,
+      "enabled": true,
+      "icon": "🏗️"
+    },
+    {
+      "id": "an-ton-hn-ct-1785201397562",
+      "nameVi": "An Toàn Hàn Cắt",
+      "nameEn": "Welding and cutting safety",
+      "timeMinutes": 50,
+      "questionCount": 50,
+      "folder": "antoanchuyensau",
+      "files": [
+        "antoanchuyensau/antoanhancat.json"
+      ],
+      "uploadTime": 1785201397562,
+      "enabled": true,
+      "icon": "🧑‍🏭"
+    },
+    {
+      "id": "an-ton-khng-gian-hn-ch-1785201430377",
+      "nameVi": "An Toàn Không Gian Hạn Chế",
+      "nameEn": "Confined Space Safety",
+      "timeMinutes": 50,
+      "questionCount": 50,
+      "folder": "antoanchuyensau",
+      "files": [
+        "antoanchuyensau/antoankghc.json"
+      ],
+      "uploadTime": 1785201430377,
+      "enabled": true,
+      "icon": "🕳️"
+    }
+  ]
+}

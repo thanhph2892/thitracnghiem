@@ -1,0 +1,43 @@
+D:\MyServer\thitracnghiem
+|--index.html
+|
+|--giaodienchinh\
+|  ├─main.css
+|  ├─main.html
+|  ├─main.js
+|--giaodienthi\
+|  ├─ exam.html
+|  ├─ exam.css
+|  ├─ exam.js
+|--nganhangcauhoi\
+|     ├─ antoanbandau\
+|     │  └─ antoanbandau.json
+|     ├─ antoankhaosat\
+|     │  └─ antoankhaosat.json
+|     ├─ antoangiaothong\
+|     │  └─ antoangiaothong.json
+|     ├─ antoanchuyensau\
+|     │  ├─ antoankghc.json
+|     │  ├─ antoankhidoc.json
+|     │  ├─ antoannangha.json
+|     │  ├─ antoantrencao.json
+|     │  ├─ antoangiangiao.json
+|     │  └─ antoanhancat.json
+|     └─ etest\
+|        ├─ etest-antoanbucxa.json
+|        ├─ etest-antoandien.json
+|        ├─ etest-antoankghc.json
+|        ├─ etest-antoankhidoc.json
+|        ├─ etest-antoannangha.json
+|        ├─ etest-antoanthietbicamtay.json
+|        ├─ etest-antoantrencao.json
+|        ├─ etest-antoangiangiao.json
+|        ├─ etest-antoanhancat.json
+|        ├─ etest-colapnangluong.json
+|        ├─ etest-giaypheplamviec.json
+|        ├─ etest-moinguyvaruiro.json
+|        └─ etest-upkc.json
+|--tinhdiem
+    ├─ketqua.css
+    ├─result.html
+    └─result.js

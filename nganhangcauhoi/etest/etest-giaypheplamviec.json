@@ -1,0 +1,1409 @@
+[
+  {
+  "id": "01",
+  "category": "giấy phép làm việc",
+  "question_vn": "Mục đích của quy trình Quản lý ATLD và cấp phép làm việc",
+  "question_en": "The purpose of OSH Management and PTW procedure",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Quy định các nguyên tắc và trình tự quản lý an toàn lao động (bao gồm cấp phép làm việc) nhằm xây dựng và duy trì văn hóa an toàn-tin cậy để đảm bảo an toàn tuyệt đối cho người lao động khi thực hiện công việc tại BSR.",
+      "text_en": "The specifies principles and procedures of Occupational Safety & Health (OSH) management (includes work permissions- PTW) to establish and maintain safe and reliable culture when performing work at BSR",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Nhận diện và Kiểm soát hiệu quả các mối nguy và rủi ro của công việc nhằm ngăn ngừa tai nạn sự cố",
+      "text_en": "Effectively control the hazards/risks of works",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Đảm bảo tính thực thi và cung cấp bằng chứng xác thực thể hiện rằng phương pháp thực hiện công việc và biện pháp kiểm soát cần thiết đã được thực hiện và được kiểm tra/giám sát bởi các bên theo quy định",
+      "text_en": "Ensure performance and provide evidence that the required work methods and controls have been implemented and checked/monitored by the supervisor as required.",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "02",
+  "category": "giấy phép làm việc",
+  "question_vn": "Mục đích chính của Hướng dẫn nói chuyện an toàn trước khi làm việc là gì?",
+  "question_en": "The major purpose of guideline for effective toolbox talks before start work?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Hướng dẫn thực hiện trao đổi an toàn hiệu quả trước khi bắt đầu công việc",
+      "text_en": "This document is developed to provide guide for effective toolbox talk before start work",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Cung cấp thông tin về các biện pháp kiểm soát cần được thực hiện bởi mỗi thành viên trong nhóm làm việc để đảm bảo an toàn tuyệt đối cho bản thân và đồng nghiệp",
+      "text_en": "Provide information about control measures that need to be taken by each member of the working group to ensure absolute safety for themselves and their colleagues",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "03",
+  "category": "giấy phép làm việc",
+  "question_vn": "Phạm vi áp dụng quy trình Quản lý ATLD và cấp phép làm việc bao gồm",
+  "question_en": "The scope of OSH Management and PTW procedure is applied to",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Các khu vực công nghệ",
+      "text_en": "Process areas",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Xưởng cơ khí, Khu vực hành chính",
+      "text_en": "Mechanical Workshop, Administrative area",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả các hoạt động/công việc có mối nguy đáng kể bao gồm hoạt động xây dựng, lắp đặt mới, lắp đặt lại, kiểm tra, hiệu chuẩn, kiểm định, bảo dưỡng, sửa chữa thiết bị/công trình/tài sản mà được quản lý, vận hành/sử dụng bởi BSR",
+      "text_en": "All activities/works with significant hazards including construction, new installation, re-installation, inspection, calibration, inspection by third parties, maintenance and repair of equipment /construction/property, which are managed, operated/used by BSR",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "04",
+  "category": "giấy phép làm việc",
+  "question_vn": "Những công việc nào sau đây yêu cầu áp dụng JSA?",
+  "question_en": "What types of jobs are currently applied JSA?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Công việc có phát sinh ngọn lửa trần",
+      "text_en": "Hot work",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Công việc bên trong không gian hạn chế",
+      "text_en": "Working in Confined space",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Làm việc dưới nước",
+      "text_en": "Working under water (diving)",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "05",
+  "category": "giấy phép làm việc",
+  "question_vn": "Trách nhiệm của Trưởng đơn vị (ban/phòng) thực thi công việc trong Quy trình Quản lý ATLD và cấp phép làm việc là gì?",
+  "question_en": "What is responsible of Manager of Division/Department of work execution in OSH Management and PTW procedure?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Lập kế hoạch và phân công Giám sát viên và nhân viên đủ chứng chỉ an toàn/chuyên môn nghiệp vụ thực hiện công việc",
+      "text_en": "Work planning with proper schedule and competent work supervisor, working team (adequate professional certificate, safety visa)",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Tổ chức nhận diện đầy đủ mối nguy liên quan quá trình triển khai tác nghiệp/nghiệp vụ chuyên môn. Giám sát và kiểm tra việc tuân thủ quy trình quản lý, quy trình/hướng dẫn nghiệp vụ và GPLV của nhân viên tại hiện trường trong suốt quá trình thực hiện công việc",
+      "text_en": "Identify job hazards based on method statement. Monitor to ensure compliance to PTW requirement and work procedures during work execution",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Trực tiếp chịu trách nhiệm nếu xảy ra vi phạm hoặc tai nạn/sự cố liên quan trong quá trình thực hiện công việc",
+      "text_en": "Directly responsible for any violations or related accidents/incidents during the performance of the job",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "06",
+  "category": "giấy phép làm việc",
+  "question_vn": "Những loại giấy phép làm việc nào đang được áp dụng tại Công ty BSR?",
+  "question_en": "What types of PTW are currently being applied at BSR?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Giấy phép cho công việc phát nhiệt có nguy cơ phát sinh tia lửa",
+      "text_en": "PTW for potential spark work",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Giấy phép cho công việc phát nhiệt phát sinh/ sử dụng lửa trần",
+      "text_en": "PTW for naked flame work",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Giấy phép cho công việc không phát nhiệt",
+      "text_en": "PTW for cold work",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "07",
+  "category": "giấy phép làm việc",
+  "question_vn": "Công việc hàn cắt hàng rào an ninh tại Nhà máy, sử dụng giấy phép nào?",
+  "question_en": "What type of PTW is applied for cutting/welding the Fence?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Giấy phép cho công việc phát nhiệt phát sinh/ sử dụng lửa trần",
+      "text_en": "PTW for naked flame work",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Giấy phép cho công việc phát nhiệt có nguy cơ phát sinh tia lửa",
+      "text_en": "PTW for potential spark work",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Giấy phép cho công việc không phát nhiệt",
+      "text_en": "PTW for cold work",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Không áp dụng GPLV",
+      "text_en": "Not require PTW",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "08",
+  "category": "giấy phép làm việc",
+  "question_vn": "Xe vận chuyển vật tư giàn giáo của Nhà thầu tại khu vực công nghệ cần áp dụng giấy phép nào?",
+  "question_en": "What type of PTW is applied for transporting material within refinery?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Giấy phép cho công việc phát nhiệt phát sinh/ sử dụng lửa trần",
+      "text_en": "PTW for naked flame work",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Giấy phép cho công việc phát nhiệt có nguy cơ phát sinh tia lửa",
+      "text_en": "PTW for potential spark work",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Giấy phép cho công việc không phát nhiệt",
+      "text_en": "PTW for cold work",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Không cần áp dụng giấy phép",
+      "text_en": "No required PTW",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "09",
+  "category": "giấy phép làm việc",
+  "question_vn": "Giới hạn cháy nổ dưới (%LEL) cho phép đối với công việc phát sinh nhiệt trong không gian hạn chế là bao nhiêu?",
+  "question_en": "What percentage of Lower Explosive Limit (%LEL) is required for work generating heat in confined spaces?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "< 25 %LEL",
+      "text_en": "< 25 %LEL",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "< 15 %LEL",
+      "text_en": "< 15 %LEL",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "< 5 %LEL",
+      "text_en": "< 5 %LEL",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "0 %LEL",
+      "text_en": "0 %LEL",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "10",
+  "category": "giấy phép làm việc",
+  "question_vn": "Trách nhiệm nào sau đây không phải là trách nhiệm của Giám sát viên?",
+  "question_en": "Which of the following is not a responsibility of Work Supervisor?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Biên soạn dự thảo bảng phân tích an toàn cho công việc",
+      "text_en": "Draft a JSA",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Chuẩn bị GPLV",
+      "text_en": "Prepare PTW",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Phê duyệt gia hạn thời gian làm việc cho các hồ sơ hợp lệ theo quy định",
+      "text_en": "To approve the extension time of work",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Tổ chức thực hiện và giám sát công việc từ khâu chuẩn bị đến khi hoàn thành công việc cụ thể theo GPLV",
+      "text_en": "Organize the implementation and supervision of work from preparation to completion of a specific job according to PTW",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "11",
+  "category": "giấy phép làm việc",
+  "question_vn": "Công việc nào sau đây không cần PTW?",
+  "question_en": "Which of the following jobs does not require PTW?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Kiểm tra CUI/CUPS, kiểm tra định kỳ các thiết bị PCCC, đo nhiệt độ, kiểm tra rò rỉ, sử dụng camera nhiệt",
+      "text_en": "Visual inspection of equipment, CUI/CUPS inspection, periodic inspection of fire protection equipment, temperature measurement, leak testing, use of thermal/flir cameras",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Bảo dưỡng định kỳ thiết bị",
+      "text_en": "Preventive maintenance",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Hàn cắt tại khu vực hành chính",
+      "text_en": "Cutting/welding work within administration area",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Vận chuyển chất xúc tác bởi xe cẩu tại phân xưởng U15",
+      "text_en": "Remove catalyst by boom truck at U15",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "12",
+  "category": "giấy phép làm việc",
+  "question_vn": "Tổ chức nói chuyện an toàn (TBT) được thực hiện khi nào?",
+  "question_en": "When we conduct safety toolbox talk?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Trước khi thực hiện công việc hàng ngày",
+      "text_en": "Before start daily work",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Không cần thực hiện",
+      "text_en": "No need to perform",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Chỉ thực hiện khi được yêu cầu",
+      "text_en": "Only perform when required",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều sai",
+      "text_en": "All incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "13",
+  "category": "giấy phép làm việc",
+  "question_vn": "Công việc nào sau đây không cần PTW?",
+  "question_en": "Which of the following job does not require PTW?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nạp hóa chất bằng xe bồn của Nhà thầu định kỳ và đã có hướng dẫn chi tiết",
+      "text_en": "Load chemical by chemical tank truck of contractor",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Vệ sinh làm sạch thiết bị chứa hóa chất",
+      "text_en": "Clean chemical storage equipment",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Nạp hóa chất bởi nhân sự vận hành mà khu vực đã có Quy trình/hướng dẫn thực hiện",
+      "text_en": "Loading chemical by operator as per procedure/guideline",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều sai",
+      "text_en": "All incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "14",
+  "category": "giấy phép làm việc",
+  "question_vn": "Nhiệm vụ của người giám sát công việc phát sinh nhiệt là gì?",
+  "question_en": "What are the duties of fire watcher?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Kiểm tra nơi làm việc ít nhất 30 phút sau khi hoàn thành công việc phát sinh ngọn lửa trần",
+      "text_en": "Control the working area for at least 30 minutes after finishing hot work",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Ngay lập tức dừng công việc phát sinh nhiệt nếu phát hiện sự tồn tại của khí cháy nổ tại khu vực làm việc",
+      "text_en": "Immediately stop the hot work in case of detecting the flammable gas in working area",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Ngay lập tức sử dụng bình chữa cháy để dập lửa khi có cháy xảy ra",
+      "text_en": "Immediately use a fire extinguisher to extinguish the fire when a small fire occurs",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "15",
+  "category": "giấy phép làm việc",
+  "question_vn": "Trong giai đoạn vận hành bình thường, giấy phép làm việc (PTW) có hiệu lực trong khoảng thời gian nào?",
+  "question_en": "What is the validity period of the work permit during normal operation?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Từ 7:00 sáng đến 7:00 tối",
+      "text_en": "From 7:00 am – 7:00 pm",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Từ 7:30 sáng đến 4:30 chiều",
+      "text_en": "From 7:30 am – 4:30 pm",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Từ 6:30 sáng đến 6:30 tối",
+      "text_en": "From 6:30 am – 6:30 pm",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều sai",
+      "text_en": "All incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "16",
+  "category": "giấy phép làm việc",
+  "question_vn": "Trong giai đoạn bảo dưỡng tổng thể, giấy phép làm việc có hiệu lực trong khoảng thời gian nào?",
+  "question_en": "What is the validity period of the work permit during Turnaround maintenance?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Từ 7:00 sáng đến 7:00 tối",
+      "text_en": "From 7:00 am – 7:00 pm",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Từ 7:30 sáng đến 4:30 chiều",
+      "text_en": "From 7:30 am – 4:30 pm",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Từ 6:30 sáng đến 6:30 tối",
+      "text_en": "From 6:30 am – 6:30 pm",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều sai",
+      "text_en": "All incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "17",
+  "category": "giấy phép làm việc",
+  "question_vn": "Tùy theo tính chất công việc, những tài liệu nào sau đây cần phải đính kèm trong giấy phép làm việc?",
+  "question_en": "Depending on type of the job, what are the following documents required to attach to PTW?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Bản vẽ mặt bằng",
+      "text_en": "Plot plan drawing",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Biện pháp thi công",
+      "text_en": "Method statement",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "JSA, OIA",
+      "text_en": "JSA, OIA",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "18",
+  "category": "giấy phép làm việc",
+  "question_vn": "Tài liệu nào sau đây bắt buộc phải đính kèm giấy phép làm việc đối với công việc nạp hóa chất?",
+  "question_en": "What are the following documents required to attach to chemical loading permit?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Bảng đặc tính phản ứng của hóa chất",
+      "text_en": "Reactivity properties table of chemical",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Phiếu an toàn hóa chất (SDS)",
+      "text_en": "Safety Data Sheet (SDS)",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Giấy bảo hành của nhà sản xuất",
+      "text_en": "Manufacturer's warranty Sheet",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều sai",
+      "text_en": "All incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "19",
+  "category": "giấy phép làm việc",
+  "question_vn": "Trong giai đoạn vận hành bình thường, giấy phép làm việc không phát nhiệt cùng tài liệu đính kèm phải được phê duyệt bởi Người cấp phép làm việc vào thời gian nào?",
+  "question_en": "During normal operation, when cold work permit and attached documents shall be approved by PTW Approver?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Trước 16h30 ngày hôm trước",
+      "text_en": "Before 16h30 on the day before the working day",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Trước 19h00 ngày hôm trước",
+      "text_en": "Before 19h00 on the day before the working day (D-1)",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Trước 17h30 ngày hôm trước",
+      "text_en": "17h30 on the day before the working day",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều sai",
+      "text_en": "All incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "20",
+  "category": "giấy phép làm việc",
+  "question_vn": "Trong giai đoạn vận hành bình thường, giấy phép làm việc phát nhiệt cùng tài liệu đính kèm phải được phê duyệt bởi Người cấp phép làm việc vào thời gian nào?",
+  "question_en": "During normal operation, when Hot work with naked flame permit and attached documents shall be approved by PTW Approver?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Trước 17h30 ngày hôm trước",
+      "text_en": "Before 17h30 on the day before the working day",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Trước 18h00 ngày hôm trước",
+      "text_en": "18h00 on the day before the working day",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Lúc 07h30 ngày thực hiện công việc",
+      "text_en": "At 07h30 on the working day",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều sai",
+      "text_en": "All incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "21",
+  "category": "giấy phép làm việc",
+  "question_vn": "Giấy phép đối với công việc không phát nhiệt được gia hạn tối đa bao lâu?",
+  "question_en": "How long is the cold permit extended?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "7:00 sáng ngày hôm sau",
+      "text_en": "7:00 am of the next day",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "7:30 sáng ngày hôm sau",
+      "text_en": "7:30 am of the next day",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "7:00 tối",
+      "text_en": "7:00 pm",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "7 ngày lịch (bao gồm ngày đầu thực hiện công việc)",
+      "text_en": "7 calendar days (including the first day of work)",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "22",
+  "category": "giấy phép làm việc",
+  "question_vn": "Trách nhiệm nào sau đây là trách nhiệm của Trưởng đơn vị quản lý/vận hành thiết?",
+  "question_en": "Which of the following is a responsibility of Facility Owner",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Cấp phép, giám sát và chịu trách nhiệm trực tiếp về việc đảm bảo an toàn lao động, an toàn công nghệ và liên tục sản xuất của phân xưởng/thiết bị theo kế hoạch sản xuất trong thời gian công việc được thực hiện theo giấy phép",
+      "text_en": "Approve, supervise and directly responsible for ensuring labor safety, technology safety and production continuity according to plan and PTW",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Phân công nhân sự giám sát sự tuân thủ, xử lý các hành vi/điều kiện không an toàn và xử lý tình huống khẩn cấp phát sinh trong quá trình thực hiện công việc theo quy định",
+      "text_en": "Assign personnel to monitor compliance, handle unsafe behaviors/conditions and emergency situations arising while performing jobs",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Nhận diện đầy đủ mối nguy liên quan môi trường làm việc và/hoặc điều kiện sản xuất. Quản lý các GPLV để đảm bảo những hành động kiểm soát mối nguy có mức rủi ro cao",
+      "text_en": "Identify related hazards of workplace environment and/or production condition. Approve PTWs to ensure high-risk hazard control actions",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "23",
+  "category": "giấy phép làm việc",
+  "question_vn": "Giấy phép làm việc của công việc nào dưới đây phải có xác nhận của TP/PTP chuyên môn (hoặc GL được ủy quyền) thực hiện công việc của BSR?",
+  "question_en": "Which of the following work must be confirmed by DM/DDM (or BSR group leader) on PTW?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Công việc nâng hạ",
+      "text_en": "Lifting work with crane",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Công việc phát nhiệt phát sinh lửa trần",
+      "text_en": "Hot work with naked flame",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Công việc cắt cỏ",
+      "text_en": "Grass cutting work",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "A&B đúng",
+      "text_en": "A&B are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "24",
+  "category": "giấy phép làm việc",
+  "question_vn": "Công việc nào sau đây được xem là công việc có nguy cơ phát sinh tia lửa?",
+  "question_en": "Which of the following jobs are defined as a potential spark job?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Sử dụng các dụng cụ/thiết bị dùng nguồn pin không chống cháy nổ trong các khu vực công nghệ",
+      "text_en": "Use of non explosion battery powered devices in process areas",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Phương tiện cơ giới vào bên trong phân xưởng công nghệ",
+      "text_en": "The vehicles go into the process area",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Vận hành các động cơ chạy nhiên liệu xăng, dầu diesel",
+      "text_en": "Operate equipment with Gasoline/Diesel engine",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "25",
+  "category": "giấy phép làm việc",
+  "question_vn": "Ai là người chịu trách nhiệm toolbox talk cho nhóm làm việc?",
+  "question_en": "Who is in charge of the toolbox talk for the workgroup?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Giám sát an toàn khu vực",
+      "text_en": "Safety supervisor",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Trưởng ca khu vực",
+      "text_en": "Shift Foreman",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Giám sát viên",
+      "text_en": "Work supervisor",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Vận hành khu vực",
+      "text_en": "Operator",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "26",
+  "category": "giấy phép làm việc",
+  "question_vn": "Công việc nào dưới đây không yêu cầu phải có chứng chỉ nâng hạ hoặc thẻ nâng hạ?",
+  "question_en": "Which of the following job is not required a lifting certificate or lifting card?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Sử dụng xe nâng người",
+      "text_en": "Lifting people by man basket truck",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Sử dụng xe nâng người tự hành",
+      "text_en": "Operate self-propelled scissor lift",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Sử dụng xe cẩu tải",
+      "text_en": "Lifting by boom truck",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Sử dụng xe cẩu chuyên dụng",
+      "text_en": "Lifting by crane",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "27",
+  "category": "giấy phép làm việc",
+  "question_vn": "Công việc nào dưới đây là công việc đặc biệt trên cao?",
+  "question_en": "Which of the following job is critical work at height?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Leo thang chữ A",
+      "text_en": "Stand on A-ladder",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Leo cầu thang khi",
+      "text_en": "Climb monkey ladder",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Công việc du dây tiếp cận",
+      "text_en": "Rope access work",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Công việc lắp dựng giàn giáo dưới 6m",
+      "text_en": "Erection of scaffolding under 6m",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "28",
+  "category": "giấy phép làm việc",
+  "question_vn": "Người nào có thẩm quyền phê duyệt giấy phép cho công việc phát sinh ngọn lửa trần tại các khu vực sản xuất?",
+  "question_en": "Who is responsible for approving the hot work permit in production areas?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Trưởng phòng sản xuất/Trưởng ca chính/Giám sát viên vận hành",
+      "text_en": "Production Department Manager/General Foreman/Operation supervisor",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Trưởng ca chính/Giám sát viên đơn vị vận hành",
+      "text_en": "General foreman/Operation supervisor",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Trưởng phòng sản xuất/Trưởng ca chính/Trưởng ca nhà máy",
+      "text_en": "Production Department Manager/General foreman/Refinery shift manager",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Trưởng ca chính/Giám sát viên vận hành/Trưởng ca nhà máy",
+      "text_en": "General foreman/Operation supervisor/Refinery shift manager",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "29",
+  "category": "giấy phép làm việc",
+  "question_vn": "Trách nhiệm nào sau đây là trách nhiệm của Giám sát viên đơn vị vận hành/quản lý thiết bị/công trình?",
+  "question_en": "Which of the following is a responsibility of responsible person",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Quản lý, kiểm tra xác thực, giám sát trực tiếp việc tuân thủ trong toàn bộ quá trình thực hiện công việc theo GPLV đã được phê duyệt",
+      "text_en": "Manage, verify authenticity, and directly supervise the compliance of the entire performing work in accordance with the approved PTW",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Xác nhận hiệu lực cho các chứng chỉ trước khi xác nhận đồng ý cho phép làm việc",
+      "text_en": "Check and assign the validity of the certificates before signing on PTW sheet to confirm that the worksite is safe to carry-out the work",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Ký đóng hoặc hủy giấy phép làm việc",
+      "text_en": "Sign to close or cancel PTW",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "30",
+  "category": "giấy phép làm việc",
+  "question_vn": "Khi có tình huống khẩn cấp xảy ra, Người phê duyệt GPLV sẽ",
+  "question_en": "In emergency case, PTW approver shall",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Yêu cầu dừng các công việc tại khu vực có ảnh hưởng bởi tình huống khẩn cấp",
+      "text_en": "Stop works at affected areas by Emergency situation",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Sơ tán và kích hoạt phương án ứng phó tình huống khẩn cấp theo quy định",
+      "text_en": "Announce evacuation and activate ERP",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Công việc không bị ảnh hưởng bởi tình huống khẩn cấp có thể được tiếp tục",
+      "text_en": "Jobs which unaffected by emergency situation may be continued",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "31",
+  "category": "giấy phép làm việc",
+  "question_vn": "Theo quy trình quản lý ATLD và cấp phép làm việc, Tài liệu đính kèm GPLV bao gồm?",
+  "question_en": "In Procedure of OSH management and PTW, Supporting documents attached with PTW are included?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Hồ sơ an toàn cần đính kèm GPLV là: JSA, OIA, Phiếu kiểm tra an toàn giàn giáo/điện tạm/hàn cắt, Bản vẽ Plot plan, P&ID with mark-up, Phiếu SDS, IAT",
+      "text_en": "Safety documents required to attached with PTW are: JSA, OIA, Safety checklist for scaffold/temporary electric/welding work, Plot Plan, Mark-up P&ID, SDS, IAT",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Kế hoạch CHCN: yêu cầu áp dụng với (1) KGHC rủi ro cao hoặc (2) trên cao mà việc tiếp cận hỗ trợ gặp nhiều khó khăn",
+      "text_en": "Rescue plan: requirements apply to (1) high-risk or (2) high-risk administrative work where access to support is difficult",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Các hồ sơ kiểm soát chất lượng công việc (BPTC, WS, ….) không bắt buộc phải đính kèm GPLV",
+      "text_en": "QAC document (Method Statement, Work Step,...) not mandatory to attached with PTW",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "32",
+  "category": "giấy phép làm việc",
+  "question_vn": "Trong trường hợp GPLV của công việc chụp RT tại khu vực sản xuất ngoài giờ hành chính, quy trình BSR-HSE-PRO-007 quy định thế nào?",
+  "question_en": "In the case of PTW of RT shooting at the production area outside of office hours, which contents regulated in Procedure BSR-HSE-PRO-007?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "GSV ban KTTB đầu mối chuẩn bị hồ sơ GPLV trình ký, phối hợp với Nhà thầu để đánh dấu, treo thẻ vị trí cần chụp RT tại công trường và xác nhận bàn giao vị trí cho GSVVH trong ca ngày",
+      "text_en": "Supervisor of the Inspection Division will prepare the PTW document for signing, coordinate with the Contractor to mark and hang the tag of the location where the RT should be taken at construction site and confirm handover of position to Responsible person in day shift",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Nhân sự vận hành khu vực được phân công thực hiện nhiệm vụ của GSV kiểm soát an toàn tuân thủ hồ sơ GPLV (bao gồm: kiểm tra điều kiện an toàn hiện trường trước khi chụp, giăng dây, xác nhận lại vị trí chụp đã được Nhân viên KTTB bàn giao từ buổi chiều, ký ở ô GSV trên GPLV từ Phần số 8 trở đi)",
+      "text_en": "Work Supervisor's duty to safely control compliance with PTW records (including: check the safety at site before shooting, stretch the rope, confirm the shooting location was handed over by KTTB in the afternoon, signed in box) GSV on PTW from Part 8 onwards) will be performed by assigned area operations personnel.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "33",
+  "category": "giấy phép làm việc",
+  "question_vn": "Theo bạn, điều kiện không an toàn nào xuất hiện trong hình bên dưới?",
+  "question_en": "In your opinion, which unsafe conditions appear in the picture below?",
+  "image": "nganhangcauhoi/etest/gplv-cau33.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Dây điện tiếp xúc với nước",
+      "text_en": "Shock electric due to exposure of electric cable to water",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Vấp ngã",
+      "text_en": "Tripping",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "A và B đều đúng",
+      "text_en": "A&B are correct",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "A và B đều sai",
+      "text_en": "A&B are incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "34",
+  "category": "giấy phép làm việc",
+  "question_vn": "Theo bạn, điều kiện không an toàn nào xuất hiện trong hình bên dưới?",
+  "question_en": "In your opinion, which unsafe conditions appear in the picture below?",
+  "image": "nganhangcauhoi/etest/gplv-cau34.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Vật rơi",
+      "text_en": "Falling objects",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Công tác vệ sinh kém gây cản trở lối đi",
+      "text_en": "Poor housekeeping",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Vấp ngã",
+      "text_en": "Tripping",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "35",
+  "category": "giấy phép làm việc",
+  "question_vn": "Đối với công việc có yêu cầu cô lập năng lượng (LOTO), việc ký xác nhận cho phép tiến hành công việc chỉ được thực hiện sau khi hoàn thành việc cô lập và có xác nhận việc cô lập năng lượng trên các chứng chỉ cô lập liên quan là đúng hay sai?",
+  "question_en": "For the job that required energy isolation (LOTO), signing for permission to conduct work is only done after the isolation is completed and the energy isolation certification is confirmed?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đúng",
+      "text_en": "Correct",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Sai",
+      "text_en": "Incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "36",
+  "category": "giấy phép làm việc",
+  "question_vn": "Theo quy trình cấp GPLV, Giám sát viên công việc (GSV) và Giám sát viên vận hành (GSVH) sẽ ký xác nhận vào Danh sách nhân sự tham gia công việc tại ô bôi đỏ như hình bên dưới trong trường hợp nào?",
+  "question_en": "According to the PTW procedure, in which cases will the Work Supervisor and the Operation Supervisor sign on the The worker accountability-list of name in the red box as shown below?",
+  "image": "nganhangcauhoi/etest/gplv-cau36.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Bắt buộc phải ký theo quy trình hiện hành",
+      "text_en": "Required to sign according to current regulation",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Trong trường hợp Nhân sự của chuyên môn khác có kế hoạch đột xuất tham gia vào công việc của Đơn vị miết đúng trên PTW",
+      "text_en": "In case other discipline personnels have unexpected plan to participate in the work of implementation PTW",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả đều sai",
+      "text_en": "All incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "37",
+  "category": "giấy phép làm việc",
+  "question_vn": "Lỗi vi phạm nào được phát hiện trong hình bên dưới?",
+  "question_en": "Which mistake in the picture below?",
+  "image": "nganhangcauhoi/etest/gplv-cau37.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thiếu bình chữa cháy xách tay",
+      "text_en": "Lack of fire extinguisher",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không có người canh lửa",
+      "text_en": "No fire watcher",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Che chắn bằng vật liệu dễ cháy",
+      "text_en": "Covered the hot work area by combustible material (Wood)",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "B và C đúng",
+      "text_en": "B&C are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "38",
+  "category": "giấy phép làm việc",
+  "question_vn": "Điều kiện không an toàn nào được phát hiện trong hình bên dưới?",
+  "question_en": "Which unsafe condition in the picture below?",
+  "image": "nganhangcauhoi/etest/gplv-cau38.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Không đeo găng tay",
+      "text_en": "No hand gloves",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đứng trên đường ống công nghệ",
+      "text_en": "Standing on the process pipeline",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Không cài quai mũ",
+      "text_en": "Bo not wear chin strap",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "39",
+  "category": "giấy phép làm việc",
+  "question_vn": "Điều kiện không an toàn nào được phát hiện trong hình bên dưới?",
+  "question_en": "Which unsafe condition in the picture below?",
+  "image": "nganhangcauhoi/etest/gplv-cau39.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Sử dụng chain block không đúng, vị trí móc sẽ gây hỏng hoặc đứt xích",
+      "text_en": "Misuse the chain block, leads to damage or break the chain",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Sử dụng chain block không có lẫy an toàn",
+      "text_en": "Use chain block without safety latch",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "40",
+  "category": "giấy phép làm việc",
+  "question_vn": "Trong trường hợp nhân sự của chuyên môn khác có kế hoạch đột xuất tham gia vào công việc của Đội làm việc đứng tên GPLV (Ví dụ như nhân sự Ban KTTB phải vào bên trong lò hơi đang thực hiện bảo dưỡng cơ khí để kiểm tra hư hỏng), Quy trình cấp phép làm việc quy định các yêu cầu an toàn như thế nào?",
+  "question_en": "In case other discipline personnels have unexpected plan to participate in the work of implementation PTW, which safety requirements regulate in PTW procedure?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Có sự đồng ý và ký xác nhận của GSV công việc vào BM Danh sách nhân sự tham gia công việc (F-008)",
+      "text_en": "Get agreement of Work Supervisor and sign in form F-008",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Các nhân sự trước khi thực hiện công việc phải được trao đổi an toàn và ký tên vào BM F-008",
+      "text_en": "These personnels shall be safety TBT and sign in Form F-008",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Có sự kiểm tra, phê duyệt của GSVVH và Người phê duyệt GPLV trên BM F-008",
+      "text_en": "Check and approval of Responsible person and PTW approver on Form F-008",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of these above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "41",
+  "category": "giấy phép làm việc",
+  "question_vn": "Khi thực hiện công việc trên giàn giáo (cao hơn 2m), người thực hiện công việc cần phải hoàn thành khóa huấn luyện và được cấp chứng chỉ an toàn nào từ BSR?",
+  "question_en": "When performing work on scaffolding (more than 2m), what training course does the person performing the work need to complete and receive safety visa from the BSR?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Hoàn thành khóa đào tạo an toàn làm việc trên cao và được cấp chứng chỉ an toàn làm việc trên cao",
+      "text_en": "Completed a working at height safety training course and received a safety visa",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Hoàn thành khóa đào tạo an toàn KGHC và được cấp chứng chỉ nếu công việc trên giàn giáo này nằm trong KGHC",
+      "text_en": "Completed confined space safety training course and get safety visa if this scaffold inside confined space",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Chỉ cần hoàn thành khóa đào tạo an toàn ban đầu tại BSR",
+      "text_en": "Just complete safety induction training course at BSR",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "A và B đều đúng",
+      "text_en": "A&B are correct",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "42",
+  "category": "giấy phép làm việc",
+  "question_vn": "Hành vi/điều kiện không an toàn nào được ghi nhận trong hình bên dưới?",
+  "question_en": "Which Unsafe Action/ Condition in the below picture?",
+  "image": "nganhangcauhoi/etest/gplv-cau42.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nhân sự làm việc vươn người ra khỏi sàn thao tác để thực hiện công việc",
+      "text_en": "Personnel get out of the working floor to do the work",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Không đeo kính bảo hộ lao động",
+      "text_en": "Do not wear safety glasses",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không sử dụng găng tay",
+      "text_en": "Do not wear gloves",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng",
+      "text_en": "All of these above.",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "43",
+  "category": "giấy phép làm việc",
+  "question_vn": "Hành vi/Điều kiện không an toàn nào được phát hiện trong hình bên dưới?",
+  "question_en": "Which unsafe action/condition in the picture below?",
+  "image": "nganhangcauhoi/etest/gplv-cau43.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Vô hiệu hóa cơ cấu an toàn (deadman switch) của súng bắn garnet",
+      "text_en": "Unintentionally bypass safety devices – deadman switches of sand blaster",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Súng bắn garnet không có cơ cấu an toàn",
+      "text_en": "Sand blaster not have deadman switch",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "A và B đúng",
+      "text_en": "A & B are correct",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "A và B sai",
+      "text_en": "A & B are incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "44",
+  "category": "giấy phép làm việc",
+  "question_vn": "Đội làm việc thực hiện công việc vệ sinh cặn dầu tại mái bể TK6001E, có 02 nhân sự nhà thầu làm việc nhưng không có tên trong danh sách nhân sự và nhật ký ra vào không gian hạn chế. Những lưu ý đối với vi phạm trên là:",
+  "question_en": "The working team performed the job of cleaning oil residue at the roof of tank TK6001E, there were 02 contractor personnel working but did not record the personnel names on the list of worker and logbook of entry/exit the confined space. What shall be reminded at this violation?",
+  "image": "nganhangcauhoi/etest/gplv-cau44.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Giám sát viên phải thực hiện nói chuyện an toàn (toolbox talk) cho đội làm việc và phải ký tên vào biểu mẫu Danh sách nhân sự tham gia công việc",
+      "text_en": "Work supervisor shall do tool box talk before starting work and all working team have to sign in form Worker Accountability - List of Name",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Người canh chừng không gian hạn chế phải ghi tên nhân sự vào biểu mẫu nhật ký ra/vào không gian hạn chế.",
+      "text_en": "Hole watcher shall record information of people enter confined space in the logbook",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "A và B đúng",
+      "text_en": "A & B are correct",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "A và B sai",
+      "text_en": "A & B are incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+]

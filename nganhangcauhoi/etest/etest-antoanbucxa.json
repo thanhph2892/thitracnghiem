@@ -1,0 +1,805 @@
+[
+  {
+  "id": "01",
+  "category": "An toàn bức xạ",
+  "question_vn": "Mục đích của hướng dẫn an toàn bức xạ là gì?",
+  "question_en": "What is the purpose of radiation safety guideline?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đưa ra các quy định và hướng dẫn nhằm đảm bảo an ninh nguồn phóng xạ tại BSR",
+      "text_en": "Provide regulations and guidelines to ensure the security of radioactive sources in BSR",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đưa ra các quy định và hướng dẫn nhằm đảm bảo an toàn cho các hoạt động bức xạ được tiến hành tại BSR",
+      "text_en": "Provide regulations and guidelines to ensure the safety of radiation activities conducted at BSR",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Đưa ra các quy định và hướng dẫn nhằm đảm bảo an ninh nguồn phóng xạ và an toàn cho các hoạt động bức xạ được tiến hành tại BSR tuân thủ các yêu cầu pháp luật.",
+      "text_en": "Provide regulations and guidelines to ensure the security of radioactive sources and the safety of radiation activities conducted at BSR in full compliance with legal requirements.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "02",
+  "category": "An toàn bức xạ",
+  "question_vn": "Hoạt động bức xạ là gì?",
+  "question_en": "Define the scope of radiation activity",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Hoạt động vận chuyển, lưu chứa nguồn bức xạ.",
+      "text_en": "To transport, store activity radiation sources.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Hoạt động vận chuyển, sử dụng nguồn bức xạ.",
+      "text_en": "To transport, operate activity radiation sources.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Hoạt động sử dụng và lưu chứa nguồn bức xạ.",
+      "text_en": "To store, operate activity radiation sources.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Hoạt động có liên quan đến việc vận chuyển, sử dụng và lưu chứa nguồn bức xạ (nguồn phóng xạ hoặc thiết bị bức xạ).",
+      "text_en": "Activities related to the transport, use and storage of radiation (radioactive sources or radiation equipment).",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "03",
+  "category": "An toàn bức xạ",
+  "question_vn": "Trách nhiệm của người phụ trách an toàn bức xạ là gì?",
+  "question_en": "What is the responsibility of radiation safety officer?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Xây dựng, phổ biến các hướng dẫn về kiểm soát an ninh nguồn phóng xạ và an toàn bức xạ.",
+      "text_en": "Develop and disseminate guidelines on radioactive security and radiation safety.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Quản lý liều kế cá nhân, khám sức khỏe định kỳ và hồ sơ nhân viên bức xạ, kiểm xạ môi trường làm việc định kỳ.",
+      "text_en": "Manage radiation worker’s dosimeters, medical examination, and health records, periodically monitor working environment.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thực hiện các thủ tục khai báo, xin cấp giấy phép bức xạ theo quy định pháp luật.",
+      "text_en": "Declare and apply for radiation license compliance with applicable regulations.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng.",
+      "text_en": "All of these above.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "04",
+  "category": "An toàn bức xạ",
+  "question_vn": "Trách nhiệm của nhà thầu thực hiện công việc bức xạ tại nhà máy là gì?",
+  "question_en": "What is the responsibility of radiation contractor?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Tuân thủ đầy đủ các quy định pháp luật về khai báo, cấp phép tiến hành công việc bức xạ và kiểm soát an ninh nguồn phóng xạ.",
+      "text_en": "Fully comply with legal regulations on declaration and licensing of radiation work and radioactive source security.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đảm bảo nhân sự phụ trách an toàn bức xạ, nhân viên bức xạ được đào tạo và có chứng chỉ phù hợp theo quy định.",
+      "text_en": "Ensure all radiation staff are trained and have appropriate certificates according to regulations.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Bố trí đầy đủ nhân sự, thiết bị an toàn và ứng phó khẩn cấp, tham gia ứng phó, khắc phục sự cố xảy ra đối với nguồn phóng xạ của mình.",
+      "text_en": "Arrange adequate personnel, safety equipment and emergency response, involve in emergency response that occurred by contractor’s radiation sources.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả ý trên.",
+      "text_en": "All of these above.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "05",
+  "category": "An toàn bức xạ",
+  "question_vn": "Bộ phận nào đầu mối phụ trách công tác chụp phóng xạ tại BSR?",
+  "question_en": "Which division is responsible conducting non-destructive testing (NDT) at BSR?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Ban Bảo dưỡng sửa chữa",
+      "text_en": "Maintenance Division",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Ban Kiểm tra thiết bị",
+      "text_en": "Inspection Division",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Ban Vận hành sản xuất",
+      "text_en": "Production Division",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Ban An toàn môi trường",
+      "text_en": "HSE Division",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "06",
+  "category": "An toàn bức xạ",
+  "question_vn": "Hồ sơ đăng ký nguồn phóng xạ của nhà thầu vào Nhà máy KHÔNG bao gồm giấy tờ nào sau đây?",
+  "question_en": "Which document is NOT included in the radiation source registration file of the contractor to the Plant?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Giấy phép tiến hành công việc bức xạ (bao gồm giấy phép vận chuyển).",
+      "text_en": "Valid license for radiation work (including radiation transportation and radiation work).",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Danh mục thiết bị an toàn, thiết bị ứng phó sự cố bức xạ.",
+      "text_en": "List of radiation safety and emergency response equipment.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Kế hoạch, quy trình ứng phó sự cố bức xạ.",
+      "text_en": "Radiation emergency response plan.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Kế hoạch đảm bảo an ninh nguồn phóng xạ theo mức an ninh D.",
+      "text_en": "Secure plan for radioactive sources with security level D.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "06",
+  "category": "An toàn bức xạ",
+  "question_vn": "Hồ sơ đăng ký nguồn phóng xạ của nhà thầu vào Nhà máy KHÔNG bao gồm giấy tờ nào sau đây?",
+  "question_en": "Which document is NOT included in the radiation source registration file of the contractor to the Plant?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Giấy phép tiến hành công việc bức xạ (bao gồm giấy phép vận chuyển).",
+      "text_en": "Valid license for radiation work (including radiation transportation and radiation work).",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Danh mục thiết bị an toàn, thiết bị ứng phó sự cố bức xạ.",
+      "text_en": "List of radiation safety and emergency response equipment.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Kế hoạch, quy trình ứng phó sự cố bức xạ.",
+      "text_en": "Radiation emergency response plan.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Kế hoạch đảm bảo an ninh nguồn phóng xạ theo mức an ninh D.",
+      "text_en": "Secure plan for radioactive sources with security level D.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "07",
+  "category": "An toàn bức xạ",
+  "question_vn": "Yêu cầu đối với nhân viên bức xạ là gì?",
+  "question_en": "Requirement of radiation worker?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Phải có giấy chứng nhận đào tạo an toàn bức xạ phù hợp với loại hình công việc bức xạ đang thực hiện.",
+      "text_en": "Radiation workers must have a radiation safety training certificate suitable for radiation work.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Được trang bị liều kế cá nhân và có kết quả theo dõi liều cá nhân.",
+      "text_en": "Be equipped with dosimeter and have dose monitor result.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "A và B đều đúng.",
+      "text_en": "Both are correct.",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "A và B đều sai.",
+      "text_en": "Both are incorrect.",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "08",
+  "category": "An toàn bức xạ",
+  "question_vn": "Tại BSR phân xưởng nào có lắp đặt nguồn phóng xạ?",
+  "question_en": "In which process unit did BSR has installed radiation source?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Phân xưởng sản xuất hạt nhựa (PP).",
+      "text_en": "PP Unit.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Phân xưởng CCR.",
+      "text_en": "CCR Unit.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Phân xưởng RFCC.",
+      "text_en": "RFCC Unit.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Cả A và B đều đúng.",
+      "text_en": "A and B are true.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "09",
+  "category": "An toàn bức xạ",
+  "question_vn": "Mức liều bức xạ ảnh hưởng bởi yếu tố nào?",
+  "question_en": "Which are the elements important while considering radiation effect to the human?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thời gian tiếp xúc.",
+      "text_en": "Exposure time.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Khoảng cách.",
+      "text_en": "Distance.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thiết bị bảo vệ.",
+      "text_en": "Personal protection equipment’s used while handling radiation source.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng.",
+      "text_en": "All of these above.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "10",
+  "category": "An toàn bức xạ",
+  "question_vn": "Giới hạn liều hiệu dụng đối với nhân viên bức xạ là bao nhiêu?",
+  "question_en": "Exposure dose limit for radiation worker?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "10 mSv/năm (trung bình 5 năm kế tiếp nhau).",
+      "text_en": "10 mSv/year (average over 5 consecutive years).",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "15 mSv/năm (trung bình 5 năm kế tiếp nhau).",
+      "text_en": "15 mSv/year (average over 5 consecutive years).",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "20 mSv/năm (trung bình 5 năm kế tiếp nhau).",
+      "text_en": "20 mSv/year (average over 5 consecutive years).",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "25 mSv/năm (trung bình 5 năm kế tiếp nhau).",
+      "text_en": "25 mSv/year (average over 5 consecutive years).",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "11",
+  "category": "An toàn bức xạ",
+  "question_vn": "“Vùng kiểm soát” trong phân vùng bức xạ có mức liều tiềm năng là bao nhiêu?",
+  "question_en": "\"Controlled area\" in radiation area have the potential dose rate?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": ">= 06 mSv/năm.",
+      "text_en": ">= 06 mSv/year.",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "> 01 mSv/năm và < 6 mSv/năm.",
+      "text_en": "> 01 mSv/year and < 6 mSv/year.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "< 01 mSv/năm.",
+      "text_en": "< 01 mSv/year.",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "12",
+  "category": "An toàn bức xạ",
+  "question_vn": "“Vùng giám sát” trong phần vùng bức xạ có mức liều tiềm năng là bao nhiêu?",
+  "question_en": "\"Supervised Area\" in radiation area have the potential dose rate?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": ">= 06 mSv/năm.",
+      "text_en": ">= 06 mSv/year.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "> 01 mSv/năm và < 6 mSv/năm.",
+      "text_en": "> 01 mSv/year and < 6 mSv/year.",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "< 01 mSv/năm.",
+      "text_en": "< 01 mSv/year.",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "13",
+  "category": "An toàn bức xạ",
+  "question_vn": "Yêu cầu an toàn khi vận chuyển nguồn phóng xạ vào/ra khỏi BSR là gì?",
+  "question_en": "Safety requirements for transportation of radioactive sources into/out of the BSR?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Chỉ được sử dụng ôtô để vận chuyển vật liệu phóng xạ, nguồn phóng xạ.",
+      "text_en": "Only use cars to transport radioactive materials, radioactive sources.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Xe chở vật liệu phóng xạ, nguồn phóng xạ phải có gắn dấu hiệu cảnh báo phóng xạ ở phía trước và phía sau của xe.",
+      "text_en": "Vehicle used for transporting radiation source should have radiation warning signs on vehicle front and back.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Cấm vận chuyển người trong ôtô chở nguồn phóng xạ.",
+      "text_en": "It’s prohibited to transport people together with radioactive sources on vehicle.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả ý trên.",
+      "text_en": "All of these above.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "14",
+  "category": "An toàn bức xạ",
+  "question_vn": "Nội dung nào KHÔNG ĐÚNG về việc lưu chứa nguồn phóng xạ tại BSR?",
+  "question_en": "Which one is NOT CORRECT about storage of radioactive sources at BSR?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Chỉ được phép lưu giữ các thiết bị chứa nguồn phóng xạ đã được cơ quan có thẩm quyền cấp giấy phép lưu chứa.",
+      "text_en": "Only store the radioactive sources which have stored license issued by authority agency.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Nhà thầu được lưu giữ nguồn phóng xạ tại BSR không quá 3 ngày.",
+      "text_en": "Radioactive sources of contractor are allowed to store at BSR with 03 days.",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Kho lưu chứa nguồn phóng xạ phải có nội quy và biển cảnh báo bức xạ.",
+      "text_en": "Radioactive storage must have radiation rules and warning signs.",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "15",
+  "category": "An toàn bức xạ",
+  "question_vn": "Thiết bị yêu cầu bắt buộc trang bị cho Nhân viên làm công việc bức xạ (chụp phóng xạ, sửa chữa nguồn phóng xạ, ứng phó sự cố phóng xạ) là gì?",
+  "question_en": "What are the safety devices/equipment employees must use when carrying out radiation work?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Máy ảnh.",
+      "text_en": "Survey meter to detect the radiation affected areas & decide area to be barricaded.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Súng bắn nhiệt.",
+      "text_en": "Film badge.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Liều kế cá nhân.",
+      "text_en": "Individual dosimeter.",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Đèn pin.",
+      "text_en": "Torch.",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "16",
+  "category": "An toàn bức xạ",
+  "question_vn": "Quy định về sử dụng liều kế cá nhân tại BSR là gì?",
+  "question_en": "What are the regulations on using personal dosimeter at BSR?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Nhân viên bức xạ phải luôn mang liều kế cá nhân khi làm việc hoặc khi đi vào vùng giám sát, vùng kiểm soát.",
+      "text_en": "Radiation worker must always wear personal dosimeter when working or entering the Supervised area and Controlled area.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Mỗi đợt sử dụng và tần suất đo liều kế không được quá 3 tháng/lần.",
+      "text_en": "Frequency of using dosimeter should not exceed 3 months.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Sau ngày/ca làm việc, nhân viên bức xạ cất giữ liều kế cá nhân tại những nơi cách xa nguồn phóng xạ, thiết bị bức xạ để không làm tăng giá trị phông của liều kế.",
+      "text_en": "After working day/shift, radiation workers keep personal dosimeters in places far from radioactive sources and radiation equipment in order to ensure the background value of the dosimeter is not affected.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng.",
+      "text_en": "All are correct.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "17",
+  "category": "An toàn bức xạ",
+  "question_vn": "Trước khi tiến hành chụp phóng xạ, công việc nào được thực hiện bởi nhà thầu?",
+  "question_en": "What are the actions performed by contractor before conducting radiographic testing (NDT)?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thông báo thông tin trên hệ thống PAGA.",
+      "text_en": "Announcement for NDT activity information in PAGA before & after completion of the task.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Cô lập khu vực bằng dây cảnh báo và đèn cảnh báo.",
+      "text_en": "Barricade affected zone by warning tape & install warning sign/flash light.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Đo kiểm tra liều phóng xạ ở khoảng cách an toàn sau khi bật nguồn phóng xạ.",
+      "text_en": "Check & confirm that radiation level at safety distance after radiation source is switched on.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "B & C đúng.",
+      "text_en": "B & C right.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "18",
+  "category": "An toàn bức xạ",
+  "question_vn": "Khi tiến hành công việc chụp phóng xạ, việc kiểm tra đo liều phóng xạ được thực hiện khi nào?",
+  "question_en": "When should contractor check radiation level at safety distance in non-destructive testing (NDT) work?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đo kiểm khu vực trước, trong và sau khi kết thúc công việc.",
+      "text_en": "Before, during and completion of NDT work.",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Định kỳ trong quá trình vận hành.",
+      "text_en": "Periodic check in normal production.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Chỉ thực hiện khi có tình huống khẩn cấp.",
+      "text_en": "Only action when there is an emergency situation.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Không bắt buộc.",
+      "text_en": "Not required.",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "19",
+  "category": "An toàn bức xạ",
+  "question_vn": "Các tình huống sự cố bức xạ có thể xảy ra khi Nhà thầu làm việc tại BSR?",
+  "question_en": "Radiation emergency cases may occur when Contractor conducts non-destructive testing (NDT).",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Sự cố do vật nặng rơi đập dây dẫn nguồn khi đang chụp.",
+      "text_en": "Source cord crushed by heavy falling object.",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Sự cố rơi nguồn/mất nguồn.",
+      "text_en": "Drop or missing radiation source.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thất lạc nguồn phóng xạ hoặc quên nguồn tại nơi chụp.",
+      "text_en": "Contractor forgot the source at workplace & left the site.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều đúng.",
+      "text_en": "All of these above.",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "20",
+  "category": "An toàn bức xạ",
+  "question_vn": "Các bước cơ bản khi xử lý sự cố phóng xạ?",
+  "question_en": "Which are the basic safety steps to be followed when responding to a radiation emergency case?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thông báo, sơ tán, cô lập, thu gom.",
+      "text_en": "Inform, Evacuation, Isolation, Collection.",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Sơ tán, cô lập, thu gom.",
+      "text_en": "Evacuation, Isolation, Collection.",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Cô lập, thu gom, sơ tán.",
+      "text_en": "Isolation, Collection, Evacuation.",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Sơ tán, thu gom, cô lập.",
+      "text_en": "Evacuation, Collection, Isolation.",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "21",
+  "category": "An toàn bức xạ",
+  "question_vn": "Hình nào cảnh báo nguồn phóng xạ.",
+  "question_en": "Select which warning sign is for radiation source.",
+  "options": [
+    {
+      "label": "A",
+      "image": "nganhangcauhoi/etest/atbx-cau21-a.png",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "image": "nganhangcauhoi/etest/atbx-cau21-b.png",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "image": "nganhangcauhoi/etest/atbx-cau21-c.png",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "image": "nganhangcauhoi/etest/atbx-cau21-d.png",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "22",
+  "category": "An toàn bức xạ",
+  "question_vn": "Hình ảnh bên là thiết bị gì được gắn tại khu vực sản xuất BSR?",
+  "question_en": "What is the name of the equipment shown in picture, it is installed at BSR process area?",
+  "image": "nganhangcauhoi/etest/atbx-cau22.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Quạt",
+      "text_en": "Fan",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Bơm",
+      "text_en": "Pump",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Nguồn bức xạ",
+      "text_en": "Radiation source",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Hộp chứa chất sinh học",
+      "text_en": "Biological container",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "23",
+  "category": "An toàn bức xạ",
+  "question_vn": "Hình bên thể hiện các thiết bị gì?",
+  "question_en": "What is the name of the item shown in this picture?",
+  "image": "nganhangcauhoi/etest/atbx-cau23.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Cảnh báo mối nguy điện",
+      "text_en": "Warning sign for Electrical shock",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Dây và cờ cảnh báo quạt đang hoạt động",
+      "text_en": "Warning tape, flag to caution people about running fan",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Dây và cờ cảnh báo bức xạ",
+      "text_en": "Radiation Warning tape/flag",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Biển cảnh báo hóa chất",
+      "text_en": "Danger warning sign for chemical hazard",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "24",
+  "category": "An toàn bức xạ",
+  "question_vn": "Đây là hình ảnh của thiết bị gì?",
+  "question_en": "What is the equipment in the picture?",
+  "image": "nganhangcauhoi/etest/atbx-cau24.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Liều kế cá nhân",
+      "text_en": "Personal dosimeter",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Máy đo suất liều",
+      "text_en": "Survey meter",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Đầu hạn liều",
+      "text_en": "Collimator",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều sai",
+      "text_en": "All are false",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+}
+
+
+
+]

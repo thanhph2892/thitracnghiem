@@ -1,0 +1,927 @@
+[
+  {
+  "id": "01",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Theo quy trình quản lý ATLD và cấp phép làm việc, công việc nâng cẩu với tải trọng như thế nào thì được xem là “công việc rủi ro rất cao”?",
+  "question_en": "Which lifting activity is defined as “Critical work” as PTW procedure?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Công việc nâng tải nặng nguy hiểm (tải nâng vượt quá 85% biểu đồ tải, tải nâng trên 15 tấn, sử dụng cẩu từ 100 tấn trở lên)",
+      "text_en": "Heavy lifting work (load exceeds 85% of load chart, loads over 15 tons, using cranes of 100 tons or more)",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Công việc nâng tải nặng nguy hiểm (tải nâng vượt quá 80% biểu đồ tải, tải nâng trên 15 tấn, sử dụng cẩu từ 100 tấn trở lên)",
+      "text_en": "Heavy lifting work (load exceeds 80% of load chart, loads over 15 tons, using cranes of 100 tons or more)",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Công việc nâng tải nặng nguy hiểm (tải nâng vượt quá 80% biểu đồ tải, tải nâng trên 30 tấn, sử dụng cẩu từ 100 tấn trở lên)",
+      "text_en": "Heavy lifting work (load exceeds 85% of load chart, loads over 30 tons, using cranes of 100 tons or more)",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "02",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Yêu cầu đối với người vận hành xe cẩu tại BSR?",
+  "question_en": "Requirements for crane operators at BSR?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Phải được đào tạo và có chứng chỉ chuyên môn về vận hành xe cẩu",
+      "text_en": "Must be trained and have a professional certificate about crane operation",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Phải được đào tạo an toàn nâng hạ",
+      "text_en": "Must be properly trained in safety for lifting",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Có quyết định phân công nhiệm vụ",
+      "text_en": "Have a decision to assign the task",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "03",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Trách nhiệm của người giám sát xe cẩu là?",
+  "question_en": "What is responsibility of crane supervisor?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Lập kế hoạch, triển khai công việc và giám sát hoạt động treo móc, nâng hạ, lắp đặt phức tạp",
+      "text_en": "Plan, deploying work and supervise of complicated lifting & rigging activities",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Hướng dẫn công nhân vận hành, phụ cẩu chuẩn bị, kiểm tra và triển khai thực hiện công việc",
+      "text_en": "Instructing crane operator, rigger to inspect and implement the lifting works",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Chỉ đạo công việc khi các yếu tố an toàn không đảm bảo hoặc đề xuất hướng xử lý tốt nhất lên cấp trên",
+      "text_en": "Stop work when safety condition is not ensured / suggest recommendation to the superior",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "05",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Nguyên nhân cơ bản dẫn đến tai nạn xe forklift với người đi bộ?",
+  "question_en": "What can cause the forklift accident with pedestrians?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Thiếu quan sát giữa người vận hành xe forklift và người bộ hành",
+      "text_en": "Lack of observation between forklift operators and pedestrians",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Người bộ hành tự ý vào khu vực xe forklift đang vận hành",
+      "text_en": "Pedestrians arbitrarily enter the operating forklift area",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không phân định rõ ràng khu vực đi bộ và khu vực vận hành xe forklift",
+      "text_en": "There is no clear demarcation of the pedestrian and forklift operating areas",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "06",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Những giấy tờ cần chuẩn bị khi thực hiện công việc cẩu tại BSR?",
+  "question_en": "Documents to be prepared when carrying out crane work at BSR?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Giấy phép làm việc",
+      "text_en": "Permit to work",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Chứng chỉ cẩu hoặc thẻ nâng hạ phù hợp",
+      "text_en": "Lifting Certificate / Lifting Card",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Phân tích an toàn công việc (JSA)",
+      "text_en": "Job Safety Analysis",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "07",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Yêu cầu nào KHÔNG ĐÚNG đối với vật liệu tấm lót chân đế cho xe cẩu?",
+  "question_en": "Which requirements are not true for the base plate material for cranes?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Bằng vật liệu thép dày hơn 25mm, rộng 2m, dài 6m",
+      "text_en": "Made of steel thicker than 25mm, width 2m, length 6m",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Bằng ván ép",
+      "text_en": "Made of plywood",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Thanh gỗ tốt lót đế dày hơn 120mm",
+      "text_en": "Good wooden sticks thicker than 120mm",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Bằng tấm lót thiết kế của Nhà sản xuất",
+      "text_en": "Manufacturer’s design plate",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "08",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Mối nguy liên quan đến vật nâng khi vận hành xe nâng bao gồm?",
+  "question_en": "What are hazards related to lifting objects when operating forklift?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Vật nâng không ổn định",
+      "text_en": "The load is not stable",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Vật liệu nguy hiểm, độc hại",
+      "text_en": "Hazardous materials",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Che khuất tầm nhìn phía trước",
+      "text_en": "Vision obscured",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "09",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Những bộ phận nào của xe nâng (forklift) cần được kiểm tra trước khi vận hành?",
+  "question_en": "Which part of the forklift should be inspected before operation?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Cơ cấu thủy lực",
+      "text_en": "Hydraulic structure",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Đèn tín hiệu",
+      "text_en": "Signal light",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thắng",
+      "text_en": "Brake",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "10",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Xe nâng (forklift) có tải trọng nâng tối đa 2 tấn có nghĩa là có thể nâng bất cứ vật thể nào có khối lượng không quá 2 tấn?",
+  "question_en": "A forklift with a lifting capacity of up to 2 tons means that it is possible to lift any object with a weight not exceeding 2 tons?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đúng",
+      "text_en": "Correct",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Sai",
+      "text_en": "Incorrect",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "11",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Có thể sử dụng xe nâng hàng để đưa người lên cao hay không?",
+  "question_en": "Forklifts can be used to lift people up?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Đúng",
+      "text_en": "Correct",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Sai",
+      "text_en": "Incorrect",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "12",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Tốc độ tối đa cho phép đối với xe nâng (forklift) không tải tại khu vực hạn chế lưu thông là tại BSR là?",
+  "question_en": "What is the speed limit for forklift without load at restricted area BSR?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "30 km/h",
+      "text_en": "30 km/h",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "20 km/h",
+      "text_en": "20 km/h",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "15 km/h",
+      "text_en": "15 km/h",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "10 km/h",
+      "text_en": "10 km/h",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "13",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Những nguyên nhân phổ biến dẫn đến tai nạn xe forklift?",
+  "question_en": "What are the common causes of forklift accidents?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Người vận hành thiếu ý thức, không được trang bị đầy đủ kiến thức an toàn khi điều khiển xe",
+      "text_en": "Operators lack of awareness and are not fully equipped with safety knowledge when operating forklifts",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không tuân thủ biện pháp an toàn khi vận hành",
+      "text_en": "Not comply with the safety measures when operating",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Thiếu bảo trì bảo dưỡng",
+      "text_en": "Lack of maintenance",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "14",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Tại sao phải sử dụng dây an toàn (seat belt) khi vận hành xe nâng?",
+  "question_en": "Why must we use seat belt when operating forklift?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Quy định bắt buộc khi tham gia giao thông tại Nhà máy",
+      "text_en": "It is mandatory according to BSR regulations",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Để khỏi bị văng ra khỏi xe nâng khi xe bị lật",
+      "text_en": "To prevent being thrown out of the forklift when it is overturned",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Để tránh bị rơi ra khỏi ghế khi xe di chuyển/chuyển hướng",
+      "text_en": "To avoid falling off the seat when the forklift is moving or changing direction",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "15",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Yêu cầu đối với nhân sự vận hành xe forklift tại BSR?",
+  "question_en": "What are the requirements for forklift operator at BSR?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Được đào tạo và cấp chứng chỉ nghề vận hành xe forklift",
+      "text_en": "Must be trained and have a professional certificate about forklift operation",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Có chứng chỉ ATVSLĐ nhóm III",
+      "text_en": "Have occupational safety and hygiene certificate of group III (DOLISA)",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Được phân công nhiệm vụ vận hành xe forklift",
+      "text_en": "Assigned to operate the forklift",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "16",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Tại sao phải hạ càng xe nâng hàng xuống thấp khi di chuyển?",
+  "question_en": "Why must lower the forklift fork when moving?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Để khỏi đổ hàng",
+      "text_en": "To avoid dropping of cargo",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Để tránh va chạm",
+      "text_en": "To avoid collision",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Để trọng tâm của cả xe nâng và khối hàng nằm trong tam giác cân bằng",
+      "text_en": "To keep the center of gravity of both the forklift and the load in the stability triangle",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả đều sai",
+      "text_en": "All are incorrect",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "17",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Các tai nạn phổ biến đối với xe nâng hàng?",
+  "question_en": "What are the common accidents for forklifts?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Lật xe",
+      "text_en": "Rollover",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Va chạm với máy móc thiết bị, con người",
+      "text_en": "Collision with machinery, people",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Đổ ngã, rơi tải",
+      "text_en": "Fall of loads",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "18",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Những nguyên nhân dẫn đến lật xe nâng hàng là gì?",
+  "question_en": "What causes forklift rollover?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Vận chuyển vật tư có khối lượng vượt quá tải trọng nâng cho phép",
+      "text_en": "Transporting materials with a weight exceeding the forklift capacity",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Ngoặt gấp chuyển hướng quá nhanh",
+      "text_en": "Turning too fast",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Vướng vào phương tiện, thiết bị đang di chuyển",
+      "text_en": "Get caught in moving vehicles and equipment",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "19",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Đối tượng nào sau đây không cần áp dụng chứng chỉ nâng hạ hoặc thẻ nâng cẩu khi làm việc?",
+  "question_en": "Which of the following no need to applied lifting certificate/lifting card when working?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Xe cẩu thùng",
+      "text_en": "Boom truck",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Xe cẩu 100 tấn",
+      "text_en": "100 tons crane",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Xe nâng người tự hành (bộ phận điện quản lý)",
+      "text_en": "Self-propelled lift vehicle (Managed by Electrical)",
+      "is_correct": true
+    },
+    {
+      "label": "D",
+      "text_vn": "Xe nâng người",
+      "text_en": "Man lift truck",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "20",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Trường hợp nào sau đây phải ngừng hoạt động cẩu?",
+  "question_en": "Which of the following must stop crane operation?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Gió lớn từ cấp 5",
+      "text_en": "Wind speed from level 5 & higher",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Giông sét",
+      "text_en": "Lightning",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không đủ ánh sáng",
+      "text_en": "Not enough lighting",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "21",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Khi vận hành xe nâng hàng di chuyển lên/xuống dốc:",
+  "question_en": "When the forklift is moving up/down the slope:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Có thể chuyển hướng",
+      "text_en": "Can change direction",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Không được chuyển hướng",
+      "text_en": "Shall not change direction",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Tùy vào khối lượng của tải mà quyết định có chuyển hướng hay không",
+      "text_en": "Depending on the weight of the load, decide whether or not to change direction",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tùy vào kích thước của tải mà quyết định có chuyển hướng hay không",
+      "text_en": "Depending on the size of the load, decide whether or not to change direction",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "22",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Khi nâng tải lên cao trong quá trình vận hành xe nâng:",
+  "question_en": "When lifting the load up high while operating forklift:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Khả năng nâng tải của xe forklift sẽ giảm",
+      "text_en": "Forklift capacity will decrease",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Khả năng nâng tải của xe forklift sẽ tăng",
+      "text_en": "Forklift capacity will increase",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Khả năng nâng tải của xe forklift không thay đổi",
+      "text_en": "Forklift capacity does not change",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Khác",
+      "text_en": "Others",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "23",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Trọng tâm của tải càng xa càng nặng thì:",
+  "question_en": "When the distance from the focus of the load to the forklift increases:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Độ ổn định của xe nâng càng tăng",
+      "text_en": "The stability of the forklift increases",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Độ ổn định của xe nâng không phụ thuộc vào trọng tâm của tải",
+      "text_en": "The stability of the forklift does not depend on focus of the load",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Độ ổn định của xe nâng càng giảm",
+      "text_en": "The stability of the forklift decreases",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "24",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Những hạng mục nào phải kiểm tra trước khi thực hiện công tác cẩu?",
+  "question_en": "Which items must be checked before carrying out crane work?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Kiểm tra tải / biểu đồ tải",
+      "text_en": "Check the load and loading chart",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Kiểm tra không gian vị trí nâng cẩu",
+      "text_en": "Check the crane lifting area",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Kiểm tra vị trí chân chống",
+      "text_en": "Check the position of the outrigger",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of the above",
+      "is_correct": true
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "25",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Tam giác cân bằng xe nâng được tạo bởi:",
+  "question_en": "The stability triangle of forklift is created by?",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Trục trước bánh xe và trung điểm trục sau bánh xe",
+      "text_en": "Front axle and midpoint rear axle wheels",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Trục sau bánh xe và trung điểm trục trước bánh xe",
+      "text_en": "Rear axle and midpoint front axle wheel",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Càng trước xe nâng và trung điểm trục trước bánh xe",
+      "text_en": "Forklift fork and midpoint front axle wheels",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Càng trước xe nâng và trung điểm trục sau bánh xe",
+      "text_en": "Forklift fork and midpoint rear axle wheels",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "26",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Khi đi lên dốc, trọng tâm của xe nâng sẽ di chuyển về:",
+  "question_en": "When going uphill, the center of gravity of the forklift will move on:",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Phía sau của xe nâng",
+      "text_en": "The rear of the forklift",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Phía trước của xe nâng",
+      "text_en": "Front of the forklift",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Phía bên phải của xe nâng",
+      "text_en": "The right side of the forklift",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Phía bên trái của xe nâng",
+      "text_en": "The left side of the forklift",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "27",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Hãy cho biết vi phạm đối với xe nâng trong hình?",
+  "question_en": "What is the violation of the forklift in the picture?",
+  "image": "nganhangcauhoi/etest/atnh-cau27.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Xe nâng đi vào khu đất mềm mà không có lót tấm thép",
+      "text_en": "The forklift goes into soft ground without steel plate",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Xe nâng không có bình chữa cháy",
+      "text_en": "Forklift do not have portable fire extinguisher",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Xe nâng chở vật tư cồng kềnh",
+      "text_en": "Forklift carrying oversized supplies",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Lái xe không thắt dây an toàn",
+      "text_en": "Driver without seat belt",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "28",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Hãy cho biết lỗi vi phạm trong hình?",
+  "question_en": "What is the violation in this picture?",
+  "image": "nganhangcauhoi/etest/atnh-cau28.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Dùng xe nâng chở thêm người khác",
+      "text_en": "Use forklifts to carry more people",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Xe nâng không có bình chữa cháy",
+      "text_en": "Forklift does not have portable fire extinguisher",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Xe nâng chở vật tư cồng kềnh",
+      "text_en": "Forklift carrying oversized supplies",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of the above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "29",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Hãy cho biết lỗi vi phạm trong hình?",
+  "question_en": "What is the violation in this picture?",
+  "image": "nganhangcauhoi/etest/atnh-cau29.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Người đi bộ đứng chắn đường di chuyển của xe nâng",
+      "text_en": "Pedestrians block the moving path of the forklift",
+      "is_correct": false
+    },
+    {
+      "label": "B",
+      "text_vn": "Vật nâng cồng kềnh, che khuất tầm nhìn",
+      "text_en": "The load is oversized, vision obscured",
+      "is_correct": true
+    },
+    {
+      "label": "C",
+      "text_vn": "Đi vào đường không cho phép",
+      "text_en": "Forklift enters restricted road",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Tất cả các ý trên",
+      "text_en": "All of the above",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+},
+{
+  "id": "30",
+  "category": "an toàn nâng hạ",
+  "question_vn": "Nhà thầu sử dụng cáp vải để nâng hạ như trong hình, hãy cho biết điểm không an toàn?",
+  "question_en": "The contractor uses a lifting belt as below. Please indicate an unsafe point.",
+  "image": "nganhangcauhoi/etest/atnh-cau30.png",
+  "options": [
+    {
+      "label": "A",
+      "text_vn": "Sử dụng cáp vải rách, có thể bị đứt trong quá trình nâng",
+      "text_en": "The lifting belt was torn, can be break during the lifting",
+      "is_correct": true
+    },
+    {
+      "label": "B",
+      "text_vn": "Dây cáp không có thông tin kiểm định",
+      "text_en": "The lifting belt has no inspection information",
+      "is_correct": false
+    },
+    {
+      "label": "C",
+      "text_vn": "Không cô lập khu vực làm việc",
+      "text_en": "Do not barricade working areas",
+      "is_correct": false
+    },
+    {
+      "label": "D",
+      "text_vn": "Dây cáp đảm bảo an toàn, có thể sử dụng",
+      "text_en": "The lifting belt is safe for use",
+      "is_correct": false
+    }
+  ],
+  "points": 1
+}
+]
