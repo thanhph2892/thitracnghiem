@@ -31,10 +31,11 @@ function saveExamsConfig(cfg) {
 }
 
 const QBANK_DIR = path.join(__dirname, 'nganhangcauhoi');
-if (!fs.existsSync(QBANK_DIR)) fs.mkdirSync(QBANK_DIR);
+if (!process.env.VERCEL && !fs.existsSync(QBANK_DIR)) fs.mkdirSync(QBANK_DIR);
 
 const TEMP_UPLOAD_DIR = path.join(__dirname, 'temp_uploads');
-if (!fs.existsSync(TEMP_UPLOAD_DIR)) fs.mkdirSync(TEMP_UPLOAD_DIR);
+if (!process.env.VERCEL && !fs.existsSync(TEMP_UPLOAD_DIR)) fs.mkdirSync(TEMP_UPLOAD_DIR);
+
 
 let dbLock = false;
 const dbQueue = [];
@@ -279,7 +280,9 @@ app.post('/api/qbanks/upload-folder', folderUploadDisk.any(), (req, res) => {
         if (!folderName) folderName = `qbank_${Date.now()}`;
 
         const destDir = path.join(QBANK_DIR, folderName);
-        if (!fs.existsSync(destDir)) fs.mkdirSync(destDir, { recursive: true });
+        // Sửa dòng gốc thành dòng dưới đây:
+        if (!process.env.VERCEL && !fs.existsSync(destDir)) fs.mkdirSync(destDir, { recursive: true });
+
 
         req.files.forEach((file, i) => {
             const relPath = paths[i];
@@ -289,7 +292,9 @@ app.post('/api/qbanks/upload-folder', folderUploadDisk.any(), (req, res) => {
 
             if (safeRelPath) { 
                 const fullPath = path.join(destDir, safeRelPath);
-                fs.mkdirSync(path.dirname(fullPath), { recursive: true });
+                // Sửa dòng gốc thành dòng dưới đây:
+                if (!process.env.VERCEL) fs.mkdirSync(path.dirname(fullPath), { recursive: true });
+
                 fs.copyFileSync(file.path, fullPath); fs.unlinkSync(file.path);
             } else { fs.unlinkSync(file.path); }
         });
