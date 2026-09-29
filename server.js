@@ -517,13 +517,18 @@ app.post('/api/history', async (req, res) => {
     } catch (error) { res.status(500).json({ error: 'Lỗi ghi dữ liệu bài thi' }); }
 });
 
+// THÊM ĐOẠN NÀY ĐỂ ĐỊNH NGHĨA TRANG CHỦ KHI TRUY CẬP ĐƯỜNG DẪN GỐC /
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'));
+});
+
 app.use((err, req, res, next) => {
     console.error('Lỗi hệ thống Server:', err);
     res.status(500).json({ error: err.message || 'Lỗi máy chủ không xác định' });
 });
 
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, '0.0.0.0', () => {
+app.listen(PORT, () => {
     console.log(`\n=========================================`);
     console.log(`🚀 HỆ THỐNG HSE SERVER ĐÃ KHỞI ĐỘNG!`);
     console.log(`👉 Lỗi đường dẫn tiếng Việt đã được khắc phục hoàn toàn.`);
