@@ -31,11 +31,10 @@ function saveExamsConfig(cfg) {
 }
 
 const QBANK_DIR = path.join(__dirname, 'nganhangcauhoi');
-if (!process.env.VERCEL && !fs.existsSync(QBANK_DIR)) fs.mkdirSync(QBANK_DIR);
+if (!fs.existsSync(QBANK_DIR)) fs.mkdirSync(QBANK_DIR);
 
 const TEMP_UPLOAD_DIR = path.join(__dirname, 'temp_uploads');
-if (!process.env.VERCEL && !fs.existsSync(TEMP_UPLOAD_DIR)) fs.mkdirSync(TEMP_UPLOAD_DIR);
-
+if (!fs.existsSync(TEMP_UPLOAD_DIR)) fs.mkdirSync(TEMP_UPLOAD_DIR);
 
 let dbLock = false;
 const dbQueue = [];
@@ -280,9 +279,7 @@ app.post('/api/qbanks/upload-folder', folderUploadDisk.any(), (req, res) => {
         if (!folderName) folderName = `qbank_${Date.now()}`;
 
         const destDir = path.join(QBANK_DIR, folderName);
-        // Sửa dòng gốc thành dòng dưới đây:
-        if (!process.env.VERCEL && !fs.existsSync(destDir)) fs.mkdirSync(destDir, { recursive: true });
-
+        if (!fs.existsSync(destDir)) fs.mkdirSync(destDir, { recursive: true });
 
         req.files.forEach((file, i) => {
             const relPath = paths[i];
@@ -292,9 +289,7 @@ app.post('/api/qbanks/upload-folder', folderUploadDisk.any(), (req, res) => {
 
             if (safeRelPath) { 
                 const fullPath = path.join(destDir, safeRelPath);
-                // Sửa dòng gốc thành dòng dưới đây:
-                if (!process.env.VERCEL) fs.mkdirSync(path.dirname(fullPath), { recursive: true });
-
+                fs.mkdirSync(path.dirname(fullPath), { recursive: true });
                 fs.copyFileSync(file.path, fullPath); fs.unlinkSync(file.path);
             } else { fs.unlinkSync(file.path); }
         });
@@ -517,18 +512,13 @@ app.post('/api/history', async (req, res) => {
     } catch (error) { res.status(500).json({ error: 'Lỗi ghi dữ liệu bài thi' }); }
 });
 
-// THÊM ĐOẠN NÀY ĐỂ ĐỊNH NGHĨA TRANG CHỦ KHI TRUY CẬP ĐƯỜNG DẪN GỐC /
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'));
-});
-
 app.use((err, req, res, next) => {
     console.error('Lỗi hệ thống Server:', err);
     res.status(500).json({ error: err.message || 'Lỗi máy chủ không xác định' });
 });
 
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
     console.log(`\n=========================================`);
     console.log(`🚀 HỆ THỐNG HSE SERVER ĐÃ KHỞI ĐỘNG!`);
     console.log(`👉 Lỗi đường dẫn tiếng Việt đã được khắc phục hoàn toàn.`);
