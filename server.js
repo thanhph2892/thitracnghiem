@@ -1,26 +1,29 @@
 const express = require('express');
 const cors = require('cors');
 const multer = require('multer');
+const path = require('path');
 const admin = require("firebase-admin");
 
 // ==========================================
-// 1. KHỞI TẠO FIREBASE ADMIN
+// 1. KHỞI TẠO FIREBASE ADMIN (AN TOÀN)
 // ==========================================
-let serviceAccount;
+let db = null;
 try {
-    if (process.env.FIREBASE_CREDENTIALS) {
-        serviceAccount = JSON.parse(process.env.FIREBASE_CREDENTIALS);
+    if (!process.env.FIREBASE_CREDENTIALS) {
+        console.warn("⚠️ CẢNH BÁO: Không tìm thấy FIREBASE_CREDENTIALS. Các API Firebase sẽ bị lỗi.");
+    } else {
+        const serviceAccount = JSON.parse(process.env.FIREBASE_CREDENTIALS);
+        if (!admin.apps.length) {
+            admin.initializeApp({
+                credential: admin.credential.cert(serviceAccount)
+            });
+        }
+        db = admin.firestore();
+        console.log("✅ Kết nối Firebase thành công!");
     }
 } catch (error) {
-    console.error("Lỗi khi đọc FIREBASE_CREDENTIALS:", error);
+    console.error("🔥 LỖI KHỞI TẠO FIREBASE:", error.message);
 }
-
-if (!admin.apps.length && serviceAccount) {
-    admin.initializeApp({
-        credential: admin.credential.cert(serviceAccount)
-    });
-}
-const db = admin.firestore();
 
 // ==========================================
 // 2. CẤU HÌNH EXPRESS APP
@@ -30,6 +33,9 @@ app.use(cors());
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 
+// PHỤC VỤ GIAO DIỆN WEB (STATIC FILES)
+app.use(express.static(__dirname));
+
 // Mặc định cấu hình hệ thống
 const defaultSysConfig = { adminPassword: 'admin@hse', sharePointUrl: '', appName: 'Safety Portal HSE' };
 const defaultExamsConfig = { basic: [], advanced: [] };
@@ -37,6 +43,7 @@ const defaultExamsConfig = { basic: [], advanced: [] };
 // Hàm tiện ích lấy cấu hình từ Firestore
 async function getSysConfig() {
     try {
+        if (!db) throw new Error("Database chưa sẵn sàng");
         const doc = await db.collection('system').doc('config').get();
         if (doc.exists) return { ...defaultSysConfig, ...doc.data() };
         await db.collection('system').doc('config').set(defaultSysConfig);
@@ -46,6 +53,7 @@ async function getSysConfig() {
 
 async function getExamsConfig() {
     try {
+        if (!db) throw new Error("Database chưa sẵn sàng");
         const doc = await db.collection('system').doc('exams').get();
         if (doc.exists) return doc.data();
         return defaultExamsConfig;
@@ -58,6 +66,7 @@ async function logAdminAction(action, details, req) {
     if (ip && typeof ip === 'string') ip = ip.split(',')[0].trim().replace('::ffff:', '');
     
     try {
+        if (!db) return;
         await db.collection('audit_logs').add({
             timestamp: Date.now(),
             action: action,
@@ -85,9 +94,12 @@ app.post('/api/admin/password', async (req, res) => {
     if (currentPassword !== sysConfig.adminPassword) return res.status(401).json({ error: 'Mật khẩu hiện tại không đúng' });
     if (!newPassword || newPassword.length < 6) return res.status(400).json({ error: 'Mật khẩu mới tối thiểu 6 ký tự' });
     
-    await db.collection('system').doc('config').update({ adminPassword: newPassword });
-    logAdminAction('ĐỔI MẬT KHẨU', 'Admin đã thay đổi mật khẩu hệ thống', req);
-    res.json({ ok: true });
+    try {
+        if (!db) throw new Error("Lỗi kết nối CSDL");
+        await db.collection('system').doc('config').update({ adminPassword: newPassword });
+        logAdminAction('ĐỔI MẬT KHẨU', 'Admin đã thay đổi mật khẩu hệ thống', req);
+        res.json({ ok: true });
+    } catch (e) { res.status(500).json({ error: 'Không thể cập nhật cấu hình' }); }
 });
 
 app.post('/api/admin/settings', async (req, res) => {
@@ -99,21 +111,28 @@ app.post('/api/admin/settings', async (req, res) => {
     if (sharePointUrl !== undefined) updates.sharePointUrl = sharePointUrl;
     if (appName !== undefined && appName.trim()) updates.appName = appName.trim();
     
-    await db.collection('system').doc('config').update(updates);
-    logAdminAction('SỬA CÀI ĐẶT', 'Thay đổi cấu hình hệ thống', req);
-    res.json({ ok: true });
+    try {
+        if (!db) throw new Error("Lỗi kết nối CSDL");
+        await db.collection('system').doc('config').update(updates);
+        logAdminAction('SỬA CÀI ĐẶT', 'Thay đổi cấu hình hệ thống', req);
+        res.json({ ok: true });
+    } catch (e) { res.status(500).json({ error: 'Không thể cập nhật cấu hình' }); }
 });
 
 app.get('/api/admin/config', async (req, res) => {
     try {
         const sysConfig = await getSysConfig();
-        const historySnapshot = await db.collection('history').count().get();
+        let recordCount = 0;
+        if (db) {
+            const historySnapshot = await db.collection('history').count().get();
+            recordCount = historySnapshot.data().count;
+        }
         res.json({ 
             port: process.env.PORT || 5000, 
             dbFile: 'Firebase Firestore', 
             sharePointUrl: sysConfig.sharePointUrl, 
             appName: sysConfig.appName, 
-            recordCount: historySnapshot.data().count 
+            recordCount: recordCount 
         });
     } catch(e) { res.status(500).json({ error: 'Lỗi lấy cấu hình' }); }
 });
@@ -123,6 +142,7 @@ app.get('/api/admin/audit-records', async (req, res) => {
     const sysConfig = await getSysConfig();
     if (adminPw !== sysConfig.adminPassword) return res.status(401).json({ error: 'Sai mật khẩu admin' });
     try {
+        if (!db) throw new Error("Lỗi kết nối CSDL");
         const snapshot = await db.collection('audit_logs').orderBy('timestamp', 'desc').limit(500).get();
         const logs = [];
         snapshot.forEach(doc => logs.push(doc.data()));
@@ -137,6 +157,7 @@ app.post('/api/exams-config', async (req, res) => {
     if (adminPassword !== sysConfig.adminPassword) return res.status(401).json({ error: 'Sai mật khẩu admin' });
     if (!config || typeof config !== 'object') return res.status(400).json({ error: 'Dữ liệu không hợp lệ' });
     try {
+        if (!db) throw new Error("Lỗi kết nối CSDL");
         await db.collection('system').doc('exams').set(config);
         logAdminAction('CẬP NHẬT MENU', 'Cập nhật danh sách Menu bài thi', req);
         res.json({ ok: true });
@@ -154,10 +175,11 @@ app.post('/api/database/upload', dbUpload.single('dbfile'), async (req, res) => 
     if (!req.file) return res.status(400).json({ error: 'Không nhận được file' });
     
     try {
+        if (!db) throw new Error("Database chưa kết nối");
         const data = JSON.parse(req.file.buffer.toString('utf8'));
         if (!Array.isArray(data)) return res.status(400).json({ error: 'File phải chứa mảng JSON' });
         
-        // Cảnh báo: Batch write trên Firestore giới hạn 500 thao tác/lần. Để an toàn ta dùng vòng lặp Promise.all chunk.
+        // Cảnh báo: Batch write trên Firestore giới hạn 500 thao tác/lần.
         const chunks = [];
         for (let i = 0; i < data.length; i += 400) {
             const chunk = data.slice(i, i + 400);
@@ -172,12 +194,13 @@ app.post('/api/database/upload', dbUpload.single('dbfile'), async (req, res) => 
 
         logAdminAction('PHỤC HỒI DB', `Tải lên database Firebase (${data.length} bản ghi)`, req);
         res.json({ ok: true, message: 'Đã nhập dữ liệu vào Firestore thành công!' });
-    } catch(e) { res.status(400).json({ error: 'File JSON không hợp lệ hoặc lỗi Firebase: ' + e.message }); }
+    } catch(e) { res.status(400).json({ error: 'Lỗi ghi Firebase: ' + e.message }); }
 });
 
 app.get('/api/history', async (req, res) => {
     const cccd = req.query.cccd;
     try {
+        if (!db) throw new Error("Database chưa kết nối");
         let query = db.collection('history').orderBy('timestamp', 'desc');
         if (cccd) query = db.collection('history').where('userId', '==', cccd).orderBy('timestamp', 'desc');
         
@@ -200,6 +223,7 @@ app.post('/api/history', async (req, res) => {
     newRecord.deviceName = ua.includes('Windows') ? 'Windows' : ua.includes('Mac OS') ? 'MacOS' : ua.includes('Android') ? 'Android' : ua.includes('iPhone') ? 'iOS (iPhone)' : 'Không xác định';
 
     try {
+        if (!db) throw new Error("Database chưa kết nối");
         await db.collection('history').doc(newRecord.timestamp.toString()).set(newRecord);
         res.json({ success: true });
     } catch (error) { res.status(500).json({ error: 'Lỗi ghi dữ liệu bài thi' }); }
@@ -209,6 +233,7 @@ app.patch('/api/history/:timestamp', async (req, res) => {
     const ts = req.params.timestamp;
     const { userId, userName, company } = req.body;
     try {
+        if (!db) throw new Error("Database chưa kết nối");
         const updateData = {};
         if (userId !== undefined) { updateData.userId = userId; updateData['details.userId'] = userId; }
         if (userName !== undefined) { updateData.userName = userName; updateData['details.userName'] = userName; }
@@ -223,6 +248,7 @@ app.patch('/api/history/:timestamp', async (req, res) => {
 app.delete('/api/history/:timestamp', async (req, res) => {
     const ts = req.params.timestamp;
     try {
+        if (!db) throw new Error("Database chưa kết nối");
         await db.collection('history').doc(ts).delete();
         logAdminAction('XÓA BÀI THI', `Đã xóa bản ghi thi có Timestamp: ${ts}`, req);
         res.json({ success: true });
@@ -231,7 +257,6 @@ app.delete('/api/history/:timestamp', async (req, res) => {
 
 // ==========================================
 // 5. API NGÂN HÀNG CÂU HỎI (FIRESTORE)
-// Khắc phục EROFS bằng cách lưu text JSON vào Firebase
 // ==========================================
 const memoryUpload = multer({ storage: multer.memoryStorage(), limits: { files: 2000, fieldSize: 50 * 1024 * 1024 } });
 
@@ -242,6 +267,7 @@ app.post('/api/qbanks/upload-folder', memoryUpload.any(), async (req, res) => {
     if (!req.files || req.files.length === 0) return res.status(400).json({ error: 'Không nhận được file nào' });
 
     try {
+        if (!db) throw new Error("Database chưa kết nối");
         let folderName = ''; let paths = req.body.paths;
         if (!paths) return res.status(400).json({ error: 'Thiếu dữ liệu đường dẫn' });
         if (!Array.isArray(paths)) paths = [paths];
@@ -272,7 +298,7 @@ app.post('/api/qbanks/upload-folder', memoryUpload.any(), async (req, res) => {
         await batch.commit();
         logAdminAction('TẢI NGÂN HÀNG', `Tải lên thư mục câu hỏi lên Cloud: ${folderName}`, req);
         res.json({ ok: true, message: `Đã cập nhật thư mục "${folderName}" thành công` });
-    } catch(e) { res.status(500).json({ error: 'Lỗi khi lưu thư mục lên Firestore: ' + e.message }); }
+    } catch(e) { res.status(500).json({ error: 'Lỗi khi lưu thư mục: ' + e.message }); }
 });
 
 app.get('/api/qbanks', async (req, res) => {
@@ -281,6 +307,7 @@ app.get('/api/qbanks', async (req, res) => {
     if (adminPassword !== sysConfig.adminPassword) return res.status(401).json({ error: 'Sai mật khẩu admin' });
     
     try {
+        if (!db) throw new Error("Database chưa kết nối");
         const snapshot = await db.collection('qbanks').get();
         const folderMap = {};
         
@@ -307,6 +334,7 @@ app.get('/api/qbanks', async (req, res) => {
 app.get('/api/qbanks/:folder/all-files', async (req, res) => {
     const folder = decodeURIComponent(req.params.folder);
     try {
+        if (!db) throw new Error("Database chưa kết nối");
         const snapshot = await db.collection('qbanks').where('folder', '==', folder).get();
         const allFiles = [];
         snapshot.forEach(doc => allFiles.push(doc.data().path));
@@ -317,6 +345,7 @@ app.get('/api/qbanks/:folder/all-files', async (req, res) => {
 app.get('/api/public/qbanks/:folder/files', async (req, res) => {
     const folder = decodeURIComponent(req.params.folder);
     try {
+        if (!db) throw new Error("Database chưa kết nối");
         const snapshot = await db.collection('qbanks').where('folder', '==', folder).get();
         const allFiles = [];
         snapshot.forEach(doc => allFiles.push(doc.data().path));
@@ -326,6 +355,7 @@ app.get('/api/public/qbanks/:folder/files', async (req, res) => {
 
 app.get('/api/public/qbanks/all-json', async (req, res) => {
     try {
+        if (!db) throw new Error("Database chưa kết nối");
         const snapshot = await db.collection('qbanks').get();
         const allJson = [];
         snapshot.forEach(doc => {
@@ -342,6 +372,7 @@ app.get('/api/qbanks/:folder/file', async (req, res) => {
     const folder = decodeURIComponent(req.params.folder);
     const filePath = req.query.path;
     try {
+        if (!db) throw new Error("Database chưa kết nối");
         const snapshot = await db.collection('qbanks').where('folder', '==', folder).where('path', '==', filePath).limit(1).get();
         if (snapshot.empty) return res.status(404).json({ error: 'Không tìm thấy file' });
         res.send(snapshot.docs[0].data().content);
@@ -355,6 +386,7 @@ app.put('/api/qbanks/:folder/file', async (req, res) => {
     const folder = decodeURIComponent(req.params.folder);
     
     try {
+        if (!db) throw new Error("Database chưa kết nối");
         JSON.parse(content); // Kiểm tra JSON hợp lệ
         const snapshot = await db.collection('qbanks').where('folder', '==', folder).where('path', '==', filePath).limit(1).get();
         if (snapshot.empty) return res.status(404).json({ error: 'Không tìm thấy file' });
@@ -362,7 +394,7 @@ app.put('/api/qbanks/:folder/file', async (req, res) => {
         await db.collection('qbanks').doc(snapshot.docs[0].id).update({ content: content });
         logAdminAction('SỬA JSON', `Sửa tệp ${filePath} trong thư mục ${folder}`, req);
         res.json({ ok: true, message: 'Đã lưu thành công' });
-    } catch(e) { res.status(400).json({ error: 'Nội dung JSON bị lỗi cấu trúc' }); }
+    } catch(e) { res.status(400).json({ error: 'Lỗi cấu trúc hoặc kết nối' }); }
 });
 
 app.delete('/api/qbanks/:folder', async (req, res) => {
@@ -372,6 +404,7 @@ app.delete('/api/qbanks/:folder', async (req, res) => {
     const folder = decodeURIComponent(req.params.folder);
     
     try { 
+        if (!db) throw new Error("Database chưa kết nối");
         const snapshot = await db.collection('qbanks').where('folder', '==', folder).get();
         const batch = db.batch();
         snapshot.forEach(doc => batch.delete(doc.ref));
