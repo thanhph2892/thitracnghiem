@@ -1,5 +1,13 @@
 {
-  "cleanUrls": true,
+  "version": 2,
+  "builds": [
+    { "src": "server.js", "use": "@vercel/node" },
+    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "admin/**/*", "use": "@vercel/static" },
+    { "src": "giaodienchinh/**/*", "use": "@vercel/static" },
+    { "src": "giaodienthi/**/*", "use": "@vercel/static" },
+    { "src": "tinhdiem/**/*", "use": "@vercel/static" }
+  ],
   "rewrites": [
     {
       "source": "/api/(.*)",
