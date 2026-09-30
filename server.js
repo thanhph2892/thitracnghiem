@@ -1,103 +1,391 @@
 const express = require('express');
-const fs = require('fs');
-const fsp = require('fs').promises; 
-const path = require('path');
 const cors = require('cors');
 const multer = require('multer');
+const admin = require("firebase-admin");
 
-const app = express();
-app.use(cors());
-app.use(express.json({ limit: '500mb' }));
-app.use(express.urlencoded({ extended: true, limit: '500mb' }));
-app.use(express.static(__dirname));
-
-const DB_FILE = path.join(__dirname, 'database.json');
-if (!fs.existsSync(DB_FILE)) fs.writeFileSync(DB_FILE, JSON.stringify([]));
-
-const CONFIG_FILE = path.join(__dirname, 'config.json');
-let sysConfig = { adminPassword: 'admin@hse', sharePointUrl: '', appName: 'Safety Portal HSE' };
-if (fs.existsSync(CONFIG_FILE)) {
-    try { sysConfig = { ...sysConfig, ...JSON.parse(fs.readFileSync(CONFIG_FILE, 'utf8')) }; } catch(e) {}
-} else {
-    fs.writeFileSync(CONFIG_FILE, JSON.stringify(sysConfig, null, 2));
-}
-
-const EXAMS_CONFIG_FILE = path.join(__dirname, 'exams-config.json');
-function loadExamsConfig() {
-    try { return JSON.parse(fs.readFileSync(EXAMS_CONFIG_FILE, 'utf8')); } catch(e) { return { basic: [], advanced: [] }; }
-}
-function saveExamsConfig(cfg) {
-    fs.writeFileSync(EXAMS_CONFIG_FILE, JSON.stringify(cfg, null, 2));
-}
-
-const QBANK_DIR = path.join(__dirname, 'nganhangcauhoi');
-if (!fs.existsSync(QBANK_DIR)) fs.mkdirSync(QBANK_DIR);
-
-const TEMP_UPLOAD_DIR = path.join(__dirname, 'temp_uploads');
-if (!fs.existsSync(TEMP_UPLOAD_DIR)) fs.mkdirSync(TEMP_UPLOAD_DIR);
-
-let dbLock = false;
-const dbQueue = [];
-
-async function processDbQueue() {
-    if (dbLock || dbQueue.length === 0) return;
-    dbLock = true;
-    const task = dbQueue.shift();
-    try {
-        await task.operation();
-        task.resolve();
-    } catch (error) {
-        task.reject(error);
-    } finally {
-        dbLock = false;
-        processDbQueue();
+// ==========================================
+// 1. KHỞI TẠO FIREBASE ADMIN
+// ==========================================
+let serviceAccount;
+try {
+    if (process.env.FIREBASE_CREDENTIALS) {
+        serviceAccount = JSON.parse(process.env.FIREBASE_CREDENTIALS);
     }
+} catch (error) {
+    console.error("Lỗi khi đọc FIREBASE_CREDENTIALS:", error);
 }
 
-function safeDbOperation(operation) {
-    return new Promise((resolve, reject) => {
-        dbQueue.push({ operation, resolve, reject });
-        processDbQueue();
+if (!admin.apps.length && serviceAccount) {
+    admin.initializeApp({
+        credential: admin.credential.cert(serviceAccount)
     });
 }
+const db = admin.firestore();
 
-const AUDIT_FILE = path.join(__dirname, 'audit_log.json');
-if (!fs.existsSync(AUDIT_FILE)) fs.writeFileSync(AUDIT_FILE, JSON.stringify([]));
+// ==========================================
+// 2. CẤU HÌNH EXPRESS APP
+// ==========================================
+const app = express();
+app.use(cors());
+app.use(express.json({ limit: '50mb' }));
+app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 
+// Mặc định cấu hình hệ thống
+const defaultSysConfig = { adminPassword: 'admin@hse', sharePointUrl: '', appName: 'Safety Portal HSE' };
+const defaultExamsConfig = { basic: [], advanced: [] };
+
+// Hàm tiện ích lấy cấu hình từ Firestore
+async function getSysConfig() {
+    try {
+        const doc = await db.collection('system').doc('config').get();
+        if (doc.exists) return { ...defaultSysConfig, ...doc.data() };
+        await db.collection('system').doc('config').set(defaultSysConfig);
+        return defaultSysConfig;
+    } catch(e) { return defaultSysConfig; }
+}
+
+async function getExamsConfig() {
+    try {
+        const doc = await db.collection('system').doc('exams').get();
+        if (doc.exists) return doc.data();
+        return defaultExamsConfig;
+    } catch(e) { return defaultExamsConfig; }
+}
+
+// Hàm ghi Log Admin vào Firestore
 async function logAdminAction(action, details, req) {
     let ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress || '';
-    if (ip && typeof ip === 'string') {
-        ip = ip.split(',')[0].trim();
-        if (ip.includes('::ffff:')) ip = ip.split('::ffff:')[1];
-    }
+    if (ip && typeof ip === 'string') ip = ip.split(',')[0].trim().replace('::ffff:', '');
     
-    const logEntry = {
-        timestamp: Date.now(),
-        action: action,
-        details: details,
-        ip: ip
-    };
-
     try {
-        await safeDbOperation(async () => {
-            const raw = await fsp.readFile(AUDIT_FILE, 'utf8');
-            let logs = JSON.parse(raw);
-            logs.unshift(logEntry); 
-            if (logs.length > 500) logs = logs.slice(0, 500); 
-            await fsp.writeFile(AUDIT_FILE, JSON.stringify(logs, null, 2));
+        await db.collection('audit_logs').add({
+            timestamp: Date.now(),
+            action: action,
+            details: details,
+            ip: ip
         });
     } catch(e) { console.error("Lỗi ghi Audit Log", e); }
 }
 
+// ==========================================
+// 3. API ADMIN & HỆ THỐNG
+// ==========================================
+app.post('/api/admin/login', async (req, res) => {
+    const { password } = req.body;
+    const sysConfig = await getSysConfig();
+    if (password === sysConfig.adminPassword) { 
+        logAdminAction('ĐĂNG NHẬP', 'Đăng nhập vào bảng điều khiển Admin thành công', req);
+        res.json({ ok: true, sharePointUrl: sysConfig.sharePointUrl, appName: sysConfig.appName }); 
+    } else { res.status(401).json({ ok: false }); }
+});
+
+app.post('/api/admin/password', async (req, res) => {
+    const { currentPassword, newPassword } = req.body;
+    const sysConfig = await getSysConfig();
+    if (currentPassword !== sysConfig.adminPassword) return res.status(401).json({ error: 'Mật khẩu hiện tại không đúng' });
+    if (!newPassword || newPassword.length < 6) return res.status(400).json({ error: 'Mật khẩu mới tối thiểu 6 ký tự' });
+    
+    await db.collection('system').doc('config').update({ adminPassword: newPassword });
+    logAdminAction('ĐỔI MẬT KHẨU', 'Admin đã thay đổi mật khẩu hệ thống', req);
+    res.json({ ok: true });
+});
+
+app.post('/api/admin/settings', async (req, res) => {
+    const { currentPassword, sharePointUrl, appName } = req.body;
+    const sysConfig = await getSysConfig();
+    if (currentPassword !== sysConfig.adminPassword) return res.status(401).json({ error: 'Xác thực thất bại' });
+    
+    const updates = {};
+    if (sharePointUrl !== undefined) updates.sharePointUrl = sharePointUrl;
+    if (appName !== undefined && appName.trim()) updates.appName = appName.trim();
+    
+    await db.collection('system').doc('config').update(updates);
+    logAdminAction('SỬA CÀI ĐẶT', 'Thay đổi cấu hình hệ thống', req);
+    res.json({ ok: true });
+});
+
+app.get('/api/admin/config', async (req, res) => {
+    try {
+        const sysConfig = await getSysConfig();
+        const historySnapshot = await db.collection('history').count().get();
+        res.json({ 
+            port: process.env.PORT || 5000, 
+            dbFile: 'Firebase Firestore', 
+            sharePointUrl: sysConfig.sharePointUrl, 
+            appName: sysConfig.appName, 
+            recordCount: historySnapshot.data().count 
+        });
+    } catch(e) { res.status(500).json({ error: 'Lỗi lấy cấu hình' }); }
+});
+
 app.get('/api/admin/audit-records', async (req, res) => {
     const adminPw = req.query.adminPassword || req.headers['x-admin-pw'];
+    const sysConfig = await getSysConfig();
     if (adminPw !== sysConfig.adminPassword) return res.status(401).json({ error: 'Sai mật khẩu admin' });
     try {
-        const raw = await fsp.readFile(AUDIT_FILE, 'utf8');
-        res.json(JSON.parse(raw));
+        const snapshot = await db.collection('audit_logs').orderBy('timestamp', 'desc').limit(500).get();
+        const logs = [];
+        snapshot.forEach(doc => logs.push(doc.data()));
+        res.json(logs);
     } catch(e) { res.status(500).json({ error: 'Lỗi đọc log' }); }
 });
 
+app.get('/api/exams-config', async (req, res) => { res.json(await getExamsConfig()); });
+app.post('/api/exams-config', async (req, res) => {
+    const { adminPassword, config } = req.body;
+    const sysConfig = await getSysConfig();
+    if (adminPassword !== sysConfig.adminPassword) return res.status(401).json({ error: 'Sai mật khẩu admin' });
+    if (!config || typeof config !== 'object') return res.status(400).json({ error: 'Dữ liệu không hợp lệ' });
+    try {
+        await db.collection('system').doc('exams').set(config);
+        logAdminAction('CẬP NHẬT MENU', 'Cập nhật danh sách Menu bài thi', req);
+        res.json({ ok: true });
+    } catch(e) { res.status(500).json({ error: 'Lỗi lưu cấu hình' }); }
+});
+
+// ==========================================
+// 4. API QUẢN LÝ LỊCH SỬ THI (FIRESTORE)
+// ==========================================
+const dbUpload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 50 * 1024 * 1024 } });
+app.post('/api/database/upload', dbUpload.single('dbfile'), async (req, res) => {
+    const adminPw = req.query.adminPassword || req.headers['x-admin-pw'];
+    const sysConfig = await getSysConfig();
+    if (adminPw !== sysConfig.adminPassword) return res.status(401).json({ error: 'Sai mật khẩu admin' });
+    if (!req.file) return res.status(400).json({ error: 'Không nhận được file' });
+    
+    try {
+        const data = JSON.parse(req.file.buffer.toString('utf8'));
+        if (!Array.isArray(data)) return res.status(400).json({ error: 'File phải chứa mảng JSON' });
+        
+        // Cảnh báo: Batch write trên Firestore giới hạn 500 thao tác/lần. Để an toàn ta dùng vòng lặp Promise.all chunk.
+        const chunks = [];
+        for (let i = 0; i < data.length; i += 400) {
+            const chunk = data.slice(i, i + 400);
+            const batch = db.batch();
+            chunk.forEach(record => {
+                const docRef = db.collection('history').doc(record.timestamp.toString());
+                batch.set(docRef, record);
+            });
+            chunks.push(batch.commit());
+        }
+        await Promise.all(chunks);
+
+        logAdminAction('PHỤC HỒI DB', `Tải lên database Firebase (${data.length} bản ghi)`, req);
+        res.json({ ok: true, message: 'Đã nhập dữ liệu vào Firestore thành công!' });
+    } catch(e) { res.status(400).json({ error: 'File JSON không hợp lệ hoặc lỗi Firebase: ' + e.message }); }
+});
+
+app.get('/api/history', async (req, res) => {
+    const cccd = req.query.cccd;
+    try {
+        let query = db.collection('history').orderBy('timestamp', 'desc');
+        if (cccd) query = db.collection('history').where('userId', '==', cccd).orderBy('timestamp', 'desc');
+        
+        const snapshot = await query.get();
+        const data = [];
+        snapshot.forEach(doc => data.push(doc.data()));
+        res.json(data);
+    } catch (error) { res.status(500).json({ error: 'Lỗi đọc dữ liệu từ Firebase' }); }
+});
+
+app.post('/api/history', async (req, res) => {
+    const newRecord = req.body;
+    let ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress || '';
+    if (ip && typeof ip === 'string') ip = ip.split(',')[0].trim().replace('::ffff:', '');
+    newRecord.ip = ip;
+    
+    const ua = req.headers['user-agent'] || '';
+    newRecord.deviceType = /(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua) ? 'Máy tính bảng' : 
+                           /Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Kindle/i.test(ua) ? 'Điện thoại' : 'PC / Laptop';
+    newRecord.deviceName = ua.includes('Windows') ? 'Windows' : ua.includes('Mac OS') ? 'MacOS' : ua.includes('Android') ? 'Android' : ua.includes('iPhone') ? 'iOS (iPhone)' : 'Không xác định';
+
+    try {
+        await db.collection('history').doc(newRecord.timestamp.toString()).set(newRecord);
+        res.json({ success: true });
+    } catch (error) { res.status(500).json({ error: 'Lỗi ghi dữ liệu bài thi' }); }
+});
+
+app.patch('/api/history/:timestamp', async (req, res) => {
+    const ts = req.params.timestamp;
+    const { userId, userName, company } = req.body;
+    try {
+        const updateData = {};
+        if (userId !== undefined) { updateData.userId = userId; updateData['details.userId'] = userId; }
+        if (userName !== undefined) { updateData.userName = userName; updateData['details.userName'] = userName; }
+        if (company !== undefined) { updateData.company = company; updateData['details.company'] = company; }
+        
+        await db.collection('history').doc(ts).update(updateData);
+        logAdminAction('CHỈNH SỬA BÀI THI', `Chỉnh sửa thông tin thí sinh: ${userName || userId}`, req);
+        res.json({ success: true });
+    } catch (error) { res.status(500).json({ error: 'Lỗi cập nhật dữ liệu' }); }
+});
+
+app.delete('/api/history/:timestamp', async (req, res) => {
+    const ts = req.params.timestamp;
+    try {
+        await db.collection('history').doc(ts).delete();
+        logAdminAction('XÓA BÀI THI', `Đã xóa bản ghi thi có Timestamp: ${ts}`, req);
+        res.json({ success: true });
+    } catch (error) { res.status(500).json({ error: 'Lỗi xóa dữ liệu' }); }
+});
+
+// ==========================================
+// 5. API NGÂN HÀNG CÂU HỎI (FIRESTORE)
+// Khắc phục EROFS bằng cách lưu text JSON vào Firebase
+// ==========================================
+const memoryUpload = multer({ storage: multer.memoryStorage(), limits: { files: 2000, fieldSize: 50 * 1024 * 1024 } });
+
+app.post('/api/qbanks/upload-folder', memoryUpload.any(), async (req, res) => {
+    const adminPw = req.query.adminPassword;
+    const sysConfig = await getSysConfig();
+    if (adminPw !== sysConfig.adminPassword) return res.status(401).json({ error: 'Sai mật khẩu admin' });
+    if (!req.files || req.files.length === 0) return res.status(400).json({ error: 'Không nhận được file nào' });
+
+    try {
+        let folderName = ''; let paths = req.body.paths;
+        if (!paths) return res.status(400).json({ error: 'Thiếu dữ liệu đường dẫn' });
+        if (!Array.isArray(paths)) paths = [paths];
+        if (paths.length > 0) folderName = paths[0].split('/')[0].trim();
+        if (!folderName) folderName = `qbank_${Date.now()}`;
+
+        const batch = db.batch();
+        const uploadTime = Date.now();
+
+        req.files.forEach((file, i) => {
+            const relPath = paths[i];
+            if (!relPath) return;
+            const parts = relPath.split('/'); parts.shift();
+            const safeRelPath = parts.join('/');
+            
+            if (safeRelPath && file.originalname.toLowerCase().endsWith('.json')) { 
+                const docRef = db.collection('qbanks').doc();
+                batch.set(docRef, {
+                    folder: folderName,
+                    path: safeRelPath,
+                    content: file.buffer.toString('utf8'),
+                    size: file.size,
+                    uploadTime: uploadTime
+                });
+            }
+        });
+        
+        await batch.commit();
+        logAdminAction('TẢI NGÂN HÀNG', `Tải lên thư mục câu hỏi lên Cloud: ${folderName}`, req);
+        res.json({ ok: true, message: `Đã cập nhật thư mục "${folderName}" thành công` });
+    } catch(e) { res.status(500).json({ error: 'Lỗi khi lưu thư mục lên Firestore: ' + e.message }); }
+});
+
+app.get('/api/qbanks', async (req, res) => {
+    const adminPassword = req.query.adminPassword || req.headers['x-admin-pw'];
+    const sysConfig = await getSysConfig();
+    if (adminPassword !== sysConfig.adminPassword) return res.status(401).json({ error: 'Sai mật khẩu admin' });
+    
+    try {
+        const snapshot = await db.collection('qbanks').get();
+        const folderMap = {};
+        
+        snapshot.forEach(doc => {
+            const data = doc.data();
+            if (!folderMap[data.folder]) {
+                folderMap[data.folder] = { name: data.folder, jsonCount: 0, fileCount: 0, sizeByte: 0, uploadTime: data.uploadTime || 0 };
+            }
+            folderMap[data.folder].fileCount++;
+            if (data.path.toLowerCase().endsWith('.json')) folderMap[data.folder].jsonCount++;
+            folderMap[data.folder].sizeByte += data.size || 0;
+            if (data.uploadTime > folderMap[data.folder].uploadTime) folderMap[data.folder].uploadTime = data.uploadTime;
+        });
+
+        const folders = Object.values(folderMap).map(f => ({
+            ...f,
+            sizeMB: (f.sizeByte / 1024 / 1024).toFixed(3)
+        })).sort((a, b) => b.uploadTime - a.uploadTime);
+        
+        res.json(folders);
+    } catch(e) { res.status(500).json({ error: 'Lỗi đọc thư mục Firestore' }); }
+});
+
+app.get('/api/qbanks/:folder/all-files', async (req, res) => {
+    const folder = decodeURIComponent(req.params.folder);
+    try {
+        const snapshot = await db.collection('qbanks').where('folder', '==', folder).get();
+        const allFiles = [];
+        snapshot.forEach(doc => allFiles.push(doc.data().path));
+        res.json(allFiles);
+    } catch(e) { res.status(500).json({ error: 'Lỗi truy vấn file' }); }
+});
+
+app.get('/api/public/qbanks/:folder/files', async (req, res) => {
+    const folder = decodeURIComponent(req.params.folder);
+    try {
+        const snapshot = await db.collection('qbanks').where('folder', '==', folder).get();
+        const allFiles = [];
+        snapshot.forEach(doc => allFiles.push(doc.data().path));
+        res.json(allFiles);
+    } catch(e) { res.json([]); }
+});
+
+app.get('/api/public/qbanks/all-json', async (req, res) => {
+    try {
+        const snapshot = await db.collection('qbanks').get();
+        const allJson = [];
+        snapshot.forEach(doc => {
+            const data = doc.data();
+            if (data.path.toLowerCase().endsWith('.json')) {
+                allJson.push(`${data.folder}/${data.path}`);
+            }
+        });
+        res.json(allJson);
+    } catch(e) { res.json([]); }
+});
+
+app.get('/api/qbanks/:folder/file', async (req, res) => {
+    const folder = decodeURIComponent(req.params.folder);
+    const filePath = req.query.path;
+    try {
+        const snapshot = await db.collection('qbanks').where('folder', '==', folder).where('path', '==', filePath).limit(1).get();
+        if (snapshot.empty) return res.status(404).json({ error: 'Không tìm thấy file' });
+        res.send(snapshot.docs[0].data().content);
+    } catch(e) { res.status(500).json({ error: 'Lỗi đọc nội dung file' }); }
+});
+
+app.put('/api/qbanks/:folder/file', async (req, res) => {
+    const { adminPassword, path: filePath, content } = req.body;
+    const sysConfig = await getSysConfig();
+    if (adminPassword !== sysConfig.adminPassword) return res.status(401).json({ error: 'Sai mật khẩu admin' });
+    const folder = decodeURIComponent(req.params.folder);
+    
+    try {
+        JSON.parse(content); // Kiểm tra JSON hợp lệ
+        const snapshot = await db.collection('qbanks').where('folder', '==', folder).where('path', '==', filePath).limit(1).get();
+        if (snapshot.empty) return res.status(404).json({ error: 'Không tìm thấy file' });
+        
+        await db.collection('qbanks').doc(snapshot.docs[0].id).update({ content: content });
+        logAdminAction('SỬA JSON', `Sửa tệp ${filePath} trong thư mục ${folder}`, req);
+        res.json({ ok: true, message: 'Đã lưu thành công' });
+    } catch(e) { res.status(400).json({ error: 'Nội dung JSON bị lỗi cấu trúc' }); }
+});
+
+app.delete('/api/qbanks/:folder', async (req, res) => {
+    const { adminPassword } = req.body;
+    const sysConfig = await getSysConfig();
+    if (adminPassword !== sysConfig.adminPassword) return res.status(401).json({ error: 'Sai mật khẩu admin' });
+    const folder = decodeURIComponent(req.params.folder);
+    
+    try { 
+        const snapshot = await db.collection('qbanks').where('folder', '==', folder).get();
+        const batch = db.batch();
+        snapshot.forEach(doc => batch.delete(doc.ref));
+        await batch.commit();
+        
+        logAdminAction('XÓA NGÂN HÀNG', `Xóa thư mục câu hỏi: ${folder}`, req);
+        res.json({ ok: true }); 
+    } 
+    catch(e) { res.status(500).json({ error: 'Lỗi xóa thư mục' }); }
+});
+
+// ==========================================
+// 6. QUẢN LÝ PHIÊN THI (IN-MEMORY)
+// ==========================================
 const activeSessions = new Map();
 const SESSION_TIMEOUT = 60 * 1000;
 
@@ -110,36 +398,6 @@ setInterval(() => {
 
 app.post('/api/ping', (req, res) => {
     const { sessionId, userId, userName, company, examName, examNameEn, startTime } = req.body;
-    let ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress || '';
-    
-    if (ip && typeof ip === 'string') {
-        ip = ip.split(',')[0].trim();
-        if (ip.includes('::ffff:')) ip = ip.split('::ffff:')[1];
-    }
-    
-    const ua = req.headers['user-agent'] || '';
-    
-    let deviceType = 'PC / Laptop';
-    if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
-        deviceType = 'Máy tính bảng';
-    } else if (/Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Kindle/i.test(ua)) {
-        deviceType = 'Điện thoại';
-    }
-    
-    let deviceName = 'Không xác định';
-    if (ua.includes('Windows')) deviceName = 'Windows';
-    else if (ua.includes('Mac OS')) deviceName = 'MacOS';
-    else if (ua.includes('Linux')) deviceName = 'Linux';
-    else if (ua.includes('Android')) deviceName = 'Android';
-    else if (ua.includes('iPhone')) deviceName = 'iOS (iPhone)';
-    else if (ua.includes('iPad')) deviceName = 'iOS (iPad)';
-    
-    if (ua.includes('Edg/')) deviceName += ' (Edge)';
-    else if (ua.includes('Chrome/') || ua.includes('CriOS/')) deviceName += ' (Chrome)';
-    else if (ua.includes('Safari/') && !ua.includes('Chrome') && !ua.includes('CriOS')) deviceName += ' (Safari)';
-    else if (ua.includes('Firefox/') || ua.includes('FxiOS/')) deviceName += ' (Firefox)';
-    else if (ua.includes('Coccoc/')) deviceName += ' (Cốc Cốc)';
-
     if (sessionId) {
         const existing = activeSessions.get(sessionId) || {};
         if (existing.forceSubmit) {
@@ -147,7 +405,6 @@ app.post('/api/ping', (req, res) => {
             activeSessions.delete(sessionId);
             return;
         }
-
         activeSessions.set(sessionId, {
             lastSeen: Date.now(),
             userId: userId || existing.userId || '',
@@ -155,15 +412,15 @@ app.post('/api/ping', (req, res) => {
             company: company || existing.company || '',
             examName: examName || existing.examName || '',
             examNameEn: examNameEn || existing.examNameEn || '',
-            startTime: startTime || existing.startTime || Date.now(),
-            ip: ip, deviceType: deviceType, deviceName: deviceName
+            startTime: startTime || existing.startTime || Date.now()
         });
     }
     res.json({ online: activeSessions.size });
 });
 
-app.post('/api/admin/force-submit', (req, res) => {
+app.post('/api/admin/force-submit', async (req, res) => {
     const { adminPassword, sessionId, reason } = req.body;
+    const sysConfig = await getSysConfig();
     if (adminPassword !== sysConfig.adminPassword) return res.status(401).json({ error: 'Sai mật khẩu' });
     
     if (activeSessions.has(sessionId)) {
@@ -171,11 +428,9 @@ app.post('/api/admin/force-submit', (req, res) => {
         session.forceSubmit = true;
         session.forceReason = reason || 'Quản trị viên đã đình chỉ bài thi của bạn do vi phạm quy chế.';
         activeSessions.set(sessionId, session);
-        logAdminAction('ĐÌNH CHỈ THI', `Đã ép thu bài thí sinh: ${session.userName} (${session.userId}). Lý do: ${session.forceReason}`, req);
+        logAdminAction('ĐÌNH CHỈ THI', `Đã ép thu bài thí sinh: ${session.userName}`, req);
         res.json({ ok: true });
-    } else {
-        res.status(404).json({ error: 'Phiên thi không tồn tại hoặc đã kết thúc' });
-    }
+    } else { res.status(404).json({ error: 'Phiên thi không tồn tại hoặc đã kết thúc' }); }
 });
 
 app.get('/api/online', (req, res) => { res.json({ online: activeSessions.size }); });
@@ -183,345 +438,28 @@ app.get('/api/active-exams', (req, res) => {
     const now = Date.now();
     const active = [];
     for (const [id, data] of activeSessions.entries()) {
-        if (now - data.lastSeen <= SESSION_TIMEOUT) {
-            active.push({ sessionId: id, ...data });
-        }
+        if (now - data.lastSeen <= SESSION_TIMEOUT) active.push({ sessionId: id, ...data });
     }
     res.json(active);
 });
 
-// SỬA LỖI ĐỌC THƯ MỤC TIẾNG VIỆT
-app.get('/api/public/qbanks/:folder/files', (req, res) => {
-    const folder = decodeURIComponent(req.params.folder);
-    if (folder.includes('..')) return res.status(400).json({ error: 'Đường dẫn không hợp lệ' });
-    const folderPath = path.join(QBANK_DIR, folder);
-    if (!fs.existsSync(folderPath)) return res.json([]);
-    try {
-        let allFiles = [];
-        function scanDir(dir, relPrefix = '') {
-            const files = fs.readdirSync(dir, { withFileTypes: true });
-            files.forEach(file => {
-                if (file.isDirectory()) { scanDir(path.join(dir, file.name), relPrefix + file.name + '/'); } 
-                else { allFiles.push(relPrefix + file.name); }
-            });
-        }
-        scanDir(folderPath); res.json(allFiles);
-    } catch(e) { res.json([]); }
-});
-
-app.get('/api/public/qbanks/all-json', (req, res) => {
-    try {
-        let allJson = [];
-        const folders = fs.readdirSync(QBANK_DIR, { withFileTypes: true }).filter(d => d.isDirectory());
-        folders.forEach(folder => {
-            const folderPath = path.join(QBANK_DIR, folder.name);
-            function scanDir(dir, relPrefix = '') {
-                const files = fs.readdirSync(dir, { withFileTypes: true });
-                files.forEach(file => {
-                    if (file.isDirectory()) { scanDir(path.join(dir, file.name), relPrefix + file.name + '/'); } 
-                    else if (file.name.toLowerCase().endsWith('.json')) { allJson.push(`${folder.name}/${relPrefix}${file.name}`); }
-                });
-            }
-            scanDir(folderPath);
-        });
-        res.json(allJson);
-    } catch(e) { res.json([]); }
-});
-
-app.get('/api/exams-config', (req, res) => { res.json(loadExamsConfig()); });
-app.post('/api/exams-config', (req, res) => {
-    const { adminPassword, config } = req.body;
-    if (adminPassword !== sysConfig.adminPassword) return res.status(401).json({ error: 'Sai mật khẩu admin' });
-    if (!config || typeof config !== 'object') return res.status(400).json({ error: 'Dữ liệu không hợp lệ' });
-    try {
-        saveExamsConfig(config);
-        logAdminAction('CẬP NHẬT MENU', 'Cập nhật danh sách Menu bài thi', req);
-        res.json({ ok: true });
-    } catch(e) { res.status(500).json({ error: 'Lỗi lưu cấu hình' }); }
-});
-
-const dbUpload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 200 * 1024 * 1024 } });
-app.post('/api/database/upload', dbUpload.single('dbfile'), async (req, res) => {
-    const adminPw = req.query.adminPassword || req.headers['x-admin-pw'];
-    if (adminPw !== sysConfig.adminPassword) return res.status(401).json({ error: 'Sai mật khẩu admin' });
-    if (!req.file) return res.status(400).json({ error: 'Không nhận được file' });
-    try {
-        const data = JSON.parse(req.file.buffer.toString('utf8'));
-        if (!Array.isArray(data)) return res.status(400).json({ error: 'File phải chứa mảng JSON' });
-        
-        await safeDbOperation(async () => { await fsp.writeFile(DB_FILE, req.file.buffer); });
-        if(data.length === 0) logAdminAction('XÓA DỮ LIỆU', 'Đã xóa toàn bộ Lịch sử thi', req);
-        else logAdminAction('PHỤC HỒI DB', `Tải lên file database (${data.length} bản ghi)`, req);
-
-        res.json({ ok: true, message: 'Đã thay thế database.json thành công!' });
-    } catch(e) { res.status(400).json({ error: 'File JSON không hợp lệ: ' + e.message }); }
-});
-
-const folderUploadDisk = multer({
-    storage: multer.diskStorage({
-        destination: (req, file, cb) => cb(null, TEMP_UPLOAD_DIR),
-        filename: (req, file, cb) => cb(null, `up_${Date.now()}_${Math.random().toString(36).substring(2,8)}`)
-    }), limits: { files: 20000, fieldSize: 50 * 1024 * 1024 }
-});
-
-app.post('/api/qbanks/upload-folder', folderUploadDisk.any(), (req, res) => {
-    const adminPw = req.query.adminPassword;
-    if (adminPw !== sysConfig.adminPassword) return res.status(401).json({ error: 'Sai mật khẩu admin' });
-    if (!req.files || req.files.length === 0) return res.status(400).json({ error: 'Không nhận được file nào' });
-
-    try {
-        let folderName = ''; let paths = req.body.paths;
-        if (!paths) return res.status(400).json({ error: 'Thiếu dữ liệu đường dẫn' });
-        if (!Array.isArray(paths)) paths = [paths];
-
-        // GIỮ NGUYÊN TÊN TIẾNG VIỆT CHO FOLDER
-        if (paths.length > 0) folderName = paths[0].split('/')[0].trim();
-        if (!folderName) folderName = `qbank_${Date.now()}`;
-
-        const destDir = path.join(QBANK_DIR, folderName);
-        if (!fs.existsSync(destDir)) fs.mkdirSync(destDir, { recursive: true });
-
-        req.files.forEach((file, i) => {
-            const relPath = paths[i];
-            if (!relPath) { fs.unlinkSync(file.path); return; }
-            const parts = relPath.split('/'); parts.shift(); 
-            const safeRelPath = parts.join('/');
-
-            if (safeRelPath) { 
-                const fullPath = path.join(destDir, safeRelPath);
-                fs.mkdirSync(path.dirname(fullPath), { recursive: true });
-                fs.copyFileSync(file.path, fullPath); fs.unlinkSync(file.path);
-            } else { fs.unlinkSync(file.path); }
-        });
-
-        logAdminAction('TẢI NGÂN HÀNG', `Tải lên thư mục câu hỏi: ${folderName}`, req);
-        res.json({ ok: true, message: `Đã cập nhật thư mục "${folderName}" thành công` });
-    } catch(e) {
-        if (req.files) req.files.forEach(f => { try { fs.unlinkSync(f.path); } catch(err){} });
-        res.status(500).json({ error: 'Lỗi khi lưu thư mục: ' + e.message });
-    }
-});
-
-app.get('/api/qbanks', (req, res) => {
-    const adminPassword = req.query.adminPassword || req.headers['x-admin-pw'];
-    if (adminPassword !== sysConfig.adminPassword) return res.status(401).json({ error: 'Sai mật khẩu admin' });
-    try {
-        const folders = fs.readdirSync(QBANK_DIR, { withFileTypes: true }).filter(d => d.isDirectory()).map(d => {
-                const folderPath = path.join(QBANK_DIR, d.name);
-                const stat = fs.statSync(folderPath);
-                let jsonCount = 0; let totalFiles = 0; let totalSize = 0;
-                function scanDir(dir) {
-                    const files = fs.readdirSync(dir, { withFileTypes: true });
-                    files.forEach(file => {
-                        const fullPath = path.join(dir, file.name);
-                        if (file.isDirectory()) { scanDir(fullPath); } 
-                        else { totalFiles++; totalSize += fs.statSync(fullPath).size; if (file.name.toLowerCase().endsWith('.json')) jsonCount++; }
-                    });
-                }
-                scanDir(folderPath);
-                return { name: d.name, jsonCount, fileCount: totalFiles, sizeMB: (totalSize / 1024 / 1024).toFixed(1), uploadTime: stat.mtime.getTime() };
-            });
-        folders.sort((a, b) => b.uploadTime - a.uploadTime);
-        res.json(folders);
-    } catch(e) { res.status(500).json({ error: 'Lỗi đọc thư mục' }); }
-});
-
-app.get('/api/qbanks/:folder/all-files', (req, res) => {
-    const folder = decodeURIComponent(req.params.folder);
-    if (folder.includes('..')) return res.status(400).json({ error: 'Đường dẫn không hợp lệ' });
-    const folderPath = path.join(QBANK_DIR, folder);
-    if (!fs.existsSync(folderPath)) return res.status(404).json({ error: 'Không tìm thấy thư mục' });
-    try {
-        let allFiles = [];
-        function scanDir(dir, relPrefix = '') {
-            const files = fs.readdirSync(dir, { withFileTypes: true });
-            files.forEach(file => {
-                if (file.isDirectory()) { scanDir(path.join(dir, file.name), relPrefix + file.name + '/'); } 
-                else { allFiles.push(relPrefix + file.name); }
-            });
-        }
-        scanDir(folderPath); res.json(allFiles);
-    } catch(e) { res.status(500).json({ error: 'Lỗi đọc chi tiết file' }); }
-});
-
-app.get('/api/qbanks/:folder/file', (req, res) => {
-    const folder = decodeURIComponent(req.params.folder);
-    const filePath = req.query.path;
-    if (!filePath || filePath.includes('..') || folder.includes('..')) return res.status(400).json({ error: 'Đường dẫn không hợp lệ' });
-    const fullPath = path.join(QBANK_DIR, folder, filePath);
-    if (!fs.existsSync(fullPath)) return res.status(404).json({ error: 'Không tìm thấy file' });
-    try { res.send(fs.readFileSync(fullPath, 'utf8')); } catch(e) { res.status(500).json({ error: 'Lỗi đọc file' }); }
-});
-
-app.put('/api/qbanks/:folder/file', (req, res) => {
-    const { adminPassword, path: filePath, content } = req.body;
-    if (adminPassword !== sysConfig.adminPassword) return res.status(401).json({ error: 'Sai mật khẩu admin' });
-    const folder = decodeURIComponent(req.params.folder);
-    if (!filePath || filePath.includes('..') || folder.includes('..')) return res.status(400).json({ error: 'Đường dẫn không hợp lệ' });
-    const fullPath = path.join(QBANK_DIR, folder, filePath);
-    if (!fs.existsSync(fullPath)) return res.status(404).json({ error: 'Không tìm thấy file' });
-    try {
-        JSON.parse(content); fs.writeFileSync(fullPath, content, 'utf8');
-        logAdminAction('SỬA JSON', `Sửa tệp ${filePath} trong thư mục ${folder}`, req);
-        res.json({ ok: true, message: 'Đã lưu thành công' });
-    } catch(e) { res.status(400).json({ error: 'Nội dung JSON bị lỗi cấu trúc' }); }
-});
-
-app.delete('/api/qbanks/:folder', (req, res) => {
-    const { adminPassword } = req.body;
-    if (adminPassword !== sysConfig.adminPassword) return res.status(401).json({ error: 'Sai mật khẩu admin' });
-    const folder = decodeURIComponent(req.params.folder);
-    if (folder.includes('..')) return res.status(400).json({ error: 'Đường dẫn không hợp lệ' });
-    const folderPath = path.join(QBANK_DIR, folder);
-    if (!fs.existsSync(folderPath)) return res.status(404).json({ error: 'Không tìm thấy thư mục' });
-    try { 
-        fs.rmSync(folderPath, { recursive: true, force: true }); 
-        logAdminAction('XÓA NGÂN HÀNG', `Xóa thư mục câu hỏi: ${folder}`, req);
-        res.json({ ok: true }); 
-    } 
-    catch(e) { res.status(500).json({ error: 'Lỗi xóa thư mục' }); }
-});
-
-app.post('/api/admin/login', (req, res) => {
-    const { password } = req.body;
-    if (password === sysConfig.adminPassword) { 
-        logAdminAction('ĐĂNG NHẬP', 'Đăng nhập vào bảng điều khiển Admin thành công', req);
-        res.json({ ok: true, sharePointUrl: sysConfig.sharePointUrl, appName: sysConfig.appName }); 
-    } else { res.status(401).json({ ok: false }); }
-});
-
-app.post('/api/admin/password', (req, res) => {
-    const { currentPassword, newPassword } = req.body;
-    if (currentPassword !== sysConfig.adminPassword) return res.status(401).json({ error: 'Mật khẩu hiện tại không đúng' });
-    if (!newPassword || newPassword.length < 6) return res.status(400).json({ error: 'Mật khẩu mới tối thiểu 6 ký tự' });
-    sysConfig.adminPassword = newPassword;
-    fs.writeFileSync(CONFIG_FILE, JSON.stringify(sysConfig, null, 2));
-    logAdminAction('ĐỔI MẬT KHẨU', 'Admin đã thay đổi mật khẩu hệ thống', req);
-    res.json({ ok: true });
-});
-
-app.get('/api/admin/config', (req, res) => {
-    try {
-        const data = JSON.parse(fs.readFileSync(DB_FILE, 'utf8'));
-        res.json({ port: process.env.PORT || PORT, dbFile: DB_FILE, sharePointUrl: sysConfig.sharePointUrl, appName: sysConfig.appName, recordCount: data.length });
-    } catch(e) { res.json({ port: process.env.PORT || PORT, dbFile: DB_FILE, sharePointUrl: sysConfig.sharePointUrl, appName: sysConfig.appName, recordCount: 0 }); }
-});
-
-app.post('/api/admin/settings', (req, res) => {
-    const { currentPassword, sharePointUrl, appName } = req.body;
-    if (currentPassword !== sysConfig.adminPassword) return res.status(401).json({ error: 'Xác thực thất bại' });
-    if (sharePointUrl !== undefined) sysConfig.sharePointUrl = sharePointUrl;
-    if (appName !== undefined && appName.trim()) sysConfig.appName = appName.trim();
-    fs.writeFileSync(CONFIG_FILE, JSON.stringify(sysConfig, null, 2));
-    logAdminAction('SỬA CÀI ĐẶT', 'Thay đổi cấu hình hệ thống', req);
-    res.json({ ok: true });
-});
-
-app.patch('/api/history/:timestamp', async (req, res) => {
-    const ts = Number(req.params.timestamp);
-    const { userId, userName, company } = req.body;
-    try {
-        await safeDbOperation(async () => {
-            const raw = await fsp.readFile(DB_FILE, 'utf8');
-            let data = JSON.parse(raw);
-            const idx = data.findIndex(item => item.timestamp === ts);
-            if (idx === -1) throw new Error('Không tìm thấy bản ghi');
-            
-            if (userId !== undefined) { data[idx].userId = userId; if (data[idx].details) data[idx].details.userId = userId; }
-            if (userName !== undefined) { data[idx].userName = userName; if (data[idx].details) data[idx].details.userName = userName; }
-            if (company !== undefined) { data[idx].company = company; if (data[idx].details) data[idx].details.company = company; }
-            
-            await fsp.writeFile(DB_FILE, JSON.stringify(data, null, 2));
-        });
-        logAdminAction('CHỈNH SỬA BÀI THI', `Chỉnh sửa thông tin thí sinh: ${userName} (${userId})`, req);
-        res.json({ success: true });
-    } catch (error) { res.status(500).json({ error: error.message || 'Lỗi cập nhật dữ liệu' }); }
-});
-
-app.delete('/api/history/:timestamp', async (req, res) => {
-    const ts = Number(req.params.timestamp);
-    try {
-        await safeDbOperation(async () => {
-            const raw = await fsp.readFile(DB_FILE, 'utf8');
-            let data = JSON.parse(raw);
-            const before = data.length;
-            data = data.filter(item => item.timestamp !== ts);
-            if (data.length === before) throw new Error('Không tìm thấy bản ghi');
-            await fsp.writeFile(DB_FILE, JSON.stringify(data, null, 2));
-        });
-        logAdminAction('XÓA BÀI THI', `Đã xóa bản ghi thi có Timestamp: ${ts}`, req);
-        res.json({ success: true });
-    } catch (error) { res.status(500).json({ error: error.message || 'Lỗi xóa dữ liệu' }); }
-});
-
-app.get('/api/history', async (req, res) => {
-    const cccd = req.query.cccd;
-    try {
-        const raw = await fsp.readFile(DB_FILE, 'utf8');
-        const data = JSON.parse(raw);
-        res.json(cccd ? data.filter(item => item.userId === cccd) : data);
-    } catch (error) { res.status(500).json({ error: 'Lỗi đọc dữ liệu' }); }
-});
-
-app.post('/api/history', async (req, res) => {
-    const newRecord = req.body;
-    
-    let ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress || '';
-    if (ip && typeof ip === 'string') {
-        ip = ip.split(',')[0].trim();
-        if (ip.includes('::ffff:')) ip = ip.split('::ffff:')[1];
-    }
-    newRecord.ip = ip;
-    
-    const ua = req.headers['user-agent'] || '';
-    let deviceType = 'PC / Laptop';
-    if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
-        deviceType = 'Máy tính bảng';
-    } else if (/Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Kindle/i.test(ua)) {
-        deviceType = 'Điện thoại';
-    }
-    newRecord.deviceType = deviceType;
-    
-    let deviceName = 'Không xác định';
-    if (ua.includes('Windows')) deviceName = 'Windows';
-    else if (ua.includes('Mac OS')) deviceName = 'MacOS';
-    else if (ua.includes('Linux')) deviceName = 'Linux';
-    else if (ua.includes('Android')) deviceName = 'Android';
-    else if (ua.includes('iPhone')) deviceName = 'iOS (iPhone)';
-    else if (ua.includes('iPad')) deviceName = 'iOS (iPad)';
-    
-    if (ua.includes('Edg/')) deviceName += ' (Edge)';
-    else if (ua.includes('Chrome/') || ua.includes('CriOS/')) deviceName += ' (Chrome)';
-    else if (ua.includes('Safari/') && !ua.includes('Chrome') && !ua.includes('CriOS')) deviceName += ' (Safari)';
-    else if (ua.includes('Firefox/') || ua.includes('FxiOS/')) deviceName += ' (Firefox)';
-    else if (ua.includes('Coccoc/')) deviceName += ' (Cốc Cốc)';
-
-    newRecord.deviceName = deviceName;
-
-    try {
-        await safeDbOperation(async () => {
-            const raw = await fsp.readFile(DB_FILE, 'utf8');
-            const data = JSON.parse(raw);
-            const isExists = data.some(item => item.timestamp === newRecord.timestamp);
-            if (!isExists) {
-                data.unshift(newRecord);
-                await fsp.writeFile(DB_FILE, JSON.stringify(data, null, 2));
-            }
-        });
-        res.json({ success: true });
-    } catch (error) { res.status(500).json({ error: 'Lỗi ghi dữ liệu bài thi' }); }
-});
-
+// Bắt lỗi chung
 app.use((err, req, res, next) => {
     console.error('Lỗi hệ thống Server:', err);
     res.status(500).json({ error: err.message || 'Lỗi máy chủ không xác định' });
 });
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, '0.0.0.0', () => {
-    console.log(`\n=========================================`);
-    console.log(`🚀 HỆ THỐNG HSE SERVER ĐÃ KHỞI ĐỘNG!`);
-    console.log(`👉 Lỗi đường dẫn tiếng Việt đã được khắc phục hoàn toàn.`);
-    console.log(`👉 Truy cập tại: http://localhost:${PORT}`);
-    console.log(`=========================================\n`);
-});
+// Tương thích môi trường Local và Vercel
+if (process.env.NODE_ENV !== 'production') {
+    const PORT = process.env.PORT || 5000;
+    app.listen(PORT, '0.0.0.0', () => {
+        console.log(`\n=========================================`);
+        console.log(`🚀 HỆ THỐNG HSE SERVER ĐÃ KHỞI ĐỘNG (FIREBASE)!`);
+        console.log(`👉 Đã khắc phục lỗi EROFS cho Vercel.`);
+        console.log(`👉 Truy cập tại: http://localhost:${PORT}`);
+        console.log(`=========================================\n`);
+    });
+}
+
+// Bắt buộc phải có dòng này để Vercel nhận diện API
+module.exports = app;
